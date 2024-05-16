@@ -203,7 +203,7 @@
         <setting label="30595" type="lsep" />
         <setting id="session_save" label="30029" type="slider" option="int" range="5,5,60" default="15" />
         <setting id="encryption_policy" label="30064" type="enum" lvalues="30010|30065|30066" default="0" />
-        <setting id="spoof_user_agent" label="30074" type="enum" lvalues="30065|30075|30076|30077|30078|30079|30080|30081|30082|30083|30084|30085" />
+        <setting id="spoof_user_agent" label="30074" type="enum" lvalues="30065|30075|30076|30077|30078|30079|30080|30081|30082|30083|30084|30085|30706|30707|30708" default="0" />
         <setting id="use_libtorrent_config" label="30503" type="bool" default="true" />
         <setting type="text" label="30504" enable="false" />
         <setting id="remove_original_trackers" label="30662" type="bool" default="false" />

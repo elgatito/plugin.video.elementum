@@ -284,16 +284,16 @@ msgid "BitTorrent 7.5.0"
 msgstr "BitTorrent 7.5.0"
 
 msgctxt "#30078"
-msgid "BitTorrent 7.4.3"
-msgstr "BitTorrent 7.4.3"
+msgid "BitTorrent 7.9.9"
+msgstr "BitTorrent 7.9.9"
 
 msgctxt "#30079"
-msgid "µTorrent 3.4.9"
-msgstr "µTorrent 3.4.9"
+msgid "µTorrent 3.5.5"
+msgstr "µTorrent 3.5.5"
 
 msgctxt "#30080"
-msgid "µTorrent 3.2.0"
-msgstr "µTorrent 3.2.0"
+msgid "µTorrent 3.6.0"
+msgstr "µTorrent 3.6.0"
 
 msgctxt "#30081"
 msgid "µTorrent 2.2.1"
@@ -304,12 +304,12 @@ msgid "Transmission 2.92"
 msgstr "Transmission 2.92"
 
 msgctxt "#30083"
-msgid "Deluge 1.3.6.0"
-msgstr "Deluge 1.3.6.0"
+msgid "Deluge 1.3.6"
+msgstr "Deluge 1.3.6"
 
 msgctxt "#30084"
-msgid "Deluge 1.3.12.0"
-msgstr "Deluge 1.3.12.0"
+msgid "Deluge 2.1.1"
+msgstr "Deluge 2.1.1"
 
 msgctxt "#30085"
 msgid "Vuze 5.7.3.0"
@@ -2247,4 +2247,16 @@ msgstr ""
 
 msgctxt "#30705"
 msgid "TMDB API accessibility check failed, cannot use TMDB service"
+msgstr ""
+
+msgctxt "#30706"
+msgid "Transmission 4.05"
+msgstr ""
+
+msgctxt "#30707"
+msgid "qBittorrent 3.3.9"
+msgstr ""
+
+msgctxt "#30708"
+msgid "qBittorrent 4.6.4"
 msgstr ""
