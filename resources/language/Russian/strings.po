@@ -1164,7 +1164,7 @@ msgstr "Процент просмотра для отметки просмотр
 
 msgctxt "#30417"
 msgid "Use name of production company as Studio for shows"
-msgstr "Использовать имя продюсерской компании как имя студии для шоу"
+msgstr "Использовать имя продюсерской компании как имя студии для сериала"
 
 msgctxt "#30418"
 msgid "Calculate number of unwatched episodes in Shows/Seasons"
@@ -2249,3 +2249,7 @@ msgstr "Не удалось проверить ключ API TMDB, невозмо
 msgctxt "#30705"
 msgid "TMDB API accessibility check failed, cannot use TMDB service"
 msgstr "Не удалось проверить доступность API TMDB, невозможно использование сервиса TMDB"
+
+msgctxt "#30709"
+msgid "Open [B]%s[/B]"
+msgstr "Открыть [B]%s[/B]"

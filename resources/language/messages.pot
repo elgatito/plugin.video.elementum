@@ -2260,3 +2260,7 @@ msgstr ""
 msgctxt "#30705"
 msgid "TMDB API accessibility check failed, cannot use TMDB service"
 msgstr ""
+
+msgctxt "#30709"
+msgid "Open [B]%s[/B]"
+msgstr ""
