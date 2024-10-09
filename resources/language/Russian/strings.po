@@ -2269,3 +2269,7 @@ msgstr "Открыть [B]%s[/B]"
 msgctxt "#30710"
 msgid "BitTorrent ports"
 msgstr "BitTorrent порты"
+
+msgctxt "#30711"
+msgid "Delete torrent '%s'?"
+msgstr "Удалить торрент '%s'?"
