@@ -35,7 +35,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://192.168.1.8:65220",
+  "proxy": "http://127.0.0.1:65220",
   "prettier": {
     "printWidth": 140,
     "singleQuote": true,
