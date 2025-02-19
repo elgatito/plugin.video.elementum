@@ -323,10 +323,6 @@ msgctxt "#30088"
 msgid "Initial buffering timeout, seconds"
 msgstr "Puskuroinnin aikakatkaisu (sekunteina)"
 
-msgctxt "#30089"
-msgid "Automatically re-scan Kodi library after updates"
-msgstr "Päivitä Kodin kirjasto automaattisesti lisäysten jälkeen"
-
 msgctxt "#30090"
 msgid "Listen interfaces"
 msgstr "Seuratut verkko-osoitteet"

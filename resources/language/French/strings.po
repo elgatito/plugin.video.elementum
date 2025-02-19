@@ -329,10 +329,6 @@ msgctxt "#30088"
 msgid "Initial buffering timeout, seconds"
 msgstr "Délai d’attente maximum initial (secondes)"
 
-msgctxt "#30089"
-msgid "Automatically re-scan Kodi library after updates"
-msgstr "Re-parcourir la librairie Kodi automatiquement après les mises à jour"
-
 # interfaces réseau ?
 msgctxt "#30090"
 msgid "Listen interfaces"

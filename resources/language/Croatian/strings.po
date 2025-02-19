@@ -341,10 +341,6 @@ msgctxt "#30088"
 msgid "Initial buffering timeout, seconds"
 msgstr "Vrijeme čekanja pokretanja međuspremnika (sekunde)"
 
-msgctxt "#30089"
-msgid "Automatically re-scan Kodi library after updates"
-msgstr "Automatski ponovno pretraži Kodi videoteku nakon nadopuna"
-
 msgctxt "#30090"
 msgid "Listen interfaces"
 msgstr "Sučelja osluškivanja"

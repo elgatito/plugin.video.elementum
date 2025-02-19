@@ -97,7 +97,6 @@
         <setting id="library_sync_playback_enabled" label="30601" type="bool" default="true" />
         <setting id="library_update_delay" label="30059" type="slider" option="int" range="10,10,900" default="300" />
         <setting id="library_update_frequency" label="30060" type="slider" option="int" range="0,1,24" default="6" />
-        <setting id="library_auto_scan" type="bool" label="30089" default="true" />
         <setting type="action" label="30680" action="RunPlugin(plugin://plugin.video.elementum/library/unduplicate)" />
 
         <!-- General -->

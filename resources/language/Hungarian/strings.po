@@ -325,10 +325,6 @@ msgctxt "#30088"
 msgid "Initial buffering timeout, seconds"
 msgstr "Kezdeti puffer időkorlát (másodpercekben)"
 
-msgctxt "#30089"
-msgid "Automatically re-scan Kodi library after updates"
-msgstr "Kodi könyvtár automatikus átvizsgálása a frissítések után"
-
 msgctxt "#30090"
 msgid "Listen interfaces"
 msgstr "Figyelt interfész-ek"

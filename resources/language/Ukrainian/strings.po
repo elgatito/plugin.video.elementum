@@ -324,10 +324,6 @@ msgctxt "#30088"
 msgid "Initial buffering timeout, seconds"
 msgstr "Тайм-аут попередньої буферизації (секунд)"
 
-msgctxt "#30089"
-msgid "Automatically re-scan Kodi library after updates"
-msgstr "Автоматично запускати сканування Kodi після оновлення"
-
 msgctxt "#30090"
 msgid "Listen interfaces"
 msgstr "Прослуховування інтерфейсів"
