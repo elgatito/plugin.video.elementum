@@ -14,7 +14,7 @@ const DeleteTorrentModal = ({ torrents }: ITorrentListProps): JSX.Element => {
   // TODO: handle response
   // TODO: update list after executing fetch
   function deleteSelectedTorrent() {
-    torrents.map((t) => fetch(`/torrents/delete/${t.id}?files=${deleteFiles}`));
+    torrents.map((t) => fetch(`/torrents/delete/${t.id}?torrent=true&files=${deleteFiles}`));
     setOpen(false);
   }
 
