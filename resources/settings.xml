@@ -355,6 +355,7 @@
           <setting id="use_proxy_http" label="30492" type="bool" default="true" subsetting="true" enable="eq(-6,true)" />
           <setting id="use_proxy_tracker" label="30493" type="bool" default="true" subsetting="true" enable="eq(-7,true)" />
           <setting id="use_proxy_download" label="30494" type="bool" default="true" subsetting="true" enable="eq(-8,true)" />
+          <setting id="proxy_force" label="30712" type="bool" default="false" subsetting="true" enable="eq(-9,true)" />
     </category>
 
     <!-- Subtitles -->

@@ -2269,3 +2269,7 @@ msgstr "Puertos BitTorrent"
 msgctxt "#30711"
 msgid "Delete torrent '%s'?"
 msgstr "¿Deseas eliminar el torrent '%s'?"
+
+msgctxt "#30712"
+msgid "Force to always use proxy, can break download in some cases"
+msgstr ""

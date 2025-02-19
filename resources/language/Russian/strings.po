@@ -2269,3 +2269,7 @@ msgstr "BitTorrent порты"
 msgctxt "#30711"
 msgid "Delete torrent '%s'?"
 msgstr "Удалить торрент '%s'?"
+
+msgctxt "#30712"
+msgid "Force to always use proxy, can break download in some cases"
+msgstr "Форсировать использование прокси, может сломать скачивание в некоторых случаях"
