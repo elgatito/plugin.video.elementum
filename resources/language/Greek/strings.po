@@ -826,7 +826,7 @@ msgstr "Σφάλμα κατα την ανάγνωση απο το φάκελο �
 
 msgctxt "#30308"
 msgid "Move completed"
-msgstr "Η μετακίνηση ολοκληρώθηκε"
+msgstr "Μετακίνηση ολοκληρωμένων"
 
 msgctxt "#30309"
 msgid "Keep"
@@ -1435,7 +1435,7 @@ msgstr "Θύρα εσωτερικού proxy"
 
 msgctxt "#30489"
 msgid "Log Internal proxy requests"
-msgstr "Καταγραφη των aithm;atvn toy εσωτερικού proxy"
+msgstr "Καταγραφή των αιτημάτων του εσωτερικού proxy"
 
 msgctxt "#30490"
 msgid "Internal HTTP proxy"
