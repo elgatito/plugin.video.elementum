@@ -327,10 +327,6 @@ msgctxt "#30088"
 msgid "Initial buffering timeout, seconds"
 msgstr "מקסימום זמן לטעינה לפני תחילת ניגון (בשניות)"
 
-msgctxt "#30089"
-msgid "Automatically re-scan Kodi library after updates"
-msgstr "סריקה חוזרת של ספריית ה־Kodi לאחר עדכונים"
-
 msgctxt "#30090"
 msgid "Listen interfaces"
 msgstr "מנשק האזנה"

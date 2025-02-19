@@ -324,10 +324,6 @@ msgctxt "#30088"
 msgid "Initial buffering timeout, seconds"
 msgstr "Тайм-аут пре-буфферизации, сек"
 
-msgctxt "#30089"
-msgid "Automatically re-scan Kodi library after updates"
-msgstr "Пересканировать библиотеку после обновлений"
-
 msgctxt "#30090"
 msgid "Listen interfaces"
 msgstr "Прослушивание интерфейсов"
@@ -1396,7 +1392,7 @@ msgstr "Выполняется поиск"
 
 msgctxt "#30480"
 msgid "Run Kodi library update after add/delete"
-msgstr "Автоматически обновлять библиотеку Kodi"
+msgstr "Обновлять библиотеку Kodi после добавления/удаления"
 
 msgctxt "#30481"
 msgid "Automatically"
