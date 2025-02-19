@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-01-27 19:53+0200\n"
-"PO-Revision-Date: 2022-04-23 09:31+0200\n"
+"PO-Revision-Date: 2024-12-29 08:38+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: sv\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.4.2\n"
+"X-Generator: Poedit 3.2.2\n"
 
 # Settings
 msgctxt "#30000"
@@ -362,11 +362,11 @@ msgstr "Det gick inte att hitta Elementum-binär[CR]Nödvändig plattform:"
 
 msgctxt "#30104"
 msgid "Insert file or URL"
-msgstr "Infoga fil eller webbadress"
+msgstr "Infoga fil eller URL"
 
 msgctxt "#30105"
 msgid "URL"
-msgstr "Webbadress"
+msgstr "URL"
 
 msgctxt "#30106"
 msgid "File"
@@ -374,7 +374,7 @@ msgstr "Fil"
 
 msgctxt "#30107"
 msgid "Insert URL"
-msgstr "Infoga webbadress"
+msgstr "Infoga URL"
 
 msgctxt "#30108"
 msgid "File path"
@@ -410,15 +410,15 @@ msgstr "Löser torrentfiler..."
 
 msgctxt "#30118"
 msgid "Scraping trackers..."
-msgstr "Skrapar bevakare..."
+msgstr "Skrapar spårare..."
 
 msgctxt "#30119"
 msgid "ID of selected userlist for movies"
-msgstr ""
+msgstr "ID för vald användarlista för filmer"
 
 msgctxt "#30120"
 msgid "ID of selected userlist for shows"
-msgstr ""
+msgstr "ID för vald användarlista för serier"
 
 msgctxt "#30141"
 msgid "Please support Elementum development by visiting[CR]https://elementum.surge.sh/donate/ or https://elementumorg.github.io/donate/"
@@ -691,7 +691,7 @@ msgstr "Installerades, njut av Elementum [COLOR FFFF6B00]Burst[/COLOR]!"
 
 msgctxt "#30273"
 msgid "Shoot... It looks like we couldn't install [COLOR FFFF6B00]Burst[/COLOR] automatically, head over to the Elementum Repository, then under the Program add-ons section to install it."
-msgstr "Oj... Det verkar som om vi inte kunde installera [COLOR FFFF6B00]Burst[/COLOR] automatiskt, gå över till Elementums förråd och sedan under sektionen \"Program add-ons\" för att installera den."
+msgstr "Oj... Det verkar som om vi inte kunde installera [COLOR FFFF6B00]Burst[/COLOR] automatiskt, gå över till Elementum-förrådet och sedan under sektionen \"Program add-ons\" för att installera den."
 
 msgctxt "#30274"
 msgid "Enable all"
@@ -1055,19 +1055,19 @@ msgstr "Inaktivera dialogrutan för bakgrundsförlopp vid uppspelning"
 
 msgctxt "#30387"
 msgid "Caching"
-msgstr "Cachning"
+msgstr "Cachelagring"
 
 msgctxt "#30388"
 msgid "Cache stream selection"
-msgstr "Cacha valda strömmar"
+msgstr "Cachelagra valda strömmar"
 
 msgctxt "#30389"
 msgid "Cache stream search results"
-msgstr "Cacha sökresultat för ström"
+msgstr "Cachelagra sökresultat för ström"
 
 msgctxt "#30390"
 msgid "Cache search results duration, seconds"
-msgstr "Cacha sökresultatets längd, sekunder"
+msgstr "Cachelagra sökresultatets längd, sekunder"
 
 msgctxt "#30393"
 msgid "Status"
@@ -1295,7 +1295,7 @@ msgstr "Överför/felsökning/bunt (med kodi.log) till pastebin"
 
 msgctxt "#30454"
 msgid "Paste url:[CR]%s"
-msgstr "Klistra in webbadress:[CR]%s"
+msgstr "Klistra in URL:[CR]%s"
 
 msgctxt "#30455"
 msgid "Logging"
@@ -1391,7 +1391,7 @@ msgstr "Ursprunglig"
 
 msgctxt "#30478"
 msgid "Searching"
-msgstr "Söker"
+msgstr "Sökning"
 
 msgctxt "#30480"
 msgid "Run Kodi library update after add/delete"
@@ -1447,7 +1447,7 @@ msgstr "Använd proxy för att hämta .torrent-filer"
 
 msgctxt "#30493"
 msgid "Use Proxy for trackers"
-msgstr "Använd proxy för bevakare"
+msgstr "Använd proxy för spårare"
 
 msgctxt "#30494"
 msgid "Use Proxy for torrent downloading"
@@ -1851,7 +1851,7 @@ msgstr "Rensa all historik"
 
 msgctxt "#30605"
 msgid "Cache downloaded torrent files after search"
-msgstr "Cacha hämtade torrentfiler efter sökning"
+msgstr "Cachelagra hämtade torrentfiler efter sökning"
 
 msgctxt "#30606"
 msgid "Show watched state for torrent's files"
@@ -2063,15 +2063,15 @@ msgstr "Inaktivera LSD"
 
 msgctxt "#30658"
 msgid "Add extra trackers"
-msgstr "Lägg till extra bevakare"
+msgstr "Lägg till extra spårare"
 
 msgctxt "#30659"
 msgid "All known trackers"
-msgstr "Alla kända bevakare"
+msgstr "Alla kända spårare"
 
 msgctxt "#30660"
 msgid "Best trackers"
-msgstr "Bästa bevakare"
+msgstr "Bästa spårare"
 
 msgctxt "#30661"
 msgid "Minimum set"
@@ -2079,7 +2079,7 @@ msgstr "Lägsta inställningen"
 
 msgctxt "#30662"
 msgid "Remove original trackers from torrent"
-msgstr "Ta bort originalbevakare från torrent"
+msgstr "Ta bort originalspårare från torrent"
 
 msgctxt "#30663"
 msgid "Show episodes on release day (w/o delay)"
@@ -2087,7 +2087,7 @@ msgstr "Visa avsnitt vid utgivningsdagen (utan fördröjning)"
 
 msgctxt "#30664"
 msgid "Modify trackers in torrent"
-msgstr "Ändra bevakare för torrent"
+msgstr "Ändra spårare för torrent"
 
 msgctxt "#30665"
 msgid "At the time of adding"
@@ -2119,156 +2119,156 @@ msgstr "Lista över Opennic DNS IP:er"
 
 msgctxt "#30672"
 msgid "Compact database"
-msgstr ""
+msgstr "Komprimera databas"
 
 msgctxt "#30673"
 msgid "Compact cache database"
-msgstr ""
+msgstr "Komprimera cachedatabas"
 
 msgctxt "#30674"
 msgid "Database was compacted"
-msgstr ""
+msgstr "Databasen komprimerades"
 
 msgctxt "#30675"
 msgid "Remote host login"
-msgstr ""
+msgstr "Fjärrvärdsinloggning"
 
 msgctxt "#30676"
 msgid "Remote host password"
-msgstr ""
+msgstr "Fjärrvärdens lösenord"
 
 msgctxt "#30677"
 msgid "Force start as a library"
-msgstr ""
+msgstr "Tvinga start som ett bibliotek"
 
 msgctxt "#30678"
 msgid "Remove from Kodi library, when movie is deleted from Trakt"
-msgstr ""
+msgstr "Ta bort från Kodi-biblioteket när filmen tas bort från Trakt"
 
 msgctxt "#30679"
 msgid "Remove from Kodi library, when show is deleted from Trakt"
-msgstr ""
+msgstr "Ta bort från Kodi-biblioteket när serien tas bort från Trakt"
 
 msgctxt "#30680"
 msgid "Remove Elementum duplicates from library"
-msgstr ""
+msgstr "Ta bort Elementum-dubbletter från biblioteket"
 
 msgctxt "#30681"
 msgid "[B]Found duplicates in Kodi library:[/B][CR]Movies: [B]%s[/B], Shows: [B]%s[/B], Episodes: [B]%s[/B][CR]Proceed?"
-msgstr ""
+msgstr "[B]Hittade dubbletter i Kodi-biblioteket:[/B][CR]Filmer: [B]%s[/B], serier: [B]%s[/B], avsnitt: [B]%s[/B][CR]Fortsätt?"
 
 msgctxt "#30682"
 msgid "No duplicates were found in Kodi library"
-msgstr ""
+msgstr "Inga dubbletter hittades i Kodi-biblioteket"
 
 msgctxt "#30683"
 msgid "Starting library duplicates removal"
-msgstr ""
+msgstr "Startar borttagning av biblioteksdubbletter"
 
 msgctxt "#30684"
 msgid "Removed Movies: %s, Shows: %s, Episodes: %s"
-msgstr ""
+msgstr "Borttagna filmer: %s, program: %s, avsnitt: %s"
 
 msgctxt "#30685"
 msgid "Remove movies from Elementum database"
-msgstr ""
+msgstr "Ta bort filmer från Elementum-databasen"
 
 msgctxt "#30686"
 msgid "Remove shows from Elementum database"
-msgstr ""
+msgstr "Ta bort serier från Elementum-databasen"
 
 msgctxt "#30687"
 msgid "In Elementum library"
-msgstr ""
+msgstr "I Elementum-biblioteket"
 
 msgctxt "#30688"
 msgid "Skip searching for installed Elementum repository"
-msgstr ""
+msgstr "Hoppa över sökningen efter installerat Elementum-förråd"
 
 msgctxt "#30689"
 msgid "Internal DNS client"
-msgstr ""
+msgstr "Intern DNS-klient"
 
 msgctxt "#30691"
 msgid "Hide watched"
-msgstr ""
+msgstr "Dölj sedda"
 
 msgctxt "#30692"
 msgid "TMDB images quality (affects Kodi performance)"
-msgstr ""
+msgstr "TMDB-bildkvalitet (påverkar Kodi-prestanda)"
 
 msgctxt "#30693"
 msgid "Original"
-msgstr ""
+msgstr "Original"
 
 msgctxt "#30694"
 msgid "High"
-msgstr ""
+msgstr "Hög"
 
 msgctxt "#30695"
 msgid "Medium"
-msgstr ""
+msgstr "Medium"
 
 msgctxt "#30696"
 msgid "Low"
-msgstr ""
+msgstr "Låg"
 
 msgctxt "#30697"
 msgid "Interface language"
-msgstr ""
+msgstr "Gränssnittsspråk"
 
 msgctxt "#30698"
 msgid "Kodi language"
-msgstr ""
+msgstr "Kodi-språk"
 
 msgctxt "#30699"
 msgid "Use earliest release date for progress and calendars"
-msgstr ""
+msgstr "Använd tidigaste utgivningsdatum för förlopp och kalendrar"
 
 msgctxt "#30700"
 msgid "Interface fallback language"
-msgstr ""
+msgstr "Alternativt språk för gränssnittet"
 
 msgctxt "#30701"
 msgid "English | en"
-msgstr ""
+msgstr "Engelska | en"
 
 msgctxt "#30702"
 msgid "Reached daily limit for subtitles downloads"
-msgstr ""
+msgstr "Daglig gräns för hämtning av undertexter har nåtts"
 
 msgctxt "#30703"
 msgid "Can be used by search providers or for debugging"
-msgstr ""
+msgstr "Kan användas av sökleverantörer eller för felsökning"
 
 msgctxt "#30704"
 msgid "TMDB API Key check failed, cannot use TMDB service"
-msgstr ""
+msgstr "TMDB API-nyckelkontroll misslyckades, kan inte använda TMDB-tjänsten"
 
 msgctxt "#30705"
 msgid "TMDB API accessibility check failed, cannot use TMDB service"
-msgstr ""
+msgstr "TMDB API-tillgänglighetskontroll misslyckades, kan inte använda TMDB-tjänsten"
 
 msgctxt "#30706"
 msgid "Transmission 4.05"
-msgstr ""
+msgstr "Transmission 4.05"
 
 msgctxt "#30707"
 msgid "qBittorrent 3.3.9"
-msgstr ""
+msgstr "qBittorrent 3.3.9"
 
 msgctxt "#30708"
 msgid "qBittorrent 4.6.4"
-msgstr ""
+msgstr "qBittorrent 4.6.4"
 
 msgctxt "#30709"
 msgid "Open [B]%s[/B]"
-msgstr ""
+msgstr "Öppna [B]%s[/B]"
 
 msgctxt "#30710"
 msgid "BitTorrent ports"
-msgstr ""
+msgstr "BitTorrent-portar"
 
 msgctxt "#30711"
 msgid "Delete torrent '%s'?"
-msgstr ""
+msgstr "Ta bort torrent \"%s\"?"
