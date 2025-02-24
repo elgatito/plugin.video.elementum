@@ -184,6 +184,7 @@
         <setting id="disable_tcp" label="30328" type="bool" default="false" />
         <setting id="disable_utp" label="30329" type="bool" default="false" />
         <setting id="disable_upnp" label="30063" type="bool" default="false" />
+        <setting id="disable_natpmp" label="30713" type="bool" default="false" />
         <setting id="listen_autodetect_ip" label="30370" type="bool" default="true" />
         <setting id="listen_interfaces" label="30090" type="text" default="" enable="eq(-1,false)" />
         <setting type="action" label="30473" action="RunPlugin(plugin://plugin.video.elementum/cmd/select_interface/listen)" subsetting="true" enable="eq(-2,false)" />

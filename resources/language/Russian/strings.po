@@ -233,8 +233,8 @@ msgid "Library update frequency, hours"
 msgstr "Частота обновления библиотеки, часы"
 
 msgctxt "#30063"
-msgid "Disable UPNP & NATPMP"
-msgstr "Отключить UPNP & NATPMP"
+msgid "Disable UPNP"
+msgstr "Отключить UPNP"
 
 msgctxt "#30064"
 msgid "Encryption policy"
@@ -2273,3 +2273,7 @@ msgstr "Удалить торрент '%s'?"
 msgctxt "#30712"
 msgid "Force to always use proxy, can break download in some cases"
 msgstr "Форсировать использование прокси, может сломать скачивание в некоторых случаях"
+
+msgctxt "#30713"
+msgid "Disable NATPMP"
+msgstr "Отключить NATPMP"

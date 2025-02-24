@@ -232,8 +232,8 @@ msgid "Library update frequency, hours"
 msgstr "Kirjaston päivitysväli (tunteina)"
 
 msgctxt "#30063"
-msgid "Disable UPNP & NATPMP"
-msgstr "Älä käytä UPNP:tä ja NATPMP:tä"
+msgid "Disable UPNP"
+msgstr "Älä käytä UPNP:tä"
 
 msgctxt "#30064"
 msgid "Encryption policy"
@@ -2272,3 +2272,7 @@ msgstr ""
 msgctxt "#30712"
 msgid "Force to always use proxy, can break download in some cases"
 msgstr ""
+
+msgctxt "#30713"
+msgid "Disable NATPMP"
+msgstr "Älä käytä NATPMP:tä"

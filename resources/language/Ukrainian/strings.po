@@ -233,8 +233,8 @@ msgid "Library update frequency, hours"
 msgstr "Частота оновлення бібліотеки (годин)"
 
 msgctxt "#30063"
-msgid "Disable UPNP & NATPMP"
-msgstr "Вимкнути UPNP & NATPMP"
+msgid "Disable UPNP"
+msgstr "Вимкнути UPNP"
 
 msgctxt "#30064"
 msgid "Encryption policy"
@@ -2273,3 +2273,7 @@ msgstr ""
 msgctxt "#30712"
 msgid "Force to always use proxy, can break download in some cases"
 msgstr ""
+
+msgctxt "#30713"
+msgid "Disable NATPMP"
+msgstr "Вимкнути NATPMP"
