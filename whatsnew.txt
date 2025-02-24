@@ -7,6 +7,12 @@
     - Source is open, so you can fork everything.
     - Some bug fixes or updates can come, to keep things working and have the latest versions.
 
+[B][COLOR red]0.1.107[/COLOR][/B]
+    - Added support for using interface names for listen/outgoing interfaces configuration.
+    - Added support for NATPMP port mapping provided by Elementum outside of Libtorrent. It allows getting port forwarding from interface gateway. (Would natively work with ProtonVPN for example).
+    - Changes to Trakt token refresh to comply with latest changes on the Trakt API. (Thanks to @antonsoroko)
+    - Multiple fixes to reported issues. (Thanks to @antonsoroko)
+
 [B][COLOR red]0.1.104-0.1.106[/COLOR][/B]
     - Sync playback progress from Kodi Library's items to Elementum's menu items. (Thanks to @burekas7, @antonsoroko)
     - Fix startup issue in Flatpak version of Kodi in Linux. (Thanks to @simpledork47, @antonsoroko)
