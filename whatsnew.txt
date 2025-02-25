@@ -11,6 +11,10 @@
     - Added support for using interface names for listen/outgoing interfaces configuration.
     - Added support for NATPMP port mapping provided by Elementum outside of Libtorrent. It allows getting port forwarding from interface gateway. (Would natively work with ProtonVPN for example).
     - Changes to Trakt token refresh to comply with latest changes on the Trakt API. (Thanks to @antonsoroko)
+    - Always ask confirmation for "delete torrent" in "Torrents" menu. (Thanks to @antonsoroko)
+    - Add support of disable_tcp and disable_utp settings. (Thanks to @antonsoroko)
+    - Fix bug when using proxy could prevent downloading. (Thanks to @antonsoroko)
+    - Update Spanish (es_ES), Swedish, Greek translations. (Thanks to @roliverosc, @nonew-star, @pitsi)
     - Multiple fixes to reported issues. (Thanks to @antonsoroko)
 
 [B][COLOR red]0.1.104-0.1.106[/COLOR][/B]
