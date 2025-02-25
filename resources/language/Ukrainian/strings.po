@@ -1392,7 +1392,7 @@ msgstr "Шукаю"
 
 msgctxt "#30480"
 msgid "Run Kodi library update after add/delete"
-msgstr "Автоматично відновлювати бібліотеку Kodi"
+msgstr "Оновлювати бібліотеку Kodi після додавання/видалення"
 
 msgctxt "#30481"
 msgid "Automatically"
