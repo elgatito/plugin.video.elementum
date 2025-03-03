@@ -2286,3 +2286,7 @@ msgstr ""
 msgctxt "#30713"
 msgid "Disable NATPMP"
 msgstr "Désactiver NATPMP"
+
+msgctxt "#30714"
+msgid "Re-check torrent's data"
+msgstr ""
