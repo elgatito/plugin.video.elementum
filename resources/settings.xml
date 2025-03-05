@@ -28,18 +28,16 @@
           <setting id="memory_size" label="30318" type="number" default="100" enable="eq(-4,false)" visible="eq(-5,1)" />
           <setting id="auto_adjust_memory_size" label="30499" type="bool" default="true" visible="eq(-6,1)" />
 
-          <setting type="text" label="30348" enable="false" visible="eq(-7,0)" />
-          <setting type="text" label="30349" enable="false" visible="eq(-8,1)" />
-          <setting type="text" label="30350" enable="false" visible="eq(-9,1)" />
-          <setting type="text" label="30351" enable="false" visible="eq(-10,2)" />
-          <setting type="text" label="30352" enable="false" visible="eq(-11,3)" />
+          <setting type="text" label="30349" enable="false" visible="eq(-7,1)" />
+          <setting type="text" label="30350" enable="false" visible="eq(-8,1)" />
 
-        <setting id="download_file_strategy" type="enum" label="30653" lvalues="30654|30655|30656" default="0" />
+          <setting type="text" label="30348" enable="false" visible="eq(-9,0)" />
+          <setting id="download_file_strategy" type="enum" label="30653" lvalues="30654|30655|30656" default="0" visible="eq(-10,0)" />
 
-        <setting type="sep"/>
-        <setting id="download_path" type="folder" label="30001" source="auto" option="writeable" />
-        <setting type="action" label="30498" action="RunPlugin(plugin://plugin.video.elementum/cmd/reset_path/download)" />
-        <setting type="action" label="30562" option="close" action="RunPlugin(plugin://plugin.video.elementum/cmd/open_path/download)" />
+          <setting type="sep"/>
+          <setting id="download_path" type="folder" label="30001" source="auto" option="writeable" visible="eq(-12,0)" />
+          <setting type="action" label="30498" action="RunPlugin(plugin://plugin.video.elementum/cmd/reset_path/download)" visible="eq(-13,0)" />
+          <setting type="action" label="30562" option="close" action="RunPlugin(plugin://plugin.video.elementum/cmd/open_path/download)" visible="eq(-14,0)" />
 
         <setting type="sep"/>
         <setting id="library_path" type="folder" label="30026" default="special://temp/elementum_library/" source="auto" option="writeable" />
