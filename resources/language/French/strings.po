@@ -1148,7 +1148,7 @@ msgid "Remote host"
 msgstr "Hôte distant"
 
 msgctxt "#30412"
-msgid "Do not start binary"
+msgid "Do not start binary (client mode)"
 msgstr "Ne pas démarrer le binaire"
 
 msgctxt "#30413"

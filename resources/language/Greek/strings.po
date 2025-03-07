@@ -1141,7 +1141,7 @@ msgid "Remote host"
 msgstr "Απομακρυσμενος υπολογιστής"
 
 msgctxt "#30412"
-msgid "Do not start binary"
+msgid "Do not start binary (client mode)"
 msgstr "Μην εκκινείς το εκτελέσιμο"
 
 msgctxt "#30413"

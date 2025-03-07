@@ -1139,7 +1139,7 @@ msgid "Remote host"
 msgstr "Віддалений хост"
 
 msgctxt "#30412"
-msgid "Do not start binary"
+msgid "Do not start binary (client mode)"
 msgstr "Не стартувати аплікацію (тільки клієнт)"
 
 msgctxt "#30413"
