@@ -1142,7 +1142,7 @@ msgid "Remote host"
 msgstr ""
 
 msgctxt "#30412"
-msgid "Do not start binary"
+msgid "Do not start binary (client mode)"
 msgstr ""
 
 msgctxt "#30413"
