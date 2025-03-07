@@ -380,6 +380,26 @@
         <setting id="osdb_included_skipexists" label="30542" type="bool" default="true" />
     </category>
 
+    <!-- Startup -->
+    <category label="30603">
+        <!-- Startup -->
+        <setting label="30603" type="lsep" />
+        <setting type="action" label="30620" option="close" action="RunPlugin(plugin://plugin.video.elementum/restart/)" />
+        <setting id="local_only_client" label="30412" type="bool" default="false" />
+        <setting id="local_force_library" label="30677" type="bool" default="false" />
+
+        <!-- Addon address -->
+        <setting label="30408" type="lsep" />
+        <setting id="local_port" label="30409" type="number" default="65221" />
+        <setting id="remote_host" label="30411" type="text" default="127.0.0.1" />
+        <setting id="remote_port" label="30410" type="number" default="65220" />
+
+        <!-- Addon authorization -->
+        <setting label="30648" type="lsep" />
+        <setting id="remote_login" label="30675" type="text" default="" />
+        <setting id="remote_password" label="30676" type="text" default="" />
+    </category>
+
     <!-- Advanced -->
     <category label="30015">
         <!-- Database -->
@@ -410,15 +430,5 @@
         <!-- TMDB -->
         <setting label="30039" type="lsep" />
         <setting id="tmdb_api_key" label="30040" type="text" default="" />
-
-        <!-- Connectivity -->
-        <setting label="30408" type="lsep" />
-        <setting id="local_only_client" label="30412" type="bool" default="false" />
-        <setting id="local_force_library" label="30677" type="bool" default="false" />
-        <setting id="local_port" label="30409" type="number" default="65221" />
-        <setting id="remote_host" label="30411" type="text" default="127.0.0.1" />
-        <setting id="remote_port" label="30410" type="number" default="65220" />
-        <setting id="remote_login" label="30675" type="text" default="" />
-        <setting id="remote_password" label="30676" type="text" default="" />
     </category>
 </settings>
