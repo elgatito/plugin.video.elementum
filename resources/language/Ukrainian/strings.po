@@ -1123,7 +1123,7 @@ msgid "Remove from history"
 msgstr "Видалити з історії"
 
 msgctxt "#30408"
-msgid "Plugin Connectivity"
+msgid "Addon Connectivity"
 msgstr "Адреса доповнення"
 
 msgctxt "#30409"
@@ -1791,7 +1791,7 @@ msgid "Speed limiting"
 msgstr "Обмеженнч швидкості"
 
 msgctxt "#30590"
-msgid "Torrents autoload on plugin startup"
+msgid "Torrents autoload on addon startup"
 msgstr "Автоматично завантажувати торенти після старту"
 
 msgctxt "#30591"
@@ -1835,7 +1835,7 @@ msgid "Enable synchronization while playback"
 msgstr "Дозволити синхронізацію під час перегляду"
 
 msgctxt "#30602"
-msgid "Retry requests to plugin after timeout, seconds"
+msgid "Retry requests to addon after timeout, seconds"
 msgstr "Спробувати робити повторні запити після тайм-ауту, сек"
 
 msgctxt "#30603"

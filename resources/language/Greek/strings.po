@@ -1125,7 +1125,7 @@ msgid "Remove from history"
 msgstr "Αφαίρεση απο το ιστορικό"
 
 msgctxt "#30408"
-msgid "Plugin Connectivity"
+msgid "Addon Connectivity"
 msgstr "Συνδεσιμότητα πρόσθετου"
 
 msgctxt "#30409"
@@ -1794,7 +1794,7 @@ msgid "Speed limiting"
 msgstr ""
 
 msgctxt "#30590"
-msgid "Torrents autoload on plugin startup"
+msgid "Torrents autoload on addon startup"
 msgstr ""
 
 msgctxt "#30591"
@@ -1838,7 +1838,7 @@ msgid "Enable synchronization while playback"
 msgstr ""
 
 msgctxt "#30602"
-msgid "Retry requests to plugin after timeout, seconds"
+msgid "Retry requests to addon after timeout, seconds"
 msgstr ""
 
 msgctxt "#30603"
