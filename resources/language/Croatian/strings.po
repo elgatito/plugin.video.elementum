@@ -1140,7 +1140,7 @@ msgid "Remove from history"
 msgstr "Ukloni iz povijesti"
 
 msgctxt "#30408"
-msgid "Plugin Connectivity"
+msgid "Addon Connectivity"
 msgstr "Povezivanje dodatka"
 
 msgctxt "#30409"
@@ -1808,7 +1808,7 @@ msgid "Speed limiting"
 msgstr "Ograničenje brzine"
 
 msgctxt "#30590"
-msgid "Torrents autoload on plugin startup"
+msgid "Torrents autoload on addon startup"
 msgstr "Automatsko učitavanje torrenta pri pokretanju dodatka"
 
 msgctxt "#30591"
@@ -1852,7 +1852,7 @@ msgid "Enable synchronization while playback"
 msgstr "Omogući usklađivanje tijekom gledanja"
 
 msgctxt "#30602"
-msgid "Retry requests to plugin after timeout, seconds"
+msgid "Retry requests to addon after timeout, seconds"
 msgstr "Ponovno pošalji zahtjeve dodatku nakon isteka vremena, sekunde"
 
 msgctxt "#30603"
