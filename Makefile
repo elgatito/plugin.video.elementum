@@ -94,3 +94,14 @@ clean:
 	done
 	rm -f $(ZIP_FILE)
 	rm -rf $(NAME)
+
+deps:
+	echo "Downloading platform_detect"
+	mkdir -p $(NAME)/resources/site-packages
+	wget https://github.com/ElementumOrg/platform_detect/archive/master.zip && \
+	unzip master.zip && \
+	cp -rf platform_detect-master/python resources/site-packages/platform_detect && \
+	cp -rf platform_detect-master/libraries resources/site-packages/platform_detect/ && \
+	rm -rf platform_detect-master && \
+	rm master.zip
+

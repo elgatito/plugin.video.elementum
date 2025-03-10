@@ -35,6 +35,7 @@ python3 -m flake8
 
 # Compile zip artifacts
 make
+make deps
 make zipfiles
 
 # Run artifact uploads if we are on the tag
