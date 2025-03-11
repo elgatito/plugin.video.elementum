@@ -7,6 +7,17 @@
     - Source is open, so you can fork everything.
     - Some bug fixes or updates can come, to keep things working and have the latest versions.
 
+[B][COLOR red]0.1.110[/COLOR][/B]
+    - Added year to torrent results header line.
+    - Added checks for closed torrent and empty strm paths.
+    - Changed default number of results on the page.
+    - Added new CLI parameter to disable parent process watcher (for client-server mode).
+    - Added ready-to-use Docker files for client-server mode. (Thanks to @antonsoroko)
+    - Changes for client-server mode: add -tempPath, fix -logPath, add -serverExternalIp. (Thanks to @antonsoroko)
+    - Client mode works on Xbox again. (Thanks to @antonsoroko)
+    - Add "Re-check torrent's data" menu. (Thanks to @antonsoroko)
+    - Fixed search in providers (like Burst) if login/password was set in elementum. (Thanks to @antonsoroko)
+
 [B][COLOR red]0.1.107-0.1.109[/COLOR][/B]
     - Added support for using interface names for listen/outgoing interfaces configuration.
     - Added support for NATPMP port mapping provided by Elementum outside of Libtorrent. It allows getting port forwarding from interface gateway. (Would natively work with ProtonVPN for example).
