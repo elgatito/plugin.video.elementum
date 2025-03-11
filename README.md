@@ -20,10 +20,11 @@ Thanks, guys, for your titanic work!
 Supported platforms
 -------------------
 - Windows 32/64 bits
-- Linux 32/64 bits (starting Ubuntu 15.04)
+- Linux 32/64 bits (starting from Ubuntu 15.04)
 - Linux ARM (armv6, armv7, armv8/arm64)
-- Mac OS X 64 bits
+- macOS 64 bits (also can be run in arm64 macOS)
 - Android ARM (for 4.4.x use [0.1.41](https://github.com/elgatito/plugin.video.elementum/releases/tag/v0.1.41), for 5+ use the latest build), x86, x64, ARM, ARM64
+- For unsupported OS you can run Elementum in client-server mode (e.g. via [Docker](https://github.com/ElementumOrg/elementum-docker) or Linux daemon or Windows service).
 
 Minimum supported Kodi version: 16 (Jarvis)
 
