@@ -9,14 +9,14 @@
 
 [B][COLOR red]0.1.110[/COLOR][/B]
     - Added year to torrent results header line.
-    - Added checks for closed torrent and empty strm paths.
+    - Fix panic when user removes currently active torrent with memory storage.
     - Changed default number of results on the page.
     - Added new CLI parameter to disable parent process watcher (for client-server mode).
     - Added ready-to-use Docker files for client-server mode. (Thanks to @antonsoroko)
     - Changes for client-server mode: add -tempPath, fix -logPath, add -serverExternalIp. (Thanks to @antonsoroko)
     - Client mode works on Xbox again. (Thanks to @antonsoroko)
     - Add "Re-check torrent's data" menu. (Thanks to @antonsoroko)
-    - Fixed search in providers (like Burst) if login/password was set in elementum. (Thanks to @antonsoroko)
+    - Fixed search in providers (like Burst) if login/password was set in Elementum. (Thanks to @antonsoroko)
     - Added CLI arguments to configure library path substitutions (helpful when having cross-OS library or running in container)
 
 [B][COLOR red]0.1.107-0.1.109[/COLOR][/B]
