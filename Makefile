@@ -37,7 +37,7 @@ $(ZIP_FILE):
 	mkdir -p $(NAME)/resources/site-packages
 	cp -r `pwd`/$(DEV)/resources/site-packages/platform_detect $(NAME)/resources/site-packages
 	zip -9 -r -g $(ZIP_FILE) $(NAME)/resources/site-packages/platform_detect
-	
+
 	mkdir -p $(NAME)/resources/bin
 	for arch in $(ARCHS); do \
 		cp -r `pwd`/$(DEV)/resources/bin/$$arch $(NAME)/resources/bin/$$arch; \
@@ -97,7 +97,8 @@ clean:
 
 deps:
 	echo "Downloading platform_detect"
-	mkdir -p `pwd`/$(DEV)/resources/site-packages/platform_detect
+	rm -rf `pwd`/$(DEV)/resources/site-packages/platform_detect
+	mkdir -p `pwd`/$(DEV)/resources/site-packages
 
 	wget https://github.com/ElementumOrg/platform_detect/archive/master.zip && \
 	unzip master.zip && \
