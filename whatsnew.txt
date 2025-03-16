@@ -17,6 +17,7 @@
     - Client mode works on Xbox again. (Thanks to @antonsoroko)
     - Add "Re-check torrent's data" menu. (Thanks to @antonsoroko)
     - Fixed search in providers (like Burst) if login/password was set in elementum. (Thanks to @antonsoroko)
+    - Added CLI arguments to configure library path substitutions (helpful when having cross-OS library or running in container)
 
 [B][COLOR red]0.1.107-0.1.109[/COLOR][/B]
     - Added support for using interface names for listen/outgoing interfaces configuration.
