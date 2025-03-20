@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.elementum" name="Elementum" version="0.1.109" provider-name="elgatito">
+<addon id="plugin.video.elementum" name="Elementum" version="0.1.110" provider-name="elgatito">
     <requires>
         <import addon="xbmc.addon" version="16.0.0" />
         <import addon="repository.elementumorg" optional="true" />
