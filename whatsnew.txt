@@ -7,7 +7,7 @@
     - Source is open, so you can fork everything.
     - Some bug fixes or updates can come, to keep things working and have the latest versions.
 
-[B][COLOR red]0.1.110[/COLOR][/B]
+[B][COLOR red]0.1.110-0.1.111[/COLOR][/B]
     - Added year to torrent results header line.
     - Fix panic when user removes currently active torrent with memory storage.
     - Changed default number of results on the page.
@@ -18,6 +18,7 @@
     - Add "Re-check torrent's data" menu. (Thanks to @antonsoroko)
     - Fixed search in providers (like Burst) if login/password was set in Elementum. (Thanks to @antonsoroko)
     - Added CLI arguments to configure library path substitutions (helpful when having cross-OS library or running in container)
+    - Fixed issue with stopping download after next file was not played and requestor becomes unavailable.
 
 [B][COLOR red]0.1.107-0.1.109[/COLOR][/B]
     - Added support for using interface names for listen/outgoing interfaces configuration.
