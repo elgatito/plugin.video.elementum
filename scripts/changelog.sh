@@ -1,19 +1,34 @@
-#!/bin/sh
-echo "Elementum changelog"
+#!/bin/bash
+
+set -o errexit
+set -o nounset
+
+git_dir="$(git rev-parse --show-toplevel)"
+if [[ -f "$git_dir"/addon.xml ]]; then
+    name="$(grep -Po '(?<=addon id=")[^"]+(?=")' "$git_dir"/addon.xml)"
+else
+    name="$(basename "$(git rev-parse --show-toplevel)")"
+fi
+
+echo "$name changelog"
 echo "==============="
-git tag -l | sort -u -r -V | while read TAG ; do
-    if [ $NEXT ];then
-        TAG_DATE=$(git log --no-merges --date=short --format="%ad" $TAG..$NEXT | head -1)
-        echo "[B]$NEXT[/B] - $TAG_DATE"
+
+cat="$(command -v cat)"
+export GIT_PAGER="$cat"
+
+previous_tag=0
+while read -r current_tag; do
+    if [[ "$previous_tag" != 0 ]]; then
+        tag_date=$(git log -1 --pretty=format:'%ad' --date=short ${previous_tag})
+        printf "[B]%s[/B] - %s\n" "${previous_tag}" "${tag_date}"
+        cmp="${current_tag}...${previous_tag}"
+        [[ $current_tag == "LAST" ]] && cmp="${previous_tag}"
+        git log "$cmp" --no-merges --pretty=format:' - %s' | awk -F ' - ' '
+            {
+                gsub(/.{50,60} /,"&\n   ", $2); \
+                printf "%s - %s\n", $1, $2
+            }'
     fi
-    GIT_PAGER=cat git log --no-merges --format=" - %s" $TAG..$NEXT | awk -F ' - ' '
-      { gsub(/.{50,60} /,"&\n   ", $2); \
-        printf "%s - %s\n", $1, $2 }'
-    NEXT=$TAG
-    echo
-done
-FIRST=$(git tag -l | head -1)
-TAG_DATE=$(git log --no-merges --date=short --format="%ad" $FIRST | head -1)
-echo "[B]$FIRST[/B] - $TAG_DATE"
-GIT_PAGER=cat git log --no-merges --format=" - %s" $FIRST
-echo
+    previous_tag="${current_tag}"
+    printf "\n"
+done < <(git tag -l | sort -u -r -V; echo LAST)

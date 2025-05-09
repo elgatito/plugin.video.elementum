@@ -41,5 +41,5 @@ make zipfiles
 # Run artifact uploads if we are on the tag
 if [[ $TAG != *-* ]]
 then
-    make upload
+	make upload
 fi

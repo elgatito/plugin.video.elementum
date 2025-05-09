@@ -6,3 +6,8 @@
 .gitlab-ci.yml    export-ignore
 scripts           export-ignore
 resources/web-src export-ignore
+Makefile          export-ignore
+release.sh        export-ignore
+requirements.txt  export-ignore
+setup.cfg         export-ignore
+BUILD.md          export-ignore
