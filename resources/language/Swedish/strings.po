@@ -354,7 +354,7 @@ msgstr "Elementum har kraschat, startar om..."
 
 msgctxt "#30102"
 msgid "This add-on can only be run from within Elementum"
-msgstr "Det här tillägget kan bara köras från Elementum"
+msgstr "Detta tillägg kan bara köras från Elementum"
 
 msgctxt "#30103"
 msgid "Unable to find Elementum binary[CR]Required platform:"
@@ -887,7 +887,7 @@ msgstr "Tvinga automatiskt urval från inställningar"
 
 msgctxt "#30325"
 msgid "Download"
-msgstr "Hämta"
+msgstr "Hämtning"
 
 msgctxt "#30326"
 msgid "Kodi library"
@@ -919,7 +919,7 @@ msgstr "Försök hitta andra avsnitt i torrenten"
 
 msgctxt "#30347"
 msgid "Could not find binary for architecture '%s'![CR]Try to uninstall this addon, re-download and re-install it from the biggest zip."
-msgstr "Kunde inte hitta binär för arkitekturen \"%s\"![CR]Försök att avinstallera det här tillägget, hämta det igen och installera om det från den största zip-filen."
+msgstr "Kunde inte hitta binär för arkitekturen \"%s\"![CR]Försök att avinstallera detta tillägg, hämta det igen och installera om det från den största zip-filen."
 
 msgctxt "#30348"
 msgid "Create usual files on the file system and write to them.[CR]Needs selected file's full size to be available on the disk!"
@@ -1347,7 +1347,7 @@ msgstr "Rensa databasen"
 
 msgctxt "#30467"
 msgid "Cache"
-msgstr "Cache"
+msgstr "Cachelagring"
 
 msgctxt "#30468"
 msgid "Clear TMDB cache"
@@ -1463,7 +1463,7 @@ msgstr "Stäng av om du använder TOR-adresser, eller du vill använda DNS-inst�
 
 msgctxt "#30498"
 msgid "Reset this path to '/'"
-msgstr "Återställ den här sökvägen till \"/\""
+msgstr "Återställ denna sökväg till \"/\""
 
 msgctxt "#30499"
 msgid "Automatically adjust memory size[CR]for heavy torrents, if possible"
@@ -2275,7 +2275,7 @@ msgstr "Ta bort torrent \"%s\"?"
 
 msgctxt "#30712"
 msgid "Force to always use proxy, can break download in some cases"
-msgstr ""
+msgstr "Tvinga fram att alltid använda proxy, kan avbryta hämtningen i vissa fall"
 
 msgctxt "#30713"
 msgid "Disable NATPMP"
@@ -2283,4 +2283,4 @@ msgstr "Inaktivera NATPMP"
 
 msgctxt "#30714"
 msgid "Re-check torrent's data"
-msgstr ""
+msgstr "Kontrollera torrentens data igen"
