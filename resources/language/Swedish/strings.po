@@ -1359,7 +1359,7 @@ msgstr "Rensa Trakt-cache"
 
 msgctxt "#30470"
 msgid "Clear the cache"
-msgstr "Rensa cache"
+msgstr "Rensa cachen"
 
 msgctxt "#30471"
 msgid "Are you sure you want to do it?"
@@ -2275,7 +2275,7 @@ msgstr "Ta bort torrent \"%s\"?"
 
 msgctxt "#30712"
 msgid "Force to always use proxy, can break download in some cases"
-msgstr "Tvinga fram att alltid använda proxy, kan avbryta nedladdningen i vissa fall"
+msgstr "Tvinga fram att alltid använda proxy, kan avbryta hämtningen i vissa fall"
 
 msgctxt "#30713"
 msgid "Disable NATPMP"
