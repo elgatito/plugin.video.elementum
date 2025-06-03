@@ -338,13 +338,6 @@
         <setting id="internal_dns_skip_ipv6" label="30536" type="bool" default="true" enable="eq(-2,true)" />
         <setting id="internal_dns_opennic" label="30671" type="text" default="54.36.111.116, 192.3.165.37, 80.78.132.79" enable="eq(-3,true)" />
 
-        <!-- Internal proxy -->
-        <setting label="30490" type="lsep" />
-        <setting id="internal_proxy_help" label="30703" type="text" enable="false" />
-        <setting id="internal_proxy_enabled" label="30487" type="bool" default="false" />
-        <setting id="internal_proxy_logging" label="30489" type="bool" default="false" enable="eq(-1,true)" />
-        <setting id="internal_proxy_logging_body" label="30572" type="bool" default="false" enable="eq(-2,true)" />
-
         <!-- Proxy -->
         <setting label="30008" type="lsep" />
         <setting id="proxy_enabled" label="30010" type="bool" default="false" />
@@ -357,6 +350,16 @@
           <setting id="use_proxy_tracker" label="30493" type="bool" default="true" subsetting="true" enable="eq(-7,true)" />
           <setting id="use_proxy_download" label="30494" type="bool" default="true" subsetting="true" enable="eq(-8,true)" />
           <setting id="proxy_force" label="30712" type="bool" default="false" subsetting="true" enable="eq(-9,true)" />
+
+        <setting id="antizapret_enabled" label="30497" type="bool" default="false" enable="eq(-10,false)" />
+        <setting id="antizapret_pac_url" label="30715" type="text" default="https://p.thenewone.lol:8443/proxy.pac" subsetting="true" visible="eq(-1,true)" />
+
+        <!-- Internal proxy -->
+        <setting label="30490" type="lsep" />
+        <setting id="internal_proxy_help" label="30703" type="text" enable="false" />
+        <setting id="internal_proxy_enabled" label="30487" type="bool" default="false" />
+        <setting id="internal_proxy_logging" label="30489" type="bool" default="false" enable="eq(-1,true)" />
+        <setting id="internal_proxy_logging_body" label="30572" type="bool" default="false" enable="eq(-2,true)" />
     </category>
 
     <!-- Subtitles -->
