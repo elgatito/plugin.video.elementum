@@ -1455,8 +1455,8 @@ msgid "Use built-in DNS resolver"
 msgstr "Использовать встроенный DNS клиент"
 
 msgctxt "#30496"
-msgid "Turn off if you use Tor addresses, or you want to use DNS settings [CR]from OS"
-msgstr "Отключите, если используете адреса Tor или хотите [CR]использовать настройки DNS из ОС"
+msgid "Turn off if you use Tor addresses, or you want [CR]to use DNS settings from OS"
+msgstr "Отключите, если используете адреса Tor или [CR]хотите использовать настройки DNS из ОС"
 
 msgctxt "#30497"
 msgid "Use Antizapret proxy (only for Russia)"
@@ -2239,8 +2239,8 @@ msgid "Reached daily limit for subtitles downloads"
 msgstr "Достигнут дневной лимит на загрузку субтитров"
 
 msgctxt "#30703"
-msgid "Can be used by search providers or for debugging"
-msgstr "Может исп. поисковыми провайдерами или для отладки"
+msgid "Can be used by search providers or [CR]for debugging"
+msgstr "Может исп. поисковыми провайдерами [CR]или для отладки"
 
 msgctxt "#30704"
 msgid "TMDB API Key check failed, cannot use TMDB service"

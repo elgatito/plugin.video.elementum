@@ -1464,7 +1464,7 @@ msgid "Use built-in DNS resolver"
 msgstr "Utiliser le resolver DNS intégré"
 
 msgctxt "#30496"
-msgid "Turn off if you use Tor addresses, or you want to use DNS settings [CR]from OS"
+msgid "Turn off if you use Tor addresses, or you want [CR]to use DNS settings from OS"
 msgstr "Désactiver si vous utiliser des adresses Tort, ou si vous voulez utiliser les réglages DNS de l'OS"
 
 msgctxt "#30497"
@@ -2248,7 +2248,7 @@ msgid "Reached daily limit for subtitles downloads"
 msgstr ""
 
 msgctxt "#30703"
-msgid "Can be used by search providers or for debugging"
+msgid "Can be used by search providers or [CR]for debugging"
 msgstr ""
 
 msgctxt "#30704"
