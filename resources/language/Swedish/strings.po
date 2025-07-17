@@ -1461,6 +1461,10 @@ msgctxt "#30496"
 msgid "Turn off if you use Tor addresses, or you want [CR]to use DNS settings from OS"
 msgstr "Stäng av om du använder TOR-adresser, eller du vill använda DNS-inställningar från operativsystemet"
 
+msgctxt "#30497"
+msgid "Use Antizapret proxy (only for Russia)"
+msgstr ""
+
 msgctxt "#30498"
 msgid "Reset this path to '/'"
 msgstr "Återställ denna sökväg till \"/\""
@@ -2284,3 +2288,7 @@ msgstr "Inaktivera NATPMP"
 msgctxt "#30714"
 msgid "Re-check torrent's data"
 msgstr "Kontrollera torrentens data igen"
+
+msgctxt "#30715"
+msgid "Antizapret PAC file URL"
+msgstr ""
