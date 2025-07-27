@@ -7,6 +7,15 @@
     - Source is open, so you can fork everything.
     - Some bug fixes or updates can come, to keep things working and have the latest versions.
 
+[B][COLOR red]0.1.112[/COLOR][/B]
+    - Fix logic about episode's "absolute number" (fixes search issue when 1st season is smaller than 2nd season).
+    - Better support for determine NAT-PMP ports.
+    - Add Antizapret proxy. (Thanks to @antonsoroko)
+    - Fix Kodi methods deprecations. (Thanks to @antonsoroko)
+    - Fix -remotePort argument. (Thanks to @antonsoroko)
+    - Fix issue when Kodi's global proxy was enabled. (Thanks to @lomax)
+    - Update Swedish translation. (Thanks to @nonew-star)
+
 [B][COLOR red]0.1.110-0.1.111[/COLOR][/B]
     - Added year to torrent results header line.
     - Fix panic when user removes currently active torrent with memory storage.
