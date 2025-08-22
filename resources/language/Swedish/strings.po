@@ -511,7 +511,7 @@ msgstr "Mest röstade"
 
 msgctxt "#30213"
 msgid "IMDB Top 250"
-msgstr "IMDB Top 250"
+msgstr "IMDB Topp 250"
 
 msgctxt "#30214"
 msgid "Movies"
