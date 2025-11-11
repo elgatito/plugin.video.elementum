@@ -1588,7 +1588,7 @@ msgstr ""
 
 msgctxt "#30537"
 msgid "Torrents history"
-msgstr "Історяя торентів"
+msgstr "Історія торентів"
 
 msgctxt "#30538"
 msgid "Use torrents history?"
@@ -2108,51 +2108,51 @@ msgstr "Позначати як непереглянуте в Trakt"
 
 msgctxt "#30669"
 msgid "Delay addon startup, seconds"
-msgstr ""
+msgstr "Відтермінування запуску доповнення, секунд"
 
 msgctxt "#30670"
 msgid "Downloading required binary file for '%s'"
-msgstr ""
+msgstr "Завантажуємо необхідний бінарний файл для '%s'"
 
 msgctxt "#30671"
 msgid "List of Opennic DNS IPs"
-msgstr ""
+msgstr "Список IP Opennic DNS"
 
 msgctxt "#30672"
 msgid "Compact database"
-msgstr ""
+msgstr "Сжати базу даних"
 
 msgctxt "#30673"
 msgid "Compact cache database"
-msgstr ""
+msgstr "Сжати базу даних кешу"
 
 msgctxt "#30674"
 msgid "Database was compacted"
-msgstr ""
+msgstr "База даних була сжата"
 
 msgctxt "#30675"
 msgid "Remote host login"
-msgstr ""
+msgstr "Віддалений хост / Логін"
 
 msgctxt "#30676"
 msgid "Remote host password"
-msgstr ""
+msgstr "Віддалений хост / Пароль"
 
 msgctxt "#30677"
 msgid "Force start as a library"
-msgstr ""
+msgstr "Примусово запускати як бібліотеку"
 
 msgctxt "#30678"
 msgid "Remove from Kodi library, when movie is deleted from Trakt"
-msgstr ""
+msgstr "Видаляти фільм з бібліотеки Kodi при видаленні з Trakt"
 
 msgctxt "#30679"
 msgid "Remove from Kodi library, when show is deleted from Trakt"
-msgstr ""
+msgstr "Видаляти серіал з бібліотеки Kodi при видаленні з Trakt"
 
 msgctxt "#30680"
 msgid "Remove Elementum duplicates from library"
-msgstr ""
+msgstr "Видалити дублікати Elementum з бібліотеки"
 
 msgctxt "#30681"
 msgid "[B]Found duplicates in Kodi library:[/B][CR]Movies: [B]%s[/B], Shows: [B]%s[/B], Episodes: [B]%s[/B][CR]Proceed?"
@@ -2160,7 +2160,7 @@ msgstr ""
 
 msgctxt "#30682"
 msgid "No duplicates were found in Kodi library"
-msgstr ""
+msgstr "Не знайдено дублікатів в бібліотеці Kodi"
 
 msgctxt "#30683"
 msgid "Starting library duplicates removal"
@@ -2180,47 +2180,47 @@ msgstr ""
 
 msgctxt "#30687"
 msgid "In Elementum library"
-msgstr ""
+msgstr "В бібліотеці Elementum"
 
 msgctxt "#30688"
 msgid "Skip searching for installed Elementum repository"
-msgstr ""
+msgstr "Не питати встановлення репозиторія Elementum"
 
 msgctxt "#30689"
 msgid "Internal DNS client"
-msgstr ""
+msgstr "Вбудований DNS клієнт"
 
 msgctxt "#30691"
 msgid "Hide watched"
-msgstr ""
+msgstr "Приховувати переглянуте"
 
 msgctxt "#30692"
 msgid "TMDB images quality (affects Kodi performance)"
-msgstr ""
+msgstr "Якість зображень TMDB (впливає на швидкість Kodi)"
 
 msgctxt "#30693"
 msgid "Original"
-msgstr ""
+msgstr "Оригінальна"
 
 msgctxt "#30694"
 msgid "High"
-msgstr ""
+msgstr "Висока"
 
 msgctxt "#30695"
 msgid "Medium"
-msgstr ""
+msgstr "Середня"
 
 msgctxt "#30696"
 msgid "Low"
-msgstr ""
+msgstr "Низька"
 
 msgctxt "#30697"
 msgid "Interface language"
-msgstr ""
+msgstr "Мова інтерфейсу"
 
 msgctxt "#30698"
 msgid "Kodi language"
-msgstr ""
+msgstr "Мова Kodi"
 
 msgctxt "#30699"
 msgid "Use earliest release date for progress and calendars"
@@ -2232,11 +2232,11 @@ msgstr ""
 
 msgctxt "#30701"
 msgid "English | en"
-msgstr ""
+msgstr "Англійська | en"
 
 msgctxt "#30702"
 msgid "Reached daily limit for subtitles downloads"
-msgstr ""
+msgstr "Достигнуто добовий ліміт на завантаження субтитрів"
 
 msgctxt "#30703"
 msgid "Can be used by search providers or [CR]for debugging"
@@ -2244,11 +2244,11 @@ msgstr ""
 
 msgctxt "#30704"
 msgid "TMDB API Key check failed, cannot use TMDB service"
-msgstr ""
+msgstr "Не вдалося перевірити ключ API TMDB, використання сервіса TMDB неможливо"
 
 msgctxt "#30705"
 msgid "TMDB API accessibility check failed, cannot use TMDB service"
-msgstr ""
+msgstr "Не вдалося перевірити доступність API TMDB, використання сервіса TMDB неможливо"
 
 msgctxt "#30706"
 msgid "Transmission 4.05"
@@ -2264,15 +2264,15 @@ msgstr ""
 
 msgctxt "#30709"
 msgid "Open [B]%s[/B]"
-msgstr ""
+msgstr "Відкрити [B]%s[/B]"
 
 msgctxt "#30710"
 msgid "BitTorrent ports"
-msgstr ""
+msgstr "BitTorrent порти"
 
 msgctxt "#30711"
 msgid "Delete torrent '%s'?"
-msgstr ""
+msgstr "Видалити торент '%s'?"
 
 msgctxt "#30712"
 msgid "Force to always use proxy, can break download in some cases"
