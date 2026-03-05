@@ -336,7 +336,10 @@
         <setting id="internal_dns_enabled" label="30495" type="bool" default="false" />
         <setting id="internal_dns_help" label="30496" type="text" enable="false" />
         <setting id="internal_dns_skip_ipv6" label="30536" type="bool" default="true" enable="eq(-2,true)" />
-        <setting id="internal_dns_opennic" label="30671" type="text" default="54.36.111.116, 192.3.165.37, 80.78.132.79" enable="eq(-3,true)" />
+        <setting id="internal_dns_server" label="30716" type="select" default="https://dns.quad9.net/dns-query" values="https://dns.quad9.net/dns-query|https://cloudflare-dns.com/dns-query|https://dns.google/dns-query|custom" enable="eq(-3,true)" />
+        <setting id="internal_dns_server_custom" label="30717" type="text" enable="eq(-4,true)" visible="eq(-1,custom)" />
+        <setting id="internal_dns_opennic_use" label="30718" type="bool" default="false" enable="eq(-5,true)" />
+        <setting id="internal_dns_opennic_only_special_zones" label="30719" type="bool" default="true" enable="eq(-6,true)" />
 
         <!-- Proxy -->
         <setting label="30008" type="lsep" />

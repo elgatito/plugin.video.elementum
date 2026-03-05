@@ -2132,8 +2132,8 @@ msgid "Downloading required binary file for '%s'"
 msgstr "Preuzimanje potrebne binarne datoteku za '%s'"
 
 msgctxt "#30671"
-msgid "List of Opennic DNS IPs"
-msgstr "Popis Opennic DNS IP adresa"
+msgid "List of OpenNIC DNS IPs"
+msgstr "Popis OpenNIC DNS IP adresa"
 
 msgctxt "#30672"
 msgid "Compact database"
@@ -2305,4 +2305,20 @@ msgstr ""
 
 msgctxt "#30715"
 msgid "Antizapret PAC file URL"
+msgstr ""
+
+msgctxt "#30716"
+msgid "DNS over HTTPS Server"
+msgstr ""
+
+msgctxt "#30717"
+msgid "Custom DNS over HTTPS Server"
+msgstr ""
+
+msgctxt "#30718"
+msgid "Use OpenNIC DNS Servers"
+msgstr ""
+
+msgctxt "#30719"
+msgid "Use OpenNIC DNS only for OpenNIC zones"
 msgstr ""
