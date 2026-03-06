@@ -3,13 +3,6 @@
 [![Join the chat at https://gitter.im/ElementumApp/Lobby](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ElementumApp/Lobby)
 
 
-Support
-----------
-### Development of *plugin.video.elementum* is stopped! 
-- Do not expect any support, help and other things like that.
-- Source is open, so you can fork everything.
-
-
 What it is
 ----------
 Elementum is a torrent finding and streaming engine. It doesn't go on torrent websites for legal reasons. However, it calls specially crafted add-ons (called providers) that are installed separately. They are normal Kodi add-ons, and thus can be installed/updated/distributed just like any other add-on.
