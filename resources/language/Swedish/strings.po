@@ -2118,8 +2118,8 @@ msgid "Downloading required binary file for '%s'"
 msgstr "Hämtning av nödvändig binärfil för '%s'"
 
 msgctxt "#30671"
-msgid "List of Opennic DNS IPs"
-msgstr "Lista över Opennic DNS IP:er"
+msgid "List of OpenNIC DNS IPs"
+msgstr "Lista över OpenNIC DNS IP:er"
 
 msgctxt "#30672"
 msgid "Compact database"
@@ -2291,4 +2291,20 @@ msgstr "Kontrollera torrentens data igen"
 
 msgctxt "#30715"
 msgid "Antizapret PAC file URL"
+msgstr ""
+
+msgctxt "#30716"
+msgid "DNS over HTTPS Server"
+msgstr ""
+
+msgctxt "#30717"
+msgid "Custom DNS over HTTPS Server"
+msgstr ""
+
+msgctxt "#30718"
+msgid "Use OpenNIC DNS Servers"
+msgstr ""
+
+msgctxt "#30719"
+msgid "Use OpenNIC DNS only for OpenNIC zones"
 msgstr ""
