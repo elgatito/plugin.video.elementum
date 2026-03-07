@@ -7,6 +7,14 @@
     - Source is open, so you can fork everything.
     - Some bug fixes or updates can come, to keep things working and have the latest versions.
 
+[B][COLOR red]0.1.113[/COLOR][/B]
+    - Fixed issue with running Web GUI when running in server mode. (Thanks to @antonsoroko)
+    - Updates for Trakt API to be compliant with latest Trakt changes. (Thanks to @antonsoroko)
+    - Fixed the issue of handling episodes with empty AirDate. (Thanks to @antonsoroko)
+    - Multiple changes for customizing file selection from external addons. (Thanks to @sk8ordi3)
+    - Fixed context actions for Elementum that runs with authentication. (Thanks to @antonsoroko)
+    - Changed selection of listen interface and handling of changed ports.
+
 [B][COLOR red]0.1.112[/COLOR][/B]
     - Fix logic about episode's "absolute number" (fixes search issue when 1st season is smaller than 2nd season).
     - Better support for determine NAT-PMP ports.
