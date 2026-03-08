@@ -53,7 +53,6 @@ jobs:
             - name: Build
               run: |
                   make
-                  make deps
                   make zipfiles
                   asset_path=$(ls *.zip)
                   echo "::set-output name=asset_path::${asset_path}"
