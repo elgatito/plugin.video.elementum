@@ -1,73 +1,79 @@
 name: build
 
 on:
-  push:
-    branches:
-      - '*'
-    tags:
-      - v*
-  pull_request:
-    branches:
-      - '*'
+    push:
+        branches:
+            - "*"
+        tags:
+            - v*
+    pull_request:
+        branches:
+            - "*"
 
 jobs:
-  prepare:
-    name: Prepare
-    runs-on: ubuntu-22.04
-    strategy:
-      max-parallel: 5
-      matrix:
-        python-version: [ 3.7 ]
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+    prepare:
+        name: Prepare
+        runs-on: ubuntu-22.04
+        strategy:
+            max-parallel: 5
+            matrix:
+                python-version: [3.7]
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v6
 
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v5
-        with:
-          python-version: ${{ matrix.python-version }}
+            - name: Checkout platform_detect
+              uses: actions/checkout@v6
+              with:
+                  repository: ElementumOrg/platform_detect
+                  ref: master
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install flake8
+            - name: Set up Python ${{ matrix.python-version }}
+              uses: actions/setup-python@v5
+              with:
+                  python-version: ${{ matrix.python-version }}
 
-      - name: Lint
-        run: flake8
+            - name: Install dependencies
+              run: |
+                  python -m pip install --upgrade pip
+                  pip install flake8
 
-  build:
-    name: Build
-    runs-on: ubuntu-22.04
-    needs: prepare
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+            - name: Lint
+              run: flake8
 
-      - name: Build
-        run: |
-          make
-          make deps
-          make zipfiles
-          asset_path=$(ls *.zip)
-          echo "::set-output name=asset_path::${asset_path}"
-          echo "::set-output name=asset_name::$(basename "${asset_path}")"
+    build:
+        name: Build
+        runs-on: ubuntu-22.04
+        needs: prepare
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v4
 
-  release:
-    name: Release
-    runs-on: ubuntu-22.04
-    needs: build
-    if: success() && github.event_name == 'create' && startsWith(github.ref, 'refs/tags/')
-    steps:
-      - name: Install Go
-        uses: actions/setup-go@master
-        with:
-            go-version: 1.25.x
-            
-      - name: Install github-release
-        run: go install github.com/github-release/github-release@latest
+            - name: Build
+              run: |
+                  make
+                  make deps
+                  make zipfiles
+                  asset_path=$(ls *.zip)
+                  echo "::set-output name=asset_path::${asset_path}"
+                  echo "::set-output name=asset_name::$(basename "${asset_path}")"
 
-      - name: Perform release
-        run: |
-          make upload
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    release:
+        name: Release
+        runs-on: ubuntu-22.04
+        needs: build
+        if: success() && github.event_name == 'create' && startsWith(github.ref, 'refs/tags/')
+        steps:
+            - name: Install Go
+              uses: actions/setup-go@master
+              with:
+                  go-version: 1.25.x
+
+            - name: Install github-release
+              run: go install github.com/github-release/github-release@latest
+
+            - name: Perform release
+              run: |
+                  make upload
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
