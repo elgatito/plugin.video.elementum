@@ -1,0 +1,83 @@
+name: build
+
+on:
+  push:
+    branches:
+      - '*'
+    tags:
+      - v*
+  pull_request:
+    branches:
+      - '*'
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-22.04
+    strategy:
+      max-parallel: 5
+      matrix:
+        python-version: [ 3.7 ]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install flake8
+
+      - name: Lint
+        run: flake8
+
+  bundle:
+    name: Bundle
+    runs-on: ubuntu-22.04
+    needs: build
+    if: success() && github.event_name == 'create' && !startsWith(github.ref, 'refs/tags/')
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build
+        run: |
+          make
+          make deps
+          make zipfiles
+          asset_path=$(ls *.zip)
+          echo "::set-output name=asset_path::${asset_path}"
+          echo "::set-output name=asset_name::$(basename "${asset_path}")"
+
+      - name: Upload ${{ matrix.platform }} zip
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.platform }}
+          path: ${{ steps.generate_zip.outputs.asset_path }}
+
+  release:
+    name: Release
+    runs-on: ubuntu-22.04
+    needs: build
+    if: success() && github.event_name == 'create' && startsWith(github.ref, 'refs/tags/')
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build
+        run: |
+          make
+          make deps
+          make zipfiles
+
+      - name: Perform release
+        run: |
+          git_tag="$(sed 's|refs/tags/||' <<< "${{ github.ref }}")"
+          changelog="$(perl -0777ne '/<news>\s*(.*?)\s*<\/news>/s && print $1' addon.xml)"
+          gh release create "${git_tag}" build/*.zip --notes "${changelog}"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
