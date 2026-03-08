@@ -25,6 +25,13 @@ jobs:
                   ref: master
                   path: resources/site-packages/platform_detect
 
+            - name: Checkout binaries
+              uses: actions/checkout@v6
+              with:
+                  repository: elgatito/elementum-binaries
+                  ref: master
+                  path: resources/bin
+
             - name: Set up Python 3.7
               uses: actions/setup-python@v5
               with:
