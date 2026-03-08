@@ -27,6 +27,7 @@ jobs:
               with:
                   repository: ElementumOrg/platform_detect
                   ref: master
+                  path: resources/site-packages/platform_detect
 
             - name: Set up Python ${{ matrix.python-version }}
               uses: actions/setup-python@v5
