@@ -36,13 +36,13 @@ $(ZIP_FILE):
 
 	mkdir -p $(NAME)/resources/site-packages
 	cp -r `pwd`/$(DEV)/resources/site-packages/platform_detect $(NAME)/resources/site-packages
-	zip -9 -r -g $(ZIP_FILE) $(NAME)/resources/site-packages/platform_detect
+	zip -9 -r -x .git -g $(ZIP_FILE) $(NAME)/resources/site-packages/platform_detect
 
 	mkdir -p $(NAME)/resources/bin
 	for arch in $(ARCHS); do \
 		cp -r `pwd`/$(DEV)/resources/bin/$$arch $(NAME)/resources/bin/$$arch; \
 		echo "v$(VERSION)" >> $(NAME)/resources/bin/$$arch/version; \
-		zip -9 -r -g $(ZIP_FILE) $(NAME)/resources/bin/$$arch; \
+		zip -9 -r -x .git -g $(ZIP_FILE) $(NAME)/resources/bin/$$arch; \
 	done
 	rm -rf $(NAME)
 
