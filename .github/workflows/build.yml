@@ -11,8 +11,8 @@ on:
       - '*'
 
 jobs:
-  build:
-    name: Build
+  prepare:
+    name: Prepare
     runs-on: ubuntu-22.04
     strategy:
       max-parallel: 5
@@ -35,11 +35,10 @@ jobs:
       - name: Lint
         run: flake8
 
-  bundle:
-    name: Bundle
+  build:
+    name: Build
     runs-on: ubuntu-22.04
-    needs: build
-    if: success() && !startsWith(github.ref, 'refs/tags/')
+    needs: prepare
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -53,31 +52,22 @@ jobs:
           echo "::set-output name=asset_path::${asset_path}"
           echo "::set-output name=asset_name::$(basename "${asset_path}")"
 
-      - name: Upload ${{ matrix.platform }} zip
-        uses: actions/upload-artifact@v4
-        with:
-          name: ${{ matrix.platform }}
-          path: ${{ steps.generate_zip.outputs.asset_path }}
-
   release:
     name: Release
     runs-on: ubuntu-22.04
     needs: build
     if: success() && github.event_name == 'create' && startsWith(github.ref, 'refs/tags/')
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Build
-        run: |
-          make
-          make deps
-          make zipfiles
+      - name: Install Go
+        uses: actions/setup-go@master
+        with:
+            go-version: 1.25.x
+            
+      - name: Install github-release
+        run: go install github.com/github-release/github-release@latest
 
       - name: Perform release
         run: |
-          git_tag="$(sed 's|refs/tags/||' <<< "${{ github.ref }}")"
-          changelog="$(perl -0777ne '/<news>\s*(.*?)\s*<\/news>/s && print $1' addon.xml)"
-          gh release create "${git_tag}" build/*.zip --notes "${changelog}"
+          make upload
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
