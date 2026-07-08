@@ -63,7 +63,7 @@ jobs:
               uses: dawidd6/action-download-artifact@v2
               with:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
-                  repo: ${{ inputs.assets_source_repo || 'elgatito/elementum-binaries' }}
+                  repo: ${{ inputs.assets_source_repo || 'elgatito/elementum' }}
                   branch: ${{ inputs.assets_source_branch || 'master' }}
                   workflow_conclusion: success
                   path: resources/bin
