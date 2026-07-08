@@ -52,15 +52,15 @@ jobs:
                   ref: master
                   path: resources/site-packages/platform_detect
 
-            - name: Checkout binaries
-              uses: actions/checkout@v6
-              with:
-                  repository: elgatito/elementum-binaries
-                  ref: master
-                  path: resources/bin
+            # - name: Checkout binaries
+            #   uses: actions/checkout@v6
+            #   with:
+            #       repository: elgatito/elementum-binaries
+            #       ref: master
+            #       path: resources/bin
 
             - name: Download pipeline assets
-              uses: dawidd6/action-download-artifact@v2
+              uses: dawidd6/action-download-artifact@v17
               with:
                   github_token: ${{ secrets.GITHUB_TOKEN }}
                   repo: ${{ inputs.assets_source_repo || 'elgatito/elementum' }}
