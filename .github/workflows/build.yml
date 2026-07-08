@@ -67,6 +67,7 @@ jobs:
                   branch: ${{ inputs.assets_source_branch || 'master' }}
                   workflow_conclusion: success
                   path: resources/bin
+                  name: elementum-binaries.zip
 
             - name: Set up Python 3.7
               uses: actions/setup-python@v5
