@@ -62,7 +62,7 @@ jobs:
             - name: Download pipeline assets
               uses: dawidd6/action-download-artifact@v17
               with:
-                  github_token: ${{ secrets.GITHUB_TOKEN }}
+                  github_token: ${{ secrets.GH_TOKEN }}
                   repo: ${{ inputs.assets_source_repo || 'elgatito/elementum' }}
                   branch: ${{ inputs.assets_source_branch || 'master' }}
                   workflow_conclusion: success
