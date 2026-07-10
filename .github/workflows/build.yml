@@ -69,7 +69,7 @@ jobs:
                   workflow: build.yml
                   workflow_conclusion: success
                   path: resources/bin
-                  name: elementum-binaries.zip
+                  name: elementum-binaries
 
             - name: Set up Python 3.7
               uses: actions/setup-python@v5
