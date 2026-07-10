@@ -66,6 +66,7 @@ jobs:
                   github_token: ${{ secrets.GH_TOKEN }}
                   repo: ${{ inputs.assets_source_repo || 'elgatito/elementum' }}
                   branch: ${{ inputs.assets_source_branch || 'master' }}
+                  workflow: build.yml
                   workflow_conclusion: success
                   path: resources/bin
                   name: elementum-binaries.zip
