@@ -92,40 +92,41 @@ jobs:
                 echo "::set-output name=asset_path::${asset_path}"
                 echo "::set-output name=asset_name::$(basename "${asset_path}")"
 
-    release:
-        name: Release
-        runs-on: ubuntu-22.04
-        needs: build
-        if: success() && github.event_name == 'create' && startsWith(github.ref, 'refs/tags/')
-        steps:
-            - name: Install Go
-              uses: actions/setup-go@master
-              with:
-                  go-version: 1.25.x
+    # TODO: Remove when ready
+    # release:
+    #     name: Release
+    #     runs-on: ubuntu-22.04
+    #     needs: build
+    #     if: success() && github.event_name == 'create' && startsWith(github.ref, 'refs/tags/')
+    #     steps:
+    #         - name: Install Go
+    #           uses: actions/setup-go@master
+    #           with:
+    #               go-version: 1.25.x
 
-            - name: Install github-release
-              run: go install github.com/github-release/github-release@latest
+    #         - name: Install github-release
+    #           run: go install github.com/github-release/github-release@latest
 
-            - name: Perform release
-              run: |
-                  make upload
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    #         - name: Perform release
+    #           run: |
+    #               make upload
+    #           env:
+    #               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-            - name: Trigger downstream pipeline
-              uses: actions/github-script@v7
-              with:
-                  github-token: ${{ secrets.GITHUB_TOKEN }}
-                  script: |
-                      const [owner, repo] = "${{ inputs.trigger_repo || 'ElementumOrg/context.elementum' }}".split("/");
-                      const workflow_id = "${{ inputs.trigger_workflow || 'build.yml' }}";
-                      const ref = "${{ inputs.trigger_branch || 'master' }}";
+    #         - name: Trigger downstream pipeline
+    #           uses: actions/github-script@v7
+    #           with:
+    #               github-token: ${{ secrets.GITHUB_TOKEN }}
+    #               script: |
+    #                   const [owner, repo] = "${{ inputs.trigger_repo || 'ElementumOrg/context.elementum' }}".split("/");
+    #                   const workflow_id = "${{ inputs.trigger_workflow || 'build.yml' }}";
+    #                   const ref = "${{ inputs.trigger_branch || 'master' }}";
 
-                      await github.rest.actions.createWorkflowDispatch({
-                        owner,
-                        repo,
-                        workflow_id,
-                        ref,
-                      });
+    #                   await github.rest.actions.createWorkflowDispatch({
+    #                     owner,
+    #                     repo,
+    #                     workflow_id,
+    #                     ref,
+    #                   });
 
-                      console.log(`Triggered ${workflow_id} on ${owner}/${repo}@${ref}`);
+    #                   console.log(`Triggered ${workflow_id} on ${owner}/${repo}@${ref}`);
