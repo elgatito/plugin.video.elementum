@@ -84,6 +84,12 @@ jobs:
             - name: Lint
               run: flake8
 
+            - name: Extract binaries
+              run: |
+                cd resources/bin
+                unzip -o elementum-binaries.zip
+                rm -f elementum-binaries.zip
+
             - name: Build
               run: |
                 find . -type f
