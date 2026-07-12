@@ -91,20 +91,17 @@ jobs:
                 rm -f elementum-binaries.zip
 
             - name: Build
-              id: build
               run: |
                 find . -type f
                 make
                 make zipfiles
-                asset_path=$(ls *.zip)
-                echo "::set-output name=asset_path::${asset_path}"
-                echo "::set-output name=asset_name::$(basename "${asset_path}")"
+                pwd && ls -la 
 
             - name: Upload artifact
               uses: actions/upload-artifact@v7
               with:
                   name: plugin.video.elementum
-                  path: ${{ steps.build.outputs.asset_path }}
+                  path: ./*.zip
 
     # TODO: Remove when ready
     # release:
