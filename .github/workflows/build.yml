@@ -111,7 +111,7 @@ jobs:
                 find . -type f -name "*.zip" | while read -r file; do
                     name=$(basename "$file")
                     echo "Uploading $name, file: $file"
-                    gh-actions-artifact-client.js upload "${name}" --retentionDays=7
+                    cat $file | gh-actions-artifact-client.js upload "${name}" --retentionDays=7
                 done
                 
     # TODO: Remove when ready
