@@ -11,13 +11,13 @@ on:
             - "*"
     workflow_dispatch:
         inputs:
-            assets_source_repo:
-                description: "Repository to download pipeline assets from (owner/repo)"
+            binaries_repo:
+                description: "Repository to download binaries from (owner/repo)"
                 required: false
                 type: string
                 default: "elgatito/elementum-binaries"
-            assets_source_branch:
-                description: "Branch to download assets from"
+            binaries_branch:
+                description: "Branch to download binaries from"
                 required: false
                 type: string
                 default: "master"
@@ -60,12 +60,12 @@ jobs:
             #       path: resources/bin
 
             
-            - name: Download pipeline assets
+            - name: Download binaries
               uses: dawidd6/action-download-artifact@v17
               with:
                   github_token: ${{ secrets.GH_TOKEN }}
-                  repo: ${{ inputs.assets_source_repo || 'elgatito/elementum' }}
-                  branch: ${{ inputs.assets_source_branch || 'master' }}
+                  repo: ${{ inputs.binaries_repo || 'elgatito/elementum' }}
+                  branch: ${{ inputs.binaries_branch || 'master' }}
                   workflow: build.yml
                   workflow_conclusion: success
                   path: resources/bin
@@ -86,6 +86,7 @@ jobs:
 
             - name: Build
               run: |
+                find . -type f
                 make
                 make zipfiles
                 asset_path=$(ls *.zip)
