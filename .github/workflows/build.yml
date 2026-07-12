@@ -15,7 +15,7 @@ on:
                 description: "Repository to download binaries from (owner/repo)"
                 required: false
                 type: string
-                default: "elgatito/elementum-binaries"
+                default: "elgatito/elementum"
             binaries_branch:
                 description: "Branch to download binaries from"
                 required: false
