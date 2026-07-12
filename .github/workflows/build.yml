@@ -97,12 +97,23 @@ jobs:
                 make zipfiles
                 pwd && ls -la 
 
-            - name: Upload artifact
-              uses: actions/upload-artifact@v7
-              with:
-                  name: plugin.video.elementum
-                  path: ./*.zip
+            # - name: Upload artifact
+            #   uses: actions/upload-artifact@v7
+            #   with:
+            #       name: plugin.video.elementum
+            #       path: ./*.zip
 
+            - name: Setup gh actions artifact client
+              uses: lhotari/gh-actions-artifact-client@v2
+
+            - name: Upload artifacts
+              run: |
+                find . -type f -name "*.zip" | while read -r file; do
+                    name=$(basename "$file")
+                    echo "Uploading $name, file: $file"
+                    zip - "$file" | gh-actions-artifact-client.js upload "${name}" --retentionDays=7
+                done
+                
     # TODO: Remove when ready
     # release:
     #     name: Release
