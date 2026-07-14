@@ -107,3 +107,6 @@ deps:
 	rm -rf platform_detect-master && \
 	rm master.zip
 
+locales:
+	scripts/xgettext_merge.sh
+	scripts/xgettext.sh

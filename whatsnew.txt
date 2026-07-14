@@ -139,7 +139,7 @@
 
 [B][COLOR red]0.1.84-0.1.86[/COLOR][/B]
     - Added support for downloading missing binary file directly from github.
-    - Added setting for configuring Opennic DNS servers list.
+    - Added setting for configuring OpenNIC DNS servers list.
     - Different fixes from @1Joy1, @burekas7, @antonsoroko, @NicolasThierion.
 
 [B][COLOR red]0.1.83[/COLOR][/B]
@@ -484,7 +484,7 @@
 [B][COLOR red]v0.0.70[/COLOR][/B]
     - Fixed error while browsing trakt movies.
     - New approach to readahead settings.
-    - Added Opennic fallback.
+    - Added OpenNIC fallback.
 
 [B][COLOR red]v0.0.69[/COLOR][/B]
     - Increased memory usage ratio.
@@ -616,7 +616,7 @@
 [B][COLOR red]v0.0.48[/COLOR][/B]
     - Added caching for stream selection.
     - Added caching for search results. 
-    - Public/Opennic DNS configuration added to Kodi settings.
+    - Public/OpenNIC DNS configuration added to Kodi settings.
     - Fixed usage of special chars in file names.
     - Added /debug/bundle to download all the debug information.
     - Fixed labels for /search playback. 
@@ -668,7 +668,7 @@
     - Small fixes.
 
 [B][COLOR red]v0.0.39[/COLOR][/B]
-    - Added custom DNS resolvers (Using Google/Quad9/Opennic servers).
+    - Added custom DNS resolvers (Using Google/Quad9/OpenNIC servers).
 
 [B][COLOR red]v0.0.38[/COLOR][/B]
     - Fixing reported issues with the library management.

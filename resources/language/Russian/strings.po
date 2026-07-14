@@ -2115,8 +2115,8 @@ msgid "Downloading required binary file for '%s'"
 msgstr "Скачиваем требуемый бинарный файл для '%s'"
 
 msgctxt "#30671"
-msgid "List of Opennic DNS IPs"
-msgstr "Список IP Opennic DNS"
+msgid "List of OpenNIC DNS IPs"
+msgstr "Список IP OpenNIC DNS"
 
 msgctxt "#30672"
 msgid "Compact database"
@@ -2289,3 +2289,19 @@ msgstr "Перепроверить данные торрента"
 msgctxt "#30715"
 msgid "Antizapret PAC file URL"
 msgstr "URL файла PAC Antizapret"
+
+msgctxt "#30716"
+msgid "DNS over HTTPS Server"
+msgstr "DNS over HTTPS сервер"
+
+msgctxt "#30717"
+msgid "Custom DNS over HTTPS Server"
+msgstr "Пользовательский DNS over HTTPS сервер"
+
+msgctxt "#30718"
+msgid "Use OpenNIC DNS Servers"
+msgstr "Использовать OpenNIC DNS сервера"
+
+msgctxt "#30719"
+msgid "Use OpenNIC DNS only for OpenNIC zones"
+msgstr "Использовать OpenNIC DNS только для зон OpenNIC"
