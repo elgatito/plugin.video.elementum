@@ -34,8 +34,8 @@ python3 -m flake8
 ./scripts/xgettext.sh
 
 # Compile zip artifacts
-make
 make deps
+make
 make zipfiles
 
 # Run artifact uploads if we are on the tag
