@@ -2289,3 +2289,15 @@ msgstr "Перепроверить данные торрента"
 msgctxt "#30715"
 msgid "Antizapret PAC file URL"
 msgstr "URL файла PAC Antizapret"
+
+msgctxt "#30716"
+msgid "DNS over HTTPS Server"
+msgstr "DNS over HTTPS сервер"
+
+msgctxt "#30717"
+msgid "Custom DNS over HTTPS Server"
+msgstr "Пользовательский DNS over HTTPS сервер"
+
+msgctxt "#30718"
+msgid "Use OpenNIC DNS Servers"
+msgstr "Использовать OpenNIC DNS сервера"

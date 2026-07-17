@@ -2,10 +2,16 @@
 
 [COLOR red]-------------------------------------------------------------------------------------------------------[/COLOR]
 
-[B][COLOR red]Development of *plugin.video.elementum* is stopped! [/COLOR][/B]
-    - Do not expect any support, help and other things like that.
-    - Source is open, so you can fork everything.
-    - Some bug fixes or updates can come, to keep things working and have the latest versions.
+[B][COLOR red]*plugin.video.elementum* is an open-source project so that: [/COLOR][/B]
+    - It is driven by community.
+    - Source is open, so you can fork everything and contribute back.
+
+[B][COLOR red]0.1.114[/COLOR][/B]
+    - Fixed issues with Trakt endpoints, caused by new API requirements (Thanks to @MichaelAndoid, @llima27)
+    - Changed DNS-over-HTTP implementation to allow custom server configuration through settings (Thanks to @antonsoroko)
+    - Added dynamic OpenNIC server fetch (Thanks to @antonsoroko)
+    - Fixed Elementum binary permissions after sleep on Android 14 (Thanks to @OzanOzkan)
+    - Fixed Restart endpoint functionality when authentication is enabled (Thanks to @antonsoroko)
 
 [B][COLOR red]0.1.113[/COLOR][/B]
     - Fixed issue with running Web GUI when running in server mode. (Thanks to @antonsoroko)
@@ -139,7 +145,7 @@
 
 [B][COLOR red]0.1.84-0.1.86[/COLOR][/B]
     - Added support for downloading missing binary file directly from github.
-    - Added setting for configuring Opennic DNS servers list.
+    - Added setting for configuring OpenNIC DNS servers list.
     - Different fixes from @1Joy1, @burekas7, @antonsoroko, @NicolasThierion.
 
 [B][COLOR red]0.1.83[/COLOR][/B]
@@ -484,7 +490,7 @@
 [B][COLOR red]v0.0.70[/COLOR][/B]
     - Fixed error while browsing trakt movies.
     - New approach to readahead settings.
-    - Added Opennic fallback.
+    - Added OpenNIC fallback.
 
 [B][COLOR red]v0.0.69[/COLOR][/B]
     - Increased memory usage ratio.
@@ -616,7 +622,7 @@
 [B][COLOR red]v0.0.48[/COLOR][/B]
     - Added caching for stream selection.
     - Added caching for search results. 
-    - Public/Opennic DNS configuration added to Kodi settings.
+    - Public/OpenNIC DNS configuration added to Kodi settings.
     - Fixed usage of special chars in file names.
     - Added /debug/bundle to download all the debug information.
     - Fixed labels for /search playback. 
@@ -668,7 +674,7 @@
     - Small fixes.
 
 [B][COLOR red]v0.0.39[/COLOR][/B]
-    - Added custom DNS resolvers (Using Google/Quad9/Opennic servers).
+    - Added custom DNS resolvers (Using Google/Quad9/OpenNIC servers).
 
 [B][COLOR red]v0.0.38[/COLOR][/B]
     - Fixing reported issues with the library management.

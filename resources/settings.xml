@@ -336,7 +336,9 @@
         <setting id="internal_dns_enabled" label="30495" type="bool" default="false" />
         <setting id="internal_dns_help" label="30496" type="text" enable="false" />
         <setting id="internal_dns_skip_ipv6" label="30536" type="bool" default="true" enable="eq(-2,true)" />
-        <setting id="internal_dns_opennic" label="30671" type="text" default="54.36.111.116, 192.3.165.37, 80.78.132.79" enable="eq(-3,true)" />
+        <setting id="internal_dns_server" label="30716" type="select" default="Cloudflare + Google + Quad9 + OpenNameServer.org" values="Cloudflare + Google + Quad9 + OpenNameServer.org|Cloudflare|Google|Quad9|OpenNameServer.org|Custom" enable="eq(-3,true)" />
+        <setting id="internal_dns_server_custom" label="30717" type="text" enable="eq(-4,true)" visible="eq(-1,Custom)" />
+        <setting id="internal_dns_opennic_use" label="30718" type="bool" default="false" enable="eq(-5,true)" />
 
         <!-- Proxy -->
         <setting label="30008" type="lsep" />
