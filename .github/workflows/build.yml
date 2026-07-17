@@ -45,6 +45,29 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v6
 
+            - name: Append commit SHA to version
+              if: ${{ !startsWith(github.ref, 'refs/tags/') }}
+              run: |
+                import re
+                import subprocess
+
+                sha = subprocess.check_output(["git", "rev-parse", "--short", "HEAD"]).decode().strip()
+
+                with open("addon.xml", "r") as f:
+                    content = f.read()
+
+                def replace_version(match):
+                    old = match.group(2)
+                    new = f"{old}+g{sha}"
+                    print(f"Version: {old} -> {new}")
+                    return f'{match.group(1)}"{new}"'
+
+                content = re.sub(r'(<addon[^>]*?version=)"([^"]+)"', replace_version, content, count=1)
+
+                with open("addon.xml", "w") as f:
+                    f.write(content)
+              shell: python
+
             # - name: Checkout platform_detect
             #   uses: actions/checkout@v6
             #   with:
