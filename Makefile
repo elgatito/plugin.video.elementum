@@ -42,7 +42,7 @@ $(ZIP_FILE):
 	for arch in $(ARCHS); do \
 		cp -r `pwd`/$(DEV)/resources/bin/$$arch $(NAME)/resources/bin/$$arch; \
 		echo "v$(VERSION)" >> $(NAME)/resources/bin/$$arch/version; \
-		zip -9 -r -x .git -x ".git/*" -g $(ZIP_FILE) $(NAME)/resources/bin/$$arch; \
+		zip -0 -r -x .git -x ".git/*" -g $(ZIP_FILE) $(NAME)/resources/bin/$$arch; \
 	done
 	rm -rf $(NAME)
 
