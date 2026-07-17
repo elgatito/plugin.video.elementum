@@ -1,5 +1,5 @@
 
-[![Build Status](https://gitlab.com/elgatito/plugin.video.elementum/badges/master/pipeline.svg?ignore_skipped=true)](https://gitlab.com/elgatito/plugin.video.elementum/-/pipelines)
+[![Build Status](https://github.com/elgatito/plugin.video.elementum/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/elgatito/plugin.video.elementum/actions/workflows/build.yml)
 [![Join the chat at https://gitter.im/ElementumApp/Lobby](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ElementumApp/Lobby)
 
 
@@ -83,7 +83,7 @@ Created zip file can be installed on top of installed addon. Make sure to restar
 #### Build status of each project
 | elementum daemon |
 | ---------------- |
-| [![Build Status](https://travis-ci.org/elgatito/elementum.svg?branch=master)](https://travis-ci.org/elgatito/elementum) |
+| [![Build Status](https://github.com/elgatito/elementum/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/elgatito/elementum/actions/workflows/build.yml) |
 
 For Developers' guide, please, refer to [Elementum website](http://elementum.surge.sh)
 
