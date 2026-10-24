@@ -1460,7 +1460,7 @@ msgstr "Desactivar si usas direcciones Tor, o deseas[CR]utilizar la configuraci�
 
 msgctxt "#30497"
 msgid "Use Antizapret proxy (only for Russia)"
-msgstr ""
+msgstr "Usar proxy Antizapret (solo para Rusia)"
 
 msgctxt "#30498"
 msgid "Reset this path to '/'"
@@ -1860,7 +1860,7 @@ msgstr "Mostrar estado de visionado para archivos torrents"
 
 msgctxt "#30607"
 msgid "Use earliest release date as basic for searching"
-msgstr "Usar fecha de lanzamiento más reciente para buscar"
+msgstr "Usar la fecha de lanzamiento más antigua como base para la búsqueda"
 
 msgctxt "#30608"
 msgid "Match found in your active torrents, play it?[CR]%s"
@@ -2224,7 +2224,7 @@ msgstr "Idioma de Kodi"
 
 msgctxt "#30699"
 msgid "Use earliest release date for progress and calendars"
-msgstr "Usar versión más reciente para progreso y calendarios"
+msgstr "Usar la fecha de lanzamiento más antigua para progreso y calendarios"
 
 msgctxt "#30700"
 msgid "Interface fallback language"
@@ -2232,7 +2232,7 @@ msgstr "Idioma secundario de la interfaz"
 
 msgctxt "#30701"
 msgid "English | en"
-msgstr ""
+msgstr "Inglés | en"
 
 msgctxt "#30702"
 msgid "Reached daily limit for subtitles downloads"
@@ -2276,28 +2276,28 @@ msgstr "¿Deseas eliminar el torrent '%s'?"
 
 msgctxt "#30712"
 msgid "Force to always use proxy, can break download in some cases"
-msgstr ""
+msgstr "Forzar el uso del proxy siempre, puede hacer que falle la descarga en algunos casos"
 
 msgctxt "#30713"
 msgid "Disable NATPMP"
-msgstr "Disable NATPMP"
+msgstr "Desactivar NATPMP"
 
 msgctxt "#30714"
 msgid "Re-check torrent's data"
-msgstr ""
+msgstr "Volver a comprobar los datos del torrent"
 
 msgctxt "#30715"
 msgid "Antizapret PAC file URL"
-msgstr ""
+msgstr "URL del archivo PAC de Antizapret"
 
 msgctxt "#30716"
 msgid "DNS over HTTPS Server"
-msgstr ""
+msgstr "Servidor DNS sobre HTTPS"
 
 msgctxt "#30717"
 msgid "Custom DNS over HTTPS Server"
-msgstr ""
+msgstr "Servidor DNS sobre HTTPS personalizado"
 
 msgctxt "#30718"
 msgid "Use OpenNIC DNS Servers"
-msgstr ""
+msgstr "Usar servidores DNS de OpenNIC"
