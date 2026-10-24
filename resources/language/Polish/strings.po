@@ -2291,12 +2291,12 @@ msgstr "URL pliku PAC Antizapret"
 
 msgctxt "#30716"
 msgid "DNS over HTTPS Server"
-msgstr ""
+msgstr "Serwer DNS over HTTPS"
 
 msgctxt "#30717"
 msgid "Custom DNS over HTTPS Server"
-msgstr ""
+msgstr "Własny serwer DNS over HTTPS"
 
 msgctxt "#30718"
 msgid "Use OpenNIC DNS Servers"
-msgstr ""
+msgstr "Użyj serwerów DNS OpenNIC"
