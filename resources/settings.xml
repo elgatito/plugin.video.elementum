@@ -8,7 +8,7 @@
         <setting id="skip_repository_search" label="30688" type="bool" default="false" />
         <setting id="startup_delay" label="30669" type="slider" option="int" range="0,1,180" default="0" />
         <setting id="preload_timeout" label="30602" type="slider" option="int" range="1,1,120" default="1" />
-        <setting id="binary_platform" label="30611" type="select" values="Auto|android_arm|android_arm64|android_x86|android_x64|linux_armv6|linux_armv7|linux_armv7_softfp|linux_arm64|linux_x86|linux_x64|darwin_x86|darwin_x64|windows_x86|windows_x64" default="Auto" />
+        <setting id="binary_platform" label="30611" type="select" values="Auto|android_arm|android_arm64|android_x86|android_x64|linux_armv6|linux_armv7|linux_armv7_softfp|linux_arm64|linux_x86|linux_x64|darwin_x86|darwin_x64|darwin_arm64|windows_x86|windows_x64" default="Auto" />
         <setting type="action" label="30620" option="close" action="RunPlugin(plugin://plugin.video.elementum/restart/)" />
 
         <!-- Playback -->
