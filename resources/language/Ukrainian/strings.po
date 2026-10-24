@@ -278,43 +278,43 @@ msgstr "За замовчуванням (прийнятне)"
 
 msgctxt "#30076"
 msgid "libtorrent (Rasterbar) 1.1.0"
-msgstr ""
+msgstr "libtorrent (Rasterbar) 1.1.0"
 
 msgctxt "#30077"
 msgid "BitTorrent 7.5.0"
-msgstr ""
+msgstr "BitTorrent 7.5.0"
 
 msgctxt "#30078"
 msgid "BitTorrent 7.9.9"
-msgstr ""
+msgstr "BitTorrent 7.9.9"
 
 msgctxt "#30079"
 msgid "µTorrent 3.5.5"
-msgstr ""
+msgstr "µTorrent 3.5.5"
 
 msgctxt "#30080"
 msgid "µTorrent 3.6.0"
-msgstr ""
+msgstr "µTorrent 3.6.0"
 
 msgctxt "#30081"
 msgid "µTorrent 2.2.1"
-msgstr ""
+msgstr "µTorrent 2.2.1"
 
 msgctxt "#30082"
 msgid "Transmission 2.92"
-msgstr ""
+msgstr "Transmission 2.92"
 
 msgctxt "#30083"
 msgid "Deluge 1.3.6"
-msgstr ""
+msgstr "Deluge 1.3.6"
 
 msgctxt "#30084"
 msgid "Deluge 2.1.1"
-msgstr ""
+msgstr "Deluge 2.1.1"
 
 msgctxt "#30085"
 msgid "Vuze 5.7.3.0"
-msgstr ""
+msgstr "Vuze 5.7.3.0"
 
 msgctxt "#30086"
 msgid "Enable tuned storage settings"
@@ -411,11 +411,11 @@ msgstr "Скануємо трекери..."
 
 msgctxt "#30119"
 msgid "ID of selected userlist for movies"
-msgstr ""
+msgstr "ID вибраного списку користувача для фільмів"
 
 msgctxt "#30120"
 msgid "ID of selected userlist for shows"
-msgstr ""
+msgstr "ID вибраного списку користувача для серіалів"
 
 msgctxt "#30141"
 msgid "Please support Elementum development by visiting[CR]https://elementum.surge.sh/donate/ or https://elementumorg.github.io/donate/"
@@ -1084,7 +1084,7 @@ msgstr "Порт"
 
 msgctxt "#30397"
 msgid "Web UI"
-msgstr ""
+msgstr "Вебінтерфейс"
 
 msgctxt "#30398"
 msgid "Debug information (with kodi.log)"
@@ -1160,7 +1160,7 @@ msgstr "Скільки переглянути для маркування як �
 
 msgctxt "#30417"
 msgid "Use name of production company as Studio for shows"
-msgstr ""
+msgstr "Використовувати назву виробничої компанії як студію для серіалів"
 
 msgctxt "#30418"
 msgid "Calculate number of unwatched episodes in Shows/Seasons"
@@ -1300,7 +1300,7 @@ msgstr "Журналювати"
 
 msgctxt "#30456"
 msgid "Upload /debug/all (no kodi.log) to pastebin"
-msgstr ""
+msgstr "Завантажити /debug/all (без kodi.log) на pastebin"
 
 msgctxt "#30457"
 msgid "Uploading file to pastebin"
@@ -1460,7 +1460,7 @@ msgstr "Вимкнути цє, якщо використовуєте Tor, або
 
 msgctxt "#30497"
 msgid "Use Antizapret proxy (only for Russia)"
-msgstr ""
+msgstr "Використовувати проксі Antizapret (лише для Росії)"
 
 msgctxt "#30498"
 msgid "Reset this path to '/'"
@@ -1484,7 +1484,7 @@ msgstr "Використовувати libtorrent.config для налаштув
 
 msgctxt "#30504"
 msgid "Located at USERDATA/plugin.video.elementum/libtorrent.config file[CR]Settings apply automatically. Visit https://libtorrent.org for info."
-msgstr ""
+msgstr "Розташовано у файлі USERDATA/plugin.video.elementum/libtorrent.config[CR]Налаштування застосовуються автоматично. Відвідайте https://libtorrent.org для інформації."
 
 msgctxt "#30505"
 msgid "Add episode number to the title"
@@ -1584,7 +1584,7 @@ msgstr "Продовжити відтворення від [B]%s[/B]?"
 
 msgctxt "#30536"
 msgid "Skip IPv6 addresses resolving"
-msgstr ""
+msgstr "Пропускати визначення адрес IPv6"
 
 msgctxt "#30537"
 msgid "Torrents history"
@@ -1760,11 +1760,11 @@ msgstr "Налаштування"
 
 msgctxt "#30580"
 msgid "Custom Trakt API Client ID"
-msgstr ""
+msgstr "Власний Client ID Trakt API"
 
 msgctxt "#30581"
 msgid "Custom Trakt API Client Secret"
-msgstr ""
+msgstr "Власний Client Secret Trakt API"
 
 msgctxt "#30582"
 msgid "Settings for %s provider"
@@ -1980,11 +1980,11 @@ msgstr "Помилка"
 
 msgctxt "#30637"
 msgid "Info"
-msgstr ""
+msgstr "Інформація"
 
 msgctxt "#30638"
 msgid "Debug"
-msgstr ""
+msgstr "Налагодження"
 
 msgctxt "#30639"
 msgid "Show Specials in season listings"
@@ -2156,7 +2156,7 @@ msgstr "Видалити дублікати Elementum з бібліотеки"
 
 msgctxt "#30681"
 msgid "[B]Found duplicates in Kodi library:[/B][CR]Movies: [B]%s[/B], Shows: [B]%s[/B], Episodes: [B]%s[/B][CR]Proceed?"
-msgstr ""
+msgstr "[B]Знайдено дублікати у медіатеці Kodi:[/B][CR]Фільми: [B]%s[/B], Серіали: [B]%s[/B], Епізоди: [B]%s[/B][CR]Продовжити?"
 
 msgctxt "#30682"
 msgid "No duplicates were found in Kodi library"
@@ -2164,19 +2164,19 @@ msgstr "Не знайдено дублікатів в бібліотеці Kodi"
 
 msgctxt "#30683"
 msgid "Starting library duplicates removal"
-msgstr ""
+msgstr "Початок видалення дублікатів з медіатеки"
 
 msgctxt "#30684"
 msgid "Removed Movies: %s, Shows: %s, Episodes: %s"
-msgstr ""
+msgstr "Видалено фільмів: %s, серіалів: %s, епізодів: %s"
 
 msgctxt "#30685"
 msgid "Remove movies from Elementum database"
-msgstr ""
+msgstr "Видалити фільми з бази даних Elementum"
 
 msgctxt "#30686"
 msgid "Remove shows from Elementum database"
-msgstr ""
+msgstr "Видалити серіали з бази даних Elementum"
 
 msgctxt "#30687"
 msgid "In Elementum library"
@@ -2224,11 +2224,11 @@ msgstr "Мова Kodi"
 
 msgctxt "#30699"
 msgid "Use earliest release date for progress and calendars"
-msgstr ""
+msgstr "Використовувати найранішу дату виходу для прогресу та календарів"
 
 msgctxt "#30700"
 msgid "Interface fallback language"
-msgstr ""
+msgstr "Резервна мова інтерфейсу"
 
 msgctxt "#30701"
 msgid "English | en"
@@ -2240,7 +2240,7 @@ msgstr "Достигнуто добовий ліміт на завантажен
 
 msgctxt "#30703"
 msgid "Can be used by search providers or [CR]for debugging"
-msgstr ""
+msgstr "Може використовуватися постачальниками пошуку або[CR]для налагодження"
 
 msgctxt "#30704"
 msgid "TMDB API Key check failed, cannot use TMDB service"
@@ -2252,15 +2252,15 @@ msgstr "Не вдалося перевірити доступність API TMDB
 
 msgctxt "#30706"
 msgid "Transmission 4.05"
-msgstr ""
+msgstr "Transmission 4.05"
 
 msgctxt "#30707"
 msgid "qBittorrent 3.3.9"
-msgstr ""
+msgstr "qBittorrent 3.3.9"
 
 msgctxt "#30708"
 msgid "qBittorrent 4.6.4"
-msgstr ""
+msgstr "qBittorrent 4.6.4"
 
 msgctxt "#30709"
 msgid "Open [B]%s[/B]"
@@ -2276,7 +2276,7 @@ msgstr "Видалити торент '%s'?"
 
 msgctxt "#30712"
 msgid "Force to always use proxy, can break download in some cases"
-msgstr ""
+msgstr "Завжди примусово використовувати проксі, у деяких випадках може порушити завантаження"
 
 msgctxt "#30713"
 msgid "Disable NATPMP"
@@ -2284,20 +2284,20 @@ msgstr "Вимкнути NATPMP"
 
 msgctxt "#30714"
 msgid "Re-check torrent's data"
-msgstr ""
+msgstr "Повторно перевірити дані торента"
 
 msgctxt "#30715"
 msgid "Antizapret PAC file URL"
-msgstr ""
+msgstr "URL файлу PAC Antizapret"
 
 msgctxt "#30716"
 msgid "DNS over HTTPS Server"
-msgstr ""
+msgstr "Сервер DNS over HTTPS"
 
 msgctxt "#30717"
 msgid "Custom DNS over HTTPS Server"
-msgstr ""
+msgstr "Власний сервер DNS over HTTPS"
 
 msgctxt "#30718"
 msgid "Use OpenNIC DNS Servers"
-msgstr ""
+msgstr "Використовувати DNS-сервери OpenNIC"

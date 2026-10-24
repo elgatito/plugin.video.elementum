@@ -417,11 +417,11 @@ msgstr "Recherche sur les “trackers” …"
 
 msgctxt "#30119"
 msgid "ID of selected userlist for movies"
-msgstr ""
+msgstr "ID de la liste d'utilisateur sélectionnée pour les films"
 
 msgctxt "#30120"
 msgid "ID of selected userlist for shows"
-msgstr ""
+msgstr "ID de la liste d'utilisateur sélectionnée pour les séries"
 
 msgctxt "#30141"
 msgid "Please support Elementum development by visiting[CR]https://elementum.surge.sh/donate/ or https://elementumorg.github.io/donate/"
@@ -1469,7 +1469,7 @@ msgstr "Désactiver si vous utiliser des adresses Tort, ou si vous voulez utilis
 
 msgctxt "#30497"
 msgid "Use Antizapret proxy (only for Russia)"
-msgstr ""
+msgstr "Utiliser le proxy Antizapret (Russie uniquement)"
 
 msgctxt "#30498"
 msgid "Reset this path to '/'"
@@ -1849,7 +1849,7 @@ msgstr "Activer la synchronisation pendant la lecture"
 
 msgctxt "#30602"
 msgid "Retry requests to addon after timeout, seconds"
-msgstr ""
+msgstr "Réessayer les requêtes vers l'extension après expiration, en secondes"
 
 msgctxt "#30603"
 msgid "Addon Startup"
@@ -2009,7 +2009,7 @@ msgstr "Lecture"
 
 msgctxt "#30642"
 msgid "Force Resume options"
-msgstr ""
+msgstr "Forcer les options de reprise"
 
 msgctxt "#30643"
 msgid "by Kodi"
@@ -2085,7 +2085,7 @@ msgstr "Les meilleurs trackers"
 
 msgctxt "#30661"
 msgid "Minimum set"
-msgstr ""
+msgstr "Ensemble minimal"
 
 msgctxt "#30662"
 msgid "Remove original trackers from torrent"
@@ -2125,7 +2125,7 @@ msgstr "Téléchargement des fichiers binaires requis pour '%s'"
 
 msgctxt "#30671"
 msgid "List of Opennic DNS IPs"
-msgstr ""
+msgstr "Liste des adresses IP des DNS OpenNIC"
 
 msgctxt "#30672"
 msgid "Compact database"
@@ -2193,99 +2193,99 @@ msgstr "Dans la librairie Elementum"
 
 msgctxt "#30688"
 msgid "Skip searching for installed Elementum repository"
-msgstr ""
+msgstr "Ignorer la recherche du dépôt Elementum installé"
 
 msgctxt "#30689"
 msgid "Internal DNS client"
-msgstr ""
+msgstr "Client DNS interne"
 
 msgctxt "#30691"
 msgid "Hide watched"
-msgstr ""
+msgstr "Masquer les éléments vus"
 
 msgctxt "#30692"
 msgid "TMDB images quality (affects Kodi performance)"
-msgstr ""
+msgstr "Qualité des images TMDB (affecte les performances de Kodi)"
 
 msgctxt "#30693"
 msgid "Original"
-msgstr ""
+msgstr "Originale"
 
 msgctxt "#30694"
 msgid "High"
-msgstr ""
+msgstr "Haute"
 
 msgctxt "#30695"
 msgid "Medium"
-msgstr ""
+msgstr "Moyenne"
 
 msgctxt "#30696"
 msgid "Low"
-msgstr ""
+msgstr "Basse"
 
 msgctxt "#30697"
 msgid "Interface language"
-msgstr ""
+msgstr "Langue de l'interface"
 
 msgctxt "#30698"
 msgid "Kodi language"
-msgstr ""
+msgstr "Langue de Kodi"
 
 msgctxt "#30699"
 msgid "Use earliest release date for progress and calendars"
-msgstr ""
+msgstr "Utiliser la date de sortie la plus ancienne pour la progression et les calendriers"
 
 msgctxt "#30700"
 msgid "Interface fallback language"
-msgstr ""
+msgstr "Langue de secours de l'interface"
 
 msgctxt "#30701"
 msgid "English | en"
-msgstr ""
+msgstr "Anglais | en"
 
 msgctxt "#30702"
 msgid "Reached daily limit for subtitles downloads"
-msgstr ""
+msgstr "Limite quotidienne de téléchargements de sous-titres atteinte"
 
 msgctxt "#30703"
 msgid "Can be used by search providers or [CR]for debugging"
-msgstr ""
+msgstr "Peut être utilisé par les fournisseurs de recherche ou[CR]pour le débogage"
 
 msgctxt "#30704"
 msgid "TMDB API Key check failed, cannot use TMDB service"
-msgstr ""
+msgstr "Échec de la vérification de la clé API TMDB, impossible d'utiliser le service TMDB"
 
 msgctxt "#30705"
 msgid "TMDB API accessibility check failed, cannot use TMDB service"
-msgstr ""
+msgstr "Échec de la vérification de l'accessibilité de l'API TMDB, impossible d'utiliser le service TMDB"
 
 msgctxt "#30706"
 msgid "Transmission 4.05"
-msgstr ""
+msgstr "Transmission 4.05"
 
 msgctxt "#30707"
 msgid "qBittorrent 3.3.9"
-msgstr ""
+msgstr "qBittorrent 3.3.9"
 
 msgctxt "#30708"
 msgid "qBittorrent 4.6.4"
-msgstr ""
+msgstr "qBittorrent 4.6.4"
 
 msgctxt "#30709"
 msgid "Open [B]%s[/B]"
-msgstr ""
+msgstr "Ouvrir [B]%s[/B]"
 
 msgctxt "#30710"
 msgid "BitTorrent ports"
-msgstr ""
+msgstr "Ports BitTorrent"
 
 msgctxt "#30711"
 msgid "Delete torrent '%s'?"
-msgstr ""
+msgstr "Supprimer le torrent '%s' ?"
 
 msgctxt "#30712"
 msgid "Force to always use proxy, can break download in some cases"
-msgstr ""
+msgstr "Toujours forcer l'utilisation du proxy, peut interrompre le téléchargement dans certains cas"
 
 msgctxt "#30713"
 msgid "Disable NATPMP"
@@ -2293,20 +2293,20 @@ msgstr "Désactiver NATPMP"
 
 msgctxt "#30714"
 msgid "Re-check torrent's data"
-msgstr ""
+msgstr "Revérifier les données du torrent"
 
 msgctxt "#30715"
 msgid "Antizapret PAC file URL"
-msgstr ""
+msgstr "URL du fichier PAC Antizapret"
 
 msgctxt "#30716"
 msgid "DNS over HTTPS Server"
-msgstr ""
+msgstr "Serveur DNS over HTTPS"
 
 msgctxt "#30717"
 msgid "Custom DNS over HTTPS Server"
-msgstr ""
+msgstr "Serveur DNS over HTTPS personnalisé"
 
 msgctxt "#30718"
 msgid "Use OpenNIC DNS Servers"
-msgstr ""
+msgstr "Utiliser les serveurs DNS OpenNIC"

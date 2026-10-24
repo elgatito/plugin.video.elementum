@@ -428,11 +428,11 @@ msgstr "Sakupljanje pratitelja..."
 
 msgctxt "#30119"
 msgid "ID of selected userlist for movies"
-msgstr ""
+msgstr "ID odabranog korisničkog popisa za filmove"
 
 msgctxt "#30120"
 msgid "ID of selected userlist for shows"
-msgstr ""
+msgstr "ID odabranog korisničkog popisa za serije"
 
 msgctxt "#30141"
 msgid "Please support Elementum development by visiting[CR]https://elementum.surge.sh/donate/ or https://elementumorg.github.io/donate/"
@@ -1477,7 +1477,7 @@ msgstr "Isključite ako koristite Tor adrese, ili želite proslijediti rješenje
 
 msgctxt "#30497"
 msgid "Use Antizapret proxy (only for Russia)"
-msgstr ""
+msgstr "Koristi Antizapret proxy (samo za Rusiju)"
 
 msgctxt "#30498"
 msgid "Reset this path to '/'"
@@ -2137,163 +2137,163 @@ msgstr "Popis Opennic DNS IP adresa"
 
 msgctxt "#30672"
 msgid "Compact database"
-msgstr ""
+msgstr "Sažmi bazu podataka"
 
 msgctxt "#30673"
 msgid "Compact cache database"
-msgstr ""
+msgstr "Sažmi bazu podataka predmemorije"
 
 msgctxt "#30674"
 msgid "Database was compacted"
-msgstr ""
+msgstr "Baza podataka je sažeta"
 
 msgctxt "#30675"
 msgid "Remote host login"
-msgstr ""
+msgstr "Korisničko ime udaljenog poslužitelja"
 
 msgctxt "#30676"
 msgid "Remote host password"
-msgstr ""
+msgstr "Lozinka udaljenog poslužitelja"
 
 msgctxt "#30677"
 msgid "Force start as a library"
-msgstr ""
+msgstr "Prisili pokretanje kao zbirka"
 
 msgctxt "#30678"
 msgid "Remove from Kodi library, when movie is deleted from Trakt"
-msgstr ""
+msgstr "Ukloni iz Kodi zbirke kada se film obriše s Trakta"
 
 msgctxt "#30679"
 msgid "Remove from Kodi library, when show is deleted from Trakt"
-msgstr ""
+msgstr "Ukloni iz Kodi zbirke kada se serija obriše s Trakta"
 
 msgctxt "#30680"
 msgid "Remove Elementum duplicates from library"
-msgstr ""
+msgstr "Ukloni Elementum duplikate iz zbirke"
 
 msgctxt "#30681"
 msgid "[B]Found duplicates in Kodi library:[/B][CR]Movies: [B]%s[/B], Shows: [B]%s[/B], Episodes: [B]%s[/B][CR]Proceed?"
-msgstr ""
+msgstr "[B]Pronađeni duplikati u Kodi zbirci:[/B][CR]Filmovi: [B]%s[/B], Serije: [B]%s[/B], Epizode: [B]%s[/B][CR]Nastaviti?"
 
 msgctxt "#30682"
 msgid "No duplicates were found in Kodi library"
-msgstr ""
+msgstr "Nisu pronađeni duplikati u Kodi zbirci"
 
 msgctxt "#30683"
 msgid "Starting library duplicates removal"
-msgstr ""
+msgstr "Pokretanje uklanjanja duplikata iz zbirke"
 
 msgctxt "#30684"
 msgid "Removed Movies: %s, Shows: %s, Episodes: %s"
-msgstr ""
+msgstr "Uklonjeno filmova: %s, serija: %s, epizoda: %s"
 
 msgctxt "#30685"
 msgid "Remove movies from Elementum database"
-msgstr ""
+msgstr "Ukloni filmove iz Elementum baze podataka"
 
 msgctxt "#30686"
 msgid "Remove shows from Elementum database"
-msgstr ""
+msgstr "Ukloni serije iz Elementum baze podataka"
 
 msgctxt "#30687"
 msgid "In Elementum library"
-msgstr ""
+msgstr "U Elementum zbirci"
 
 msgctxt "#30688"
 msgid "Skip searching for installed Elementum repository"
-msgstr ""
+msgstr "Preskoči traženje instaliranog Elementum repozitorija"
 
 msgctxt "#30689"
 msgid "Internal DNS client"
-msgstr ""
+msgstr "Interni DNS klijent"
 
 msgctxt "#30691"
 msgid "Hide watched"
-msgstr ""
+msgstr "Sakrij pogledano"
 
 msgctxt "#30692"
 msgid "TMDB images quality (affects Kodi performance)"
-msgstr ""
+msgstr "Kvaliteta TMDB slika (utječe na performanse Kodija)"
 
 msgctxt "#30693"
 msgid "Original"
-msgstr ""
+msgstr "Izvorna"
 
 msgctxt "#30694"
 msgid "High"
-msgstr ""
+msgstr "Visoka"
 
 msgctxt "#30695"
 msgid "Medium"
-msgstr ""
+msgstr "Srednja"
 
 msgctxt "#30696"
 msgid "Low"
-msgstr ""
+msgstr "Niska"
 
 msgctxt "#30697"
 msgid "Interface language"
-msgstr ""
+msgstr "Jezik sučelja"
 
 msgctxt "#30698"
 msgid "Kodi language"
-msgstr ""
+msgstr "Jezik Kodija"
 
 msgctxt "#30699"
 msgid "Use earliest release date for progress and calendars"
-msgstr ""
+msgstr "Koristi najraniji datum izlaska za napredak i kalendare"
 
 msgctxt "#30700"
 msgid "Interface fallback language"
-msgstr ""
+msgstr "Zamjenski jezik sučelja"
 
 msgctxt "#30701"
 msgid "English | en"
-msgstr ""
+msgstr "Engleski | en"
 
 msgctxt "#30702"
 msgid "Reached daily limit for subtitles downloads"
-msgstr ""
+msgstr "Dosegnuto dnevno ograničenje preuzimanja podnaslova"
 
 msgctxt "#30703"
 msgid "Can be used by search providers or [CR]for debugging"
-msgstr ""
+msgstr "Mogu ga koristiti pružatelji pretraživanja ili[CR]za otklanjanje pogrešaka"
 
 msgctxt "#30704"
 msgid "TMDB API Key check failed, cannot use TMDB service"
-msgstr ""
+msgstr "Provjera TMDB API ključa nije uspjela, nije moguće koristiti TMDB uslugu"
 
 msgctxt "#30705"
 msgid "TMDB API accessibility check failed, cannot use TMDB service"
-msgstr ""
+msgstr "Provjera dostupnosti TMDB API-ja nije uspjela, nije moguće koristiti TMDB uslugu"
 
 msgctxt "#30706"
 msgid "Transmission 4.05"
-msgstr ""
+msgstr "Transmission 4.05"
 
 msgctxt "#30707"
 msgid "qBittorrent 3.3.9"
-msgstr ""
+msgstr "qBittorrent 3.3.9"
 
 msgctxt "#30708"
 msgid "qBittorrent 4.6.4"
-msgstr ""
+msgstr "qBittorrent 4.6.4"
 
 msgctxt "#30709"
 msgid "Open [B]%s[/B]"
-msgstr ""
+msgstr "Otvori [B]%s[/B]"
 
 msgctxt "#30710"
 msgid "BitTorrent ports"
-msgstr ""
+msgstr "BitTorrent portovi"
 
 msgctxt "#30711"
 msgid "Delete torrent '%s'?"
-msgstr ""
+msgstr "Obrisati torrent '%s'?"
 
 msgctxt "#30712"
 msgid "Force to always use proxy, can break download in some cases"
-msgstr ""
+msgstr "Prisili uvijek korištenje proxyja, u nekim slučajevima može prekinuti preuzimanje"
 
 msgctxt "#30713"
 msgid "Disable NATPMP"
@@ -2301,20 +2301,20 @@ msgstr "Onemogući NATPMP"
 
 msgctxt "#30714"
 msgid "Re-check torrent's data"
-msgstr ""
+msgstr "Ponovno provjeri podatke torrenta"
 
 msgctxt "#30715"
 msgid "Antizapret PAC file URL"
-msgstr ""
+msgstr "URL Antizapret PAC datoteke"
 
 msgctxt "#30716"
 msgid "DNS over HTTPS Server"
-msgstr ""
+msgstr "DNS over HTTPS poslužitelj"
 
 msgctxt "#30717"
 msgid "Custom DNS over HTTPS Server"
-msgstr ""
+msgstr "Prilagođeni DNS over HTTPS poslužitelj"
 
 msgctxt "#30718"
 msgid "Use OpenNIC DNS Servers"
-msgstr ""
+msgstr "Koristi OpenNIC DNS poslužitelje"

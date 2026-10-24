@@ -278,43 +278,43 @@ msgstr "По-умолчанию рекомендуемое"
 
 msgctxt "#30076"
 msgid "libtorrent (Rasterbar) 1.1.0"
-msgstr ""
+msgstr "libtorrent (Rasterbar) 1.1.0"
 
 msgctxt "#30077"
 msgid "BitTorrent 7.5.0"
-msgstr ""
+msgstr "BitTorrent 7.5.0"
 
 msgctxt "#30078"
 msgid "BitTorrent 7.9.9"
-msgstr ""
+msgstr "BitTorrent 7.9.9"
 
 msgctxt "#30079"
 msgid "µTorrent 3.5.5"
-msgstr ""
+msgstr "µTorrent 3.5.5"
 
 msgctxt "#30080"
 msgid "µTorrent 3.6.0"
-msgstr ""
+msgstr "µTorrent 3.6.0"
 
 msgctxt "#30081"
 msgid "µTorrent 2.2.1"
-msgstr ""
+msgstr "µTorrent 2.2.1"
 
 msgctxt "#30082"
 msgid "Transmission 2.92"
-msgstr ""
+msgstr "Transmission 2.92"
 
 msgctxt "#30083"
 msgid "Deluge 1.3.6"
-msgstr ""
+msgstr "Deluge 1.3.6"
 
 msgctxt "#30084"
 msgid "Deluge 2.1.1"
-msgstr ""
+msgstr "Deluge 2.1.1"
 
 msgctxt "#30085"
 msgid "Vuze 5.7.3.0"
-msgstr ""
+msgstr "Vuze 5.7.3.0"
 
 msgctxt "#30086"
 msgid "Enable tuned storage settings"
@@ -1976,15 +1976,15 @@ msgstr "Нет"
 
 msgctxt "#30636"
 msgid "Error"
-msgstr ""
+msgstr "Ошибка"
 
 msgctxt "#30637"
 msgid "Info"
-msgstr ""
+msgstr "Информация"
 
 msgctxt "#30638"
 msgid "Debug"
-msgstr ""
+msgstr "Отладка"
 
 msgctxt "#30639"
 msgid "Show Specials in season listings"
@@ -2252,15 +2252,15 @@ msgstr "Не удалось проверить доступность API TMDB, 
 
 msgctxt "#30706"
 msgid "Transmission 4.05"
-msgstr ""
+msgstr "Transmission 4.05"
 
 msgctxt "#30707"
 msgid "qBittorrent 3.3.9"
-msgstr ""
+msgstr "qBittorrent 3.3.9"
 
 msgctxt "#30708"
 msgid "qBittorrent 4.6.4"
-msgstr ""
+msgstr "qBittorrent 4.6.4"
 
 msgctxt "#30709"
 msgid "Open [B]%s[/B]"

@@ -23,7 +23,7 @@ msgstr "Általános"
 
 msgctxt "#30001"
 msgid "Download path"
-msgstr ""
+msgstr "Letöltési útvonal"
 
 msgctxt "#30004"
 msgid "Max upload rate, kB/s"
@@ -111,7 +111,7 @@ msgstr "Kapcsolatszám korlátozás"
 
 msgctxt "#30028"
 msgid "Download after play was stopped"
-msgstr ""
+msgstr "Letöltés folytatása a lejátszás leállítása után"
 
 msgctxt "#30029"
 msgid "Session saving frequency, seconds"
@@ -235,7 +235,7 @@ msgstr "Könyvtár frissítési időköz (órákban)"
 
 msgctxt "#30063"
 msgid "Disable UPNP"
-msgstr ""
+msgstr "UPNP letiltása"
 
 msgctxt "#30064"
 msgid "Encryption policy"
@@ -275,47 +275,47 @@ msgstr "User agent átejtés (nagyon nem ajánlott)"
 
 msgctxt "#30075"
 msgid "Default advisable (acceptable)"
-msgstr ""
+msgstr "Alapértelmezett ajánlott (elfogadható)"
 
 msgctxt "#30076"
 msgid "libtorrent (Rasterbar) 1.1.0"
-msgstr ""
+msgstr "libtorrent (Rasterbar) 1.1.0"
 
 msgctxt "#30077"
 msgid "BitTorrent 7.5.0"
-msgstr ""
+msgstr "BitTorrent 7.5.0"
 
 msgctxt "#30078"
 msgid "BitTorrent 7.9.9"
-msgstr ""
+msgstr "BitTorrent 7.9.9"
 
 msgctxt "#30079"
 msgid "µTorrent 3.5.5"
-msgstr ""
+msgstr "µTorrent 3.5.5"
 
 msgctxt "#30080"
 msgid "µTorrent 3.6.0"
-msgstr ""
+msgstr "µTorrent 3.6.0"
 
 msgctxt "#30081"
 msgid "µTorrent 2.2.1"
-msgstr ""
+msgstr "µTorrent 2.2.1"
 
 msgctxt "#30082"
 msgid "Transmission 2.92"
-msgstr ""
+msgstr "Transmission 2.92"
 
 msgctxt "#30083"
 msgid "Deluge 1.3.6"
-msgstr ""
+msgstr "Deluge 1.3.6"
 
 msgctxt "#30084"
 msgid "Deluge 2.1.1"
-msgstr ""
+msgstr "Deluge 2.1.1"
 
 msgctxt "#30085"
 msgid "Vuze 5.7.3.0"
-msgstr ""
+msgstr "Vuze 5.7.3.0"
 
 msgctxt "#30086"
 msgid "Enable tuned storage settings"
@@ -364,7 +364,7 @@ msgstr "Válasszon fájlt vagy URL-t"
 
 msgctxt "#30105"
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 msgctxt "#30106"
 msgid "File"
@@ -380,7 +380,7 @@ msgstr "Fájl elérési útvonala"
 
 msgctxt "#30109"
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 msgctxt "#30110"
 msgid "Crashed too many times, aborting..."
@@ -412,11 +412,11 @@ msgstr "Trackerek scrappelése..."
 
 msgctxt "#30119"
 msgid "ID of selected userlist for movies"
-msgstr ""
+msgstr "A kiválasztott felhasználói lista azonosítója filmekhez"
 
 msgctxt "#30120"
 msgid "ID of selected userlist for shows"
-msgstr ""
+msgstr "A kiválasztott felhasználói lista azonosítója sorozatokhoz"
 
 msgctxt "#30141"
 msgid "Please support Elementum development by visiting[CR]https://elementum.surge.sh/donate/ or https://elementumorg.github.io/donate/"
@@ -509,7 +509,7 @@ msgstr "Legtöbb szavazatot kapott"
 
 msgctxt "#30213"
 msgid "IMDB Top 250"
-msgstr ""
+msgstr "IMDB Top 250"
 
 msgctxt "#30214"
 msgid "Movies"
@@ -713,7 +713,7 @@ msgstr "%s eltávolítva a könyvtárából. Szeretné megtisztítani a könytá
 
 msgctxt "#30279"
 msgid "Video %s was previously removed from library.[CR]Force adding?"
-msgstr ""
+msgstr "A(z) %s videó korábban el lett távolítva a médiatárból.[CR]Kényszerítve hozzáadod?"
 
 msgctxt "#30282"
 msgid "Nothing left to remove from Elementum"
@@ -765,7 +765,7 @@ msgstr "Összes film"
 
 msgctxt "#30294"
 msgid "All Releases"
-msgstr ""
+msgstr "Összes megjelenés"
 
 msgctxt "#30295"
 msgid "My Shows"
@@ -825,1480 +825,1480 @@ msgstr "Átmozgatás befejezve!"
 
 msgctxt "#30309"
 msgid "Keep"
-msgstr ""
+msgstr "Megtartás"
 
 msgctxt "#30310"
 msgid "Ask to delete"
-msgstr ""
+msgstr "Rákérdezés törlés előtt"
 
 msgctxt "#30311"
 msgid "Delete"
-msgstr ""
+msgstr "Törlés"
 
 msgctxt "#30312"
 msgid "Keep files for not finished video"
-msgstr ""
+msgstr "Befejezetlen videók fájljainak megtartása"
 
 msgctxt "#30313"
 msgid "Keep files for watched/downloaded video"
-msgstr ""
+msgstr "Megtekintett/letöltött videók fájljainak megtartása"
 
 msgctxt "#30314"
 msgid "Settings were not initialized.[CR]Save addon settings, then restart Kodi."
-msgstr ""
+msgstr "A beállítások nem lettek inicializálva.[CR]Mentsd el a kiegészítő beállításait, majd indítsd újra a Kodit."
 
 msgctxt "#30315"
 msgid "Download storage type"
-msgstr ""
+msgstr "Letöltések tárolási típusa"
 
 msgctxt "#30316"
 msgid "Use files"
-msgstr ""
+msgstr "Fájlok használata"
 
 msgctxt "#30317"
 msgid "Use memory"
-msgstr ""
+msgstr "Memória használata"
 
 msgctxt "#30318"
 msgid "Memory size to use for each torrent, Mb"
-msgstr ""
+msgstr "Torrentenként használt memória, MB"
 
 msgctxt "#30319"
 msgid "Continue"
-msgstr ""
+msgstr "Folytatás"
 
 msgctxt "#30320"
 msgid "Ask to stop"
-msgstr ""
+msgstr "Rákérdezés leállítás előtt"
 
 msgctxt "#30321"
 msgid "Stop"
-msgstr ""
+msgstr "Leállítás"
 
 msgctxt "#30323"
 msgid "New search"
-msgstr ""
+msgstr "Új keresés"
 
 msgctxt "#30324"
 msgid "Force stream auto-selection from settings"
-msgstr ""
+msgstr "Automatikus adatfolyam-választás kényszerítése a beállításokból"
 
 msgctxt "#30325"
 msgid "Download"
-msgstr ""
+msgstr "Letöltés"
 
 msgctxt "#30326"
 msgid "Kodi library"
-msgstr ""
+msgstr "Kodi médiatár"
 
 msgctxt "#30327"
 msgid "Storage"
-msgstr ""
+msgstr "Tárolás"
 
 msgctxt "#30328"
 msgid "Disable TCP"
-msgstr ""
+msgstr "TCP letiltása"
 
 msgctxt "#30329"
 msgid "Disable UTP"
-msgstr ""
+msgstr "UTP letiltása"
 
 msgctxt "#30330"
 msgid "Update Trakt"
-msgstr ""
+msgstr "Trakt frissítése"
 
 msgctxt "#30332"
 msgid "Reloading configuration..."
-msgstr ""
+msgstr "Konfiguráció újratöltése..."
 
 msgctxt "#30333"
 msgid "Try to find other episodes in the torrent"
-msgstr ""
+msgstr "Próbálja megkeresni a többi epizódot a torrentben"
 
 msgctxt "#30347"
 msgid "Could not find binary for architecture '%s'![CR]Try to uninstall this addon, re-download and re-install it from the biggest zip."
-msgstr ""
+msgstr "Nem található bináris fájl a(z) '%s' architektúrához![CR]Próbáld eltávolítani ezt a kiegészítőt, letölteni újra, és a legnagyobb zip-ből telepíteni."
 
 msgctxt "#30348"
 msgid "Create usual files on the file system and write to them.[CR]Needs selected file's full size to be available on the disk!"
-msgstr ""
+msgstr "Szokásos fájlokat hoz létre a fájlrendszeren, és azokba ír.[CR]A kiválasztott fájl teljes méretének elérhetőnek kell lennie a lemezen!"
 
 msgctxt "#30349"
 msgid "Using device's memory to download parts of the torrent.[CR]Disk is used only to download and save .torrent file,"
-msgstr ""
+msgstr "Az eszköz memóriáját használja a torrent részeinek letöltéséhez.[CR]A lemezt csak a .torrent fájl letöltésére és mentésére használja,"
 
 msgctxt "#30350"
 msgid "so can be any storage. For 1gb memory devices[CR]100mb is enough for memory storage, 200-250mb for bigger devices."
-msgstr ""
+msgstr "így bármilyen tároló lehet. 1 GB memóriájú eszközökhöz[CR]100 MB elég, nagyobb eszközökhöz 200-250 MB."
 
 msgctxt "#30351"
 msgid "Same as for usual file storage, but splits file into many small files.[CR]Should be used on FAT-32 file-systems."
-msgstr ""
+msgstr "Ugyanaz, mint a szokásos fájltárolás, de sok kis fájlra bontja a fájlt.[CR]FAT-32 fájlrendszereken érdemes használni."
 
 msgctxt "#30352"
 msgid "Same as for usual file storage, but using memory[CR]to lower filesystem operations. Experimental storage!"
-msgstr ""
+msgstr "Ugyanaz, mint a szokásos fájltárolás, de memóriát használ[CR]a fájlrendszer-műveletek csökkentésére. Kísérleti tároló!"
 
 msgctxt "#30355"
 msgid "Changelog"
-msgstr ""
+msgstr "Változásnapló"
 
 msgctxt "#30357"
 msgid "Use Trakt information in Trakt lists"
-msgstr ""
+msgstr "Trakt-információk használata a Trakt listákban"
 
 msgctxt "#30358"
 msgid "Trakt update started"
-msgstr ""
+msgstr "Trakt frissítés elindult"
 
 msgctxt "#30359"
 msgid "Do not ask questions before playback"
-msgstr ""
+msgstr "Ne tegyen fel kérdéseket a lejátszás előtt"
 
 msgctxt "#30360"
 msgid "My Progress"
-msgstr ""
+msgstr "Haladásom"
 
 msgctxt "#30361"
 msgid "My History"
-msgstr ""
+msgstr "Előzményeim"
 
 msgctxt "#30362"
 msgid "Synchronization"
-msgstr ""
+msgstr "Szinkronizálás"
 
 msgctxt "#30363"
 msgid "Sync items from collections into Kodi library"
-msgstr ""
+msgstr "Gyűjtemények elemeinek szinkronizálása a Kodi médiatárba"
 
 msgctxt "#30364"
 msgid "Sync items from watchlist into Kodi library"
-msgstr ""
+msgstr "A figyelőlista elemeinek szinkronizálása a Kodi médiatárba"
 
 msgctxt "#30365"
 msgid "Sync items from user lists into Kodi library"
-msgstr ""
+msgstr "Felhasználói listák elemeinek szinkronizálása a Kodi médiatárba"
 
 msgctxt "#30366"
 msgid "Sync watched states from Trakt into Kodi library"
-msgstr ""
+msgstr "Megtekintett állapotok szinkronizálása a Traktból a Kodi médiatárba"
 
 msgctxt "#30367"
 msgid "Sync back Kodi watched states into Trakt"
-msgstr ""
+msgstr "A Kodi megtekintett állapotainak visszaszinkronizálása a Traktba"
 
 msgctxt "#30369"
 msgid "Disable Upload"
-msgstr ""
+msgstr "Feltöltés letiltása"
 
 msgctxt "#30370"
 msgid "Auto-assign network IP"
-msgstr ""
+msgstr "Hálózati IP automatikus hozzárendelése"
 
 msgctxt "#30371"
 msgid "Auto-assign network ports"
-msgstr ""
+msgstr "Hálózati portok automatikus hozzárendelése"
 
 msgctxt "#30373"
 msgid "Languages"
-msgstr ""
+msgstr "Nyelvek"
 
 msgctxt "#30374"
 msgid "Countries"
-msgstr ""
+msgstr "Országok"
 
 msgctxt "#30375"
 msgid "By size"
-msgstr ""
+msgstr "Méret szerint"
 
 msgctxt "#30376"
 msgid "Choose memory size automatically"
-msgstr ""
+msgstr "Memóriaméret automatikus kiválasztása"
 
 msgctxt "#30377"
 msgid "Size is chosen automatically, based on[CR]physical amount of memory"
-msgstr ""
+msgstr "A méret automatikusan kerül kiválasztásra a[CR]rendelkezésre álló fizikai memória alapján"
 
 msgctxt "#30378"
 msgid "Allow memory usage"
-msgstr ""
+msgstr "Memóriahasználat engedélyezése"
 
 msgctxt "#30379"
 msgid "Minimum - 40MB, Default - 8%, Maximum - 15%"
-msgstr ""
+msgstr "Minimum - 40 MB, Alapértelmezett - 8%, Maximum - 15%"
 
 msgctxt "#30380"
 msgid "Minimum"
-msgstr ""
+msgstr "Minimum"
 
 msgctxt "#30381"
 msgid "Default"
-msgstr ""
+msgstr "Alapértelmezett"
 
 msgctxt "#30382"
 msgid "Maximum"
-msgstr ""
+msgstr "Maximum"
 
 msgctxt "#30383"
 msgid "Use Kodi language for subtitles search"
-msgstr ""
+msgstr "A Kodi nyelvének használata a feliratkereséshez"
 
 msgctxt "#30384"
 msgid "Language code for subtitles (example: en, it, es)"
-msgstr ""
+msgstr "Feliratok nyelvi kódja (például: en, it, es)"
 
 msgctxt "#30386"
 msgid "Disable background progress dialog on playback"
-msgstr ""
+msgstr "Háttérben futó folyamatjelző letiltása lejátszás közben"
 
 msgctxt "#30387"
 msgid "Caching"
-msgstr ""
+msgstr "Gyorsítótárazás"
 
 msgctxt "#30388"
 msgid "Cache stream selection"
-msgstr ""
+msgstr "Adatfolyam-választás gyorsítótárazása"
 
 msgctxt "#30389"
 msgid "Cache stream search results"
-msgstr ""
+msgstr "Adatfolyam-keresési eredmények gyorsítótárazása"
 
 msgctxt "#30390"
 msgid "Cache search results duration, seconds"
-msgstr ""
+msgstr "Keresési eredmények gyorsítótárazásának időtartama, másodperc"
 
 msgctxt "#30393"
 msgid "Status"
-msgstr ""
+msgstr "Állapot"
 
 msgctxt "#30394"
 msgid "Version"
-msgstr ""
+msgstr "Verzió"
 
 msgctxt "#30395"
 msgid "IP address"
-msgstr ""
+msgstr "IP-cím"
 
 msgctxt "#30396"
 msgid "Port"
-msgstr ""
+msgstr "Port"
 
 msgctxt "#30397"
 msgid "Web UI"
-msgstr ""
+msgstr "Webes felület"
 
 msgctxt "#30398"
 msgid "Debug information (with kodi.log)"
-msgstr ""
+msgstr "Hibakeresési információk (kodi.log fájllal)"
 
 msgctxt "#30399"
 msgid "Addresses"
-msgstr ""
+msgstr "Címek"
 
 msgctxt "#30400"
 msgid "Statistics"
-msgstr ""
+msgstr "Statisztikák"
 
 msgctxt "#30401"
 msgid "Torrent library status"
-msgstr ""
+msgstr "A torrent könyvtár állapota"
 
 msgctxt "#30402"
 msgid "Size of cache.db"
-msgstr ""
+msgstr "A cache.db mérete"
 
 msgctxt "#30403"
 msgid "Size of app.db"
-msgstr ""
+msgstr "Az app.db mérete"
 
 msgctxt "#30404"
 msgid "Assigned torrent files"
-msgstr ""
+msgstr "Hozzárendelt torrent fájlok"
 
 msgctxt "#30405"
 msgid "Search queries"
-msgstr ""
+msgstr "Keresési lekérdezések"
 
 msgctxt "#30406"
 msgid "Remove from history"
-msgstr ""
+msgstr "Eltávolítás az előzményekből"
 
 msgctxt "#30408"
 msgid "Addon Connectivity"
-msgstr ""
+msgstr "Kiegészítő kapcsolat"
 
 msgctxt "#30409"
 msgid "Local port"
-msgstr ""
+msgstr "Helyi port"
 
 msgctxt "#30410"
 msgid "Remote port"
-msgstr ""
+msgstr "Távoli port"
 
 msgctxt "#30411"
 msgid "Remote host"
-msgstr ""
+msgstr "Távoli kiszolgáló"
 
 msgctxt "#30412"
 msgid "Do not start binary (client mode)"
-msgstr ""
+msgstr "Ne indítsa el a bináris fájlt (kliens mód)"
 
 msgctxt "#30413"
 msgid "Yes"
-msgstr ""
+msgstr "Igen"
 
 msgctxt "#30414"
 msgid "No"
-msgstr ""
+msgstr "Nem"
 
 msgctxt "#30415"
 msgid "Next page (%s)"
-msgstr ""
+msgstr "Következő oldal (%s)"
 
 msgctxt "#30416"
 msgid "Percents of playback to mark as watched"
-msgstr ""
+msgstr "A lejátszás hány százalékánál jelölje megtekintettnek"
 
 msgctxt "#30417"
 msgid "Use name of production company as Studio for shows"
-msgstr ""
+msgstr "A gyártó cég nevének használata stúdióként a sorozatoknál"
 
 msgctxt "#30418"
 msgid "Calculate number of unwatched episodes in Shows/Seasons"
-msgstr ""
+msgstr "A meg nem tekintett epizódok számának kiszámítása a sorozatoknál/évadoknál"
 
 msgctxt "#30421"
 msgid "Load torrents from torrents folder on startup"
-msgstr ""
+msgstr "Torrentek betöltése a torrents mappából indításkor"
 
 msgctxt "#30422"
 msgid "Popular lists"
-msgstr ""
+msgstr "Népszerű listák"
 
 msgctxt "#30423"
 msgid "Recommendations"
-msgstr ""
+msgstr "Ajánlások"
 
 msgctxt "#30424"
 msgid "Progress"
-msgstr ""
+msgstr "Haladás"
 
 msgctxt "#30425"
 msgid "Color of an air date"
-msgstr ""
+msgstr "A sugárzás dátumának színe"
 
 msgctxt "#30426"
 msgid "Color of a show name"
-msgstr ""
+msgstr "A sorozat nevének színe"
 
 msgctxt "#30427"
 msgid "Color of an episode name"
-msgstr ""
+msgstr "Az epizód nevének színe"
 
 msgctxt "#30428"
 msgid "Hide unaired episodes"
-msgstr ""
+msgstr "Le nem adott epizódok elrejtése"
 
 msgctxt "#30429"
 msgid "Sort shows in the list"
-msgstr ""
+msgstr "Sorozatok rendezése a listában"
 
 msgctxt "#30430"
 msgid "By latest watched"
-msgstr ""
+msgstr "Legutóbb megtekintett szerint"
 
 msgctxt "#30431"
 msgid "By show name"
-msgstr ""
+msgstr "Sorozat neve szerint"
 
 msgctxt "#30432"
 msgid "By air date (newer)"
-msgstr ""
+msgstr "Sugárzás dátuma szerint (újabb)"
 
 msgctxt "#30433"
 msgid "By air date (older)"
-msgstr ""
+msgstr "Sugárzás dátuma szerint (régebbi)"
 
 msgctxt "#30434"
 msgid "Date format"
-msgstr ""
+msgstr "Dátumformátum"
 
 msgctxt "#30436"
 msgid "Userlist"
-msgstr ""
+msgstr "Felhasználói lista"
 
 msgctxt "#30438"
 msgid "Userlists"
-msgstr ""
+msgstr "Felhasználói listák"
 
 msgctxt "#30439"
 msgid "Debug information (without kodi.log)"
-msgstr ""
+msgstr "Hibakeresési információk (kodi.log nélkül)"
 
 msgctxt "#30440"
 msgid "Color of an unaired episode name"
-msgstr ""
+msgstr "Egy le nem adott epizód nevének színe"
 
 msgctxt "#30441"
 msgid "Select userlist for movies"
-msgstr ""
+msgstr "Felhasználói lista kiválasztása filmekhez"
 
 msgctxt "#30442"
 msgid "Userlist for movies"
-msgstr ""
+msgstr "Felhasználói lista filmekhez"
 
 msgctxt "#30443"
 msgid "Selected userlist for movies"
-msgstr ""
+msgstr "Kiválasztott felhasználói lista filmekhez"
 
 msgctxt "#30444"
 msgid "Select userlist for shows"
-msgstr ""
+msgstr "Felhasználói lista kiválasztása sorozatokhoz"
 
 msgctxt "#30445"
 msgid "Userlist for shows"
-msgstr ""
+msgstr "Felhasználói lista sorozatokhoz"
 
 msgctxt "#30446"
 msgid "Selected userlist for shows"
-msgstr ""
+msgstr "Kiválasztott felhasználói lista sorozatokhoz"
 
 msgctxt "#30447"
 msgid "Add to Trakt, when movie is added to Kodi library"
-msgstr ""
+msgstr "Hozzáadás a Trakthoz, amikor egy film bekerül a Kodi médiatárba"
 
 msgctxt "#30448"
 msgid "Add to Trakt, when show is added to Kodi library"
-msgstr ""
+msgstr "Hozzáadás a Trakthoz, amikor egy sorozat bekerül a Kodi médiatárba"
 
 msgctxt "#30449"
 msgid "Remove from Trakt, when movie is deleted from Kodi library"
-msgstr ""
+msgstr "Eltávolítás a Traktból, amikor egy filmet törölnek a Kodi médiatárból"
 
 msgctxt "#30450"
 msgid "Remove from Trakt, when show is deleted from Kodi library"
-msgstr ""
+msgstr "Eltávolítás a Traktból, amikor egy sorozatot törölnek a Kodi médiatárból"
 
 msgctxt "#30451"
 msgid "Torrent files path"
-msgstr ""
+msgstr "Torrent fájlok útvonala"
 
 msgctxt "#30452"
 msgid "Reset all paths"
-msgstr ""
+msgstr "Összes útvonal visszaállítása"
 
 msgctxt "#30453"
 msgid "Upload /debug/bundle (with kodi.log) to pastebin"
-msgstr ""
+msgstr "A /debug/bundle feltöltése (kodi.log fájllal) a pastebinre"
 
 msgctxt "#30454"
 msgid "Paste url:[CR]%s"
-msgstr ""
+msgstr "Paste URL:[CR]%s"
 
 msgctxt "#30455"
 msgid "Logging"
-msgstr ""
+msgstr "Naplózás"
 
 msgctxt "#30456"
 msgid "Upload /debug/all (no kodi.log) to pastebin"
-msgstr ""
+msgstr "A /debug/all feltöltése (kodi.log nélkül) a pastebinre"
 
 msgctxt "#30457"
 msgid "Uploading file to pastebin"
-msgstr ""
+msgstr "Fájl feltöltése a pastebinre"
 
 msgctxt "#30458"
 msgid "Deleted movies"
-msgstr ""
+msgstr "Törölt filmek"
 
 msgctxt "#30459"
 msgid "Deleted shows"
-msgstr ""
+msgstr "Törölt sorozatok"
 
 msgctxt "#30460"
 msgid "Database"
-msgstr ""
+msgstr "Adatbázis"
 
 msgctxt "#30461"
 msgid "Show information"
-msgstr ""
+msgstr "Információk megjelenítése"
 
 msgctxt "#30462"
 msgid "Clear deleted movies"
-msgstr ""
+msgstr "Törölt filmek tisztítása"
 
 msgctxt "#30463"
 msgid "Clear deleted shows"
-msgstr ""
+msgstr "Törölt sorozatok tisztítása"
 
 msgctxt "#30464"
 msgid "Clear torrents history"
-msgstr ""
+msgstr "Torrent előzmények törlése"
 
 msgctxt "#30465"
 msgid "Clear search history"
-msgstr ""
+msgstr "Keresési előzmények törlése"
 
 msgctxt "#30466"
 msgid "Clear the database"
-msgstr ""
+msgstr "Az adatbázis törlése"
 
 msgctxt "#30467"
 msgid "Cache"
-msgstr ""
+msgstr "Gyorsítótár"
 
 msgctxt "#30468"
 msgid "Clear TMDB cache"
-msgstr ""
+msgstr "TMDB gyorsítótár ürítése"
 
 msgctxt "#30469"
 msgid "Clear Trakt cache"
-msgstr ""
+msgstr "Trakt gyorsítótár ürítése"
 
 msgctxt "#30470"
 msgid "Clear the cache"
-msgstr ""
+msgstr "A gyorsítótár ürítése"
 
 msgctxt "#30471"
 msgid "Are you sure you want to do it?"
-msgstr ""
+msgstr "Biztosan ezt szeretnéd tenni?"
 
 msgctxt "#30472"
 msgid "Database cleared"
-msgstr ""
+msgstr "Az adatbázis törölve"
 
 msgctxt "#30473"
 msgid "Select network interface"
-msgstr ""
+msgstr "Hálózati csatoló kiválasztása"
 
 msgctxt "#30474"
 msgid "Network interfaces"
-msgstr ""
+msgstr "Hálózati csatolók"
 
 msgctxt "#30475"
 msgid "Strm files language"
-msgstr ""
+msgstr "Strm fájlok nyelve"
 
 msgctxt "#30476"
 msgid "Select language"
-msgstr ""
+msgstr "Nyelv kiválasztása"
 
 msgctxt "#30477"
 msgid "Original language"
-msgstr ""
+msgstr "Eredeti nyelv"
 
 msgctxt "#30478"
 msgid "Searching"
-msgstr ""
+msgstr "Keresés"
 
 msgctxt "#30480"
 msgid "Run Kodi library update after add/delete"
-msgstr ""
+msgstr "Kodi médiatár frissítése hozzáadás/törlés után"
 
 msgctxt "#30481"
 msgid "Automatically"
-msgstr ""
+msgstr "Automatikusan"
 
 msgctxt "#30482"
 msgid "Ask"
-msgstr ""
+msgstr "Rákérdezés"
 
 msgctxt "#30483"
 msgid "Create NFO files for Movie scrapers"
-msgstr ""
+msgstr "NFO fájlok létrehozása a filmes adatgyűjtőkhöz"
 
 msgctxt "#30484"
 msgid "Create NFO files for TV Show scrapers"
-msgstr ""
+msgstr "NFO fájlok létrehozása a sorozatos adatgyűjtőkhöz"
 
 msgctxt "#30485"
 msgid "Concurrent connections limit per second"
-msgstr ""
+msgstr "Egyidejű kapcsolatok korlátja másodpercenként"
 
 msgctxt "#30486"
 msgid "Automatic concurrent connections limit per second"
-msgstr ""
+msgstr "Egyidejű kapcsolatok automatikus korlátja másodpercenként"
 
 msgctxt "#30487"
 msgid "Enable built-in HTTP proxy"
-msgstr ""
+msgstr "Beépített HTTP proxy engedélyezése"
 
 msgctxt "#30488"
 msgid "Internal Proxy Port"
-msgstr ""
+msgstr "A belső proxy portja"
 
 msgctxt "#30489"
 msgid "Log Internal proxy requests"
-msgstr ""
+msgstr "A belső proxy kéréseinek naplózása"
 
 msgctxt "#30490"
 msgid "Internal HTTP proxy"
-msgstr ""
+msgstr "Belső HTTP proxy"
 
 msgctxt "#30491"
 msgid "Use Fanart.tv for posters/images"
-msgstr ""
+msgstr "A Fanart.tv használata plakátokhoz/képekhez"
 
 msgctxt "#30492"
 msgid "Use Proxy for downloading .torrent files"
-msgstr ""
+msgstr "Proxy használata a .torrent fájlok letöltéséhez"
 
 msgctxt "#30493"
 msgid "Use Proxy for trackers"
-msgstr ""
+msgstr "Proxy használata a trackerekhez"
 
 msgctxt "#30494"
 msgid "Use Proxy for torrent downloading"
-msgstr ""
+msgstr "Proxy használata a torrentek letöltéséhez"
 
 msgctxt "#30495"
 msgid "Use built-in DNS resolver"
-msgstr ""
+msgstr "A beépített DNS-feloldó használata"
 
 msgctxt "#30496"
 msgid "Turn off if you use Tor addresses, or you want [CR]to use DNS settings from OS"
-msgstr ""
+msgstr "Kapcsold ki, ha Tor címeket használsz, vagy ha [CR]az operációs rendszer DNS-beállításait szeretnéd használni"
 
 msgctxt "#30497"
 msgid "Use Antizapret proxy (only for Russia)"
-msgstr ""
+msgstr "Antizapret proxy használata (csak Oroszországban)"
 
 msgctxt "#30498"
 msgid "Reset this path to '/'"
-msgstr ""
+msgstr "Ezen útvonal visszaállítása erre: '/'"
 
 msgctxt "#30499"
 msgid "Automatically adjust memory size[CR]for heavy torrents, if possible"
-msgstr ""
+msgstr "A memóriaméret automatikus igazítása[CR]nagy torrentekhez, ha lehetséges"
 
 msgctxt "#30500"
 msgid "Automatically adjust buffer size[CR]for heavy torrents"
-msgstr ""
+msgstr "A puffer méretének automatikus igazítása[CR]nagy torrentekhez"
 
 msgctxt "#30502"
 msgid "Adjust buffer according to Kodi advancedsettings.xml, if set"
-msgstr ""
+msgstr "A puffer igazítása a Kodi advancedsettings.xml fájljához, ha be van állítva"
 
 msgctxt "#30503"
 msgid "Use libtorrent.config to override torrent engine settings"
-msgstr ""
+msgstr "A libtorrent.config használata a torrent motor beállításainak felülbírálásához"
 
 msgctxt "#30504"
 msgid "Located at USERDATA/plugin.video.elementum/libtorrent.config file[CR]Settings apply automatically. Visit https://libtorrent.org for info."
-msgstr ""
+msgstr "A USERDATA/plugin.video.elementum/libtorrent.config fájlban található[CR]A beállítások automatikusan érvénybe lépnek. Információkért látogasd meg a https://libtorrent.org oldalt."
 
 msgctxt "#30505"
 msgid "Add episode number to the title"
-msgstr ""
+msgstr "Epizódszám hozzáadása a címhez"
 
 msgctxt "#30506"
 msgid "Enable libtorrent logging"
-msgstr ""
+msgstr "A libtorrent naplózásának engedélyezése"
 
 msgctxt "#30511"
 msgid "Libtorrent settings profile"
-msgstr ""
+msgstr "libtorrent beállítási profil"
 
 msgctxt "#30512"
 msgid "Default"
-msgstr ""
+msgstr "Alapértelmezett"
 
 msgctxt "#30513"
 msgid "Minimal memory"
-msgstr ""
+msgstr "Minimális memória"
 
 msgctxt "#30514"
 msgid "High speed"
-msgstr ""
+msgstr "Nagy sebesség"
 
 msgctxt "#30515"
 msgid "Load torrents from torrents folder paused"
-msgstr ""
+msgstr "Torrentek betöltése szüneteltetve a torrents mappából"
 
 msgctxt "#30516"
 msgid "... resume N seconds earlier"
-msgstr ""
+msgstr "... folytatás N másodperccel korábban"
 
 msgctxt "#30517"
 msgid "In Kodi library"
-msgstr ""
+msgstr "A Kodi médiatárban"
 
 msgctxt "#30518"
 msgid "Use libtorrent deadlines"
-msgstr ""
+msgstr "A libtorrent határidőinek használata"
 
 msgctxt "#30519"
 msgid "Use libtorrent pause/resume trick for added torrents"
-msgstr ""
+msgstr "A libtorrent szüneteltetés/folytatás trükkjének használata a hozzáadott torrenteknél"
 
 msgctxt "#30520"
 msgid "Add item to start menu"
-msgstr ""
+msgstr "Elem hozzáadása a kezdőmenühöz"
 
 msgctxt "#30521"
 msgid "Delete item from start menu"
-msgstr ""
+msgstr "Elem törlése a kezdőmenüből"
 
 msgctxt "#30522"
 msgid "Minimum file size"
-msgstr ""
+msgstr "Minimális fájlméret"
 
 msgctxt "#30523"
 msgid "Minimum file size for Movies, MB"
-msgstr ""
+msgstr "Minimális fájlméret filmekhez, MB"
 
 msgctxt "#30524"
 msgid "Minimum file size for Shows, MB per minute"
-msgstr ""
+msgstr "Minimális fájlméret sorozatokhoz, MB percenként"
 
 msgctxt "#30525"
 msgid "Automatically start downloading next episode"
-msgstr ""
+msgstr "A következő epizód letöltésének automatikus indítása"
 
 msgctxt "#30527"
 msgid "Donate"
-msgstr ""
+msgstr "Támogatás"
 
 msgctxt "#30528"
 msgid "Automatically load first found subtitles"
-msgstr ""
+msgstr "Az első megtalált feliratok automatikus betöltése"
 
 msgctxt "#30529"
 msgid "Number of subtitles to load automatically"
-msgstr ""
+msgstr "Automatikusan betöltendő feliratok száma"
 
 msgctxt "#30530"
 msgid "Delete autoloaded subtitles on player stop"
-msgstr ""
+msgstr "Az automatikusan betöltött feliratok törlése a lejátszó leállításakor"
 
 msgctxt "#30531"
 msgid "Download all files from torrent"
-msgstr ""
+msgstr "Az összes fájl letöltése a torrentből"
 
 msgctxt "#30532"
 msgid "Stop Downloading all files"
-msgstr ""
+msgstr "Az összes fájl letöltésének leállítása"
 
 msgctxt "#30535"
 msgid "Continue playback from [B]%s[/B]?"
-msgstr ""
+msgstr "Folytatod a lejátszást innen: [B]%s[/B]?"
 
 msgctxt "#30536"
 msgid "Skip IPv6 addresses resolving"
-msgstr ""
+msgstr "IPv6 címek feloldásának kihagyása"
 
 msgctxt "#30537"
 msgid "Torrents history"
-msgstr ""
+msgstr "Torrent előzmények"
 
 msgctxt "#30538"
 msgid "Use torrents history?"
-msgstr ""
+msgstr "Használod a torrent előzményeket?"
 
 msgctxt "#30539"
 msgid "Store N torrents in history"
-msgstr ""
+msgstr "N torrent tárolása az előzményekben"
 
 msgctxt "#30540"
 msgid "Subtitles"
-msgstr ""
+msgstr "Feliratok"
 
 msgctxt "#30541"
 msgid "Automatic Subtitles Search"
-msgstr ""
+msgstr "Automatikus feliratkeresés"
 
 msgctxt "#30542"
 msgid "Disable if subtitles are available in player"
-msgstr ""
+msgstr "Tiltsd le, ha a feliratok elérhetők a lejátszóban"
 
 msgctxt "#30543"
 msgid "Subtitles included in torrent"
-msgstr ""
+msgstr "A torrentben található feliratok"
 
 msgctxt "#30544"
 msgid "Automatic Scrape"
-msgstr ""
+msgstr "Automatikus gyűjtés"
 
 msgctxt "#30545"
 msgid "Automatic scraping allows to scrape connected providers[CR]to find new movies, if there are results,"
-msgstr ""
+msgstr "Az automatikus gyűjtés lehetővé teszi a csatlakoztatott szolgáltatókban[CR]új filmek keresését. Ha vannak találatok"
 
 msgctxt "#30546"
 msgid "Strategy"
-msgstr ""
+msgstr "Stratégia"
 
 msgctxt "#30547"
 msgid "Find in each provider"
-msgstr ""
+msgstr "Keresés minden szolgáltatóban"
 
 msgctxt "#30548"
 msgid "Find in overall"
-msgstr ""
+msgstr "Keresés összesítve"
 
 msgctxt "#30549"
 msgid "Search is successful when found N results"
-msgstr ""
+msgstr "A keresés sikeres, ha N találat van"
 
 msgctxt "#30550"
 msgid "What to search"
-msgstr ""
+msgstr "Mit keressen"
 
 msgctxt "#30551"
 msgid "How to search"
-msgstr ""
+msgstr "Hogyan keressen"
 
 msgctxt "#30552"
 msgid "Search each N hours"
-msgstr ""
+msgstr "Keresés N óránként"
 
 msgctxt "#30553"
 msgid "Find 4K resolution"
-msgstr ""
+msgstr "4K felbontás keresése"
 
 msgctxt "#30554"
 msgid "Find 1080p resolution"
-msgstr ""
+msgstr "1080p felbontás keresése"
 
 msgctxt "#30555"
 msgid "and movie passes checks for number of results[CR]movie can be added to the library."
-msgstr ""
+msgstr "és a film megfelel a találatszám ellenőrzésének,[CR]a film hozzáadható a médiatárhoz."
 
 msgctxt "#30556"
 msgid "Add to the library"
-msgstr ""
+msgstr "Hozzáadás a médiatárhoz"
 
 msgctxt "#30557"
 msgid "Number of popular movies to search"
-msgstr ""
+msgstr "A keresendő népszerű filmek száma"
 
 msgctxt "#30558"
 msgid "Latest available movies"
-msgstr ""
+msgstr "Legújabb elérhető filmek"
 
 msgctxt "#30559"
 msgid "Skip searching for installed providers"
-msgstr ""
+msgstr "A telepített szolgáltatók keresésének kihagyása"
 
 msgctxt "#30560"
 msgid "Files: %s"
-msgstr ""
+msgstr "Fájlok: %s"
 
 msgctxt "#30561"
 msgid "Interval between requests, seconds"
-msgstr ""
+msgstr "Kérések közötti időköz, másodperc"
 
 msgctxt "#30562"
 msgid "Open directory with Kodi file browser"
-msgstr ""
+msgstr "Könyvtár megnyitása a Kodi fájlböngészőjével"
 
 msgctxt "#30563"
 msgid "Synchronize frequency of Trakt, minutes"
-msgstr ""
+msgstr "A Trakt szinkronizálásának gyakorisága, perc"
 
 msgctxt "#30564"
 msgid "Sync hidden items"
-msgstr ""
+msgstr "Rejtett elemek szinkronizálása"
 
 msgctxt "#30565"
 msgid "Sync playback progress into Kodi library"
-msgstr ""
+msgstr "A lejátszási haladás szinkronizálása a Kodi médiatárba"
 
 msgctxt "#30566"
 msgid "Lists"
-msgstr ""
+msgstr "Listák"
 
 msgctxt "#30567"
 msgid "Show \"All seasons\" in shows"
-msgstr ""
+msgstr "A \"Minden évad\" megjelenítése a sorozatoknál"
 
 msgctxt "#30568"
 msgid "Seasons order"
-msgstr ""
+msgstr "Évadok sorrendje"
 
 msgctxt "#30569"
 msgid "Ascending"
-msgstr ""
+msgstr "Növekvő"
 
 msgctxt "#30570"
 msgid "Descending"
-msgstr ""
+msgstr "Csökkenő"
 
 msgctxt "#30571"
 msgid "* All seasons"
-msgstr ""
+msgstr "* Minden évad"
 
 msgctxt "#30572"
 msgid "Log server's response body"
-msgstr ""
+msgstr "A kiszolgáló válaszának törzsét naplózza"
 
 msgctxt "#30573"
 msgid "Select file to play"
-msgstr ""
+msgstr "Válaszd ki a lejátszandó fájlt"
 
 msgctxt "#30574"
 msgid "Automatically answer Yes after timeout"
-msgstr ""
+msgstr "Automatikus Igen válasz az időtúllépés után"
 
 msgctxt "#30575"
 msgid "Timeout, seconds"
-msgstr ""
+msgstr "Időtúllépés, másodperc"
 
 msgctxt "#30576"
 msgid "Trakt authentication needs to be updated!"
-msgstr ""
+msgstr "A Trakt hitelesítést frissíteni kell!"
 
 msgctxt "#30577"
 msgid "End of file Buffer size, MB"
-msgstr ""
+msgstr "A fájl végi puffer mérete, MB"
 
 msgctxt "#30578"
 msgid "Beginning of file Buffer size, MB"
-msgstr ""
+msgstr "A fájl eleji puffer mérete, MB"
 
 msgctxt "#30579"
 msgid "Settings"
-msgstr ""
+msgstr "Beállítások"
 
 msgctxt "#30580"
 msgid "Custom Trakt API Client ID"
-msgstr ""
+msgstr "Egyéni Trakt API Client ID"
 
 msgctxt "#30581"
 msgid "Custom Trakt API Client Secret"
-msgstr ""
+msgstr "Egyéni Trakt API Client Secret"
 
 msgctxt "#30582"
 msgid "Settings for %s provider"
-msgstr ""
+msgstr "A(z) %s szolgáltató beállításai"
 
 msgctxt "#30583"
 msgid "Resolving magnet link"
-msgstr ""
+msgstr "Magnet hivatkozás feloldása"
 
 msgctxt "#30585"
 msgid "Enable library integration with Kodi"
-msgstr ""
+msgstr "A Kodi médiatárral való integráció engedélyezése"
 
 msgctxt "#30586"
 msgid "If disabled - Elementum will not get/insert items to Kodi library [CR]and skip watched management with Kodi."
-msgstr ""
+msgstr "Ha le van tiltva, az Elementum nem olvas és nem szúr be elemeket a Kodi médiatárba [CR]és kihagyja a megtekintett állapot kezelését a Kodival."
 
 msgctxt "#30587"
 msgid "Show welcome message on start"
-msgstr ""
+msgstr "Üdvözlő üzenet megjelenítése indításkor"
 
 msgctxt "#30588"
 msgid "Pre-Play Buffering"
-msgstr ""
+msgstr "Pufferelés a lejátszás előtt"
 
 msgctxt "#30589"
 msgid "Speed limiting"
-msgstr ""
+msgstr "Sebességkorlátozás"
 
 msgctxt "#30590"
 msgid "Torrents autoload on addon startup"
-msgstr ""
+msgstr "Torrentek automatikus betöltése a kiegészítő indításakor"
 
 msgctxt "#30591"
 msgid "Limits for connections"
-msgstr ""
+msgstr "Kapcsolatok korlátai"
 
 msgctxt "#30592"
 msgid "Seeding"
-msgstr ""
+msgstr "Megosztás"
 
 msgctxt "#30593"
 msgid "Seed forever"
-msgstr ""
+msgstr "Megosztás örökre"
 
 msgctxt "#30594"
 msgid "Network"
-msgstr ""
+msgstr "Hálózat"
 
 msgctxt "#30595"
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Egyebek"
 
 msgctxt "#30597"
 msgid "Cache size, MB"
-msgstr ""
+msgstr "Gyorsítótár mérete, MB"
 
 msgctxt "#30598"
 msgid "Enable caching if using File storage and have speed problems.[CR]Will use more memory, but can improve the speed."
-msgstr ""
+msgstr "Engedélyezd a gyorsítótárazást, ha fájltárolást használsz és sebességproblémáid vannak.[CR]Több memóriát használ, de javíthatja a sebességet."
 
 msgctxt "#30599"
 msgid "Enable Kodi library synchronization"
-msgstr ""
+msgstr "A Kodi médiatár szinkronizálásának engedélyezése"
 
 msgctxt "#30600"
 msgid "Enable Trakt synchronization"
-msgstr ""
+msgstr "A Trakt szinkronizálásának engedélyezése"
 
 msgctxt "#30601"
 msgid "Enable synchronization while playback"
-msgstr ""
+msgstr "Szinkronizálás engedélyezése lejátszás közben"
 
 msgctxt "#30602"
 msgid "Retry requests to addon after timeout, seconds"
-msgstr ""
+msgstr "Kérések újrapróbálása a kiegészítő felé időtúllépés után, másodperc"
 
 msgctxt "#30603"
 msgid "Addon Startup"
-msgstr ""
+msgstr "A kiegészítő indítása"
 
 msgctxt "#30604"
 msgid "Clean all history"
-msgstr ""
+msgstr "Az összes előzmény tisztítása"
 
 msgctxt "#30605"
 msgid "Cache downloaded torrent files after search"
-msgstr ""
+msgstr "A letöltött torrent fájlok gyorsítótárazása a keresés után"
 
 msgctxt "#30606"
 msgid "Show watched state for torrent's files"
-msgstr ""
+msgstr "A megtekintett állapot megjelenítése a torrent fájljaihoz"
 
 msgctxt "#30607"
 msgid "Use earliest release date as basic for searching"
-msgstr ""
+msgstr "A legkorábbi megjelenési dátum használata a keresés alapjául"
 
 msgctxt "#30608"
 msgid "Match found in your active torrents, play it?[CR]%s"
-msgstr ""
+msgstr "Egyezés található az aktív torrentjeid között, lejátszod?[CR]%s"
 
 msgctxt "#30609"
 msgid "Automatically start next episode if available"
-msgstr ""
+msgstr "A következő epizód automatikus indítása, ha elérhető"
 
 msgctxt "#30610"
 msgid "Magnet resolve timeout, seconds"
-msgstr ""
+msgstr "Magnet feloldás időtúllépése, másodperc"
 
 msgctxt "#30611"
 msgid "Application platform type"
-msgstr ""
+msgstr "Az alkalmazás platformtípusa"
 
 msgctxt "#30612"
 msgid "Select file to download"
-msgstr ""
+msgstr "Válaszd ki a letöltendő fájlt"
 
 msgctxt "#30613"
 msgid "... for movie"
-msgstr ""
+msgstr "... filmhez"
 
 msgctxt "#30614"
 msgid "... for tv show"
-msgstr ""
+msgstr "... sorozathoz"
 
 msgctxt "#30615"
 msgid "... for search"
-msgstr ""
+msgstr "... kereséshez"
 
 msgctxt "#30616"
 msgid "Elementum | Trakt Account"
-msgstr ""
+msgstr "Elementum | Trakt fiók"
 
 msgctxt "#30617"
 msgid "Your account is locked for API on Trakt.tv[CR]Please, contact Trakt Support at https://support.trakt.tv ."
-msgstr ""
+msgstr "A fiókod zárolva van a Trakt.tv API-jához[CR]Kérjük, vedd fel a kapcsolatot a Trakt támogatásával itt: https://support.trakt.tv ."
 
 msgctxt "#30618"
 msgid "%s is downloaded"
-msgstr ""
+msgstr "A(z) %s letöltve"
 
 msgctxt "#30619"
 msgid "Return to [B]%s[/B]"
-msgstr ""
+msgstr "Vissza ide: [B]%s[/B]"
 
 msgctxt "#30620"
 msgid "Restart Elementum addon"
-msgstr ""
+msgstr "Az Elementum kiegészítő újraindítása"
 
 msgctxt "#30621"
 msgid "Queued"
-msgstr ""
+msgstr "Sorban áll"
 
 msgctxt "#30622"
 msgid "Checking"
-msgstr ""
+msgstr "Ellenőrzés"
 
 msgctxt "#30623"
 msgid "Finding"
-msgstr ""
+msgstr "Keresés"
 
 msgctxt "#30624"
 msgid "Downloading"
-msgstr ""
+msgstr "Letöltés"
 
 msgctxt "#30625"
 msgid "Finished"
-msgstr ""
+msgstr "Befejezve"
 
 msgctxt "#30626"
 msgid "Seeding"
-msgstr ""
+msgstr "Megosztás"
 
 msgctxt "#30627"
 msgid "Allocating"
-msgstr ""
+msgstr "Helyfoglalás"
 
 msgctxt "#30628"
 msgid "Stalled"
-msgstr ""
+msgstr "Elakadt"
 
 msgctxt "#30629"
 msgid "Paused"
-msgstr ""
+msgstr "Szüneteltetve"
 
 msgctxt "#30630"
 msgid "Buffering"
-msgstr ""
+msgstr "Pufferelés"
 
 msgctxt "#30631"
 msgid "Playing"
-msgstr ""
+msgstr "Lejátszás"
 
 msgctxt "#30632"
 msgid "Yes (%s seconds)"
-msgstr ""
+msgstr "Igen (%s másodperc)"
 
 msgctxt "#30633"
 msgid "No (%s seconds)"
-msgstr ""
+msgstr "Nem (%s másodperc)"
 
 msgctxt "#30634"
 msgid "Log level"
-msgstr ""
+msgstr "Naplózási szint"
 
 msgctxt "#30635"
 msgid "None"
-msgstr ""
+msgstr "Nincs"
 
 msgctxt "#30636"
 msgid "Error"
-msgstr ""
+msgstr "Hiba"
 
 msgctxt "#30637"
 msgid "Info"
-msgstr ""
+msgstr "Információ"
 
 msgctxt "#30638"
 msgid "Debug"
-msgstr ""
+msgstr "Hibakeresés"
 
 msgctxt "#30639"
 msgid "Show Specials in season listings"
-msgstr ""
+msgstr "Különkiadások megjelenítése az évadlistákban"
 
 msgctxt "#30640"
 msgid "Bitrate"
-msgstr ""
+msgstr "Bitráta"
 
 msgctxt "#30641"
 msgid "Playback"
-msgstr ""
+msgstr "Lejátszás"
 
 msgctxt "#30642"
 msgid "Force Resume options"
-msgstr ""
+msgstr "A folytatási beállítások kényszerítése"
 
 msgctxt "#30643"
 msgid "by Kodi"
-msgstr ""
+msgstr "a Kodi által"
 
 msgctxt "#30644"
 msgid "by Elementum - Ask"
-msgstr ""
+msgstr "az Elementum által - Rákérdezés"
 
 msgctxt "#30645"
 msgid "by Elementum - Force"
-msgstr ""
+msgstr "az Elementum által - Kényszerítés"
 
 msgctxt "#30646"
 msgid "Authorize Elementum on Trakt.tv"
-msgstr ""
+msgstr "Az Elementum engedélyezése a Trakt.tv oldalon"
 
 msgctxt "#30647"
 msgid "Cancel Authorization for Elementum on Trakt.tv"
-msgstr ""
+msgstr "Az Elementum engedélyezésének visszavonása a Trakt.tv oldalon"
 
 msgctxt "#30648"
 msgid "Authorization"
-msgstr ""
+msgstr "Engedélyezés"
 
 msgctxt "#30649"
 msgid "To authorize addon for Trakt.tv you need to:[CR]1. Open [B]%s[/B][CR]2. Enter code: [B]%s[/B][CR]3. Wait for notification from Elementum."
-msgstr ""
+msgstr "A kiegészítő Trakt.tv-hez való engedélyezéséhez a következőket kell tenned:[CR]1. Nyisd meg: [B]%s[/B][CR]2. Add meg a kódot: [B]%s[/B][CR]3. Várd meg az Elementum értesítését."
 
 msgctxt "#30650"
 msgid "Successfully authorized for Trakt.tv"
-msgstr ""
+msgstr "A Trakt.tv engedélyezése sikeres"
 
 msgctxt "#30651"
 msgid "Could not authorize for Trakt.tv"
-msgstr ""
+msgstr "Nem sikerült engedélyezni a Trakt.tv-t"
 
 msgctxt "#30652"
 msgid "Successfully deauthorized for Trakt.tv"
-msgstr ""
+msgstr "A Trakt.tv engedélyezésének visszavonása sikeres"
 
 msgctxt "#30653"
 msgid "Which files to download"
-msgstr ""
+msgstr "Mely fájlokat töltse le"
 
 msgctxt "#30654"
 msgid "Only playback file"
-msgstr ""
+msgstr "Csak a lejátszandó fájlt"
 
 msgctxt "#30655"
 msgid "Season files"
-msgstr ""
+msgstr "Az évad fájljait"
 
 msgctxt "#30656"
 msgid "All files"
-msgstr ""
+msgstr "Az összes fájlt"
 
 msgctxt "#30657"
 msgid "Disable LSD"
-msgstr ""
+msgstr "LSD letiltása"
 
 msgctxt "#30658"
 msgid "Add extra trackers"
-msgstr ""
+msgstr "További trackerek hozzáadása"
 
 msgctxt "#30659"
 msgid "All known trackers"
-msgstr ""
+msgstr "Az összes ismert tracker"
 
 msgctxt "#30660"
 msgid "Best trackers"
-msgstr ""
+msgstr "A legjobb trackerek"
 
 msgctxt "#30661"
 msgid "Minimum set"
-msgstr ""
+msgstr "Minimális készlet"
 
 msgctxt "#30662"
 msgid "Remove original trackers from torrent"
-msgstr ""
+msgstr "Az eredeti trackerek eltávolítása a torrentből"
 
 msgctxt "#30663"
 msgid "Show episodes on release day (w/o delay)"
-msgstr ""
+msgstr "Epizódok megjelenítése a megjelenés napján (késleltetés nélkül)"
 
 msgctxt "#30664"
 msgid "Modify trackers in torrent"
-msgstr ""
+msgstr "A trackerek módosítása a torrentben"
 
 msgctxt "#30665"
 msgid "At the time of adding"
-msgstr ""
+msgstr "A hozzáadás pillanatában"
 
 msgctxt "#30666"
 msgid "Every time"
-msgstr ""
+msgstr "Minden alkalommal"
 
 msgctxt "#30667"
 msgid "Mark as watched in Trakt"
-msgstr ""
+msgstr "Megjelölés megtekintettként a Traktban"
 
 msgctxt "#30668"
 msgid "Mark as unwatched in Trakt"
-msgstr ""
+msgstr "Megjelölés meg nem tekintettként a Traktban"
 
 msgctxt "#30669"
 msgid "Delay addon startup, seconds"
-msgstr ""
+msgstr "A kiegészítő indításának késleltetése, másodperc"
 
 msgctxt "#30670"
 msgid "Downloading required binary file for '%s'"
-msgstr ""
+msgstr "A(z) '%s' számára szükséges bináris fájl letöltése"
 
 msgctxt "#30671"
 msgid "List of Opennic DNS IPs"
-msgstr ""
+msgstr "Az OpenNIC DNS IP-címeinek listája"
 
 msgctxt "#30672"
 msgid "Compact database"
-msgstr ""
+msgstr "Adatbázis tömörítése"
 
 msgctxt "#30673"
 msgid "Compact cache database"
-msgstr ""
+msgstr "A gyorsítótár adatbázisának tömörítése"
 
 msgctxt "#30674"
 msgid "Database was compacted"
-msgstr ""
+msgstr "Az adatbázis tömörítve lett"
 
 msgctxt "#30675"
 msgid "Remote host login"
-msgstr ""
+msgstr "A távoli kiszolgáló felhasználóneve"
 
 msgctxt "#30676"
 msgid "Remote host password"
-msgstr ""
+msgstr "A távoli kiszolgáló jelszava"
 
 msgctxt "#30677"
 msgid "Force start as a library"
-msgstr ""
+msgstr "Indítás kényszerítése médiatárként"
 
 msgctxt "#30678"
 msgid "Remove from Kodi library, when movie is deleted from Trakt"
-msgstr ""
+msgstr "Eltávolítás a Kodi médiatárból, amikor a filmet törlik a Traktból"
 
 msgctxt "#30679"
 msgid "Remove from Kodi library, when show is deleted from Trakt"
-msgstr ""
+msgstr "Eltávolítás a Kodi médiatárból, amikor a sorozatot törlik a Traktból"
 
 msgctxt "#30680"
 msgid "Remove Elementum duplicates from library"
-msgstr ""
+msgstr "Az Elementum duplikátumainak eltávolítása a médiatárból"
 
 msgctxt "#30681"
 msgid "[B]Found duplicates in Kodi library:[/B][CR]Movies: [B]%s[/B], Shows: [B]%s[/B], Episodes: [B]%s[/B][CR]Proceed?"
-msgstr ""
+msgstr "[B]Duplikátumok találhatók a Kodi médiatárban:[/B][CR]Filmek: [B]%s[/B], Sorozatok: [B]%s[/B], Epizódok: [B]%s[/B][CR]Folytatod?"
 
 msgctxt "#30682"
 msgid "No duplicates were found in Kodi library"
-msgstr ""
+msgstr "Nem található duplikátum a Kodi médiatárban"
 
 msgctxt "#30683"
 msgid "Starting library duplicates removal"
-msgstr ""
+msgstr "A duplikátumok eltávolításának indítása a médiatárból"
 
 msgctxt "#30684"
 msgid "Removed Movies: %s, Shows: %s, Episodes: %s"
-msgstr ""
+msgstr "Eltávolítva - Filmek: %s, Sorozatok: %s, Epizódok: %s"
 
 msgctxt "#30685"
 msgid "Remove movies from Elementum database"
-msgstr ""
+msgstr "Filmek eltávolítása az Elementum adatbázisából"
 
 msgctxt "#30686"
 msgid "Remove shows from Elementum database"
-msgstr ""
+msgstr "Sorozatok eltávolítása az Elementum adatbázisából"
 
 msgctxt "#30687"
 msgid "In Elementum library"
-msgstr ""
+msgstr "Az Elementum médiatárában"
 
 msgctxt "#30688"
 msgid "Skip searching for installed Elementum repository"
-msgstr ""
+msgstr "A telepített Elementum tároló keresésének kihagyása"
 
 msgctxt "#30689"
 msgid "Internal DNS client"
-msgstr ""
+msgstr "Belső DNS kliens"
 
 msgctxt "#30691"
 msgid "Hide watched"
-msgstr ""
+msgstr "Megtekintettek elrejtése"
 
 msgctxt "#30692"
 msgid "TMDB images quality (affects Kodi performance)"
-msgstr ""
+msgstr "A TMDB képek minősége (befolyásolja a Kodi teljesítményét)"
 
 msgctxt "#30693"
 msgid "Original"
-msgstr ""
+msgstr "Eredeti"
 
 msgctxt "#30694"
 msgid "High"
-msgstr ""
+msgstr "Magas"
 
 msgctxt "#30695"
 msgid "Medium"
-msgstr ""
+msgstr "Közepes"
 
 msgctxt "#30696"
 msgid "Low"
-msgstr ""
+msgstr "Alacsony"
 
 msgctxt "#30697"
 msgid "Interface language"
-msgstr ""
+msgstr "A felület nyelve"
 
 msgctxt "#30698"
 msgid "Kodi language"
-msgstr ""
+msgstr "A Kodi nyelve"
 
 msgctxt "#30699"
 msgid "Use earliest release date for progress and calendars"
-msgstr ""
+msgstr "A legkorábbi megjelenési dátum használata a haladáshoz és a naptárakhoz"
 
 msgctxt "#30700"
 msgid "Interface fallback language"
-msgstr ""
+msgstr "A felület tartaléknyelve"
 
 msgctxt "#30701"
 msgid "English | en"
-msgstr ""
+msgstr "Angol | en"
 
 msgctxt "#30702"
 msgid "Reached daily limit for subtitles downloads"
-msgstr ""
+msgstr "Elérted a feliratletöltések napi korlátját"
 
 msgctxt "#30703"
 msgid "Can be used by search providers or [CR]for debugging"
-msgstr ""
+msgstr "Használhatják a keresőszolgáltatók, vagy [CR]hibakereséshez"
 
 msgctxt "#30704"
 msgid "TMDB API Key check failed, cannot use TMDB service"
-msgstr ""
+msgstr "A TMDB API kulcs ellenőrzése sikertelen, a TMDB szolgáltatás nem használható"
 
 msgctxt "#30705"
 msgid "TMDB API accessibility check failed, cannot use TMDB service"
-msgstr ""
+msgstr "A TMDB API elérhetőségének ellenőrzése sikertelen, a TMDB szolgáltatás nem használható"
 
 msgctxt "#30706"
 msgid "Transmission 4.05"
-msgstr ""
+msgstr "Transmission 4.05"
 
 msgctxt "#30707"
 msgid "qBittorrent 3.3.9"
-msgstr ""
+msgstr "qBittorrent 3.3.9"
 
 msgctxt "#30708"
 msgid "qBittorrent 4.6.4"
-msgstr ""
+msgstr "qBittorrent 4.6.4"
 
 msgctxt "#30709"
 msgid "Open [B]%s[/B]"
-msgstr ""
+msgstr "[B]%s[/B] megnyitása"
 
 msgctxt "#30710"
 msgid "BitTorrent ports"
-msgstr ""
+msgstr "BitTorrent portok"
 
 msgctxt "#30711"
 msgid "Delete torrent '%s'?"
-msgstr ""
+msgstr "Törlöd a(z) '%s' torrentet?"
 
 msgctxt "#30712"
 msgid "Force to always use proxy, can break download in some cases"
-msgstr ""
+msgstr "A proxy állandó használatának kényszerítése, egyes esetekben megszakíthatja a letöltést"
 
 msgctxt "#30713"
 msgid "Disable NATPMP"
-msgstr ""
+msgstr "NATPMP letiltása"
 
 msgctxt "#30714"
 msgid "Re-check torrent's data"
-msgstr ""
+msgstr "A torrent adatainak újraellenőrzése"
 
 msgctxt "#30715"
 msgid "Antizapret PAC file URL"
-msgstr ""
+msgstr "Az Antizapret PAC fájl URL-je"
 
 msgctxt "#30716"
 msgid "DNS over HTTPS Server"
-msgstr ""
+msgstr "DNS over HTTPS kiszolgáló"
 
 msgctxt "#30717"
 msgid "Custom DNS over HTTPS Server"
-msgstr ""
+msgstr "Egyéni DNS over HTTPS kiszolgáló"
 
 msgctxt "#30718"
 msgid "Use OpenNIC DNS Servers"
-msgstr ""
+msgstr "Az OpenNIC DNS kiszolgálóinak használata"
