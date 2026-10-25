@@ -2474,3 +2474,7 @@ msgstr "Automatiskt"
 msgctxt "#30760"
 msgid "Searching…"
 msgstr "Söker…"
+
+msgctxt "#30761"
+msgid "Clean up leftover files"
+msgstr "Rensa kvarlämnade filer"

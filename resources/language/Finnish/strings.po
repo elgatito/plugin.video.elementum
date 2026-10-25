@@ -2470,3 +2470,7 @@ msgstr "Automaattinen"
 msgctxt "#30760"
 msgid "Searching…"
 msgstr "Haetaan…"
+
+msgctxt "#30761"
+msgid "Clean up leftover files"
+msgstr "Siivoa jäljelle jääneet tiedostot"

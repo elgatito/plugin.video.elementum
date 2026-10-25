@@ -2482,3 +2482,7 @@ msgstr ""
 msgctxt "#30760"
 msgid "Searching…"
 msgstr ""
+
+msgctxt "#30761"
+msgid "Clean up leftover files"
+msgstr ""

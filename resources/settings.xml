@@ -407,6 +407,10 @@
 
     <!-- Advanced -->
     <category label="30015">
+        <!-- Download folder -->
+        <setting label="30001" type="lsep" />
+        <setting type="action" label="30761" option="close" action="ActivateWindow(Videos,plugin://plugin.video.elementum/cmd/leftovers,return)" />
+
         <!-- Database -->
         <setting label="30460" type="lsep" />
         <setting type="action" label="30461" action="RunPlugin(plugin://plugin.video.elementum/status)" />

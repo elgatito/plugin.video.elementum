@@ -2474,3 +2474,7 @@ msgstr "Αυτόματα"
 msgctxt "#30760"
 msgid "Searching…"
 msgstr "Αναζήτηση…"
+
+msgctxt "#30761"
+msgid "Clean up leftover files"
+msgstr "Εκκαθάριση υπολειπόμενων αρχείων"

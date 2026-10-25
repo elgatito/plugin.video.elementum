@@ -2472,3 +2472,7 @@ msgstr "Automatikus"
 msgctxt "#30760"
 msgid "Searching…"
 msgstr "Keresés…"
+
+msgctxt "#30761"
+msgid "Clean up leftover files"
+msgstr "Visszamaradt fájlok törlése"

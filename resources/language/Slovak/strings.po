@@ -2471,3 +2471,7 @@ msgstr "Automaticky"
 msgctxt "#30760"
 msgid "Searching…"
 msgstr "Vyhľadávanie…"
+
+msgctxt "#30761"
+msgid "Clean up leftover files"
+msgstr "Vyčistiť zostávajúce súbory"

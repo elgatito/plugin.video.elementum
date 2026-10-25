@@ -2470,3 +2470,7 @@ msgstr "Automático"
 msgctxt "#30760"
 msgid "Searching…"
 msgstr "Pesquisando…"
+
+msgctxt "#30761"
+msgid "Clean up leftover files"
+msgstr "Limpar arquivos restantes"
