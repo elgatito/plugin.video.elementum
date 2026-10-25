@@ -2318,3 +2318,173 @@ msgstr "Prilagođeni DNS over HTTPS poslužitelj"
 msgctxt "#30718"
 msgid "Use OpenNIC DNS Servers"
 msgstr "Koristi OpenNIC DNS poslužitelje"
+
+# Web UI
+
+msgctxt "#30719"
+msgid "Play"
+msgstr "Reproduciraj"
+
+msgctxt "#30720"
+msgid "Cancel"
+msgstr "Odustani"
+
+msgctxt "#30721"
+msgid "Name"
+msgstr "Naziv"
+
+msgctxt "#30722"
+msgid "Size"
+msgstr "Veličina"
+
+msgctxt "#30723"
+msgid "Files"
+msgstr "Datoteke"
+
+msgctxt "#30724"
+msgid "Pieces"
+msgstr "Dijelovi"
+
+msgctxt "#30725"
+msgid "Size / Status"
+msgstr "Veličina / Status"
+
+msgctxt "#30726"
+msgid "Ratios"
+msgstr "Omjeri"
+
+msgctxt "#30727"
+msgid "Rates"
+msgstr "Brzine"
+
+msgctxt "#30728"
+msgid "Seeds / Peers"
+msgstr "Seedovi / Peerovi"
+
+msgctxt "#30729"
+msgid "Active"
+msgstr "Aktivni"
+
+msgctxt "#30730"
+msgid "Total"
+msgstr "Ukupno"
+
+msgctxt "#30731"
+msgid "Active / Total"
+msgstr "Aktivni / Ukupno"
+
+msgctxt "#30732"
+msgid "Seed ratio"
+msgstr "Omjer dijeljenja"
+
+msgctxt "#30733"
+msgid "Time ratio"
+msgstr "Vremenski omjer"
+
+msgctxt "#30734"
+msgid "Start all"
+msgstr "Pokreni sve"
+
+msgctxt "#30735"
+msgid "Pause all"
+msgstr "Pauziraj sve"
+
+msgctxt "#30736"
+msgid "Play in Kodi"
+msgstr "Reproduciraj u Kodiju"
+
+msgctxt "#30737"
+msgid "Completed"
+msgstr "Dovršeno"
+
+msgctxt "#30738"
+msgid "Seed time"
+msgstr "Vrijeme dijeljenja"
+
+msgctxt "#30739"
+msgid "Seed time limit"
+msgstr "Ograničenje vremena dijeljenja"
+
+msgctxt "#30740"
+msgid "Total download"
+msgstr "Ukupno preuzeto"
+
+msgctxt "#30741"
+msgid "Total upload"
+msgstr "Ukupno poslano"
+
+msgctxt "#30742"
+msgid "Refresh rate"
+msgstr "Učestalost osvježavanja"
+
+msgctxt "#30743"
+msgid "Seconds"
+msgstr "Sekunde"
+
+msgctxt "#30744"
+msgid "Language"
+msgstr "Jezik"
+
+msgctxt "#30745"
+msgid "Save"
+msgstr "Spremi"
+
+msgctxt "#30746"
+msgid "Add"
+msgstr "Dodaj"
+
+msgctxt "#30747"
+msgid "Add (all files)"
+msgstr "Dodaj (sve datoteke)"
+
+msgctxt "#30748"
+msgid "Magnet or Torrent file URL"
+msgstr "Magnet poveznica ili URL torrent datoteke"
+
+msgctxt "#30749"
+msgid "Also delete files"
+msgstr "Izbriši i datoteke"
+
+msgctxt "#30750"
+msgid "Select a torrent first"
+msgstr "Najprije odaberite torrent"
+
+msgctxt "#30751"
+msgid "Delete %s?"
+msgstr "Izbrisati %s?"
+
+msgctxt "#30752"
+msgid "Delete selected torrents?"
+msgstr "Izbrisati odabrane torrente?"
+
+msgctxt "#30753"
+msgid "Are you sure you want to delete these torrents?"
+msgstr "Jeste li sigurni da želite izbrisati ove torrente?"
+
+msgctxt "#30754"
+msgid "No results found"
+msgstr "Nema rezultata"
+
+msgctxt "#30755"
+msgid "Local"
+msgstr "Lokalni"
+
+msgctxt "#30756"
+msgid "Done"
+msgstr "Gotovo"
+
+msgctxt "#30757"
+msgid "Queued"
+msgstr "U redu čekanja"
+
+msgctxt "#30758"
+msgid "Not selected"
+msgstr "Nije odabrano"
+
+msgctxt "#30759"
+msgid "Automatic"
+msgstr "Automatski"
+
+msgctxt "#30760"
+msgid "Searching…"
+msgstr "Pretraživanje…"

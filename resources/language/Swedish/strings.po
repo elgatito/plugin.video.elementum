@@ -2304,3 +2304,173 @@ msgstr "Anpassad DNS over HTTPS-server"
 msgctxt "#30718"
 msgid "Use OpenNIC DNS Servers"
 msgstr "Använd OpenNIC DNS-servrar"
+
+# Web UI
+
+msgctxt "#30719"
+msgid "Play"
+msgstr "Spela upp"
+
+msgctxt "#30720"
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgctxt "#30721"
+msgid "Name"
+msgstr "Namn"
+
+msgctxt "#30722"
+msgid "Size"
+msgstr "Storlek"
+
+msgctxt "#30723"
+msgid "Files"
+msgstr "Filer"
+
+msgctxt "#30724"
+msgid "Pieces"
+msgstr "Delar"
+
+msgctxt "#30725"
+msgid "Size / Status"
+msgstr "Storlek / Status"
+
+msgctxt "#30726"
+msgid "Ratios"
+msgstr "Kvoter"
+
+msgctxt "#30727"
+msgid "Rates"
+msgstr "Hastigheter"
+
+msgctxt "#30728"
+msgid "Seeds / Peers"
+msgstr "Seeds / Peers"
+
+msgctxt "#30729"
+msgid "Active"
+msgstr "Aktiva"
+
+msgctxt "#30730"
+msgid "Total"
+msgstr "Totalt"
+
+msgctxt "#30731"
+msgid "Active / Total"
+msgstr "Aktiva / Totalt"
+
+msgctxt "#30732"
+msgid "Seed ratio"
+msgstr "Delningskvot"
+
+msgctxt "#30733"
+msgid "Time ratio"
+msgstr "Tidskvot"
+
+msgctxt "#30734"
+msgid "Start all"
+msgstr "Starta alla"
+
+msgctxt "#30735"
+msgid "Pause all"
+msgstr "Pausa alla"
+
+msgctxt "#30736"
+msgid "Play in Kodi"
+msgstr "Spela upp i Kodi"
+
+msgctxt "#30737"
+msgid "Completed"
+msgstr "Slutfört"
+
+msgctxt "#30738"
+msgid "Seed time"
+msgstr "Delningstid"
+
+msgctxt "#30739"
+msgid "Seed time limit"
+msgstr "Gräns för delningstid"
+
+msgctxt "#30740"
+msgid "Total download"
+msgstr "Totalt nedladdat"
+
+msgctxt "#30741"
+msgid "Total upload"
+msgstr "Totalt uppladdat"
+
+msgctxt "#30742"
+msgid "Refresh rate"
+msgstr "Uppdateringsintervall"
+
+msgctxt "#30743"
+msgid "Seconds"
+msgstr "Sekunder"
+
+msgctxt "#30744"
+msgid "Language"
+msgstr "Språk"
+
+msgctxt "#30745"
+msgid "Save"
+msgstr "Spara"
+
+msgctxt "#30746"
+msgid "Add"
+msgstr "Lägg till"
+
+msgctxt "#30747"
+msgid "Add (all files)"
+msgstr "Lägg till (alla filer)"
+
+msgctxt "#30748"
+msgid "Magnet or Torrent file URL"
+msgstr "Magnet- eller torrentfil-URL"
+
+msgctxt "#30749"
+msgid "Also delete files"
+msgstr "Ta även bort filer"
+
+msgctxt "#30750"
+msgid "Select a torrent first"
+msgstr "Välj en torrent först"
+
+msgctxt "#30751"
+msgid "Delete %s?"
+msgstr "Ta bort %s?"
+
+msgctxt "#30752"
+msgid "Delete selected torrents?"
+msgstr "Ta bort valda torrents?"
+
+msgctxt "#30753"
+msgid "Are you sure you want to delete these torrents?"
+msgstr "Är du säker på att du vill ta bort dessa torrents?"
+
+msgctxt "#30754"
+msgid "No results found"
+msgstr "Inga resultat hittades"
+
+msgctxt "#30755"
+msgid "Local"
+msgstr "Lokal"
+
+msgctxt "#30756"
+msgid "Done"
+msgstr "Klar"
+
+msgctxt "#30757"
+msgid "Queued"
+msgstr "I kö"
+
+msgctxt "#30758"
+msgid "Not selected"
+msgstr "Ej vald"
+
+msgctxt "#30759"
+msgid "Automatic"
+msgstr "Automatiskt"
+
+msgctxt "#30760"
+msgid "Searching…"
+msgstr "Söker…"

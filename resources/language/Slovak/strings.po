@@ -2301,3 +2301,173 @@ msgstr "Vlastný server DNS over HTTPS"
 msgctxt "#30718"
 msgid "Use OpenNIC DNS Servers"
 msgstr "Používať servery DNS OpenNIC"
+
+# Web UI
+
+msgctxt "#30719"
+msgid "Play"
+msgstr "Prehrať"
+
+msgctxt "#30720"
+msgid "Cancel"
+msgstr "Zrušiť"
+
+msgctxt "#30721"
+msgid "Name"
+msgstr "Názov"
+
+msgctxt "#30722"
+msgid "Size"
+msgstr "Veľkosť"
+
+msgctxt "#30723"
+msgid "Files"
+msgstr "Súbory"
+
+msgctxt "#30724"
+msgid "Pieces"
+msgstr "Časti"
+
+msgctxt "#30725"
+msgid "Size / Status"
+msgstr "Veľkosť / Stav"
+
+msgctxt "#30726"
+msgid "Ratios"
+msgstr "Pomery"
+
+msgctxt "#30727"
+msgid "Rates"
+msgstr "Rýchlosti"
+
+msgctxt "#30728"
+msgid "Seeds / Peers"
+msgstr "Seedy / Peery"
+
+msgctxt "#30729"
+msgid "Active"
+msgstr "Aktívne"
+
+msgctxt "#30730"
+msgid "Total"
+msgstr "Spolu"
+
+msgctxt "#30731"
+msgid "Active / Total"
+msgstr "Aktívne / Spolu"
+
+msgctxt "#30732"
+msgid "Seed ratio"
+msgstr "Pomer zdieľania"
+
+msgctxt "#30733"
+msgid "Time ratio"
+msgstr "Časový pomer"
+
+msgctxt "#30734"
+msgid "Start all"
+msgstr "Spustiť všetky"
+
+msgctxt "#30735"
+msgid "Pause all"
+msgstr "Pozastaviť všetky"
+
+msgctxt "#30736"
+msgid "Play in Kodi"
+msgstr "Prehrať v Kodi"
+
+msgctxt "#30737"
+msgid "Completed"
+msgstr "Dokončené"
+
+msgctxt "#30738"
+msgid "Seed time"
+msgstr "Čas zdieľania"
+
+msgctxt "#30739"
+msgid "Seed time limit"
+msgstr "Limit času zdieľania"
+
+msgctxt "#30740"
+msgid "Total download"
+msgstr "Celkovo stiahnuté"
+
+msgctxt "#30741"
+msgid "Total upload"
+msgstr "Celkovo odoslané"
+
+msgctxt "#30742"
+msgid "Refresh rate"
+msgstr "Frekvencia obnovenia"
+
+msgctxt "#30743"
+msgid "Seconds"
+msgstr "Sekundy"
+
+msgctxt "#30744"
+msgid "Language"
+msgstr "Jazyk"
+
+msgctxt "#30745"
+msgid "Save"
+msgstr "Uložiť"
+
+msgctxt "#30746"
+msgid "Add"
+msgstr "Pridať"
+
+msgctxt "#30747"
+msgid "Add (all files)"
+msgstr "Pridať (všetky súbory)"
+
+msgctxt "#30748"
+msgid "Magnet or Torrent file URL"
+msgstr "Magnet odkaz alebo URL torrent súboru"
+
+msgctxt "#30749"
+msgid "Also delete files"
+msgstr "Odstrániť aj súbory"
+
+msgctxt "#30750"
+msgid "Select a torrent first"
+msgstr "Najprv vyberte torrent"
+
+msgctxt "#30751"
+msgid "Delete %s?"
+msgstr "Odstrániť %s?"
+
+msgctxt "#30752"
+msgid "Delete selected torrents?"
+msgstr "Odstrániť vybrané torrenty?"
+
+msgctxt "#30753"
+msgid "Are you sure you want to delete these torrents?"
+msgstr "Naozaj chcete odstrániť tieto torrenty?"
+
+msgctxt "#30754"
+msgid "No results found"
+msgstr "Nenašli sa žiadne výsledky"
+
+msgctxt "#30755"
+msgid "Local"
+msgstr "Lokálny"
+
+msgctxt "#30756"
+msgid "Done"
+msgstr "Hotovo"
+
+msgctxt "#30757"
+msgid "Queued"
+msgstr "V poradí"
+
+msgctxt "#30758"
+msgid "Not selected"
+msgstr "Nevybrané"
+
+msgctxt "#30759"
+msgid "Automatic"
+msgstr "Automaticky"
+
+msgctxt "#30760"
+msgid "Searching…"
+msgstr "Vyhľadávanie…"

@@ -2300,3 +2300,173 @@ msgstr "Mukautettu DNS over HTTPS -palvelin"
 msgctxt "#30718"
 msgid "Use OpenNIC DNS Servers"
 msgstr "Käytä OpenNIC-DNS-palvelimia"
+
+# Web UI
+
+msgctxt "#30719"
+msgid "Play"
+msgstr "Toista"
+
+msgctxt "#30720"
+msgid "Cancel"
+msgstr "Peruuta"
+
+msgctxt "#30721"
+msgid "Name"
+msgstr "Nimi"
+
+msgctxt "#30722"
+msgid "Size"
+msgstr "Koko"
+
+msgctxt "#30723"
+msgid "Files"
+msgstr "Tiedostot"
+
+msgctxt "#30724"
+msgid "Pieces"
+msgstr "Palat"
+
+msgctxt "#30725"
+msgid "Size / Status"
+msgstr "Koko / Tila"
+
+msgctxt "#30726"
+msgid "Ratios"
+msgstr "Suhteet"
+
+msgctxt "#30727"
+msgid "Rates"
+msgstr "Nopeudet"
+
+msgctxt "#30728"
+msgid "Seeds / Peers"
+msgstr "Jakajat / Vertaiset"
+
+msgctxt "#30729"
+msgid "Active"
+msgstr "Aktiiviset"
+
+msgctxt "#30730"
+msgid "Total"
+msgstr "Yhteensä"
+
+msgctxt "#30731"
+msgid "Active / Total"
+msgstr "Aktiiviset / Yhteensä"
+
+msgctxt "#30732"
+msgid "Seed ratio"
+msgstr "Jakosuhde"
+
+msgctxt "#30733"
+msgid "Time ratio"
+msgstr "Aikasuhde"
+
+msgctxt "#30734"
+msgid "Start all"
+msgstr "Käynnistä kaikki"
+
+msgctxt "#30735"
+msgid "Pause all"
+msgstr "Keskeytä kaikki"
+
+msgctxt "#30736"
+msgid "Play in Kodi"
+msgstr "Toista Kodissa"
+
+msgctxt "#30737"
+msgid "Completed"
+msgstr "Valmis"
+
+msgctxt "#30738"
+msgid "Seed time"
+msgstr "Jakoaika"
+
+msgctxt "#30739"
+msgid "Seed time limit"
+msgstr "Jakoajan raja"
+
+msgctxt "#30740"
+msgid "Total download"
+msgstr "Ladattu yhteensä"
+
+msgctxt "#30741"
+msgid "Total upload"
+msgstr "Lähetetty yhteensä"
+
+msgctxt "#30742"
+msgid "Refresh rate"
+msgstr "Päivitysväli"
+
+msgctxt "#30743"
+msgid "Seconds"
+msgstr "Sekuntia"
+
+msgctxt "#30744"
+msgid "Language"
+msgstr "Kieli"
+
+msgctxt "#30745"
+msgid "Save"
+msgstr "Tallenna"
+
+msgctxt "#30746"
+msgid "Add"
+msgstr "Lisää"
+
+msgctxt "#30747"
+msgid "Add (all files)"
+msgstr "Lisää (kaikki tiedostot)"
+
+msgctxt "#30748"
+msgid "Magnet or Torrent file URL"
+msgstr "Magnet- tai torrent-tiedoston URL"
+
+msgctxt "#30749"
+msgid "Also delete files"
+msgstr "Poista myös tiedostot"
+
+msgctxt "#30750"
+msgid "Select a torrent first"
+msgstr "Valitse ensin torrent"
+
+msgctxt "#30751"
+msgid "Delete %s?"
+msgstr "Poistetaanko %s?"
+
+msgctxt "#30752"
+msgid "Delete selected torrents?"
+msgstr "Poistetaanko valitut torrentit?"
+
+msgctxt "#30753"
+msgid "Are you sure you want to delete these torrents?"
+msgstr "Haluatko varmasti poistaa nämä torrentit?"
+
+msgctxt "#30754"
+msgid "No results found"
+msgstr "Tuloksia ei löytynyt"
+
+msgctxt "#30755"
+msgid "Local"
+msgstr "Paikallinen"
+
+msgctxt "#30756"
+msgid "Done"
+msgstr "Valmis"
+
+msgctxt "#30757"
+msgid "Queued"
+msgstr "Jonossa"
+
+msgctxt "#30758"
+msgid "Not selected"
+msgstr "Ei valittu"
+
+msgctxt "#30759"
+msgid "Automatic"
+msgstr "Automaattinen"
+
+msgctxt "#30760"
+msgid "Searching…"
+msgstr "Haetaan…"

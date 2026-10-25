@@ -5,6 +5,7 @@ import DeleteTorrentModal from '../delete-modal';
 import UploadTorrentModal from '../upload-modal';
 import TorrentListItem from './torrent';
 import { ITorrent } from '../dataStructure';
+import { t } from '../i18n';
 
 interface ITorrentListProps {
   torrents: ITorrent[];
@@ -104,19 +105,19 @@ const TorrentList: FC<ITorrentListProps> = ({ torrents, activeTorrents, onSetAct
         <Table.Header className="mobile-hidden">
           <Table.Row>
             <Table.HeaderCell width="11" sorted={getSortOrder('name')} onClick={() => changeColumnSortOrder('name')}>
-              Name
+              {t('name')}
             </Table.HeaderCell>
             <Table.HeaderCell width="4" sorted={getSortOrder('size_bytes')} onClick={() => changeColumnSortOrder('size_bytes')}>
-              Size / Status
+              {t('sizeStatus')}
             </Table.HeaderCell>
             <Table.HeaderCell width="5" sorted={getSortOrder('ratio')} onClick={() => changeColumnSortOrder('ratio')}>
-              Ratios
+              {t('ratios')}
             </Table.HeaderCell>
             <Table.HeaderCell width="5" sorted={getSortOrder('download_rate')} onClick={() => changeColumnSortOrder('download_rate')}>
-              Rates
+              {t('rates')}
             </Table.HeaderCell>
             <Table.HeaderCell width="5" sorted={getSortOrder('seeders')} onClick={() => changeColumnSortOrder('seeders')}>
-              Seeds / Peers
+              {t('seedsPeers')}
             </Table.HeaderCell>
             <Table.HeaderCell width="3" />
           </Table.Row>

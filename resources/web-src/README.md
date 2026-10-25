@@ -1,48 +1,16 @@
-# Getting Started with Create React App
+# Elementum Web UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React + TypeScript app served by the Elementum daemon at `/web/`. Built with [Vite](https://vite.dev), requires Node.js 24 (see `.nvmrc`).
 
-NOTE: use Node.js 12 to build.
+- `npm ci`: install dependencies.
+- `npm run dev`: dev server at http://localhost:5173/web/, API requests are proxied to the daemon at `127.0.0.1:65220`.
+- `npm run lint`: type check, ESLint and Prettier check.
+- `npm run format`: apply Prettier formatting.
+- `npm run build`: build into `../web/`.
 
-## Available Scripts
+UI texts are translated with add-on's `resources/language/*/strings.po`, the same files Kodi uses.
+To add a text, add it to `messages.pot` and every `strings.po` with a new ID, then map the ID to a key in `src/i18n/strings.ts` and use `t('key')`.
+The build embeds only these IDs, and fails if one is missing in English `strings.po`.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+The build output in `resources/web/` is committed, because the add-on ships it as is.
+Always run `npm run build` and commit `resources/web/` together with source changes: CI rebuilds it and fails if it differs.

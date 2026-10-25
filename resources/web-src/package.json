@@ -2,120 +2,45 @@
   "name": "elementum-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/web",
-  "dependencies": {
-    "lodash-es": "^4.17.21",
-    "pretty-bytes": "^5.6.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-fast-compare": "^3.2.0",
-    "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^2.0.3",
-    "use-debounce": "^7.0.0",
-    "use-resize-observer": "^7.0.0"
-  },
-  "devDependencies": {
-    "@types/lodash-es": "^4.17.4",
-    "@types/node": "^12.20.15",
-    "@types/react": "^17.0.13",
-    "@types/react-dom": "^17.0.8",
-    "@typescript-eslint/eslint-plugin": "^4.28.1",
-    "eslint-config-airbnb-typescript": "^12.3.1",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.24.0",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "prettier": "^2.3.2",
-    "react-scripts": "4.0.3",
-    "typescript": "^4.3.5"
+  "type": "module",
+  "engines": {
+    "node": ">=24"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "BUILD_PATH='../web' react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "lint": "tsc --noEmit && eslint . && prettier --check .",
+    "format": "prettier --write ."
   },
-  "proxy": "http://127.0.0.1:65220",
+  "dependencies": {
+    "lodash-es": "^4.18.1",
+    "pretty-bytes": "^7.2.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-fast-compare": "^3.2.2",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.5",
+    "use-debounce": "^10.1.1",
+    "use-resize-observer": "^10.0.0"
+  },
   "prettier": {
     "printWidth": 140,
     "singleQuote": true,
     "trailingComma": "all"
   },
-  "eslintConfig": {
-    "plugins": [
-      "@typescript-eslint"
-    ],
-    "extends": [
-      "airbnb-typescript",
-      "plugin:react-hooks/recommended",
-      "plugin:@typescript-eslint/recommended",
-      "plugin:@typescript-eslint/recommended-requiring-type-checking"
-    ],
-    "parserOptions": {
-      "project": "./tsconfig.json"
-    },
-    "rules": {
-      "max-len": [
-        "error",
-        {
-          "code": 140
-        }
-      ],
-      "default-case": "off",
-      "consistent-return": "off",
-      "no-void": "off",
-      "object-curly-newline": "off",
-      "implicit-arrow-linebreak": "off",
-      "react/jsx-wrap-multilines": "off",
-      "react/jsx-one-expression-per-line": "off",
-      "no-confusing-arrow": "off",
-      "@typescript-eslint/no-unused-vars": [
-        "error",
-        {
-          "argsIgnorePattern": "^_"
-        }
-      ],
-      "@typescript-eslint/restrict-template-expressions": [
-        "error",
-        {
-          "allowNumber": true,
-          "allowBoolean": true,
-          "allowAny": false,
-          "allowNullish": false
-        }
-      ],
-      "@typescript-eslint/no-unsafe-call": "warn",
-      "@typescript-eslint/no-unsafe-member-access": "warn",
-      "jsx-a11y/label-has-associated-control": [
-        "error",
-        {
-          "assert": "htmlFor"
-        }
-      ]
-    },
-    "settings": {
-      "import/resolver": {
-        "node": {
-          "extensions": [
-            ".js",
-            ".jsx",
-            ".ts",
-            ".tsx"
-          ]
-        }
-      }
-    }
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^24.19.2",
+    "@types/react": "^18.3.31",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react": "^6.1.2",
+    "eslint": "^10.13.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.13.0",
+    "prettier": "^3.9.10",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.72.0",
+    "vite": "^8.3.5"
   }
 }

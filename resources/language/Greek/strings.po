@@ -2304,3 +2304,173 @@ msgstr "Προσαρμοσμένος διακομιστής DNS over HTTPS"
 msgctxt "#30718"
 msgid "Use OpenNIC DNS Servers"
 msgstr "Χρήση των διακομιστών DNS του OpenNIC"
+
+# Web UI
+
+msgctxt "#30719"
+msgid "Play"
+msgstr "Αναπαραγωγή"
+
+msgctxt "#30720"
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+msgctxt "#30721"
+msgid "Name"
+msgstr "Όνομα"
+
+msgctxt "#30722"
+msgid "Size"
+msgstr "Μέγεθος"
+
+msgctxt "#30723"
+msgid "Files"
+msgstr "Αρχεία"
+
+msgctxt "#30724"
+msgid "Pieces"
+msgstr "Κομμάτια"
+
+msgctxt "#30725"
+msgid "Size / Status"
+msgstr "Μέγεθος / Κατάσταση"
+
+msgctxt "#30726"
+msgid "Ratios"
+msgstr "Αναλογίες"
+
+msgctxt "#30727"
+msgid "Rates"
+msgstr "Ταχύτητες"
+
+msgctxt "#30728"
+msgid "Seeds / Peers"
+msgstr "Seeds / Peers"
+
+msgctxt "#30729"
+msgid "Active"
+msgstr "Ενεργά"
+
+msgctxt "#30730"
+msgid "Total"
+msgstr "Σύνολο"
+
+msgctxt "#30731"
+msgid "Active / Total"
+msgstr "Ενεργά / Σύνολο"
+
+msgctxt "#30732"
+msgid "Seed ratio"
+msgstr "Αναλογία διαμοιρασμού"
+
+msgctxt "#30733"
+msgid "Time ratio"
+msgstr "Αναλογία χρόνου"
+
+msgctxt "#30734"
+msgid "Start all"
+msgstr "Έναρξη όλων"
+
+msgctxt "#30735"
+msgid "Pause all"
+msgstr "Παύση όλων"
+
+msgctxt "#30736"
+msgid "Play in Kodi"
+msgstr "Αναπαραγωγή στο Kodi"
+
+msgctxt "#30737"
+msgid "Completed"
+msgstr "Ολοκληρώθηκε"
+
+msgctxt "#30738"
+msgid "Seed time"
+msgstr "Χρόνος διαμοιρασμού"
+
+msgctxt "#30739"
+msgid "Seed time limit"
+msgstr "Όριο χρόνου διαμοιρασμού"
+
+msgctxt "#30740"
+msgid "Total download"
+msgstr "Συνολική λήψη"
+
+msgctxt "#30741"
+msgid "Total upload"
+msgstr "Συνολική αποστολή"
+
+msgctxt "#30742"
+msgid "Refresh rate"
+msgstr "Συχνότητα ανανέωσης"
+
+msgctxt "#30743"
+msgid "Seconds"
+msgstr "Δευτερόλεπτα"
+
+msgctxt "#30744"
+msgid "Language"
+msgstr "Γλώσσα"
+
+msgctxt "#30745"
+msgid "Save"
+msgstr "Αποθήκευση"
+
+msgctxt "#30746"
+msgid "Add"
+msgstr "Προσθήκη"
+
+msgctxt "#30747"
+msgid "Add (all files)"
+msgstr "Προσθήκη (όλα τα αρχεία)"
+
+msgctxt "#30748"
+msgid "Magnet or Torrent file URL"
+msgstr "Magnet ή URL αρχείου torrent"
+
+msgctxt "#30749"
+msgid "Also delete files"
+msgstr "Διαγραφή και των αρχείων"
+
+msgctxt "#30750"
+msgid "Select a torrent first"
+msgstr "Επιλέξτε πρώτα ένα torrent"
+
+msgctxt "#30751"
+msgid "Delete %s?"
+msgstr "Διαγραφή του %s;"
+
+msgctxt "#30752"
+msgid "Delete selected torrents?"
+msgstr "Διαγραφή των επιλεγμένων torrent;"
+
+msgctxt "#30753"
+msgid "Are you sure you want to delete these torrents?"
+msgstr "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτά τα torrent;"
+
+msgctxt "#30754"
+msgid "No results found"
+msgstr "Δεν βρέθηκαν αποτελέσματα"
+
+msgctxt "#30755"
+msgid "Local"
+msgstr "Τοπικό"
+
+msgctxt "#30756"
+msgid "Done"
+msgstr "Έτοιμο"
+
+msgctxt "#30757"
+msgid "Queued"
+msgstr "Σε αναμονή"
+
+msgctxt "#30758"
+msgid "Not selected"
+msgstr "Δεν επιλέχθηκε"
+
+msgctxt "#30759"
+msgid "Automatic"
+msgstr "Αυτόματα"
+
+msgctxt "#30760"
+msgid "Searching…"
+msgstr "Αναζήτηση…"

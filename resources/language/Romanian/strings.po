@@ -2304,3 +2304,173 @@ msgstr "Server DNS over HTTPS personalizat"
 msgctxt "#30718"
 msgid "Use OpenNIC DNS Servers"
 msgstr "Folosește serverele DNS OpenNIC"
+
+# Web UI
+
+msgctxt "#30719"
+msgid "Play"
+msgstr "Redă"
+
+msgctxt "#30720"
+msgid "Cancel"
+msgstr "Anulează"
+
+msgctxt "#30721"
+msgid "Name"
+msgstr "Nume"
+
+msgctxt "#30722"
+msgid "Size"
+msgstr "Dimensiune"
+
+msgctxt "#30723"
+msgid "Files"
+msgstr "Fișiere"
+
+msgctxt "#30724"
+msgid "Pieces"
+msgstr "Piese"
+
+msgctxt "#30725"
+msgid "Size / Status"
+msgstr "Dimensiune / Stare"
+
+msgctxt "#30726"
+msgid "Ratios"
+msgstr "Rapoarte"
+
+msgctxt "#30727"
+msgid "Rates"
+msgstr "Viteze"
+
+msgctxt "#30728"
+msgid "Seeds / Peers"
+msgstr "Seederi / Peeri"
+
+msgctxt "#30729"
+msgid "Active"
+msgstr "Active"
+
+msgctxt "#30730"
+msgid "Total"
+msgstr "Total"
+
+msgctxt "#30731"
+msgid "Active / Total"
+msgstr "Active / Total"
+
+msgctxt "#30732"
+msgid "Seed ratio"
+msgstr "Raport de partajare"
+
+msgctxt "#30733"
+msgid "Time ratio"
+msgstr "Raport de timp"
+
+msgctxt "#30734"
+msgid "Start all"
+msgstr "Pornește toate"
+
+msgctxt "#30735"
+msgid "Pause all"
+msgstr "Pune pe pauză toate"
+
+msgctxt "#30736"
+msgid "Play in Kodi"
+msgstr "Redă în Kodi"
+
+msgctxt "#30737"
+msgid "Completed"
+msgstr "Finalizat"
+
+msgctxt "#30738"
+msgid "Seed time"
+msgstr "Timp de partajare"
+
+msgctxt "#30739"
+msgid "Seed time limit"
+msgstr "Limită timp de partajare"
+
+msgctxt "#30740"
+msgid "Total download"
+msgstr "Total descărcat"
+
+msgctxt "#30741"
+msgid "Total upload"
+msgstr "Total încărcat"
+
+msgctxt "#30742"
+msgid "Refresh rate"
+msgstr "Rată de reîmprospătare"
+
+msgctxt "#30743"
+msgid "Seconds"
+msgstr "Secunde"
+
+msgctxt "#30744"
+msgid "Language"
+msgstr "Limbă"
+
+msgctxt "#30745"
+msgid "Save"
+msgstr "Salvează"
+
+msgctxt "#30746"
+msgid "Add"
+msgstr "Adaugă"
+
+msgctxt "#30747"
+msgid "Add (all files)"
+msgstr "Adaugă (toate fișierele)"
+
+msgctxt "#30748"
+msgid "Magnet or Torrent file URL"
+msgstr "URL magnet sau al fișierului torrent"
+
+msgctxt "#30749"
+msgid "Also delete files"
+msgstr "Șterge și fișierele"
+
+msgctxt "#30750"
+msgid "Select a torrent first"
+msgstr "Selectează mai întâi un torrent"
+
+msgctxt "#30751"
+msgid "Delete %s?"
+msgstr "Ștergi %s?"
+
+msgctxt "#30752"
+msgid "Delete selected torrents?"
+msgstr "Ștergi torrentele selectate?"
+
+msgctxt "#30753"
+msgid "Are you sure you want to delete these torrents?"
+msgstr "Sigur vrei să ștergi aceste torrente?"
+
+msgctxt "#30754"
+msgid "No results found"
+msgstr "Nu s-au găsit rezultate"
+
+msgctxt "#30755"
+msgid "Local"
+msgstr "Local"
+
+msgctxt "#30756"
+msgid "Done"
+msgstr "Gata"
+
+msgctxt "#30757"
+msgid "Queued"
+msgstr "În coadă"
+
+msgctxt "#30758"
+msgid "Not selected"
+msgstr "Neselectat"
+
+msgctxt "#30759"
+msgid "Automatic"
+msgstr "Automat"
+
+msgctxt "#30760"
+msgid "Searching…"
+msgstr "Se caută…"

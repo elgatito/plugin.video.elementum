@@ -55,7 +55,39 @@ div.app {
 }
 
 .ui.fluid.search .results {
-  width: 150%;
+  width: min(56rem, calc(100vw - 2rem));
+  max-height: calc(100vh - 12rem);
+  overflow-y: auto;
+}
+
+/* Fade out the rest of the page, while search results are open */
+body:has(.ui.search.active.visible)::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 900;
+}
+
+.ui.search.active.visible {
+  z-index: 901;
+}
+
+img.provider-icon {
+  width: 3em;
+  height: 3em;
+  object-fit: contain;
+  vertical-align: middle;
+  flex-shrink: 0;
+}
+
+.ui.search > .results .result .item.torrent {
+  align-items: center;
+  gap: 1em;
+}
+
+.ui.search > .results .result .item.torrent .meta {
+  margin: 0.3em 0 0;
 }
 
 @media only screen and (max-width: 768px) {
@@ -70,4 +102,28 @@ div.app {
   .ui.action.input:not([class*='left action']) > input {
     width: 60%;
   }
+}
+
+.kodi-play {
+  display: inline-flex;
+  white-space: nowrap;
+  margin-left: 0.75em;
+}
+
+.kodi-play > .ui.dropdown {
+  margin-right: 0.25em;
+  max-width: 18em;
+}
+
+.kodi-play > .ui.dropdown > .text {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 100%;
+}
+
+/* Inline form labels align by text baseline, which is off for selection dropdowns */
+.ui.form .inline.fields .field > label,
+.ui.form .inline.fields .field > .selection.dropdown {
+  vertical-align: middle;
 }

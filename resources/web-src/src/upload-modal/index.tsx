@@ -1,10 +1,16 @@
 import React from 'react';
-import { Button, Form, Icon, Modal } from 'semantic-ui-react';
+import { Button, Dropdown, Form, Icon, Modal } from 'semantic-ui-react';
+import { t } from '../i18n';
+import { kodiOptions, useKodi } from '../kodi';
 
 function UploadTorrentModal(): JSX.Element {
   const [open, setOpen] = React.useState(false);
   const [uri, setUri] = React.useState('');
   const [file, setFile] = React.useState<File>();
+  const { kodis, selectedKodi } = useKodi();
+  // Kodi to play on, unset means the one chosen in the header
+  const [kodi, setKodi] = React.useState<string>();
+  const playKodi = kodi ?? selectedKodi?.host;
 
   async function addTorrent(path: string, additionalData?: [name: string, value: string][]) {
     const formData = new FormData();
@@ -22,35 +28,60 @@ function UploadTorrentModal(): JSX.Element {
   return (
     <Modal
       onClose={() => setOpen(false)}
-      onOpen={() => setOpen(true)}
+      onOpen={() => {
+        setKodi(undefined);
+        setOpen(true);
+      }}
       open={open}
       trigger={
         <Button icon labelPosition="left" floated="right" primary>
           <Icon name="download" />
-          Add Torrent
+          {t('addTorrent')}
         </Button>
       }
     >
-      <Modal.Header>Add Torrent</Modal.Header>
+      <Modal.Header>{t('addTorrent')}</Modal.Header>
       <Modal.Content>
         <Modal.Description>
           <Form>
-            <Form.Input placeholder="Magnet or Torrent file URL" onChange={(e) => setUri(e.target.value)} />
+            <Form.Input placeholder={t('torrentUrl')} onChange={(e) => setUri(e.target.value)} />
             <Form.Input type="file" accept=".torrent" onChange={(e) => setFile(e.target.files?.item(0) ?? undefined)} />
           </Form>
         </Modal.Description>
       </Modal.Content>
       <Modal.Actions>
-        <Button content="Cancel" color="red" onClick={() => setOpen(false)} />
-        <Button
-          content="Add (all files)"
-          labelPosition="left"
-          icon="download"
-          color="yellow"
-          onClick={() => addTorrent('/torrents/add', [['all', '1']])}
-        />
-        <Button content="Add" labelPosition="left" icon="download" color="blue" onClick={() => addTorrent('/torrents/add')} />
-        <Button content="Stream" labelPosition="left" icon="play" color="green" onClick={() => addTorrent('/playuri')} />
+        <Button content={t('cancel')} color="red" onClick={() => setOpen(false)} />
+        {/* "All files" is a variant of Add, as a menu it leaves room for Kodi choice in one line */}
+        <Button.Group color="blue">
+          <Button content={t('add')} icon="download" onClick={() => addTorrent('/torrents/add')} />
+          <Dropdown
+            className="button icon"
+            floating
+            trigger={<></>}
+            options={[
+              { key: 'all', icon: 'download', text: t('addAllFiles'), onClick: () => void addTorrent('/torrents/add', [['all', '1']]) },
+            ]}
+          />
+        </Button.Group>
+        {/* Kodi choice belongs to Play, keep them together when buttons wrap */}
+        <span className="kodi-play">
+          <Dropdown
+            selection
+            compact
+            options={kodiOptions(kodis)}
+            value={playKodi}
+            // Only the name fits next to the buttons, the list shows full details
+            text={kodis.find((k) => k.host === playKodi)?.name || playKodi}
+            title={kodiOptions(kodis).find((o) => o.value === playKodi)?.text}
+            onChange={(_event, data) => setKodi(String(data.value))}
+          />
+          <Button
+            content={t('play')}
+            icon="play"
+            color="green"
+            onClick={() => addTorrent(playKodi ? `/playuri?kodi=${encodeURIComponent(playKodi)}` : '/playuri')}
+          />
+        </span>
       </Modal.Actions>
     </Modal>
   );

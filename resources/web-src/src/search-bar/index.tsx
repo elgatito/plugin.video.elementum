@@ -1,23 +1,38 @@
 import React, { FC, useReducer, useRef, useState } from 'react';
-import { Dropdown, DropdownItemProps, Grid, Icon, Item, ItemGroup, Search, SearchResultProps, Statistic } from 'semantic-ui-react';
+import {
+  Button,
+  Dropdown,
+  DropdownItemProps,
+  Grid,
+  Icon,
+  Item,
+  ItemGroup,
+  Modal,
+  Search,
+  SearchResultProps,
+  Statistic,
+} from 'semantic-ui-react';
 import { useDebouncedCallback } from 'use-debounce';
+import { t } from '../i18n';
+import { KodiLabel, ProviderIcon, ProviderTag } from '../kodi-label';
 
 const debounceWaitTime = 500;
 
 type TorrentType = 'Movies' | 'TvShows' | 'General';
-const torrentTypes: DropdownItemProps[] = [
+// Function, so labels are translated at render time, in the current language
+const torrentTypes = (): DropdownItemProps[] => [
   {
-    text: 'Movies',
+    text: t('movies'),
     value: 'Movies',
     icon: 'film',
   },
   {
-    text: 'TV Shows',
+    text: t('tvShows'),
     value: 'TvShows',
     icon: 'tv',
   },
   {
-    text: 'General',
+    text: t('general'),
     value: 'General',
     icon: 'magnet',
   },
@@ -26,6 +41,8 @@ const torrentTypes: DropdownItemProps[] = [
 type Action =
   | { type: 'CleanQuery' }
   | { type: 'StartSearch'; query: string }
+  | { type: 'OpenItem' }
+  | { type: 'UpdateQuery'; query: string }
   | { type: 'FinishSearch'; results: ResultView[] }
   | { type: 'UpdateSelection'; selection: string };
 
@@ -47,6 +64,10 @@ interface Art {
 
 interface Result {
   label: string;
+  // Torrent provider, like "[COLOR FFFFDE00]RuTor[/COLOR]"
+  label2?: string;
+  // Torrent provider icon URL
+  icon?: string;
   info: Info;
   art: Art;
   path: string;
@@ -65,18 +86,23 @@ interface ResultView {
   path: string;
   mediatype: MediaType;
   key: string;
+  isTorrent: boolean;
+  source?: string;
+  icon?: string;
 }
 
 interface State {
   loading: boolean;
   results: ResultView[];
   value: string;
+  searched: boolean;
 }
 
 const initialState: State = {
   loading: false,
   results: [],
   value: '',
+  searched: false,
 };
 
 function queryReducer(state: State, action: Action): State {
@@ -85,8 +111,13 @@ function queryReducer(state: State, action: Action): State {
       return initialState;
     case 'StartSearch':
       return { ...state, loading: true, value: action.query };
+    case 'OpenItem':
+      // Previous level results are not related anymore, keep only searching message
+      return { ...state, loading: true, results: [], searched: false };
+    case 'UpdateQuery':
+      return { ...state, value: action.query, results: [], searched: false };
     case 'FinishSearch':
-      return { ...state, loading: false, results: action.results };
+      return { ...state, loading: false, results: action.results, searched: true };
     case 'UpdateSelection':
       return { ...state, value: action.selection };
   }
@@ -94,15 +125,37 @@ function queryReducer(state: State, action: Action): State {
 
 const resultRenderer = (item: SearchResultProps) => {
   const result = item as ResultView;
+  if (result.isTorrent) {
+    return (
+      <ItemGroup>
+        <Item className="torrent">
+          <ProviderIcon icon={result.icon} />
+          <Item.Content>
+            <Item.Header>
+              <KodiLabel text={result.title} />
+            </Item.Header>
+            <Item.Meta>
+              <ProviderTag text={result.source} /> <KodiLabel text={result.tagline} />
+            </Item.Meta>
+          </Item.Content>
+        </Item>
+      </ItemGroup>
+    );
+  }
+
   return (
     <ItemGroup>
       <Item>
-        <Item.Image size="small" src={result.image} />
+        {result.image && <Item.Image size="small" src={result.image} />}
         <Item.Content>
-          <Item.Header>{result.title}</Item.Header>
-          <Item.Meta>{result.tagline}</Item.Meta>
+          <Item.Header>
+            <KodiLabel text={result.title} />
+          </Item.Header>
+          <Item.Meta>
+            <KodiLabel text={result.tagline} />
+          </Item.Meta>
           <Item.Description>{result.description}</Item.Description>
-          {result.mediatype !== 'season' && (
+          {result.mediatype !== 'season' && result.genre && (
             <Item.Extra>{`${result.rating} - ${result.genre?.join(', ')} - ${result.date?.toString() ?? result.year ?? '-'}`}</Item.Extra>
           )}
         </Item.Content>
@@ -122,16 +175,20 @@ function getSearchType(torrentType: TorrentType): string {
   }
 }
 
-async function querySearchResults(url: string, dispatch: React.Dispatch<Action>) {
+// Torrent links lead to playback or download, not to the next level of items
+const isTorrentPath = (path: string) => /^plugin:\/\/plugin\.video\.elementum\/(play|download)\?/.test(path);
+
+async function querySearchResults(url: string, dispatch: React.Dispatch<Action>): Promise<number> {
   const response = await fetch(url);
-  const items = (await response.json()).items as Result[];
+  // Empty response means the item was handed to Kodi (e.g. playback started)
+  const items = ((await response.json().catch(() => ({}))).items ?? []) as Result[];
 
   dispatch({
     type: 'FinishSearch',
     results: items
       .filter((i) => i.info !== undefined)
       .map((i) => ({
-        image: i.art.thumb,
+        image: i.art?.thumb,
         key: `${i.info.code}-${i.label}`,
         description: i.info.plotoutline,
         title: i.label,
@@ -142,8 +199,12 @@ async function querySearchResults(url: string, dispatch: React.Dispatch<Action>)
         rating: i.info.rating,
         mediatype: i.info.mediatype,
         path: i.path,
+        isTorrent: isTorrentPath(i.path),
+        source: i.label2,
+        icon: i.icon,
       })),
   });
+  return items.length;
 }
 
 interface IStatisticsProps {
@@ -177,20 +238,29 @@ const Statistics: FC<IStatisticsProps> = ({ totalDownloadRate, totalUploadRate, 
   const [torrentType, setTorrentType] = useState<TorrentType>('Movies');
   const searcRef = useRef<any>();
   const [state, dispatch] = useReducer(queryReducer, initialState);
-  const { loading, results, value } = state;
+  const { loading, results, value, searched } = state;
+  const [torrent, setTorrent] = useState<ResultView>();
 
   const debounceSearchChange = useDebouncedCallback(async (query: string) => {
     const searchType = getSearchType(torrentType);
 
-    await querySearchResults(`/${searchType}/search?q=${query}`, dispatch);
+    await querySearchResults(`/${searchType}/search?q=${encodeURIComponent(query)}`, dispatch);
   }, debounceWaitTime);
 
-  const handleQueryChange = async (query: string) => {
+  // General search runs all providers, so it is started explicitly with Enter or search icon, not on each keypress
+  const runGeneralSearch = async () => {
+    if (value.trim().length === 0) return;
+
     dispatch({
       type: 'StartSearch',
-      query,
+      query: value,
     });
+    if ((await querySearchResults(`/search?q=${encodeURIComponent(value)}`, dispatch)) > 0) {
+      searcRef.current.open();
+    }
+  };
 
+  const handleQueryChange = async (query: string) => {
     if (query.trim().length === 0) {
       dispatch({
         type: 'CleanQuery',
@@ -198,33 +268,53 @@ const Statistics: FC<IStatisticsProps> = ({ totalDownloadRate, totalUploadRate, 
       return;
     }
 
+    if (torrentType === 'General') {
+      dispatch({
+        type: 'UpdateQuery',
+        query,
+      });
+      return;
+    }
+
+    dispatch({
+      type: 'StartSearch',
+      query,
+    });
+
     await debounceSearchChange(query);
   };
 
   const handleResultSelect = async (data: ResultView): Promise<void> => {
     const path = data.path.replace('plugin://plugin.video.elementum/', '');
-    const url = `/${path}?external=1`;
+    const url = `/${path}${path.includes('?') ? '&' : '?'}external=1`;
 
-    switch (torrentType) {
-      case 'Movies':
-        await fetch(url);
-        break;
-      case 'TvShows': {
-        dispatch({
-          type: 'StartSearch',
-          query: value,
-        });
+    // Torrent link, let user choose what to do with it
+    if (data.isTorrent) {
+      setTorrent(data);
+      return;
+    }
 
-        if (path.includes('links')) {
-          await fetch(url);
-        } else {
-          await querySearchResults(url, dispatch);
-          searcRef.current.open();
-        }
-        break;
-      }
-      case 'General':
-        break;
+    // Daemon returns either next level items (seasons, episodes, torrent links) or starts playback in Kodi
+    dispatch({ type: 'OpenItem' });
+    // Search closes results after selection, keep them open with searching message, as providers can take a while
+    window.setTimeout(() => {
+      searcRef.current?.open();
+    });
+    if ((await querySearchResults(url, dispatch)) === 0) {
+      searcRef.current?.close();
+    }
+  };
+
+  const handleTorrentAction = async (download: boolean): Promise<void> => {
+    if (!torrent) return;
+    const path = torrent.path.replace('plugin://plugin.video.elementum/', '');
+    setTorrent(undefined);
+
+    if (download) {
+      const uri = new URLSearchParams(path.split('?')[1]).get('uri') ?? '';
+      await fetch(`/torrents/add?uri=${encodeURIComponent(uri)}`);
+    } else {
+      await fetch(`/${path.replace(/^download\?/, 'play?')}&external=1`);
     }
   };
 
@@ -242,7 +332,8 @@ const Statistics: FC<IStatisticsProps> = ({ totalDownloadRate, totalUploadRate, 
           <Grid.Column floated="left">
             <Search
               fluid
-              placeholder="Search"
+              placeholder={t('search')}
+              noResultsMessage={loading ? t('searching') : t('noResults')}
               loading={loading}
               results={results}
               value={value}
@@ -251,33 +342,38 @@ const Statistics: FC<IStatisticsProps> = ({ totalDownloadRate, totalUploadRate, 
               onResultSelect={(_, data) => handleResultSelect(data.result)}
               ref={searcRef}
               minCharacters={3}
+              showNoResults={loading || torrentType !== 'General' || searched}
               input={{
-                icon: 'search',
+                icon: torrentType === 'General' ? { name: 'search', link: true, onClick: runGeneralSearch } : 'search',
+                // With results shown Enter belongs to Search component for selecting a highlighted result
+                onKeyDown: (e: React.KeyboardEvent) => {
+                  if (e.key === 'Enter' && torrentType === 'General' && results.length === 0) void runGeneralSearch();
+                },
                 action: (
                   <Dropdown
                     fluid
                     selection
-                    options={torrentTypes}
-                    defaultValue={torrentTypes[0].value}
+                    options={torrentTypes()}
+                    defaultValue={torrentType}
                     onChange={(_, data) => handleTorrentTypeChange(data.value as TorrentType)}
                   />
                 ),
               }}
             />
           </Grid.Column>
-          <Grid.Column width="3">
+          <Grid.Column width="4">
             <Statistic.Group widths="3" size="tiny">
               <Statistic>
                 <Statistic.Value>{active}</Statistic.Value>
-                <Statistic.Label>Active</Statistic.Label>
+                <Statistic.Label>{t('active')}</Statistic.Label>
               </Statistic>
               <Statistic>
                 <Statistic.Value>{finished}</Statistic.Value>
-                <Statistic.Label>Finished</Statistic.Label>
+                <Statistic.Label>{t('finished')}</Statistic.Label>
               </Statistic>
               <Statistic>
                 <Statistic.Value>{total}</Statistic.Value>
-                <Statistic.Label>Total</Statistic.Label>
+                <Statistic.Label>{t('total')}</Statistic.Label>
               </Statistic>
             </Statistic.Group>
           </Grid.Column>
@@ -299,6 +395,31 @@ const Statistics: FC<IStatisticsProps> = ({ totalDownloadRate, totalUploadRate, 
           </Grid.Column>
         </Grid.Row>
       </Grid>
+      <Modal size="small" open={torrent !== undefined} onClose={() => setTorrent(undefined)}>
+        <Modal.Header>
+          <KodiLabel text={torrent?.title} />
+        </Modal.Header>
+        <Modal.Content>
+          <ProviderIcon icon={torrent?.icon} /> <ProviderTag text={torrent?.source} /> <KodiLabel text={torrent?.tagline} />
+        </Modal.Content>
+        <Modal.Actions>
+          <Button content={t('cancel')} color="red" onClick={() => setTorrent(undefined)} />
+          <Button
+            content={t('download')}
+            labelPosition="left"
+            icon="download"
+            color="blue"
+            onClick={() => void handleTorrentAction(true)}
+          />
+          <Button
+            content={t('playInKodi')}
+            labelPosition="left"
+            icon="play"
+            color="green"
+            onClick={() => void handleTorrentAction(false)}
+          />
+        </Modal.Actions>
+      </Modal>
     </>
   );
 };

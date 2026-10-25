@@ -14,18 +14,19 @@ Release/build tooling is at the root: `Makefile`, `bundle.sh`, `release.sh`, and
 - `make locales`: merge `resources/language/messages.pot` into each locale file.
 - `make zipfiles`: build per-platform zip artifacts.
 - `./bundle.sh --binaries=/path/to/elementum/build`: package add-on using prebuilt daemon binaries.
-- `cd resources/web-src && npm install && npm start`: run Web UI locally (Node.js 12 recommended).
-- `cd resources/web-src && npm run build`: build Web UI into `resources/web/`.
+- `cd resources/web-src && npm ci && npm run dev`: run Web UI locally (Node.js 24, see `.nvmrc`).
+- `cd resources/web-src && npm run lint`: type check, ESLint and Prettier check for Web UI.
+- `cd resources/web-src && npm run build`: build Web UI into `resources/web/`. Commit it together with source changes, CI fails if it is out of date.
 
 ## Coding Style & Naming Conventions
 Use 4-space indentation for Python. Prefer `snake_case` for Python files, functions, and variables; keep module names lowercase.
 Run `flake8` before committing; project lint rules allow selected exceptions and a high line limit (`max-line-length = 370`).
-For Web UI, follow existing TypeScript + React conventions, ESLint (`airbnb-typescript` stack), and Prettier (`singleQuote: true`, `trailingComma: all`, width 140).
+For Web UI, follow existing TypeScript + React conventions, ESLint (`typescript-eslint` + `react-hooks`), and Prettier (`singleQuote: true`, `trailingComma: all`, width 140).
 
 ## Testing Guidelines
-CI primarily enforces lint and localization integrity (`flake8` and `./scripts/xgettext.sh`), plus packaging (`make`).
+CI primarily enforces lint and localization integrity (`flake8` and `./scripts/xgettext.sh`), packaging (`make`), and Web UI lint plus up-to-date `resources/web/` build.
 There is no large in-repo Python unit test suite today; if you add tests, use `pytest` conventions (`test_*.py`) and keep tests outside vendored code.
-For UI changes, run `npm test` in `resources/web-src` and include manual verification notes.
+For UI changes, run `npm run lint` in `resources/web-src` and include manual verification notes.
 
 ## Commit & Pull Request Guidelines
 Use focused, imperative commit messages; optional scope prefixes and issue refs are common (example: `proxy: fix no_proxy handling (#1143)`).

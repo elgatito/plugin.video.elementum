@@ -2305,3 +2305,173 @@ msgstr "שרת DNS over HTTPS מותאם אישית"
 msgctxt "#30718"
 msgid "Use OpenNIC DNS Servers"
 msgstr "השתמש בשרתי ה-DNS של OpenNIC"
+
+# Web UI
+
+msgctxt "#30719"
+msgid "Play"
+msgstr "הפעל"
+
+msgctxt "#30720"
+msgid "Cancel"
+msgstr "ביטול"
+
+msgctxt "#30721"
+msgid "Name"
+msgstr "שם"
+
+msgctxt "#30722"
+msgid "Size"
+msgstr "גודל"
+
+msgctxt "#30723"
+msgid "Files"
+msgstr "קבצים"
+
+msgctxt "#30724"
+msgid "Pieces"
+msgstr "חלקים"
+
+msgctxt "#30725"
+msgid "Size / Status"
+msgstr "גודל / מצב"
+
+msgctxt "#30726"
+msgid "Ratios"
+msgstr "יחסים"
+
+msgctxt "#30727"
+msgid "Rates"
+msgstr "מהירויות"
+
+msgctxt "#30728"
+msgid "Seeds / Peers"
+msgstr "מפיצים / עמיתים"
+
+msgctxt "#30729"
+msgid "Active"
+msgstr "פעילים"
+
+msgctxt "#30730"
+msgid "Total"
+msgstr "סה״כ"
+
+msgctxt "#30731"
+msgid "Active / Total"
+msgstr "פעילים / סה״כ"
+
+msgctxt "#30732"
+msgid "Seed ratio"
+msgstr "יחס שיתוף"
+
+msgctxt "#30733"
+msgid "Time ratio"
+msgstr "יחס זמן"
+
+msgctxt "#30734"
+msgid "Start all"
+msgstr "הפעל הכל"
+
+msgctxt "#30735"
+msgid "Pause all"
+msgstr "השהה הכל"
+
+msgctxt "#30736"
+msgid "Play in Kodi"
+msgstr "הפעל ב-Kodi"
+
+msgctxt "#30737"
+msgid "Completed"
+msgstr "הושלם"
+
+msgctxt "#30738"
+msgid "Seed time"
+msgstr "זמן שיתוף"
+
+msgctxt "#30739"
+msgid "Seed time limit"
+msgstr "מגבלת זמן שיתוף"
+
+msgctxt "#30740"
+msgid "Total download"
+msgstr "סה״כ הורדה"
+
+msgctxt "#30741"
+msgid "Total upload"
+msgstr "סה״כ העלאה"
+
+msgctxt "#30742"
+msgid "Refresh rate"
+msgstr "קצב רענון"
+
+msgctxt "#30743"
+msgid "Seconds"
+msgstr "שניות"
+
+msgctxt "#30744"
+msgid "Language"
+msgstr "שפה"
+
+msgctxt "#30745"
+msgid "Save"
+msgstr "שמור"
+
+msgctxt "#30746"
+msgid "Add"
+msgstr "הוסף"
+
+msgctxt "#30747"
+msgid "Add (all files)"
+msgstr "הוסף (כל הקבצים)"
+
+msgctxt "#30748"
+msgid "Magnet or Torrent file URL"
+msgstr "קישור מגנט או כתובת קובץ טורנט"
+
+msgctxt "#30749"
+msgid "Also delete files"
+msgstr "מחק גם את הקבצים"
+
+msgctxt "#30750"
+msgid "Select a torrent first"
+msgstr "בחר טורנט תחילה"
+
+msgctxt "#30751"
+msgid "Delete %s?"
+msgstr "למחוק את %s?"
+
+msgctxt "#30752"
+msgid "Delete selected torrents?"
+msgstr "למחוק את הטורנטים שנבחרו?"
+
+msgctxt "#30753"
+msgid "Are you sure you want to delete these torrents?"
+msgstr "האם אתה בטוח שברצונך למחוק טורנטים אלה?"
+
+msgctxt "#30754"
+msgid "No results found"
+msgstr "לא נמצאו תוצאות"
+
+msgctxt "#30755"
+msgid "Local"
+msgstr "מקומי"
+
+msgctxt "#30756"
+msgid "Done"
+msgstr "הושלם"
+
+msgctxt "#30757"
+msgid "Queued"
+msgstr "בתור"
+
+msgctxt "#30758"
+msgid "Not selected"
+msgstr "לא נבחר"
+
+msgctxt "#30759"
+msgid "Automatic"
+msgstr "אוטומטי"
+
+msgctxt "#30760"
+msgid "Searching…"
+msgstr "מחפש…"

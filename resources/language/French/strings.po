@@ -2310,3 +2310,173 @@ msgstr "Serveur DNS over HTTPS personnalisé"
 msgctxt "#30718"
 msgid "Use OpenNIC DNS Servers"
 msgstr "Utiliser les serveurs DNS OpenNIC"
+
+# Web UI
+
+msgctxt "#30719"
+msgid "Play"
+msgstr "Lire"
+
+msgctxt "#30720"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "#30721"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "#30722"
+msgid "Size"
+msgstr "Taille"
+
+msgctxt "#30723"
+msgid "Files"
+msgstr "Fichiers"
+
+msgctxt "#30724"
+msgid "Pieces"
+msgstr "Pièces"
+
+msgctxt "#30725"
+msgid "Size / Status"
+msgstr "Taille / Statut"
+
+msgctxt "#30726"
+msgid "Ratios"
+msgstr "Ratios"
+
+msgctxt "#30727"
+msgid "Rates"
+msgstr "Débits"
+
+msgctxt "#30728"
+msgid "Seeds / Peers"
+msgstr "Seeds / Peers"
+
+msgctxt "#30729"
+msgid "Active"
+msgstr "Actifs"
+
+msgctxt "#30730"
+msgid "Total"
+msgstr "Total"
+
+msgctxt "#30731"
+msgid "Active / Total"
+msgstr "Actifs / Total"
+
+msgctxt "#30732"
+msgid "Seed ratio"
+msgstr "Ratio de partage"
+
+msgctxt "#30733"
+msgid "Time ratio"
+msgstr "Ratio de temps"
+
+msgctxt "#30734"
+msgid "Start all"
+msgstr "Tout démarrer"
+
+msgctxt "#30735"
+msgid "Pause all"
+msgstr "Tout mettre en pause"
+
+msgctxt "#30736"
+msgid "Play in Kodi"
+msgstr "Lire dans Kodi"
+
+msgctxt "#30737"
+msgid "Completed"
+msgstr "Terminé"
+
+msgctxt "#30738"
+msgid "Seed time"
+msgstr "Temps de partage"
+
+msgctxt "#30739"
+msgid "Seed time limit"
+msgstr "Limite de temps de partage"
+
+msgctxt "#30740"
+msgid "Total download"
+msgstr "Total téléchargé"
+
+msgctxt "#30741"
+msgid "Total upload"
+msgstr "Total envoyé"
+
+msgctxt "#30742"
+msgid "Refresh rate"
+msgstr "Fréquence d'actualisation"
+
+msgctxt "#30743"
+msgid "Seconds"
+msgstr "Secondes"
+
+msgctxt "#30744"
+msgid "Language"
+msgstr "Langue"
+
+msgctxt "#30745"
+msgid "Save"
+msgstr "Enregistrer"
+
+msgctxt "#30746"
+msgid "Add"
+msgstr "Ajouter"
+
+msgctxt "#30747"
+msgid "Add (all files)"
+msgstr "Ajouter (tous les fichiers)"
+
+msgctxt "#30748"
+msgid "Magnet or Torrent file URL"
+msgstr "URL magnet ou du fichier torrent"
+
+msgctxt "#30749"
+msgid "Also delete files"
+msgstr "Supprimer aussi les fichiers"
+
+msgctxt "#30750"
+msgid "Select a torrent first"
+msgstr "Sélectionnez d'abord un torrent"
+
+msgctxt "#30751"
+msgid "Delete %s?"
+msgstr "Supprimer %s ?"
+
+msgctxt "#30752"
+msgid "Delete selected torrents?"
+msgstr "Supprimer les torrents sélectionnés ?"
+
+msgctxt "#30753"
+msgid "Are you sure you want to delete these torrents?"
+msgstr "Voulez-vous vraiment supprimer ces torrents ?"
+
+msgctxt "#30754"
+msgid "No results found"
+msgstr "Aucun résultat"
+
+msgctxt "#30755"
+msgid "Local"
+msgstr "Local"
+
+msgctxt "#30756"
+msgid "Done"
+msgstr "Terminé"
+
+msgctxt "#30757"
+msgid "Queued"
+msgstr "En attente"
+
+msgctxt "#30758"
+msgid "Not selected"
+msgstr "Non sélectionné"
+
+msgctxt "#30759"
+msgid "Automatic"
+msgstr "Automatique"
+
+msgctxt "#30760"
+msgid "Searching…"
+msgstr "Recherche…"

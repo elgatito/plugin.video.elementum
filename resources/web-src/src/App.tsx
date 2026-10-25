@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import isEqual from 'react-fast-compare';
+import { KodiProvider } from './kodi';
 import HeaderMenu from './menu';
 import SearchBar from './search-bar';
 import TorrentList from './torrents-list';
@@ -26,7 +27,7 @@ function App(): JSX.Element {
   }, []);
 
   return (
-    <div>
+    <KodiProvider>
       <HeaderMenu />
       <div className="app">
         <SearchBar
@@ -39,7 +40,7 @@ function App(): JSX.Element {
         <TorrentList torrents={torrents} onSetActiveTorrents={setActiveTorrents} activeTorrents={activeTorrents} />
         {activeTorrents.length > 0 && <TorrentInfo torrent={activeTorrents[activeTorrents.length - 1]} />}
       </div>
-    </div>
+    </KodiProvider>
   );
 }
 
