@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
-import { useDebounce } from 'use-debounce/lib';
-import useResizeObserver from 'use-resize-observer';
+import { useDebounce } from 'use-debounce';
+import { useResizeObserver } from 'use-resize-observer';
+import { t } from '../i18n';
 
 interface IPieceMapProps {
   pieces: string;
@@ -15,17 +16,20 @@ const drawLegend = (context: CanvasRenderingContext2D, legendHeight: number) => 
   context.font = '12px sans-serif';
   const pieceSize = PieceSize * 1.3;
 
-  const drawLegendItem = (fillStyle: string, x: number, text: string) => {
+  // Translated labels differ in length, so each item starts after the previous one
+  let x = 0;
+  const drawLegendItem = (fillStyle: string, text: string) => {
     context.fillStyle = fillStyle;
     context.fillRect(x, y, pieceSize, pieceSize);
 
     context.fillStyle = 'black';
     context.fillText(text, x + PieceSize * 2, y + pieceSize);
+    x += PieceSize * 2 + context.measureText(text).width + PieceSize * 3;
   };
 
-  drawLegendItem('#4CAF50', 0, '- Done');
-  drawLegendItem('#ECEFF1', 70, '- Queued');
-  drawLegendItem('#F0B8B8', 170, '- Not selected');
+  drawLegendItem('#4CAF50', `- ${t('pieceDone')}`);
+  drawLegendItem('#ECEFF1', `- ${t('pieceQueued')}`);
+  drawLegendItem('#F0B8B8', `- ${t('pieceNotSelected')}`);
 };
 
 const draw = (parentDiv: HTMLDivElement, context: CanvasRenderingContext2D, pieces: string) => {

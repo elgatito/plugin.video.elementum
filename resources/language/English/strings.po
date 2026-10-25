@@ -2288,3 +2288,189 @@ msgstr ""
 msgctxt "#30715"
 msgid "Antizapret PAC file URL"
 msgstr ""
+
+msgctxt "#30716"
+msgid "DNS over HTTPS Server"
+msgstr ""
+
+msgctxt "#30717"
+msgid "Custom DNS over HTTPS Server"
+msgstr ""
+
+msgctxt "#30718"
+msgid "Use OpenNIC DNS Servers"
+msgstr ""
+
+# Web UI
+
+msgctxt "#30719"
+msgid "Play"
+msgstr ""
+
+msgctxt "#30720"
+msgid "Cancel"
+msgstr ""
+
+msgctxt "#30721"
+msgid "Name"
+msgstr ""
+
+msgctxt "#30722"
+msgid "Size"
+msgstr ""
+
+msgctxt "#30723"
+msgid "Files"
+msgstr ""
+
+msgctxt "#30724"
+msgid "Pieces"
+msgstr ""
+
+msgctxt "#30725"
+msgid "Size / Status"
+msgstr ""
+
+msgctxt "#30726"
+msgid "Ratios"
+msgstr ""
+
+msgctxt "#30727"
+msgid "Rates"
+msgstr ""
+
+msgctxt "#30728"
+msgid "Seeds / Peers"
+msgstr ""
+
+msgctxt "#30729"
+msgid "Active"
+msgstr ""
+
+msgctxt "#30730"
+msgid "Total"
+msgstr ""
+
+msgctxt "#30731"
+msgid "Active / Total"
+msgstr ""
+
+msgctxt "#30732"
+msgid "Seed ratio"
+msgstr ""
+
+msgctxt "#30733"
+msgid "Time ratio"
+msgstr ""
+
+msgctxt "#30734"
+msgid "Start all"
+msgstr ""
+
+msgctxt "#30735"
+msgid "Pause all"
+msgstr ""
+
+msgctxt "#30736"
+msgid "Play in Kodi"
+msgstr ""
+
+msgctxt "#30737"
+msgid "Completed"
+msgstr ""
+
+msgctxt "#30738"
+msgid "Seed time"
+msgstr ""
+
+msgctxt "#30739"
+msgid "Seed time limit"
+msgstr ""
+
+msgctxt "#30740"
+msgid "Total download"
+msgstr ""
+
+msgctxt "#30741"
+msgid "Total upload"
+msgstr ""
+
+msgctxt "#30742"
+msgid "Refresh rate"
+msgstr ""
+
+msgctxt "#30743"
+msgid "Seconds"
+msgstr ""
+
+msgctxt "#30744"
+msgid "Language"
+msgstr ""
+
+msgctxt "#30745"
+msgid "Save"
+msgstr ""
+
+msgctxt "#30746"
+msgid "Add"
+msgstr ""
+
+msgctxt "#30747"
+msgid "Add (all files)"
+msgstr ""
+
+msgctxt "#30748"
+msgid "Magnet or Torrent file URL"
+msgstr ""
+
+msgctxt "#30749"
+msgid "Also delete files"
+msgstr ""
+
+msgctxt "#30750"
+msgid "Select a torrent first"
+msgstr ""
+
+msgctxt "#30751"
+msgid "Delete %s?"
+msgstr ""
+
+msgctxt "#30752"
+msgid "Delete selected torrents?"
+msgstr ""
+
+msgctxt "#30753"
+msgid "Are you sure you want to delete these torrents?"
+msgstr ""
+
+msgctxt "#30754"
+msgid "No results found"
+msgstr ""
+
+msgctxt "#30755"
+msgid "Local"
+msgstr ""
+
+msgctxt "#30756"
+msgid "Done"
+msgstr ""
+
+msgctxt "#30757"
+msgid "Queued"
+msgstr ""
+
+msgctxt "#30758"
+msgid "Not selected"
+msgstr ""
+
+msgctxt "#30759"
+msgid "Automatic"
+msgstr ""
+
+msgctxt "#30760"
+msgid "Searching…"
+msgstr ""
+
+msgctxt "#30761"
+msgid "Clean up leftover files"
+msgstr ""

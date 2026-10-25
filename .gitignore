@@ -25,6 +25,8 @@ var/
 *.zip
 elementum-binaries-master/
 resources/site-packages/platform_detect
+plugin.video.elementum/
+.stage-*/
 # bin/
 
 # PyInstaller

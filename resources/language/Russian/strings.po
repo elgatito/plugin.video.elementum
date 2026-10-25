@@ -278,43 +278,43 @@ msgstr "По-умолчанию рекомендуемое"
 
 msgctxt "#30076"
 msgid "libtorrent (Rasterbar) 1.1.0"
-msgstr ""
+msgstr "libtorrent (Rasterbar) 1.1.0"
 
 msgctxt "#30077"
 msgid "BitTorrent 7.5.0"
-msgstr ""
+msgstr "BitTorrent 7.5.0"
 
 msgctxt "#30078"
 msgid "BitTorrent 7.9.9"
-msgstr ""
+msgstr "BitTorrent 7.9.9"
 
 msgctxt "#30079"
 msgid "µTorrent 3.5.5"
-msgstr ""
+msgstr "µTorrent 3.5.5"
 
 msgctxt "#30080"
 msgid "µTorrent 3.6.0"
-msgstr ""
+msgstr "µTorrent 3.6.0"
 
 msgctxt "#30081"
 msgid "µTorrent 2.2.1"
-msgstr ""
+msgstr "µTorrent 2.2.1"
 
 msgctxt "#30082"
 msgid "Transmission 2.92"
-msgstr ""
+msgstr "Transmission 2.92"
 
 msgctxt "#30083"
 msgid "Deluge 1.3.6"
-msgstr ""
+msgstr "Deluge 1.3.6"
 
 msgctxt "#30084"
 msgid "Deluge 2.1.1"
-msgstr ""
+msgstr "Deluge 2.1.1"
 
 msgctxt "#30085"
 msgid "Vuze 5.7.3.0"
-msgstr ""
+msgstr "Vuze 5.7.3.0"
 
 msgctxt "#30086"
 msgid "Enable tuned storage settings"
@@ -1976,15 +1976,15 @@ msgstr "Нет"
 
 msgctxt "#30636"
 msgid "Error"
-msgstr ""
+msgstr "Ошибка"
 
 msgctxt "#30637"
 msgid "Info"
-msgstr ""
+msgstr "Информация"
 
 msgctxt "#30638"
 msgid "Debug"
-msgstr ""
+msgstr "Отладка"
 
 msgctxt "#30639"
 msgid "Show Specials in season listings"
@@ -2252,15 +2252,15 @@ msgstr "Не удалось проверить доступность API TMDB, 
 
 msgctxt "#30706"
 msgid "Transmission 4.05"
-msgstr ""
+msgstr "Transmission 4.05"
 
 msgctxt "#30707"
 msgid "qBittorrent 3.3.9"
-msgstr ""
+msgstr "qBittorrent 3.3.9"
 
 msgctxt "#30708"
 msgid "qBittorrent 4.6.4"
-msgstr ""
+msgstr "qBittorrent 4.6.4"
 
 msgctxt "#30709"
 msgid "Open [B]%s[/B]"
@@ -2289,3 +2289,189 @@ msgstr "Перепроверить данные торрента"
 msgctxt "#30715"
 msgid "Antizapret PAC file URL"
 msgstr "URL файла PAC Antizapret"
+
+msgctxt "#30716"
+msgid "DNS over HTTPS Server"
+msgstr "DNS over HTTPS сервер"
+
+msgctxt "#30717"
+msgid "Custom DNS over HTTPS Server"
+msgstr "Пользовательский DNS over HTTPS сервер"
+
+msgctxt "#30718"
+msgid "Use OpenNIC DNS Servers"
+msgstr "Использовать OpenNIC DNS сервера"
+
+# Web UI
+
+msgctxt "#30719"
+msgid "Play"
+msgstr "Воспроизвести"
+
+msgctxt "#30720"
+msgid "Cancel"
+msgstr "Отмена"
+
+msgctxt "#30721"
+msgid "Name"
+msgstr "Название"
+
+msgctxt "#30722"
+msgid "Size"
+msgstr "Размер"
+
+msgctxt "#30723"
+msgid "Files"
+msgstr "Файлы"
+
+msgctxt "#30724"
+msgid "Pieces"
+msgstr "Части"
+
+msgctxt "#30725"
+msgid "Size / Status"
+msgstr "Размер / Статус"
+
+msgctxt "#30726"
+msgid "Ratios"
+msgstr "Коэффициенты"
+
+msgctxt "#30727"
+msgid "Rates"
+msgstr "Скорость"
+
+msgctxt "#30728"
+msgid "Seeds / Peers"
+msgstr "Сиды / Пиры"
+
+msgctxt "#30729"
+msgid "Active"
+msgstr "Активные"
+
+msgctxt "#30730"
+msgid "Total"
+msgstr "Всего"
+
+msgctxt "#30731"
+msgid "Active / Total"
+msgstr "Активные / Всего"
+
+msgctxt "#30732"
+msgid "Seed ratio"
+msgstr "Коэфф. раздачи"
+
+msgctxt "#30733"
+msgid "Time ratio"
+msgstr "Коэфф. времени"
+
+msgctxt "#30734"
+msgid "Start all"
+msgstr "Запустить все"
+
+msgctxt "#30735"
+msgid "Pause all"
+msgstr "Приостановить все"
+
+msgctxt "#30736"
+msgid "Play in Kodi"
+msgstr "Воспроизвести в Kodi"
+
+msgctxt "#30737"
+msgid "Completed"
+msgstr "Загружено"
+
+msgctxt "#30738"
+msgid "Seed time"
+msgstr "Время раздачи"
+
+msgctxt "#30739"
+msgid "Seed time limit"
+msgstr "Лимит времени раздачи"
+
+msgctxt "#30740"
+msgid "Total download"
+msgstr "Всего скачано"
+
+msgctxt "#30741"
+msgid "Total upload"
+msgstr "Всего отдано"
+
+msgctxt "#30742"
+msgid "Refresh rate"
+msgstr "Частота обновления"
+
+msgctxt "#30743"
+msgid "Seconds"
+msgstr "Секунды"
+
+msgctxt "#30744"
+msgid "Language"
+msgstr "Язык"
+
+msgctxt "#30745"
+msgid "Save"
+msgstr "Сохранить"
+
+msgctxt "#30746"
+msgid "Add"
+msgstr "Добавить"
+
+msgctxt "#30747"
+msgid "Add (all files)"
+msgstr "Добавить (все файлы)"
+
+msgctxt "#30748"
+msgid "Magnet or Torrent file URL"
+msgstr "Magnet-ссылка или URL торрент-файла"
+
+msgctxt "#30749"
+msgid "Also delete files"
+msgstr "Также удалить файлы"
+
+msgctxt "#30750"
+msgid "Select a torrent first"
+msgstr "Сначала выберите торрент"
+
+msgctxt "#30751"
+msgid "Delete %s?"
+msgstr "Удалить %s?"
+
+msgctxt "#30752"
+msgid "Delete selected torrents?"
+msgstr "Удалить выбранные торренты?"
+
+msgctxt "#30753"
+msgid "Are you sure you want to delete these torrents?"
+msgstr "Вы уверены, что хотите удалить эти торренты?"
+
+msgctxt "#30754"
+msgid "No results found"
+msgstr "Ничего не найдено"
+
+msgctxt "#30755"
+msgid "Local"
+msgstr "Локальный"
+
+msgctxt "#30756"
+msgid "Done"
+msgstr "Готово"
+
+msgctxt "#30757"
+msgid "Queued"
+msgstr "В очереди"
+
+msgctxt "#30758"
+msgid "Not selected"
+msgstr "Не выбрано"
+
+msgctxt "#30759"
+msgid "Automatic"
+msgstr "Автоматически"
+
+msgctxt "#30760"
+msgid "Searching…"
+msgstr "Поиск…"
+
+msgctxt "#30761"
+msgid "Clean up leftover files"
+msgstr "Очистить оставшиеся файлы"

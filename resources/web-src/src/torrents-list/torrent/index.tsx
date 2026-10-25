@@ -13,6 +13,7 @@ import {
   Table,
 } from 'semantic-ui-react';
 import { ITorrent, StatusCode } from '../../dataStructure';
+import { t } from '../../i18n';
 
 interface ITorrentListItemProps {
   torrent: ITorrent;
@@ -72,8 +73,8 @@ const TorrentListItem = ({ torrent, isSelected, onSetActiveTorrents }: ITorrentL
         </Table.Cell>
         <Table.Cell>
           <StatisticGroup size="mini" widths="2">
-            <Statistic value={torrent.ratio.toFixed(2)} label="Seed ratio" />
-            <Statistic value={`${torrent.time_ratio.toFixed(2)}`} label="Time ratio" />
+            <Statistic value={torrent.ratio.toFixed(2)} label={t('seedRatio')} />
+            <Statistic value={`${torrent.time_ratio.toFixed(2)}`} label={t('timeRatio')} />
           </StatisticGroup>
         </Table.Cell>
         <Table.Cell>
@@ -96,14 +97,14 @@ const TorrentListItem = ({ torrent, isSelected, onSetActiveTorrents }: ITorrentL
         </Table.Cell>
         <Table.Cell>
           <StatisticGroup widths="2" size="mini">
-            <Statistic value={`${torrent.seeders} / ${torrent.seeders_total}`} label="Active / Total" />
-            <Statistic value={`${torrent.peers} / ${torrent.peers_total}`} label="Active / Total" />
+            <Statistic value={`${torrent.seeders} / ${torrent.seeders_total}`} label={t('activeTotal')} />
+            <Statistic value={`${torrent.peers} / ${torrent.peers_total}`} label={t('activeTotal')} />
           </StatisticGroup>
         </Table.Cell>
         <Table.Cell textAlign="center">
           <Button.Group basic fluid size="tiny">
             <Button icon={isActive ? 'pause' : 'download'} toggle active={isActive} onClick={onResumePause} />
-            <Button icon="play" onClick={onPlay} title="Play in Kodi" />
+            <Button icon="play" onClick={onPlay} title={t('playInKodi')} />
           </Button.Group>
         </Table.Cell>
       </Table.Row>

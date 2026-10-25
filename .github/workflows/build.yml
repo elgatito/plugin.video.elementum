@@ -9,8 +9,70 @@ on:
     pull_request:
         branches:
             - "*"
+    workflow_dispatch:
+        inputs:
+            binaries_repo:
+                description: "Repository to download binaries from (owner/repo)"
+                required: false
+                type: string
+                default: "elgatito/elementum"
+            binaries_branch:
+                description: "Branch to download binaries from"
+                required: false
+                type: string
+                default: "master"
+            trigger_repo:
+                description: "Repository to trigger pipeline on (owner/repo)"
+                required: false
+                type: string
+                default: "ElementumOrg/context.elementum"
+            trigger_branch:
+                description: "Branch to trigger the pipeline on"
+                required: false
+                type: string
+                default: "master"
+            trigger_workflow:
+                description: "Workflow filename or ID to trigger"
+                required: false
+                type: string
+                default: "build.yml"
 
 jobs:
+    web:
+        name: Web UI
+        runs-on: ubuntu-24.04
+        defaults:
+            run:
+                working-directory: resources/web-src
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v6
+
+            - name: Set up Node.js
+              uses: actions/setup-node@v7
+              with:
+                  node-version-file: resources/web-src/.nvmrc
+                  cache: npm
+                  cache-dependency-path: resources/web-src/package-lock.json
+
+            - name: Install dependencies
+              run: npm ci
+
+            - name: Lint
+              run: npm run lint
+
+            - name: Build
+              run: npm run build
+
+            - name: Check that committed build is up to date
+              run: |
+                  changes=$(git status --porcelain -- ../web)
+                  if [ -n "$changes" ]; then
+                      echo "$changes"
+                      echo "::error::resources/web is out of date with resources/web-src. Run 'npm run build' in resources/web-src and commit the result."
+                      exit 1
+                  fi
+
     build:
         name: Build
         runs-on: ubuntu-22.04
@@ -18,19 +80,54 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v6
 
-            - name: Checkout platform_detect
-              uses: actions/checkout@v6
-              with:
-                  repository: ElementumOrg/platform_detect
-                  ref: master
-                  path: resources/site-packages/platform_detect
+            - name: Append commit SHA to version
+              if: ${{ !startsWith(github.ref, 'refs/tags/') }}
+              run: |
+                import re
+                import subprocess
 
-            - name: Checkout binaries
-              uses: actions/checkout@v6
+                sha = subprocess.check_output(["git", "rev-parse", "--short", "HEAD"]).decode().strip()
+
+                with open("addon.xml", "r") as f:
+                    content = f.read()
+
+                def replace_version(match):
+                    old = match.group(2)
+                    new = f"{old}+g{sha}"
+                    print(f"Version: {old} -> {new}")
+                    return f'{match.group(1)}"{new}"'
+
+                content = re.sub(r'(<addon[^>]*?version=)"([^"]+)"', replace_version, content, count=1)
+
+                with open("addon.xml", "w") as f:
+                    f.write(content)
+              shell: python
+
+            # - name: Checkout platform_detect
+            #   uses: actions/checkout@v6
+            #   with:
+            #       repository: ElementumOrg/platform_detect
+            #       ref: master
+            #       path: resources/site-packages/platform_detect
+
+            # - name: Checkout binaries
+            #   uses: actions/checkout@v6
+            #   with:
+            #       repository: elgatito/elementum-binaries
+            #       ref: master
+            #       path: resources/bin
+
+            
+            - name: Download binaries
+              uses: dawidd6/action-download-artifact@v17
               with:
-                  repository: elgatito/elementum-binaries
-                  ref: master
+                  github_token: ${{ secrets.GH_TOKEN }}
+                  repo: ${{ inputs.binaries_repo || 'elgatito/elementum' }}
+                  branch: ${{ inputs.binaries_branch || 'master' }}
+                  workflow: build.yml
+                  workflow_conclusion: success
                   path: resources/bin
+                  name: elementum-binaries
 
             - name: Set up Python 3.7
               uses: actions/setup-python@v5
@@ -45,31 +142,71 @@ jobs:
             - name: Lint
               run: flake8
 
+            - name: Extract binaries
+              run: |
+                cd resources/bin
+                unzip -o elementum-binaries.zip
+                rm -f elementum-binaries.zip
+
             - name: Build
               run: |
-                ls -la && ls -la resources/site-packages/platform_detect
+                make deps
                 make
                 make zipfiles
-                asset_path=$(ls *.zip)
-                echo "::set-output name=asset_path::${asset_path}"
-                echo "::set-output name=asset_name::$(basename "${asset_path}")"
+                pwd && ls -la 
 
-    release:
-        name: Release
-        runs-on: ubuntu-22.04
-        needs: build
-        if: success() && github.event_name == 'create' && startsWith(github.ref, 'refs/tags/')
-        steps:
-            - name: Install Go
-              uses: actions/setup-go@master
-              with:
-                  go-version: 1.25.x
+            # - name: Upload artifact
+            #   uses: actions/upload-artifact@v7
+            #   with:
+            #       name: plugin.video.elementum
+            #       path: ./*.zip
 
-            - name: Install github-release
-              run: go install github.com/github-release/github-release@latest
+            - name: Setup gh actions artifact client
+              uses: lhotari/gh-actions-artifact-client@v2
 
-            - name: Perform release
+            - name: Upload artifacts
               run: |
-                  make upload
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                find . -type f -name "*.zip" | while read -r file; do
+                    name=$(basename "$file")
+                    echo "Uploading $name, file: $file"
+                    cat $file | gh-actions-artifact-client.js upload "${name}" --retentionDays=7
+                done
+                
+    # TODO: Remove when ready
+    # release:
+    #     name: Release
+    #     runs-on: ubuntu-22.04
+    #     needs: build
+    #     if: success() && github.event_name == 'create' && startsWith(github.ref, 'refs/tags/')
+    #     steps:
+    #         - name: Install Go
+    #           uses: actions/setup-go@master
+    #           with:
+    #               go-version: 1.25.x
+
+    #         - name: Install github-release
+    #           run: go install github.com/github-release/github-release@latest
+
+    #         - name: Perform release
+    #           run: |
+    #               make upload
+    #           env:
+    #               GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    #         - name: Trigger downstream pipeline
+    #           uses: actions/github-script@v7
+    #           with:
+    #               github-token: ${{ secrets.GITHUB_TOKEN }}
+    #               script: |
+    #                   const [owner, repo] = "${{ inputs.trigger_repo || 'ElementumOrg/context.elementum' }}".split("/");
+    #                   const workflow_id = "${{ inputs.trigger_workflow || 'build.yml' }}";
+    #                   const ref = "${{ inputs.trigger_branch || 'master' }}";
+
+    #                   await github.rest.actions.createWorkflowDispatch({
+    #                     owner,
+    #                     repo,
+    #                     workflow_id,
+    #                     ref,
+    #                   });
+
+    #                   console.log(`Triggered ${workflow_id} on ${owner}/${repo}@${ref}`);

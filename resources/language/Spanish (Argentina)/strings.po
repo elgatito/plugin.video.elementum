@@ -410,11 +410,11 @@ msgstr "Scrapeando trackers..."
 
 msgctxt "#30119"
 msgid "ID of selected userlist for movies"
-msgstr ""
+msgstr "ID de la lista de usuario seleccionada para películas"
 
 msgctxt "#30120"
 msgid "ID of selected userlist for shows"
-msgstr ""
+msgstr "ID de la lista de usuario seleccionada para series"
 
 msgctxt "#30141"
 msgid "Please support Elementum development by visiting[CR]https://elementum.surge.sh/donate/ or https://elementumorg.github.io/donate/"
@@ -1460,7 +1460,7 @@ msgstr "Desactive si usa direcciones Tor o si desea delegar resolución de nombr
 
 msgctxt "#30497"
 msgid "Use Antizapret proxy (only for Russia)"
-msgstr ""
+msgstr "Usar proxy Antizapret (solo para Rusia)"
 
 msgctxt "#30498"
 msgid "Reset this path to '/'"
@@ -2144,139 +2144,139 @@ msgstr "Contraseña de host remoto"
 
 msgctxt "#30678"
 msgid "Remove from Kodi library, when movie is deleted from Trakt"
-msgstr ""
+msgstr "Quitar de la biblioteca de Kodi cuando la película se elimine de Trakt"
 
 msgctxt "#30679"
 msgid "Remove from Kodi library, when show is deleted from Trakt"
-msgstr ""
+msgstr "Quitar de la biblioteca de Kodi cuando la serie se elimine de Trakt"
 
 msgctxt "#30680"
 msgid "Remove Elementum duplicates from library"
-msgstr ""
+msgstr "Quitar duplicados de Elementum de la biblioteca"
 
 msgctxt "#30681"
 msgid "[B]Found duplicates in Kodi library:[/B][CR]Movies: [B]%s[/B], Shows: [B]%s[/B], Episodes: [B]%s[/B][CR]Proceed?"
-msgstr ""
+msgstr "[B]Duplicados encontrados en la biblioteca de Kodi:[/B][CR]Películas: [B]%s[/B], Series: [B]%s[/B], Episodios: [B]%s[/B][CR]¿Continuar?"
 
 msgctxt "#30682"
 msgid "No duplicates were found in Kodi library"
-msgstr ""
+msgstr "No se encontraron duplicados en la biblioteca de Kodi"
 
 msgctxt "#30683"
 msgid "Starting library duplicates removal"
-msgstr ""
+msgstr "Iniciando la eliminación de duplicados de la biblioteca"
 
 msgctxt "#30684"
 msgid "Removed Movies: %s, Shows: %s, Episodes: %s"
-msgstr ""
+msgstr "Eliminados. Películas: %s, Series: %s, Episodios: %s"
 
 msgctxt "#30685"
 msgid "Remove movies from Elementum database"
-msgstr ""
+msgstr "Quitar películas de la base de datos de Elementum"
 
 msgctxt "#30686"
 msgid "Remove shows from Elementum database"
-msgstr ""
+msgstr "Quitar series de la base de datos de Elementum"
 
 msgctxt "#30687"
 msgid "In Elementum library"
-msgstr ""
+msgstr "En la biblioteca de Elementum"
 
 msgctxt "#30688"
 msgid "Skip searching for installed Elementum repository"
-msgstr ""
+msgstr "Omitir la búsqueda del repositorio de Elementum instalado"
 
 msgctxt "#30689"
 msgid "Internal DNS client"
-msgstr ""
+msgstr "Cliente DNS interno"
 
 msgctxt "#30691"
 msgid "Hide watched"
-msgstr ""
+msgstr "Ocultar vistos"
 
 msgctxt "#30692"
 msgid "TMDB images quality (affects Kodi performance)"
-msgstr ""
+msgstr "Calidad de las imágenes de TMDB (afecta al rendimiento de Kodi)"
 
 msgctxt "#30693"
 msgid "Original"
-msgstr ""
+msgstr "Original"
 
 msgctxt "#30694"
 msgid "High"
-msgstr ""
+msgstr "Alta"
 
 msgctxt "#30695"
 msgid "Medium"
-msgstr ""
+msgstr "Media"
 
 msgctxt "#30696"
 msgid "Low"
-msgstr ""
+msgstr "Baja"
 
 msgctxt "#30697"
 msgid "Interface language"
-msgstr ""
+msgstr "Idioma de la interfaz"
 
 msgctxt "#30698"
 msgid "Kodi language"
-msgstr ""
+msgstr "Idioma de Kodi"
 
 msgctxt "#30699"
 msgid "Use earliest release date for progress and calendars"
-msgstr ""
+msgstr "Usar la fecha de lanzamiento más antigua para progreso y calendarios"
 
 msgctxt "#30700"
 msgid "Interface fallback language"
-msgstr ""
+msgstr "Idioma alternativo de la interfaz"
 
 msgctxt "#30701"
 msgid "English | en"
-msgstr ""
+msgstr "Inglés | en"
 
 msgctxt "#30702"
 msgid "Reached daily limit for subtitles downloads"
-msgstr ""
+msgstr "Se alcanzó el límite diario de descargas de subtítulos"
 
 msgctxt "#30703"
 msgid "Can be used by search providers or [CR]for debugging"
-msgstr ""
+msgstr "Puede ser usado por los proveedores de búsqueda o[CR]para depuración"
 
 msgctxt "#30704"
 msgid "TMDB API Key check failed, cannot use TMDB service"
-msgstr ""
+msgstr "Falló la comprobación de la clave de API de TMDB, no se puede usar el servicio TMDB"
 
 msgctxt "#30705"
 msgid "TMDB API accessibility check failed, cannot use TMDB service"
-msgstr ""
+msgstr "Falló la comprobación de accesibilidad de la API de TMDB, no se puede usar el servicio TMDB"
 
 msgctxt "#30706"
 msgid "Transmission 4.05"
-msgstr ""
+msgstr "Transmission 4.05"
 
 msgctxt "#30707"
 msgid "qBittorrent 3.3.9"
-msgstr ""
+msgstr "qBittorrent 3.3.9"
 
 msgctxt "#30708"
 msgid "qBittorrent 4.6.4"
-msgstr ""
+msgstr "qBittorrent 4.6.4"
 
 msgctxt "#30709"
 msgid "Open [B]%s[/B]"
-msgstr ""
+msgstr "Abrir [B]%s[/B]"
 
 msgctxt "#30710"
 msgid "BitTorrent ports"
-msgstr ""
+msgstr "Puertos de BitTorrent"
 
 msgctxt "#30711"
 msgid "Delete torrent '%s'?"
-msgstr ""
+msgstr "¿Eliminar el torrent '%s'?"
 
 msgctxt "#30712"
 msgid "Force to always use proxy, can break download in some cases"
-msgstr ""
+msgstr "Forzar el uso del proxy siempre, puede hacer que falle la descarga en algunos casos"
 
 msgctxt "#30713"
 msgid "Disable NATPMP"
@@ -2284,8 +2284,194 @@ msgstr "Desactivar NATPMP"
 
 msgctxt "#30714"
 msgid "Re-check torrent's data"
-msgstr ""
+msgstr "Volver a verificar los datos del torrent"
 
 msgctxt "#30715"
 msgid "Antizapret PAC file URL"
-msgstr ""
+msgstr "URL del archivo PAC de Antizapret"
+
+msgctxt "#30716"
+msgid "DNS over HTTPS Server"
+msgstr "Servidor DNS sobre HTTPS"
+
+msgctxt "#30717"
+msgid "Custom DNS over HTTPS Server"
+msgstr "Servidor DNS sobre HTTPS personalizado"
+
+msgctxt "#30718"
+msgid "Use OpenNIC DNS Servers"
+msgstr "Usar servidores DNS de OpenNIC"
+
+# Web UI
+
+msgctxt "#30719"
+msgid "Play"
+msgstr "Reproducir"
+
+msgctxt "#30720"
+msgid "Cancel"
+msgstr "Cancelar"
+
+msgctxt "#30721"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "#30722"
+msgid "Size"
+msgstr "Tamaño"
+
+msgctxt "#30723"
+msgid "Files"
+msgstr "Archivos"
+
+msgctxt "#30724"
+msgid "Pieces"
+msgstr "Piezas"
+
+msgctxt "#30725"
+msgid "Size / Status"
+msgstr "Tamaño / Estado"
+
+msgctxt "#30726"
+msgid "Ratios"
+msgstr "Ratios"
+
+msgctxt "#30727"
+msgid "Rates"
+msgstr "Velocidades"
+
+msgctxt "#30728"
+msgid "Seeds / Peers"
+msgstr "Semillas / Pares"
+
+msgctxt "#30729"
+msgid "Active"
+msgstr "Activos"
+
+msgctxt "#30730"
+msgid "Total"
+msgstr "Total"
+
+msgctxt "#30731"
+msgid "Active / Total"
+msgstr "Activos / Total"
+
+msgctxt "#30732"
+msgid "Seed ratio"
+msgstr "Ratio de compartición"
+
+msgctxt "#30733"
+msgid "Time ratio"
+msgstr "Ratio de tiempo"
+
+msgctxt "#30734"
+msgid "Start all"
+msgstr "Iniciar todos"
+
+msgctxt "#30735"
+msgid "Pause all"
+msgstr "Pausar todos"
+
+msgctxt "#30736"
+msgid "Play in Kodi"
+msgstr "Reproducir en Kodi"
+
+msgctxt "#30737"
+msgid "Completed"
+msgstr "Completado"
+
+msgctxt "#30738"
+msgid "Seed time"
+msgstr "Tiempo de compartición"
+
+msgctxt "#30739"
+msgid "Seed time limit"
+msgstr "Límite de tiempo de compartición"
+
+msgctxt "#30740"
+msgid "Total download"
+msgstr "Descarga total"
+
+msgctxt "#30741"
+msgid "Total upload"
+msgstr "Subida total"
+
+msgctxt "#30742"
+msgid "Refresh rate"
+msgstr "Frecuencia de actualización"
+
+msgctxt "#30743"
+msgid "Seconds"
+msgstr "Segundos"
+
+msgctxt "#30744"
+msgid "Language"
+msgstr "Idioma"
+
+msgctxt "#30745"
+msgid "Save"
+msgstr "Guardar"
+
+msgctxt "#30746"
+msgid "Add"
+msgstr "Agregar"
+
+msgctxt "#30747"
+msgid "Add (all files)"
+msgstr "Agregar (todos los archivos)"
+
+msgctxt "#30748"
+msgid "Magnet or Torrent file URL"
+msgstr "URL magnet o de archivo torrent"
+
+msgctxt "#30749"
+msgid "Also delete files"
+msgstr "Eliminar también los archivos"
+
+msgctxt "#30750"
+msgid "Select a torrent first"
+msgstr "Primero selecciona un torrent"
+
+msgctxt "#30751"
+msgid "Delete %s?"
+msgstr "¿Eliminar %s?"
+
+msgctxt "#30752"
+msgid "Delete selected torrents?"
+msgstr "¿Eliminar los torrents seleccionados?"
+
+msgctxt "#30753"
+msgid "Are you sure you want to delete these torrents?"
+msgstr "¿Seguro que quieres eliminar estos torrents?"
+
+msgctxt "#30754"
+msgid "No results found"
+msgstr "No se encontraron resultados"
+
+msgctxt "#30755"
+msgid "Local"
+msgstr "Local"
+
+msgctxt "#30756"
+msgid "Done"
+msgstr "Listo"
+
+msgctxt "#30757"
+msgid "Queued"
+msgstr "En cola"
+
+msgctxt "#30758"
+msgid "Not selected"
+msgstr "No seleccionado"
+
+msgctxt "#30759"
+msgid "Automatic"
+msgstr "Automático"
+
+msgctxt "#30760"
+msgid "Searching…"
+msgstr "Buscando…"
+
+msgctxt "#30761"
+msgid "Clean up leftover files"
+msgstr "Limpiar archivos sobrantes"

@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import { Grid, GridColumn, GridRow, List, Tab } from 'semantic-ui-react';
 import { ITorrent } from '../dataStructure';
 import { getRefreshRate } from '../Services/settings';
+import { t } from '../i18n';
 import PieceMap from './piece-map';
 
 interface ITorrentInfoItemProps {
@@ -95,32 +96,32 @@ const TorrentInfo = ({ torrent }: ITorrentInfoItemProps): JSX.Element => {
 
   const panes = [
     {
-      menuItem: { key: 'general', content: 'General' },
+      menuItem: { key: 'general', content: t('general') },
       render: () => (
         <Tab.Pane>
           <Grid>
             <GridRow>
               <GridColumn>
                 <div>
-                  <b>Name:</b> {torrent.name}
+                  <b>{t('name')}:</b> {torrent.name}
                 </div>
                 <div>
-                  <b>Size:</b> {torrent.size}
+                  <b>{t('size')}:</b> {torrent.size}
                 </div>
                 <div>
-                  <b>Completed:</b> {torrent.progress.toFixed(2)}%
+                  <b>{t('completed')}:</b> {torrent.progress.toFixed(2)}%
                 </div>
                 <div>
-                  <b>Seed time:</b> {torrent.seeding_time}
+                  <b>{t('seedTime')}:</b> {torrent.seeding_time}
                 </div>
                 <div>
-                  <b>Seed time limit:</b> {torrent.seed_time_limit}s
+                  <b>{t('seedTimeLimit')}:</b> {torrent.seed_time_limit}s
                 </div>
                 <div>
-                  <b>Total download:</b> {prettyBytes(torrent.total_download)}
+                  <b>{t('totalDownload')}:</b> {prettyBytes(torrent.total_download)}
                 </div>
                 <div>
-                  <b>Total upload:</b> {prettyBytes(torrent.total_upload)}
+                  <b>{t('totalUpload')}:</b> {prettyBytes(torrent.total_upload)}
                 </div>
               </GridColumn>
             </GridRow>
@@ -129,7 +130,7 @@ const TorrentInfo = ({ torrent }: ITorrentInfoItemProps): JSX.Element => {
       ),
     },
     {
-      menuItem: { key: 'files', content: 'Files' },
+      menuItem: { key: 'files', content: t('files') },
       render: () => (
         <Tab.Pane loading={loading}>
           <Grid>
@@ -141,7 +142,7 @@ const TorrentInfo = ({ torrent }: ITorrentInfoItemProps): JSX.Element => {
       ),
     },
     {
-      menuItem: { key: 'pieces', content: 'Pieces' },
+      menuItem: { key: 'pieces', content: t('pieces') },
       render: () => (
         <Tab.Pane loading={loading}>
           <PieceMap pieces={piecesList} />
