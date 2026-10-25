@@ -6,6 +6,21 @@
     - It is driven by community.
     - Source is open, so you can fork everything and contribute back.
 
+[B][COLOR red]0.1.115[/COLOR][/B]
+    - Added native support for macOS on Apple Silicon (darwin_arm64).
+    - Web UI: added translations (follows Kodi language), selection of Kodi to play on when several Kodi instances are connected, improved search with provider icons and download/play actions.
+    - Added automatic conversion of Windows paths to WSL paths when Elementum runs under WSL with Windows Kodi (download, library, torrents and other paths).
+    - Fixed Trakt authorization to use new auth.trakt.tv endpoint.
+    - Fixed OpenNameServer DNS-over-HTTPS server and skipping of broken DNS-over-HTTPS providers.
+    - Fixed NAT-PMP port mapping issues.
+    - Fixed duplicate Kodi hosts entries for IPv4/IPv6 addresses.
+    - Fixed possible crashes when torrent is removed while being used.
+    - Fixed ignoring all subsequent settings changes after a token (e.g. Trakt) was refreshed.
+    - Fixed Cancel button in buffering dialog on Kodi 22. (Thanks to @sjq42)
+    - Fixed missing error tracebacks in kodi.log. (Thanks to @sjq42)
+    - Added IMDb ID, season and episode parameters to /subtitles endpoint, and upnext_off parameter to disable UpNext notifications, for external addons. (Thanks to @sk8ordi3)
+    - Completed translations for 20 languages, fixed Spanish "earliest release date" strings. (Thanks to @andresiko)
+
 [B][COLOR red]0.1.114[/COLOR][/B]
     - Fixed issues with Trakt endpoints, caused by new API requirements (Thanks to @MichaelAndoid, @llima27)
     - Changed DNS-over-HTTP implementation to allow custom server configuration through settings (Thanks to @antonsoroko)
