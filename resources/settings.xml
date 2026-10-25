@@ -137,6 +137,9 @@
         <setting id="tmdb_show_use_prod_company_as_studio" label="30417" type="bool" default="false" />
         <setting id="show_unwatched_episodes_number" label="30418" type="bool" default="true" />
 
+        <setting id="viewmode_global_enabled" label="30762" type="bool" default="false" />
+        <setting id="viewmode_global_id" label="30763" type="number" default="" enable="eq(-1,true)" />
+
         <setting id="viewmode_movies" label="30034" type="number" default="" />
         <setting id="viewmode_tvshows" label="30035" type="number" default="" />
         <setting id="viewmode_seasons" label="30036" type="number" default="" />

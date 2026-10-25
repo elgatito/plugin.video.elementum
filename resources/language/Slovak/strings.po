@@ -2303,7 +2303,6 @@ msgid "Use OpenNIC DNS Servers"
 msgstr "Používať servery DNS OpenNIC"
 
 # Web UI
-
 msgctxt "#30719"
 msgid "Play"
 msgstr "Prehrať"
@@ -2475,3 +2474,11 @@ msgstr "Vyhľadávanie…"
 msgctxt "#30761"
 msgid "Clean up leftover files"
 msgstr "Vyčistiť zostávajúce súbory"
+
+msgctxt "#30762"
+msgid "Use the same view for all lists"
+msgstr ""
+
+msgctxt "#30763"
+msgid "Default view for all lists"
+msgstr ""
