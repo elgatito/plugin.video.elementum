@@ -2307,7 +2307,6 @@ msgid "Use OpenNIC DNS Servers"
 msgstr "השתמש בשרתי ה-DNS של OpenNIC"
 
 # Web UI
-
 msgctxt "#30719"
 msgid "Play"
 msgstr "הפעל"
@@ -2479,3 +2478,11 @@ msgstr "מחפש…"
 msgctxt "#30761"
 msgid "Clean up leftover files"
 msgstr "ניקוי קבצים שנותרו"
+
+msgctxt "#30762"
+msgid "Use the same view for all lists"
+msgstr ""
+
+msgctxt "#30763"
+msgid "Default view for all lists"
+msgstr ""

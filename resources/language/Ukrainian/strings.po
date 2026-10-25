@@ -2303,7 +2303,6 @@ msgid "Use OpenNIC DNS Servers"
 msgstr "Використовувати DNS-сервери OpenNIC"
 
 # Web UI
-
 msgctxt "#30719"
 msgid "Play"
 msgstr "Відтворити"
@@ -2475,3 +2474,11 @@ msgstr "Пошук…"
 msgctxt "#30761"
 msgid "Clean up leftover files"
 msgstr "Очистити залишені файли"
+
+msgctxt "#30762"
+msgid "Use the same view for all lists"
+msgstr ""
+
+msgctxt "#30763"
+msgid "Default view for all lists"
+msgstr ""
