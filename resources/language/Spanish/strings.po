@@ -2482,3 +2482,7 @@ msgstr ""
 msgctxt "#30763"
 msgid "Default view for all lists"
 msgstr ""
+
+msgctxt "#30764"
+msgid "Local host (empty - automatic)"
+msgstr ""

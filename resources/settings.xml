@@ -399,6 +399,7 @@
         <!-- Addon address -->
         <setting label="30408" type="lsep" />
         <setting id="local_port" label="30409" type="number" default="65221" />
+        <setting id="local_host" label="30764" type="text" default="" />
         <setting id="remote_host" label="30411" type="text" default="127.0.0.1" />
         <setting id="remote_port" label="30410" type="number" default="65220" />
 
