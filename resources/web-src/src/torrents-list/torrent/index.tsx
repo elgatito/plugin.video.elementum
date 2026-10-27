@@ -21,6 +21,9 @@ interface ITorrentListItemProps {
   onSetActiveTorrents: React.Dispatch<React.SetStateAction<ITorrent[]>>;
 }
 
+// Decimals are noise for big speeds and make the value wrap.
+const formatRate = (rate: number): string => rate.toFixed(rate >= 100 ? 0 : 2);
+
 const TorrentListItem = ({ torrent, isSelected, onSetActiveTorrents }: ITorrentListItemProps): JSX.Element => {
   const isActive = torrent.status_code !== StatusCode.StatusFinished && torrent.status_code !== StatusCode.StatusPaused;
 
@@ -82,14 +85,14 @@ const TorrentListItem = ({ torrent, isSelected, onSetActiveTorrents }: ITorrentL
             <Statistic>
               <StatisticValue>
                 <Icon name="arrow down" size="small" />
-                {` ${torrent.download_rate.toFixed(2)}`}
+                {` ${formatRate(torrent.download_rate)}`}
               </StatisticValue>
               <StatisticLabel>kB/s</StatisticLabel>
             </Statistic>
             <Statistic>
               <StatisticValue>
                 <Icon name="arrow up" size="small" />
-                {` ${torrent.upload_rate.toFixed(2)}`}
+                {` ${formatRate(torrent.upload_rate)}`}
               </StatisticValue>
               <StatisticLabel>kB/s</StatisticLabel>
             </Statistic>
