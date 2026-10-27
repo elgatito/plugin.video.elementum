@@ -2476,12 +2476,52 @@ msgstr "Siivoa jäljelle jääneet tiedostot"
 
 msgctxt "#30762"
 msgid "Use the same view for all lists"
-msgstr ""
+msgstr "Käytä samaa näkymää kaikille listoille"
 
 msgctxt "#30763"
 msgid "Default view for all lists"
-msgstr ""
+msgstr "Kaikkien listojen oletusnäkymä"
 
 msgctxt "#30764"
 msgid "Local host (empty - automatic)"
-msgstr ""
+msgstr "Paikallinen palvelin (tyhjä - automaattinen)"
+
+msgctxt "#30765"
+msgid "Advanced search"
+msgstr "Tarkennettu haku"
+
+msgctxt "#30766"
+msgid "Any"
+msgstr "Mikä tahansa"
+
+msgctxt "#30767"
+msgid "Year"
+msgstr "Vuosi"
+
+msgctxt "#30768"
+msgid "Actors"
+msgstr "Näyttelijät"
+
+msgctxt "#30769"
+msgid "Add actor"
+msgstr "Lisää näyttelijä"
+
+msgctxt "#30770"
+msgid "Reset filters"
+msgstr "Tyhjennä suodattimet"
+
+msgctxt "#30771"
+msgid "Invalid year, use 2010, 2000-2010, 2010- or -2010"
+msgstr "Virheellinen vuosi, käytä muotoa 2010, 2000-2010, 2010- tai -2010"
+
+msgctxt "#30772"
+msgid "Title"
+msgstr "Nimi"
+
+msgctxt "#30774"
+msgid "Sort by"
+msgstr "Lajitteluperuste"
+
+msgctxt "#30775"
+msgid "Oldest first"
+msgstr "Vanhimmat ensin"

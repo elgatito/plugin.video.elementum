@@ -2478,12 +2478,52 @@ msgstr "Visszamaradt fájlok törlése"
 
 msgctxt "#30762"
 msgid "Use the same view for all lists"
-msgstr ""
+msgstr "Azonos nézet használata minden listához"
 
 msgctxt "#30763"
 msgid "Default view for all lists"
-msgstr ""
+msgstr "Alapértelmezett nézet minden listához"
 
 msgctxt "#30764"
 msgid "Local host (empty - automatic)"
-msgstr ""
+msgstr "Helyi kiszolgáló (üres - automatikus)"
+
+msgctxt "#30765"
+msgid "Advanced search"
+msgstr "Részletes keresés"
+
+msgctxt "#30766"
+msgid "Any"
+msgstr "Bármelyik"
+
+msgctxt "#30767"
+msgid "Year"
+msgstr "Év"
+
+msgctxt "#30768"
+msgid "Actors"
+msgstr "Színészek"
+
+msgctxt "#30769"
+msgid "Add actor"
+msgstr "Színész hozzáadása"
+
+msgctxt "#30770"
+msgid "Reset filters"
+msgstr "Szűrők törlése"
+
+msgctxt "#30771"
+msgid "Invalid year, use 2010, 2000-2010, 2010- or -2010"
+msgstr "Érvénytelen év, használja a 2010, 2000-2010, 2010- vagy -2010 formát"
+
+msgctxt "#30772"
+msgid "Title"
+msgstr "Cím"
+
+msgctxt "#30774"
+msgid "Sort by"
+msgstr "Rendezés"
+
+msgctxt "#30775"
+msgid "Oldest first"
+msgstr "Legrégebbi elöl"

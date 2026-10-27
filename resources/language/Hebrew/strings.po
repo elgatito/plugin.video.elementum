@@ -2481,12 +2481,52 @@ msgstr "ניקוי קבצים שנותרו"
 
 msgctxt "#30762"
 msgid "Use the same view for all lists"
-msgstr ""
+msgstr "השתמש באותה תצוגה לכל הרשימות"
 
 msgctxt "#30763"
 msgid "Default view for all lists"
-msgstr ""
+msgstr "תצוגת ברירת מחדל לכל הרשימות"
 
 msgctxt "#30764"
 msgid "Local host (empty - automatic)"
-msgstr ""
+msgstr "מארח מקומי (ריק - אוטומטי)"
+
+msgctxt "#30765"
+msgid "Advanced search"
+msgstr "חיפוש מתקדם"
+
+msgctxt "#30766"
+msgid "Any"
+msgstr "הכל"
+
+msgctxt "#30767"
+msgid "Year"
+msgstr "שנה"
+
+msgctxt "#30768"
+msgid "Actors"
+msgstr "שחקנים"
+
+msgctxt "#30769"
+msgid "Add actor"
+msgstr "הוסף שחקן"
+
+msgctxt "#30770"
+msgid "Reset filters"
+msgstr "אפס מסננים"
+
+msgctxt "#30771"
+msgid "Invalid year, use 2010, 2000-2010, 2010- or -2010"
+msgstr "שנה לא תקינה, השתמש ב-2010, 2000-2010, 2010- או -2010"
+
+msgctxt "#30772"
+msgid "Title"
+msgstr "כותרת"
+
+msgctxt "#30774"
+msgid "Sort by"
+msgstr "מיין לפי"
+
+msgctxt "#30775"
+msgid "Oldest first"
+msgstr "הישנים ביותר תחילה"

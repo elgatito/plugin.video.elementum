@@ -2477,12 +2477,52 @@ msgstr "Очистить оставшиеся файлы"
 
 msgctxt "#30762"
 msgid "Use the same view for all lists"
-msgstr ""
+msgstr "Использовать один вид для всех списков"
 
 msgctxt "#30763"
 msgid "Default view for all lists"
-msgstr ""
+msgstr "Вид по умолчанию для всех списков"
 
 msgctxt "#30764"
 msgid "Local host (empty - automatic)"
-msgstr ""
+msgstr "Локальный хост (пусто - автоматически)"
+
+msgctxt "#30765"
+msgid "Advanced search"
+msgstr "Расширенный поиск"
+
+msgctxt "#30766"
+msgid "Any"
+msgstr "Любой"
+
+msgctxt "#30767"
+msgid "Year"
+msgstr "Год"
+
+msgctxt "#30768"
+msgid "Actors"
+msgstr "Актёры"
+
+msgctxt "#30769"
+msgid "Add actor"
+msgstr "Добавить актёра"
+
+msgctxt "#30770"
+msgid "Reset filters"
+msgstr "Сбросить фильтры"
+
+msgctxt "#30771"
+msgid "Invalid year, use 2010, 2000-2010, 2010- or -2010"
+msgstr "Неверный год, используйте 2010, 2000-2010, 2010- или -2010"
+
+msgctxt "#30772"
+msgid "Title"
+msgstr "Название"
+
+msgctxt "#30774"
+msgid "Sort by"
+msgstr "Сортировка"
+
+msgctxt "#30775"
+msgid "Oldest first"
+msgstr "Сначала старые"

@@ -2480,12 +2480,52 @@ msgstr "Rensa kvarlämnade filer"
 
 msgctxt "#30762"
 msgid "Use the same view for all lists"
-msgstr ""
+msgstr "Använd samma vy för alla listor"
 
 msgctxt "#30763"
 msgid "Default view for all lists"
-msgstr ""
+msgstr "Standardvy för alla listor"
 
 msgctxt "#30764"
 msgid "Local host (empty - automatic)"
-msgstr ""
+msgstr "Lokal värd (tom - automatisk)"
+
+msgctxt "#30765"
+msgid "Advanced search"
+msgstr "Avancerad sökning"
+
+msgctxt "#30766"
+msgid "Any"
+msgstr "Alla"
+
+msgctxt "#30767"
+msgid "Year"
+msgstr "År"
+
+msgctxt "#30768"
+msgid "Actors"
+msgstr "Skådespelare"
+
+msgctxt "#30769"
+msgid "Add actor"
+msgstr "Lägg till skådespelare"
+
+msgctxt "#30770"
+msgid "Reset filters"
+msgstr "Återställ filter"
+
+msgctxt "#30771"
+msgid "Invalid year, use 2010, 2000-2010, 2010- or -2010"
+msgstr "Ogiltigt år, använd 2010, 2000-2010, 2010- eller -2010"
+
+msgctxt "#30772"
+msgid "Title"
+msgstr "Titel"
+
+msgctxt "#30774"
+msgid "Sort by"
+msgstr "Sortera efter"
+
+msgctxt "#30775"
+msgid "Oldest first"
+msgstr "Äldsta först"

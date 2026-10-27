@@ -2477,12 +2477,52 @@ msgstr "Achtergebleven bestanden opruimen"
 
 msgctxt "#30762"
 msgid "Use the same view for all lists"
-msgstr ""
+msgstr "Dezelfde weergave voor alle lijsten gebruiken"
 
 msgctxt "#30763"
 msgid "Default view for all lists"
-msgstr ""
+msgstr "Standaardweergave voor alle lijsten"
 
 msgctxt "#30764"
 msgid "Local host (empty - automatic)"
-msgstr ""
+msgstr "Lokale host (leeg - automatisch)"
+
+msgctxt "#30765"
+msgid "Advanced search"
+msgstr "Geavanceerd zoeken"
+
+msgctxt "#30766"
+msgid "Any"
+msgstr "Alle"
+
+msgctxt "#30767"
+msgid "Year"
+msgstr "Jaar"
+
+msgctxt "#30768"
+msgid "Actors"
+msgstr "Acteurs"
+
+msgctxt "#30769"
+msgid "Add actor"
+msgstr "Acteur toevoegen"
+
+msgctxt "#30770"
+msgid "Reset filters"
+msgstr "Filters wissen"
+
+msgctxt "#30771"
+msgid "Invalid year, use 2010, 2000-2010, 2010- or -2010"
+msgstr "Ongeldig jaar, gebruik 2010, 2000-2010, 2010- of -2010"
+
+msgctxt "#30772"
+msgid "Title"
+msgstr "Titel"
+
+msgctxt "#30774"
+msgid "Sort by"
+msgstr "Sorteren op"
+
+msgctxt "#30775"
+msgid "Oldest first"
+msgstr "Oudste eerst"

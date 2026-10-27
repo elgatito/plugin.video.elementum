@@ -2480,12 +2480,52 @@ msgstr "Curăță fișierele rămase"
 
 msgctxt "#30762"
 msgid "Use the same view for all lists"
-msgstr ""
+msgstr "Folosește aceeași afișare pentru toate listele"
 
 msgctxt "#30763"
 msgid "Default view for all lists"
-msgstr ""
+msgstr "Afișare implicită pentru toate listele"
 
 msgctxt "#30764"
 msgid "Local host (empty - automatic)"
-msgstr ""
+msgstr "Gazdă locală (gol - automat)"
+
+msgctxt "#30765"
+msgid "Advanced search"
+msgstr "Căutare avansată"
+
+msgctxt "#30766"
+msgid "Any"
+msgstr "Oricare"
+
+msgctxt "#30767"
+msgid "Year"
+msgstr "An"
+
+msgctxt "#30768"
+msgid "Actors"
+msgstr "Actori"
+
+msgctxt "#30769"
+msgid "Add actor"
+msgstr "Adaugă actor"
+
+msgctxt "#30770"
+msgid "Reset filters"
+msgstr "Resetează filtrele"
+
+msgctxt "#30771"
+msgid "Invalid year, use 2010, 2000-2010, 2010- or -2010"
+msgstr "An invalid, folosiți 2010, 2000-2010, 2010- sau -2010"
+
+msgctxt "#30772"
+msgid "Title"
+msgstr "Titlu"
+
+msgctxt "#30774"
+msgid "Sort by"
+msgstr "Sortează după"
+
+msgctxt "#30775"
+msgid "Oldest first"
+msgstr "Cele mai vechi primele"

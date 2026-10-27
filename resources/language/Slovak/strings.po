@@ -2477,12 +2477,52 @@ msgstr "Vyčistiť zostávajúce súbory"
 
 msgctxt "#30762"
 msgid "Use the same view for all lists"
-msgstr ""
+msgstr "Použiť rovnaké zobrazenie pre všetky zoznamy"
 
 msgctxt "#30763"
 msgid "Default view for all lists"
-msgstr ""
+msgstr "Predvolené zobrazenie pre všetky zoznamy"
 
 msgctxt "#30764"
 msgid "Local host (empty - automatic)"
-msgstr ""
+msgstr "Lokálny hostiteľ (prázdne - automaticky)"
+
+msgctxt "#30765"
+msgid "Advanced search"
+msgstr "Rozšírené vyhľadávanie"
+
+msgctxt "#30766"
+msgid "Any"
+msgstr "Ľubovoľný"
+
+msgctxt "#30767"
+msgid "Year"
+msgstr "Rok"
+
+msgctxt "#30768"
+msgid "Actors"
+msgstr "Herci"
+
+msgctxt "#30769"
+msgid "Add actor"
+msgstr "Pridať herca"
+
+msgctxt "#30770"
+msgid "Reset filters"
+msgstr "Zrušiť filtre"
+
+msgctxt "#30771"
+msgid "Invalid year, use 2010, 2000-2010, 2010- or -2010"
+msgstr "Neplatný rok, použite 2010, 2000-2010, 2010- alebo -2010"
+
+msgctxt "#30772"
+msgid "Title"
+msgstr "Názov"
+
+msgctxt "#30774"
+msgid "Sort by"
+msgstr "Zoradiť podľa"
+
+msgctxt "#30775"
+msgid "Oldest first"
+msgstr "Najstaršie najprv"

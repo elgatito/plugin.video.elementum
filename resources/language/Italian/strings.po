@@ -2477,12 +2477,52 @@ msgstr "Pulisci i file residui"
 
 msgctxt "#30762"
 msgid "Use the same view for all lists"
-msgstr ""
+msgstr "Usa la stessa vista per tutte le liste"
 
 msgctxt "#30763"
 msgid "Default view for all lists"
-msgstr ""
+msgstr "Vista predefinita per tutte le liste"
 
 msgctxt "#30764"
 msgid "Local host (empty - automatic)"
-msgstr ""
+msgstr "Host locale (vuoto - automatico)"
+
+msgctxt "#30765"
+msgid "Advanced search"
+msgstr "Ricerca avanzata"
+
+msgctxt "#30766"
+msgid "Any"
+msgstr "Qualsiasi"
+
+msgctxt "#30767"
+msgid "Year"
+msgstr "Anno"
+
+msgctxt "#30768"
+msgid "Actors"
+msgstr "Attori"
+
+msgctxt "#30769"
+msgid "Add actor"
+msgstr "Aggiungi attore"
+
+msgctxt "#30770"
+msgid "Reset filters"
+msgstr "Azzera filtri"
+
+msgctxt "#30771"
+msgid "Invalid year, use 2010, 2000-2010, 2010- or -2010"
+msgstr "Anno non valido, usa 2010, 2000-2010, 2010- o -2010"
+
+msgctxt "#30772"
+msgid "Title"
+msgstr "Titolo"
+
+msgctxt "#30774"
+msgid "Sort by"
+msgstr "Ordina per"
+
+msgctxt "#30775"
+msgid "Oldest first"
+msgstr "Prima i più vecchi"

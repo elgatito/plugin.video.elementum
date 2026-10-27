@@ -10,6 +10,7 @@
     - Added native support for macOS on Apple Silicon (darwin_arm64).
     - Web UI: added translations (follows Kodi language), selection of Kodi to play on when several Kodi instances are connected, improved search with provider icons and download/play actions.
     - Added automatic conversion of Windows paths to WSL paths when Elementum runs under WSL with Windows Kodi (download, library, torrents and other paths).
+    - Added "Advanced search" in Movies and TV Shows to search TMDB by title, year or year range, genres, countries, languages and actors (movies only), with sorting by popularity, rating, votes, release date or name.
     - Added "Clean up leftover files" action in Advanced settings to browse, play and delete files in download folder that do not belong to any torrent.
     - Fixed Trakt authorization to use new auth.trakt.tv endpoint.
     - Fixed OpenNameServer DNS-over-HTTPS server and skipping of broken DNS-over-HTTPS providers.

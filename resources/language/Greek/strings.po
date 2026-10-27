@@ -2480,12 +2480,52 @@ msgstr "Εκκαθάριση υπολειπόμενων αρχείων"
 
 msgctxt "#30762"
 msgid "Use the same view for all lists"
-msgstr ""
+msgstr "Χρήση της ίδιας εμφάνισης για όλες τις λίστες"
 
 msgctxt "#30763"
 msgid "Default view for all lists"
-msgstr ""
+msgstr "Προεπιλεγμένη εμφάνιση για όλες τις λίστες"
 
 msgctxt "#30764"
 msgid "Local host (empty - automatic)"
-msgstr ""
+msgstr "Τοπικός υπολογιστής (κενό - αυτόματα)"
+
+msgctxt "#30765"
+msgid "Advanced search"
+msgstr "Σύνθετη αναζήτηση"
+
+msgctxt "#30766"
+msgid "Any"
+msgstr "Οποιοδήποτε"
+
+msgctxt "#30767"
+msgid "Year"
+msgstr "Έτος"
+
+msgctxt "#30768"
+msgid "Actors"
+msgstr "Ηθοποιοί"
+
+msgctxt "#30769"
+msgid "Add actor"
+msgstr "Προσθήκη ηθοποιού"
+
+msgctxt "#30770"
+msgid "Reset filters"
+msgstr "Επαναφορά φίλτρων"
+
+msgctxt "#30771"
+msgid "Invalid year, use 2010, 2000-2010, 2010- or -2010"
+msgstr "Μη έγκυρο έτος, χρησιμοποιήστε 2010, 2000-2010, 2010- ή -2010"
+
+msgctxt "#30772"
+msgid "Title"
+msgstr "Τίτλος"
+
+msgctxt "#30774"
+msgid "Sort by"
+msgstr "Ταξινόμηση κατά"
+
+msgctxt "#30775"
+msgid "Oldest first"
+msgstr "Παλαιότερα πρώτα"
