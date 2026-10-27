@@ -12,6 +12,16 @@
     - Added automatic conversion of Windows paths to WSL paths when Elementum runs under WSL with Windows Kodi (download, library, torrents and other paths).
     - Added "Advanced search" in Movies and TV Shows to search TMDB by title, year or year range, genres, countries, languages and actors (movies only), with sorting by popularity, rating, votes, release date or name.
     - Added "Clean up leftover files" action in Advanced settings to browse, play and delete files in download folder that do not belong to any torrent.
+    - Added "Default view for all lists" setting to use one view for all Elementum lists. View mode is no longer applied to widgets and other containers. (Thanks to @60secondsassassin)
+    - Added "Local host" setting to choose the address the add-on listens on for connections from Elementum daemon.
+    - Added episode guide to TV show NFO files, so Kodi can match library shows more reliably.
+    - Buffering dialog is skipped when the chosen file is already fully downloaded.
+    - Free space is checked before downloading additional files of a torrent, so playback does not break by running out of space.
+    - Icons and thumbnails are now shown correctly on remote Kodi clients in client-server mode.
+    - Library scans and cleanups now run on the local Kodi, which fixes adding to library with shared (MySQL) library on several Kodi devices.
+    - Internal proxy now supports HTTP/2.
+    - Removed deprecated list item calls on Kodi 20+, which reduces warnings in kodi.log.
+    - Fixed Elementum killing an unrelated process (even Kodi itself) on startup because of a stale lockfile.
     - Fixed Trakt authorization to use new auth.trakt.tv endpoint.
     - Fixed OpenNameServer DNS-over-HTTPS server and skipping of broken DNS-over-HTTPS providers.
     - Fixed NAT-PMP port mapping issues.
@@ -21,6 +31,8 @@
     - Fixed Cancel button in buffering dialog on Kodi 22. (Thanks to @sjq42)
     - Fixed missing error tracebacks in kodi.log. (Thanks to @sjq42)
     - Added IMDb ID, season and episode parameters to /subtitles endpoint, and upnext_off parameter to disable UpNext notifications, for external addons. (Thanks to @sk8ordi3)
+    - Added skip_file_dialog play parameter to fail instead of showing file selection, and resolution_token play parameter to report failed or cancelled playback, for external addons. (Thanks to @Therand90)
+    - Added doresume=never play parameter to skip the resume dialog, for external addons.
     - Completed translations for 20 languages, fixed Spanish "earliest release date" strings. (Thanks to @andresiko)
 
 [B][COLOR red]0.1.114[/COLOR][/B]
