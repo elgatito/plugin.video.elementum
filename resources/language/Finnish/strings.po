@@ -2529,3 +2529,7 @@ msgstr "Vanhimmat ensin"
 msgctxt "#30776"
 msgid "Use built-in proxy for Elementum requests"
 msgstr "Käytä sisäänrakennettua välityspalvelinta Elementumin pyyntöihin"
+
+msgctxt "#30777"
+msgid "Use OpenNIC DNS Servers for regular domains"
+msgstr "Käytä OpenNIC-DNS-palvelimia tavallisille verkkotunnuksille"

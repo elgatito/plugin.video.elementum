@@ -2531,3 +2531,7 @@ msgstr "Legrégebbi elöl"
 msgctxt "#30776"
 msgid "Use built-in proxy for Elementum requests"
 msgstr "A beépített proxy használata az Elementum kéréseihez"
+
+msgctxt "#30777"
+msgid "Use OpenNIC DNS Servers for regular domains"
+msgstr "Az OpenNIC DNS kiszolgálóinak használata normál domainekhez"

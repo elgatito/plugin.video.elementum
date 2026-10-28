@@ -2530,3 +2530,7 @@ msgstr "Спочатку старі"
 msgctxt "#30776"
 msgid "Use built-in proxy for Elementum requests"
 msgstr "Використовувати вбудований проксі для запитів Elementum"
+
+msgctxt "#30777"
+msgid "Use OpenNIC DNS Servers for regular domains"
+msgstr "Використовувати DNS-сервери OpenNIC для звичайних доменів"

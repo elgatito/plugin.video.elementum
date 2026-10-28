@@ -2534,3 +2534,7 @@ msgstr "הישנים ביותר תחילה"
 msgctxt "#30776"
 msgid "Use built-in proxy for Elementum requests"
 msgstr "השתמש ב-proxy המובנה עבור בקשות Elementum"
+
+msgctxt "#30777"
+msgid "Use OpenNIC DNS Servers for regular domains"
+msgstr "השתמש בשרתי ה-DNS של OpenNIC עבור דומיינים רגילים"

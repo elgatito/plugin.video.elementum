@@ -2530,3 +2530,7 @@ msgstr "Najstaršie najprv"
 msgctxt "#30776"
 msgid "Use built-in proxy for Elementum requests"
 msgstr "Používať zabudovaný proxy pre požiadavky Elementum"
+
+msgctxt "#30777"
+msgid "Use OpenNIC DNS Servers for regular domains"
+msgstr "Používať servery DNS OpenNIC pre bežné domény"

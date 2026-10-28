@@ -2529,3 +2529,7 @@ msgstr ""
 msgctxt "#30776"
 msgid "Use built-in proxy for Elementum requests"
 msgstr ""
+
+msgctxt "#30777"
+msgid "Use OpenNIC DNS Servers for regular domains"
+msgstr ""
