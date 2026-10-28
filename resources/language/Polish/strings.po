@@ -2525,3 +2525,7 @@ msgstr "Sortuj według"
 msgctxt "#30775"
 msgid "Oldest first"
 msgstr "Najstarsze najpierw"
+
+msgctxt "#30776"
+msgid "Use built-in proxy for Elementum requests"
+msgstr "Używaj wbudowanego proxy do żądań Elementum"

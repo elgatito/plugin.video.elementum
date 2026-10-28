@@ -2525,3 +2525,7 @@ msgstr "Lajitteluperuste"
 msgctxt "#30775"
 msgid "Oldest first"
 msgstr "Vanhimmat ensin"
+
+msgctxt "#30776"
+msgid "Use built-in proxy for Elementum requests"
+msgstr "Käytä sisäänrakennettua välityspalvelinta Elementumin pyyntöihin"

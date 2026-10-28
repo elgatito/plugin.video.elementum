@@ -2527,3 +2527,7 @@ msgstr "Rendezés"
 msgctxt "#30775"
 msgid "Oldest first"
 msgstr "Legrégebbi elöl"
+
+msgctxt "#30776"
+msgid "Use built-in proxy for Elementum requests"
+msgstr "A beépített proxy használata az Elementum kéréseihez"

@@ -2530,3 +2530,7 @@ msgstr "מיין לפי"
 msgctxt "#30775"
 msgid "Oldest first"
 msgstr "הישנים ביותר תחילה"
+
+msgctxt "#30776"
+msgid "Use built-in proxy for Elementum requests"
+msgstr "השתמש ב-proxy המובנה עבור בקשות Elementum"

@@ -2529,3 +2529,7 @@ msgstr "Sortera efter"
 msgctxt "#30775"
 msgid "Oldest first"
 msgstr "Äldsta först"
+
+msgctxt "#30776"
+msgid "Use built-in proxy for Elementum requests"
+msgstr "Använd inbyggd proxy för Elementums förfrågningar"
