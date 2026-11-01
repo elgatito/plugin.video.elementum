@@ -19,14 +19,19 @@
     - Free space is checked before downloading additional files of a torrent, so playback does not break by running out of space.
     - Icons and thumbnails are now shown correctly on remote Kodi clients in client-server mode.
     - Library scans and cleanups now run on the local Kodi, which fixes adding to library with shared (MySQL) library on several Kodi devices.
-    - Internal proxy now supports HTTP/2.
+    - Internal proxy now supports HTTP/2, imitates the browser from the request's User-Agent so sites are less likely to block it, and is turned on or off without restarting.
+    - Added "Use built-in proxy for Elementum requests" setting to choose whether Elementum's own requests go through the internal proxy.
+    - Added "Use OpenNIC DNS Servers for regular domains" setting to resolve all domains with OpenNIC, not only OpenNIC domains.
     - Removed deprecated list item calls on Kodi 20+, which reduces warnings in kodi.log.
+    - Faster list loading on Kodi 20+, and fixed lists and playback failing when an actor has no name. (Thanks to @vasilky3)
     - Fixed Elementum killing an unrelated process (even Kodi itself) on startup because of a stale lockfile.
     - Fixed Trakt authorization to use new auth.trakt.tv endpoint.
     - Fixed OpenNameServer DNS-over-HTTPS server and skipping of broken DNS-over-HTTPS providers.
     - Fixed NAT-PMP port mapping issues.
     - Fixed duplicate Kodi hosts entries for IPv4/IPv6 addresses.
     - Fixed possible crashes when torrent is removed while being used.
+    - Fixed tracking of playback when Kodi moves to the next item in a playlist, and pausing of the playing Elementum video when another one is started.
+    - Fixed a cancelled progress dialog staying on screen forever when Elementum daemon crashed or stopped responding.
     - Fixed ignoring all subsequent settings changes after a token (e.g. Trakt) was refreshed.
     - Fixed Cancel button in buffering dialog on Kodi 22. (Thanks to @sjq42)
     - Fixed missing error tracebacks in kodi.log. (Thanks to @sjq42)
