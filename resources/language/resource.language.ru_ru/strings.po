@@ -2534,3 +2534,27 @@ msgstr "Использовать встроенный прокси для зап
 msgctxt "#30777"
 msgid "Use OpenNIC DNS Servers for regular domains"
 msgstr "Использовать OpenNIC DNS сервера для обычных доменов"
+
+msgctxt "#30778"
+msgid "Storage statistics"
+msgstr "Статистика хранилища"
+
+msgctxt "#30779"
+msgid "Total size"
+msgstr "Общий размер"
+
+msgctxt "#30780"
+msgid "Used"
+msgstr "Занято"
+
+msgctxt "#30781"
+msgid "Free"
+msgstr "Свободно"
+
+msgctxt "#30782"
+msgid "Used by Elementum"
+msgstr "Занято Elementum"
+
+msgctxt "#30783"
+msgid "Leftover files"
+msgstr "Оставшиеся файлы"

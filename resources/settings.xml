@@ -415,6 +415,7 @@
     <category label="30015">
         <!-- Download folder -->
         <setting label="30001" type="lsep" />
+        <setting id="action_cmd_storage" type="action" label="30778" option="close" action="ActivateWindow(Videos,plugin://plugin.video.elementum/cmd/storage,return)" />
         <setting id="action_cmd_leftovers" type="action" label="30761" option="close" action="ActivateWindow(Videos,plugin://plugin.video.elementum/cmd/leftovers,return)" />
 
         <!-- Database -->

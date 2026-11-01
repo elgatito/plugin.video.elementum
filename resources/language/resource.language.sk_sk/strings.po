@@ -2534,3 +2534,27 @@ msgstr "Používať zabudovaný proxy pre požiadavky Elementum"
 msgctxt "#30777"
 msgid "Use OpenNIC DNS Servers for regular domains"
 msgstr "Používať servery DNS OpenNIC pre bežné domény"
+
+msgctxt "#30778"
+msgid "Storage statistics"
+msgstr "Štatistiky úložiska"
+
+msgctxt "#30779"
+msgid "Total size"
+msgstr "Celková veľkosť"
+
+msgctxt "#30780"
+msgid "Used"
+msgstr "Obsadené"
+
+msgctxt "#30781"
+msgid "Free"
+msgstr "Voľné"
+
+msgctxt "#30782"
+msgid "Used by Elementum"
+msgstr "Obsadené Elementum"
+
+msgctxt "#30783"
+msgid "Leftover files"
+msgstr "Zostávajúce súbory"

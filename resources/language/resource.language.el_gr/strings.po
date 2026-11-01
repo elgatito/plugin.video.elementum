@@ -2537,3 +2537,27 @@ msgstr "Χρήση του ενσωματωμένου proxy για αιτήματ
 msgctxt "#30777"
 msgid "Use OpenNIC DNS Servers for regular domains"
 msgstr "Χρήση των διακομιστών DNS του OpenNIC για κανονικούς τομείς"
+
+msgctxt "#30778"
+msgid "Storage statistics"
+msgstr "Στατιστικά αποθηκευτικού χώρου"
+
+msgctxt "#30779"
+msgid "Total size"
+msgstr "Συνολικό μέγεθος"
+
+msgctxt "#30780"
+msgid "Used"
+msgstr "Σε χρήση"
+
+msgctxt "#30781"
+msgid "Free"
+msgstr "Ελεύθερος"
+
+msgctxt "#30782"
+msgid "Used by Elementum"
+msgstr "Σε χρήση από το Elementum"
+
+msgctxt "#30783"
+msgid "Leftover files"
+msgstr "Υπολειπόμενα αρχεία"

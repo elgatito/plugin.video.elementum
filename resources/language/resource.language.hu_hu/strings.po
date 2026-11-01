@@ -2535,3 +2535,27 @@ msgstr "A beépített proxy használata az Elementum kéréseihez"
 msgctxt "#30777"
 msgid "Use OpenNIC DNS Servers for regular domains"
 msgstr "Az OpenNIC DNS kiszolgálóinak használata normál domainekhez"
+
+msgctxt "#30778"
+msgid "Storage statistics"
+msgstr "Tárhely statisztika"
+
+msgctxt "#30779"
+msgid "Total size"
+msgstr "Teljes méret"
+
+msgctxt "#30780"
+msgid "Used"
+msgstr "Foglalt"
+
+msgctxt "#30781"
+msgid "Free"
+msgstr "Szabad"
+
+msgctxt "#30782"
+msgid "Used by Elementum"
+msgstr "Az Elementum által foglalt"
+
+msgctxt "#30783"
+msgid "Leftover files"
+msgstr "Visszamaradt fájlok"

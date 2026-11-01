@@ -2546,3 +2546,27 @@ msgstr ""
 msgctxt "#30777"
 msgid "Use OpenNIC DNS Servers for regular domains"
 msgstr ""
+
+msgctxt "#30778"
+msgid "Storage statistics"
+msgstr ""
+
+msgctxt "#30779"
+msgid "Total size"
+msgstr ""
+
+msgctxt "#30780"
+msgid "Used"
+msgstr ""
+
+msgctxt "#30781"
+msgid "Free"
+msgstr ""
+
+msgctxt "#30782"
+msgid "Used by Elementum"
+msgstr ""
+
+msgctxt "#30783"
+msgid "Leftover files"
+msgstr ""

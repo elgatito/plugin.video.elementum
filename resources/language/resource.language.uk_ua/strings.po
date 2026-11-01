@@ -2534,3 +2534,27 @@ msgstr "Використовувати вбудований проксі для 
 msgctxt "#30777"
 msgid "Use OpenNIC DNS Servers for regular domains"
 msgstr "Використовувати DNS-сервери OpenNIC для звичайних доменів"
+
+msgctxt "#30778"
+msgid "Storage statistics"
+msgstr "Статистика сховища"
+
+msgctxt "#30779"
+msgid "Total size"
+msgstr "Загальний розмір"
+
+msgctxt "#30780"
+msgid "Used"
+msgstr "Зайнято"
+
+msgctxt "#30781"
+msgid "Free"
+msgstr "Вільно"
+
+msgctxt "#30782"
+msgid "Used by Elementum"
+msgstr "Зайнято Elementum"
+
+msgctxt "#30783"
+msgid "Leftover files"
+msgstr "Залишені файли"

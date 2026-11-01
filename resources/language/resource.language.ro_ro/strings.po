@@ -2537,3 +2537,27 @@ msgstr "Folosește proxy-ul încorporat pentru cererile Elementum"
 msgctxt "#30777"
 msgid "Use OpenNIC DNS Servers for regular domains"
 msgstr "Folosește serverele DNS OpenNIC pentru domenii obișnuite"
+
+msgctxt "#30778"
+msgid "Storage statistics"
+msgstr "Statistici stocare"
+
+msgctxt "#30779"
+msgid "Total size"
+msgstr "Dimensiune totală"
+
+msgctxt "#30780"
+msgid "Used"
+msgstr "Utilizat"
+
+msgctxt "#30781"
+msgid "Free"
+msgstr "Liber"
+
+msgctxt "#30782"
+msgid "Used by Elementum"
+msgstr "Utilizat de Elementum"
+
+msgctxt "#30783"
+msgid "Leftover files"
+msgstr "Fișiere rămase"

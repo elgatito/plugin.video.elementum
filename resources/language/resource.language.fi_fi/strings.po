@@ -2533,3 +2533,27 @@ msgstr "Käytä sisäänrakennettua välityspalvelinta Elementumin pyyntöihin"
 msgctxt "#30777"
 msgid "Use OpenNIC DNS Servers for regular domains"
 msgstr "Käytä OpenNIC-DNS-palvelimia tavallisille verkkotunnuksille"
+
+msgctxt "#30778"
+msgid "Storage statistics"
+msgstr "Tallennustilan tilastot"
+
+msgctxt "#30779"
+msgid "Total size"
+msgstr "Kokonaiskoko"
+
+msgctxt "#30780"
+msgid "Used"
+msgstr "Käytetty"
+
+msgctxt "#30781"
+msgid "Free"
+msgstr "Vapaana"
+
+msgctxt "#30782"
+msgid "Used by Elementum"
+msgstr "Elementumin käyttämä"
+
+msgctxt "#30783"
+msgid "Leftover files"
+msgstr "Jäljelle jääneet tiedostot"

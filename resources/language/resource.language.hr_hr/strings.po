@@ -2551,3 +2551,27 @@ msgstr "Koristi ugrađeni proxy za Elementum zahtjeve"
 msgctxt "#30777"
 msgid "Use OpenNIC DNS Servers for regular domains"
 msgstr "Koristi OpenNIC DNS poslužitelje za uobičajene domene"
+
+msgctxt "#30778"
+msgid "Storage statistics"
+msgstr "Statistika pohrane"
+
+msgctxt "#30779"
+msgid "Total size"
+msgstr "Ukupna veličina"
+
+msgctxt "#30780"
+msgid "Used"
+msgstr "Zauzeto"
+
+msgctxt "#30781"
+msgid "Free"
+msgstr "Slobodno"
+
+msgctxt "#30782"
+msgid "Used by Elementum"
+msgstr "Zauzeto od strane Elementuma"
+
+msgctxt "#30783"
+msgid "Leftover files"
+msgstr "Zaostale datoteke"

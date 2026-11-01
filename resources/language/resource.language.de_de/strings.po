@@ -2537,3 +2537,27 @@ msgstr "Integrierten Proxy für Elementum-Anfragen verwenden"
 msgctxt "#30777"
 msgid "Use OpenNIC DNS Servers for regular domains"
 msgstr "OpenNIC-DNS-Server für reguläre Domains verwenden"
+
+msgctxt "#30778"
+msgid "Storage statistics"
+msgstr "Speicherstatistik"
+
+msgctxt "#30779"
+msgid "Total size"
+msgstr "Gesamtgröße"
+
+msgctxt "#30780"
+msgid "Used"
+msgstr "Belegt"
+
+msgctxt "#30781"
+msgid "Free"
+msgstr "Frei"
+
+msgctxt "#30782"
+msgid "Used by Elementum"
+msgstr "Von Elementum belegt"
+
+msgctxt "#30783"
+msgid "Leftover files"
+msgstr "Übrig gebliebene Dateien"
