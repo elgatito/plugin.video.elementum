@@ -105,7 +105,7 @@ How it works
 ------------
 Elementum is a torrent finding and streaming engine. **It doesn't go on torrent websites for legal reasons**. It calls specially crafted add-ons (called **providers**) that are installed separately. They are normal Kodi add-ons, and thus can be installed/updated/distributed just like any other add-on.
 
-Elementum is centered around media: it browses media from [TheMovieDB](https://www.themoviedb.org/) and [Trakt.tv](https://trakt.tv/).
+Elementum is centered around media: it browses media from [TheMovieDB](https://www.themoviedb.org/) and [Trakt.tv](https://trakt.tv/). Your watchlist, watched history and playback progress can be synced with one tracking service of your choice: [Trakt.tv](https://trakt.tv/), [Simkl](https://simkl.com/) or [MDBList](https://mdblist.com/) (Settings > Tracking).
 And so, when you decide you want to watch a media (i.e. given an TMDB ID), here's what Elementum does:
 
 - Enumerate the installed providers

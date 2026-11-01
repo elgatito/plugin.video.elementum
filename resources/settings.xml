@@ -218,83 +218,106 @@
         <setting id="use_libtorrent_pauseresume" label="30519" type="bool" default="false" />
     </category>
 
-    <!-- Trakt -->
-    <category label="30056">
-        <!-- Trakt -->
+    <!-- Tracking: one service at a time. Conditions are relative (eq(-N,...)) and count every setting element, separators included. -->
+    <category label="30796">
         <setting label="30648" type="lsep" />
-        <setting id="action_trakt_authorize" type="action" label="30646" option="close" action="RunPlugin(plugin://plugin.video.elementum/trakt/authorize)" />
-        <setting id="action_trakt_deauthorize" type="action" label="30647" option="close" action="RunPlugin(plugin://plugin.video.elementum/trakt/deauthorize)" />
+        <!-- enum index order is fixed (see config.TrackerProviders): 0 none, 1 Trakt, 2 Simkl, 3 MDBList; new services are appended -->
+        <setting id="tracker_provider" type="enum" label="30784" lvalues="30785|30056|30797|30798" default="1" />
+
+        <setting id="action_trakt_authorize" type="action" label="30646" option="close" action="RunPlugin(plugin://plugin.video.elementum/tracker/authorize?tracker=trakt)" visible="eq(-1,1)" />
+        <setting id="action_trakt_deauthorize" type="action" label="30647" option="close" action="RunPlugin(plugin://plugin.video.elementum/tracker/deauthorize?tracker=trakt)" visible="eq(-2,1)" />
+        <setting id="trakt_username" type="text" label="30057" default="" enable="false" visible="eq(-3,1)" />
+
+        <setting id="action_simkl_authorize" type="action" label="30799" option="close" action="RunPlugin(plugin://plugin.video.elementum/tracker/authorize?tracker=simkl)" visible="eq(-4,2)" />
+        <setting id="action_simkl_deauthorize" type="action" label="30800" option="close" action="RunPlugin(plugin://plugin.video.elementum/tracker/deauthorize?tracker=simkl)" visible="eq(-5,2)" />
+        <setting id="simkl_username" type="text" label="30057" default="" enable="false" visible="eq(-6,2)" />
+        <setting id="info_simkl" type="text" label="30803" enable="false" visible="eq(-7,2)" />
+
+        <setting id="action_mdblist_authorize" type="action" label="30801" option="close" action="RunPlugin(plugin://plugin.video.elementum/tracker/authorize?tracker=mdblist)" visible="eq(-8,3)" />
+        <setting id="action_mdblist_deauthorize" type="action" label="30802" option="close" action="RunPlugin(plugin://plugin.video.elementum/tracker/deauthorize?tracker=mdblist)" visible="eq(-9,3)" />
+        <setting id="mdblist_username" type="text" label="30057" default="" enable="false" visible="eq(-10,3)" />
+        <setting id="mdblist_api_key" type="text" label="30792" option="hidden" default="" visible="eq(-11,3)" />
+        <setting id="info_mdblist" type="text" label="30804" enable="false" visible="eq(-12,3)" />
+
         <setting id="trakt_token" type="text" label="Trakt token" default="" visible="false" />
-        <setting id="trakt_username" type="text" label="30057" default="" enable="false" />
         <setting id="trakt_refresh_token" type="text" label="Trakt refresh token" default="" visible="false" />
         <setting id="trakt_token_expiry" type="number" label="Trakt token expiry" default="0" visible="false" />
+        <setting id="simkl_token" type="text" label="Simkl token" default="" visible="false" />
+        <setting id="simkl_refresh_token" type="text" label="Simkl refresh token" default="" visible="false" />
+        <setting id="simkl_token_expiry" type="number" label="Simkl token expiry" default="0" visible="false" />
+        <setting id="mdblist_token" type="text" label="MDBList token" default="" visible="false" />
+        <setting id="mdblist_refresh_token" type="text" label="MDBList refresh token" default="" visible="false" />
+        <setting id="mdblist_token_expiry" type="number" label="MDBList token expiry" default="0" visible="false" />
 
         <setting label="30033" type="lsep" />
         <setting id="force_use_trakt" label="30357" type="bool" default="false" />
 
         <setting label="30000" type="lsep" />
-        <setting id="trakt_scrobble" type="bool" label="Scrobble" default="false" />
-        <setting id="trakt_sync_enabled" label="30600" type="bool" default="true" />
-        <setting id="trakt_sync_playback_enabled" label="30601" type="bool" default="true" />
-        <setting id="trakt_sync_frequency_min" label="30563" type="slider" option="int" range="0,1,300" default="5" />
-        <setting id="action_trakt_update" type="action" label="30330" action="RunPlugin(plugin://plugin.video.elementum/trakt/update)" />
+        <setting id="trakt_scrobble" type="bool" label="Scrobble" default="false" visible="!eq(-25,0)" />
+        <setting id="trakt_sync_enabled" label="30600" type="bool" default="true" visible="!eq(-26,0)" />
+        <setting id="trakt_sync_playback_enabled" label="30601" type="bool" default="true" visible="!eq(-27,0)" />
+        <setting id="trakt_sync_frequency_min" label="30563" type="slider" option="int" range="0,1,300" default="5" visible="!eq(-28,0)" />
+        <setting id="info_tracker_frequency" type="text" label="30805" enable="false" visible="eq(-29,2)|eq(-29,3)" />
+        <setting id="action_trakt_update" type="action" label="30793" action="RunPlugin(plugin://plugin.video.elementum/tracker/update)" visible="!eq(-30,0)" />
 
         <!-- Trakt guys have asked to remove Custom API keys, so, please, stick with default keys -->
         <!-- <setting id="trakt_client_id" type="text" label="30580" default="" visible="false" />
         <setting id="trakt_client_secret" type="text" label="30581" default="" visible="false" /> -->
 
         <setting label="30362" type="lsep" />
-        <setting id="trakt_sync_collections" type="bool" label="30363" default="true" />
-        <setting id="trakt_sync_watchlist" type="bool" label="30364" default="true" />
-        <setting id="trakt_sync_userlists" type="bool" label="30365" default="true" />
-        <setting id="trakt_sync_watched" type="bool" label="30366" default="true" />
-        <setting id="trakt_sync_watchedback" type="bool" label="30367" default="true" />
-        <setting id="trakt_sync_playback_progress" type="bool" label="30565" default="true" />
-        <setting id="trakt_sync_hidden" type="bool" label="30564" default="true" />
+        <setting id="trakt_sync_collections" type="bool" label="30363" default="true" visible="eq(-32,1)|eq(-32,3)" />
+        <setting id="trakt_sync_watchlist" type="bool" label="30364" default="true" visible="!eq(-33,0)" />
+        <setting id="trakt_sync_userlists" type="bool" label="30365" default="true" visible="!eq(-34,0)" />
+        <setting id="trakt_sync_watched" type="bool" label="30366" default="true" visible="!eq(-35,0)" />
+        <setting id="trakt_sync_watchedback" type="bool" label="30367" default="true" visible="!eq(-36,0)" />
+        <setting id="trakt_sync_playback_progress" type="bool" label="30565" default="true" visible="!eq(-37,0)" />
+        <setting id="trakt_sync_hidden" type="bool" label="30564" default="true" visible="eq(-38,1)" />
 
-        <setting id="trakt_sync_added_movies"              type="bool" label="30447" default="true" />
-        <setting id="trakt_sync_added_movies_location"     type="enum" label="30442" lvalues="30257|30254|30436" default="0" enable="eq(-1,true)" />
-        <setting id="action_trakt_select_list_added_movies" type="action" label="30441" action="RunPlugin(plugin://plugin.video.elementum/trakt/select_list/added/movies)" enable="eq(-1,2)" />
-        <setting id="trakt_sync_added_movies_list_name"    type="text" label="30443" default="" enable="false" />
-        <setting id="trakt_sync_added_movies_list"         type="number" label="30119" default="" enable="false" />
+        <!-- Simkl has only Plan to Watch, so location and list choice are shown for services with collection and list writes -->
+        <setting id="trakt_sync_added_movies"              type="bool" label="30447" default="true" visible="!eq(-39,0)" />
+        <setting id="trakt_sync_added_movies_location"     type="enum" label="30442" lvalues="30257|30254|30436" default="0" enable="eq(-1,true)" visible="eq(-40,1)|eq(-40,3)" />
+        <setting id="action_trakt_select_list_added_movies" type="action" label="30441" action="RunPlugin(plugin://plugin.video.elementum/tracker/select_list/added/movies)" enable="eq(-1,2)" visible="eq(-41,1)|eq(-41,3)" />
+        <setting id="trakt_sync_added_movies_list_name"    type="text" label="30443" default="" enable="false" visible="eq(-42,1)|eq(-42,3)" />
+        <setting id="trakt_sync_added_movies_list"         type="number" label="30119" default="" enable="false" visible="eq(-43,1)|eq(-43,3)" />
 
-        <setting id="trakt_sync_added_shows"               type="bool" label="30448" default="true" />
-        <setting id="trakt_sync_added_shows_location"      type="enum" label="30445" lvalues="30257|30254|30436" default="0" enable="eq(-1,true)" />
-        <setting id="action_trakt_select_list_added_shows"  type="action" label="30444" action="RunPlugin(plugin://plugin.video.elementum/trakt/select_list/added/shows)" enable="eq(-1,2)" />
-        <setting id="trakt_sync_added_shows_list_name"     type="text" label="30446" default="" enable="false" />
-        <setting id="trakt_sync_added_shows_list"          type="number" label="30120" default="" enable="false" />
+        <setting id="trakt_sync_added_shows"               type="bool" label="30448" default="true" visible="!eq(-44,0)" />
+        <setting id="trakt_sync_added_shows_location"      type="enum" label="30445" lvalues="30257|30254|30436" default="0" enable="eq(-1,true)" visible="eq(-45,1)|eq(-45,3)" />
+        <setting id="action_trakt_select_list_added_shows"  type="action" label="30444" action="RunPlugin(plugin://plugin.video.elementum/tracker/select_list/added/shows)" enable="eq(-1,2)" visible="eq(-46,1)|eq(-46,3)" />
+        <setting id="trakt_sync_added_shows_list_name"     type="text" label="30446" default="" enable="false" visible="eq(-47,1)|eq(-47,3)" />
+        <setting id="trakt_sync_added_shows_list"          type="number" label="30120" default="" enable="false" visible="eq(-48,1)|eq(-48,3)" />
 
-        <setting id="trakt_sync_removed_movies_back"       type="bool" label="30678" default="true" />
-        <setting id="trakt_sync_removed_movies"            type="bool" label="30449" default="true" />
-        <setting id="trakt_sync_removed_movies_location"   type="enum" label="30442" lvalues="30257|30254|30436" default="0" enable="eq(-1,true)" />
-        <setting id="action_trakt_select_list_removed_movies" type="action" label="30441" action="RunPlugin(plugin://plugin.video.elementum/trakt/select_list/removed/movies)" enable="eq(-1,2)" />
-        <setting id="trakt_sync_removed_movies_list_name"  type="text" label="30443" default="" enable="false" />
-        <setting id="trakt_sync_removed_movies_list"       type="number" label="30119" default="" enable="false" />
+        <setting id="trakt_sync_removed_movies_back"       type="bool" label="30678" default="true" visible="!eq(-49,0)" />
+        <setting id="trakt_sync_removed_movies"            type="bool" label="30449" default="true" visible="!eq(-50,0)" />
+        <setting id="trakt_sync_removed_movies_location"   type="enum" label="30442" lvalues="30257|30254|30436" default="0" enable="eq(-1,true)" visible="eq(-51,1)|eq(-51,3)" />
+        <setting id="action_trakt_select_list_removed_movies" type="action" label="30441" action="RunPlugin(plugin://plugin.video.elementum/tracker/select_list/removed/movies)" enable="eq(-1,2)" visible="eq(-52,1)|eq(-52,3)" />
+        <setting id="trakt_sync_removed_movies_list_name"  type="text" label="30443" default="" enable="false" visible="eq(-53,1)|eq(-53,3)" />
+        <setting id="trakt_sync_removed_movies_list"       type="number" label="30119" default="" enable="false" visible="eq(-54,1)|eq(-54,3)" />
 
-        <setting id="trakt_sync_removed_shows_back"        type="bool" label="30679" default="true" />
-        <setting id="trakt_sync_removed_shows"             type="bool" label="30450" default="true" />
-        <setting id="trakt_sync_removed_shows_location"    type="enum" label="30445" lvalues="30257|30254|30436" default="0" enable="eq(-1,true)" />
-        <setting id="action_trakt_select_list_removed_shows" type="action" label="30444" action="RunPlugin(plugin://plugin.video.elementum/trakt/select_list/removed/shows)" enable="eq(-1,2)" />
-        <setting id="trakt_sync_removed_shows_list_name"   type="text" label="30446" default="" enable="false" />
-        <setting id="trakt_sync_removed_shows_list"        type="number" label="30120" default="" enable="false" />
+        <setting id="trakt_sync_removed_shows_back"        type="bool" label="30679" default="true" visible="!eq(-55,0)" />
+        <setting id="trakt_sync_removed_shows"             type="bool" label="30450" default="true" visible="!eq(-56,0)" />
+        <setting id="trakt_sync_removed_shows_location"    type="enum" label="30445" lvalues="30257|30254|30436" default="0" enable="eq(-1,true)" visible="eq(-57,1)|eq(-57,3)" />
+        <setting id="action_trakt_select_list_removed_shows" type="action" label="30444" action="RunPlugin(plugin://plugin.video.elementum/tracker/select_list/removed/shows)" enable="eq(-1,2)" visible="eq(-58,1)|eq(-58,3)" />
+        <setting id="trakt_sync_removed_shows_list_name"   type="text" label="30446" default="" enable="false" visible="eq(-59,1)|eq(-59,3)" />
+        <setting id="trakt_sync_removed_shows_list"        type="number" label="30120" default="" enable="false" visible="eq(-60,1)|eq(-60,3)" />
 
+        <!-- Progress and calendars are Trakt views -->
         <setting label="30424" type="lsep" />
-        <setting id="trakt_progress_sort" type="enum" label="30429" lvalues="30430|30431|30432|30433" default="0" />
-        <setting id="trakt_progress_hide_unaired" type="bool" label="30428" default="true" />
-        <setting id="trakt_use_lowest_release_date" type="bool" label="30699" default="true" />
-        <setting id="trakt_progress_color_date" label="30425" type="text" default="yellow" />
-        <setting id="trakt_progress_color_show" label="30426" type="text" default="none" />
-        <setting id="trakt_progress_color_episode" label="30427" type="text" default="skyblue" />
-        <setting id="trakt_progress_color_unaired" label="30440" type="text" default="deeppink" />
-        <setting id="trakt_progress_date_format" label="30434" type="text" default="yyyy-mm-dd" />
+        <setting id="trakt_progress_sort" type="enum" label="30429" lvalues="30430|30431|30432|30433" default="0" visible="eq(-62,1)" />
+        <setting id="trakt_progress_hide_unaired" type="bool" label="30428" default="true" visible="eq(-63,1)" />
+        <setting id="trakt_use_lowest_release_date" type="bool" label="30699" default="true" visible="eq(-64,1)" />
+        <setting id="trakt_progress_color_date" label="30425" type="text" default="yellow" visible="eq(-65,1)" />
+        <setting id="trakt_progress_color_show" label="30426" type="text" default="none" visible="eq(-66,1)" />
+        <setting id="trakt_progress_color_episode" label="30427" type="text" default="skyblue" visible="eq(-67,1)" />
+        <setting id="trakt_progress_color_unaired" label="30440" type="text" default="deeppink" visible="eq(-68,1)" />
+        <setting id="trakt_progress_date_format" label="30434" type="text" default="yyyy-mm-dd" visible="eq(-69,1)" />
 
         <setting label="30290" type="lsep" />
-        <setting id="trakt_calendars_hide_watched" type="bool" label="30691" default="false" />
-        <setting id="trakt_calendars_color_date" label="30425" type="text" default="yellow" />
-        <setting id="trakt_calendars_color_show" label="30426" type="text" default="none" />
-        <setting id="trakt_calendars_color_episode" label="30427" type="text" default="skyblue" />
-        <setting id="trakt_calendars_color_unaired" label="30440" type="text" default="deeppink" />
-        <setting id="trakt_calendars_date_format" label="30434" type="text" default="yyyy-mm-dd" />
+        <setting id="trakt_calendars_hide_watched" type="bool" label="30691" default="false" visible="eq(-71,1)" />
+        <setting id="trakt_calendars_color_date" label="30425" type="text" default="yellow" visible="eq(-72,1)" />
+        <setting id="trakt_calendars_color_show" label="30426" type="text" default="none" visible="eq(-73,1)" />
+        <setting id="trakt_calendars_color_episode" label="30427" type="text" default="skyblue" visible="eq(-74,1)" />
+        <setting id="trakt_calendars_color_unaired" label="30440" type="text" default="deeppink" visible="eq(-75,1)" />
+        <setting id="trakt_calendars_date_format" label="30434" type="text" default="yyyy-mm-dd" visible="eq(-76,1)" />
     </category>
 
     <!-- Providers -->

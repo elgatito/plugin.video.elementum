@@ -25,6 +25,7 @@ For Web UI, follow existing TypeScript + React conventions, ESLint (`typescript-
 
 ## Testing Guidelines
 CI primarily enforces lint and localization integrity (`flake8` and `./scripts/xgettext.sh`), packaging (`make`), and Web UI lint plus up-to-date `resources/web/` build.
+After editing `resources/settings.xml`, run `python3 scripts/check_settings.py`: conditions like `eq(-N,value)` are relative, count every `<setting>` element including separators, and break silently when settings are added or reordered.
 There is no large in-repo Python unit test suite today; if you add tests, use `pytest` conventions (`test_*.py`) and keep tests outside vendored code.
 For UI changes, run `npm run lint` in `resources/web-src` and include manual verification notes.
 

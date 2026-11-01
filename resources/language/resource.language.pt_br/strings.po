@@ -946,8 +946,8 @@ msgid "Use Trakt information in Trakt lists"
 msgstr "Usar a informação do Trakt nas listas do Trakt"
 
 msgctxt "#30358"
-msgid "Trakt update started"
-msgstr "Atualização do Trakt iniciada"
+msgid "Synchronization with tracking service started"
+msgstr "Sincronização com o serviço de acompanhamento iniciada"
 
 msgctxt "#30359"
 msgid "Do not ask questions before playback"
@@ -978,12 +978,12 @@ msgid "Sync items from user lists into Kodi library"
 msgstr "Sincronizar os itens das listas de usuário para a biblioteca do Kodi"
 
 msgctxt "#30366"
-msgid "Sync watched states from Trakt into Kodi library"
-msgstr "Sincronizar o estado de visto do Trakt para a biblioteca do Kodi"
+msgid "Sync watched states from tracking service into Kodi library"
+msgstr "Sincronizar o estado de visto do serviço de acompanhamento para a biblioteca do Kodi"
 
 msgctxt "#30367"
-msgid "Sync back Kodi watched states into Trakt"
-msgstr "Sincronizar o estado de visto do Kodi de volta para o Trakt"
+msgid "Sync back Kodi watched states into tracking service"
+msgstr "Sincronizar o estado de visto do Kodi de volta para o serviço de acompanhamento"
 
 msgctxt "#30369"
 msgid "Disable Upload"
@@ -1262,20 +1262,20 @@ msgid "Selected userlist for shows"
 msgstr "Lista de usuário selecionada para séries"
 
 msgctxt "#30447"
-msgid "Add to Trakt, when movie is added to Kodi library"
-msgstr "Adicionar ao Trakt quando um filme é adicionado à biblioteca do Kodi"
+msgid "Add to tracking service, when movie is added to Kodi library"
+msgstr "Adicionar ao serviço de acompanhamento quando um filme é adicionado à biblioteca do Kodi"
 
 msgctxt "#30448"
-msgid "Add to Trakt, when show is added to Kodi library"
-msgstr "Adicionar ao Trakt quando uma série é adicionada à biblioteca do Kodi"
+msgid "Add to tracking service, when show is added to Kodi library"
+msgstr "Adicionar ao serviço de acompanhamento quando uma série é adicionada à biblioteca do Kodi"
 
 msgctxt "#30449"
-msgid "Remove from Trakt, when movie is deleted from Kodi library"
-msgstr "Remover do Trakt quando um filme é eliminado da biblioteca do Kodi"
+msgid "Remove from tracking service, when movie is deleted from Kodi library"
+msgstr "Remover do serviço de acompanhamento quando um filme é eliminado da biblioteca do Kodi"
 
 msgctxt "#30450"
-msgid "Remove from Trakt, when show is deleted from Kodi library"
-msgstr "Remover do Trakt quando uma série é eliminada da biblioteca do Kodi"
+msgid "Remove from tracking service, when show is deleted from Kodi library"
+msgstr "Remover do serviço de acompanhamento quando uma série é eliminada da biblioteca do Kodi"
 
 msgctxt "#30451"
 msgid "Torrent files path"
@@ -1690,8 +1690,8 @@ msgid "Open directory with Kodi file browser"
 msgstr "Abrir a pasta com o explorador de arquivos do Kodi"
 
 msgctxt "#30563"
-msgid "Synchronize frequency of Trakt, minutes"
-msgstr "Frequência de sincronização com o Trakt, minutos"
+msgid "Synchronization frequency, minutes"
+msgstr "Frequência de sincronização, minutos"
 
 msgctxt "#30564"
 msgid "Sync hidden items"
@@ -1830,8 +1830,8 @@ msgid "Enable Kodi library synchronization"
 msgstr "Ativar a sincronização com a biblioteca do Kodi"
 
 msgctxt "#30600"
-msgid "Enable Trakt synchronization"
-msgstr "Ativar a sincronização com o Trakt"
+msgid "Enable synchronization"
+msgstr "Ativar a sincronização"
 
 msgctxt "#30601"
 msgid "Enable synchronization while playback"
@@ -2098,12 +2098,12 @@ msgid "Every time"
 msgstr "Sempre"
 
 msgctxt "#30667"
-msgid "Mark as watched in Trakt"
-msgstr "Marcar como visto no Trakt"
+msgid "Mark as watched"
+msgstr "Marcar como visto"
 
 msgctxt "#30668"
-msgid "Mark as unwatched in Trakt"
-msgstr "Marcar como não visto no Trakt"
+msgid "Mark as unwatched"
+msgstr "Marcar como não visto"
 
 msgctxt "#30669"
 msgid "Delay addon startup, seconds"
@@ -2142,12 +2142,12 @@ msgid "Force start as a library"
 msgstr "Forçar o arranque como biblioteca"
 
 msgctxt "#30678"
-msgid "Remove from Kodi library, when movie is deleted from Trakt"
-msgstr "Remover da biblioteca do Kodi quando o filme é eliminado do Trakt"
+msgid "Remove from Kodi library, when movie is deleted from tracking service"
+msgstr "Remover da biblioteca do Kodi quando o filme é eliminado do serviço de acompanhamento"
 
 msgctxt "#30679"
-msgid "Remove from Kodi library, when show is deleted from Trakt"
-msgstr "Remover da biblioteca do Kodi quando a série é eliminada do Trakt"
+msgid "Remove from Kodi library, when show is deleted from tracking service"
+msgstr "Remover da biblioteca do Kodi quando a série é eliminada do serviço de acompanhamento"
 
 msgctxt "#30680"
 msgid "Remove Elementum duplicates from library"
@@ -2557,3 +2557,88 @@ msgstr "Usado pelo Elementum"
 msgctxt "#30783"
 msgid "Leftover files"
 msgstr "Arquivos restantes"
+
+msgctxt "#30784"
+msgid "Tracking service"
+msgstr "Serviço de acompanhamento"
+
+msgctxt "#30785"
+msgid "None"
+msgstr "Nenhum"
+
+msgctxt "#30786"
+msgid "Authorize Elementum on the tracking service"
+msgstr "Autorizar o Elementum no serviço de acompanhamento"
+
+
+msgctxt "#30788"
+msgid "To authorize Elementum on %s you need to:[CR]1. Open [B]%s[/B][CR]2. Enter code: [B]%s[/B][CR]3. Wait for notification from Elementum."
+msgstr "Para autorizar o Elementum no %s você precisa:[CR]1. Abrir [B]%s[/B][CR]2. Inserir o código: [B]%s[/B][CR]3. Aguardar a notificação do Elementum."
+
+msgctxt "#30789"
+msgid "Successfully authorized on %s"
+msgstr "Autorizado no %s com sucesso"
+
+msgctxt "#30790"
+msgid "Could not authorize on %s"
+msgstr "Não foi possível autorizar no %s"
+
+msgctxt "#30791"
+msgid "Successfully deauthorized on %s"
+msgstr "Autorização no %s cancelada com sucesso"
+
+msgctxt "#30792"
+msgid "MDBList API key (optional, used instead of authorization)"
+msgstr "Chave de API do MDBList (opcional, substitui a autorização)"
+
+msgctxt "#30793"
+msgid "Update from tracking service"
+msgstr "Atualizar a partir do serviço de acompanhamento"
+
+msgctxt "#30794"
+msgid "%s authorization needs to be renewed, please authorize again"
+msgstr "A autorização no %s precisa ser renovada, autorize novamente"
+
+msgctxt "#30795"
+msgid "Select and authorize a tracking service in settings first"
+msgstr "Primeiro selecione e autorize um serviço de acompanhamento nas configurações"
+
+msgctxt "#30796"
+msgid "Tracking"
+msgstr "Acompanhamento"
+
+msgctxt "#30797"
+msgid "Simkl"
+msgstr "Simkl"
+
+msgctxt "#30798"
+msgid "MDBList"
+msgstr "MDBList"
+
+msgctxt "#30799"
+msgid "Authorize Elementum on Simkl"
+msgstr "Autorizar o Elementum no Simkl"
+
+msgctxt "#30800"
+msgid "Cancel authorization for Elementum on Simkl"
+msgstr "Cancelar a autorização do Elementum no Simkl"
+
+msgctxt "#30801"
+msgid "Authorize Elementum on MDBList"
+msgstr "Autorizar o Elementum no MDBList"
+
+msgctxt "#30802"
+msgid "Cancel authorization for Elementum on MDBList"
+msgstr "Cancelar a autorização do Elementum no MDBList"
+
+msgctxt "#30803"
+msgid "Simkl has no collection: library additions go to Plan to Watch. Custom lists need Simkl PRO or VIP."
+msgstr "O Simkl não tem coleção: o que é adicionado à biblioteca vai para Plan to Watch. Listas personalizadas exigem Simkl PRO ou VIP."
+
+msgctxt "#30804"
+msgid "An API key from mdblist.com preferences can be used instead of authorization. Free accounts allow 1000 requests a day."
+msgstr "Uma chave de API das preferências do mdblist.com pode ser usada em vez da autorização. Contas gratuitas permitem 1000 requisições por dia."
+
+msgctxt "#30805"
+msgid "Simkl and MDBList are synchronized at most every 15 minutes."
+msgstr "Simkl e MDBList são sincronizados no máximo a cada 15 minutos."

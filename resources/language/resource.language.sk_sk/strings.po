@@ -947,8 +947,8 @@ msgid "Use Trakt information in Trakt lists"
 msgstr "Používať informácie z Traktu v zoznamoch Trakt"
 
 msgctxt "#30358"
-msgid "Trakt update started"
-msgstr "Aktualizácia Traktu sa začala"
+msgid "Synchronization with tracking service started"
+msgstr "Synchronizácia so službou sledovania sa začala"
 
 msgctxt "#30359"
 msgid "Do not ask questions before playback"
@@ -979,12 +979,12 @@ msgid "Sync items from user lists into Kodi library"
 msgstr "Synchronizovať položky z používateľských zoznamov do knižnice Kodi"
 
 msgctxt "#30366"
-msgid "Sync watched states from Trakt into Kodi library"
-msgstr "Synchronizovať stav pozretia z Traktu do knižnice Kodi"
+msgid "Sync watched states from tracking service into Kodi library"
+msgstr "Synchronizovať stav pozretia zo služby sledovania do knižnice Kodi"
 
 msgctxt "#30367"
-msgid "Sync back Kodi watched states into Trakt"
-msgstr "Synchronizovať stav pozretia z Kodi späť do Traktu"
+msgid "Sync back Kodi watched states into tracking service"
+msgstr "Synchronizovať stav pozretia z Kodi späť do služby sledovania"
 
 msgctxt "#30369"
 msgid "Disable Upload"
@@ -1263,20 +1263,20 @@ msgid "Selected userlist for shows"
 msgstr "Vybraný používateľský zoznam pre seriály"
 
 msgctxt "#30447"
-msgid "Add to Trakt, when movie is added to Kodi library"
-msgstr "Pridať do Traktu, keď sa film pridá do knižnice Kodi"
+msgid "Add to tracking service, when movie is added to Kodi library"
+msgstr "Pridať do služby sledovania, keď sa film pridá do knižnice Kodi"
 
 msgctxt "#30448"
-msgid "Add to Trakt, when show is added to Kodi library"
-msgstr "Pridať do Traktu, keď sa seriál pridá do knižnice Kodi"
+msgid "Add to tracking service, when show is added to Kodi library"
+msgstr "Pridať do služby sledovania, keď sa seriál pridá do knižnice Kodi"
 
 msgctxt "#30449"
-msgid "Remove from Trakt, when movie is deleted from Kodi library"
-msgstr "Odstrániť z Traktu, keď sa film odstráni z knižnice Kodi"
+msgid "Remove from tracking service, when movie is deleted from Kodi library"
+msgstr "Odstrániť zo služby sledovania, keď sa film odstráni z knižnice Kodi"
 
 msgctxt "#30450"
-msgid "Remove from Trakt, when show is deleted from Kodi library"
-msgstr "Odstrániť z Traktu, keď sa seriál odstráni z knižnice Kodi"
+msgid "Remove from tracking service, when show is deleted from Kodi library"
+msgstr "Odstrániť zo služby sledovania, keď sa seriál odstráni z knižnice Kodi"
 
 msgctxt "#30451"
 msgid "Torrent files path"
@@ -1691,8 +1691,8 @@ msgid "Open directory with Kodi file browser"
 msgstr "Otvoriť priečinok v prehliadači súborov Kodi"
 
 msgctxt "#30563"
-msgid "Synchronize frequency of Trakt, minutes"
-msgstr "Frekvencia synchronizácie s Traktom, minúty"
+msgid "Synchronization frequency, minutes"
+msgstr "Frekvencia synchronizácie, minúty"
 
 msgctxt "#30564"
 msgid "Sync hidden items"
@@ -1831,8 +1831,8 @@ msgid "Enable Kodi library synchronization"
 msgstr "Povoliť synchronizáciu knižnice Kodi"
 
 msgctxt "#30600"
-msgid "Enable Trakt synchronization"
-msgstr "Povoliť synchronizáciu s Traktom"
+msgid "Enable synchronization"
+msgstr "Povoliť synchronizáciu"
 
 msgctxt "#30601"
 msgid "Enable synchronization while playback"
@@ -2099,12 +2099,12 @@ msgid "Every time"
 msgstr "Zakaždým"
 
 msgctxt "#30667"
-msgid "Mark as watched in Trakt"
-msgstr "Označiť ako pozreté v Trakte"
+msgid "Mark as watched"
+msgstr "Označiť ako pozreté"
 
 msgctxt "#30668"
-msgid "Mark as unwatched in Trakt"
-msgstr "Označiť ako nepozreté v Trakte"
+msgid "Mark as unwatched"
+msgstr "Označiť ako nepozreté"
 
 msgctxt "#30669"
 msgid "Delay addon startup, seconds"
@@ -2143,12 +2143,12 @@ msgid "Force start as a library"
 msgstr "Vynútiť štart ako knižnica"
 
 msgctxt "#30678"
-msgid "Remove from Kodi library, when movie is deleted from Trakt"
-msgstr "Odstrániť z knižnice Kodi, keď sa film odstráni z Traktu"
+msgid "Remove from Kodi library, when movie is deleted from tracking service"
+msgstr "Odstrániť z knižnice Kodi, keď sa film odstráni zo služby sledovania"
 
 msgctxt "#30679"
-msgid "Remove from Kodi library, when show is deleted from Trakt"
-msgstr "Odstrániť z knižnice Kodi, keď sa seriál odstráni z Traktu"
+msgid "Remove from Kodi library, when show is deleted from tracking service"
+msgstr "Odstrániť z knižnice Kodi, keď sa seriál odstráni zo služby sledovania"
 
 msgctxt "#30680"
 msgid "Remove Elementum duplicates from library"
@@ -2558,3 +2558,88 @@ msgstr "Obsadené Elementum"
 msgctxt "#30783"
 msgid "Leftover files"
 msgstr "Zostávajúce súbory"
+
+msgctxt "#30784"
+msgid "Tracking service"
+msgstr "Služba sledovania"
+
+msgctxt "#30785"
+msgid "None"
+msgstr "Žiadna"
+
+msgctxt "#30786"
+msgid "Authorize Elementum on the tracking service"
+msgstr "Autorizovať Elementum v službe sledovania"
+
+
+msgctxt "#30788"
+msgid "To authorize Elementum on %s you need to:[CR]1. Open [B]%s[/B][CR]2. Enter code: [B]%s[/B][CR]3. Wait for notification from Elementum."
+msgstr "Na autorizáciu Elementum na %s musíš:[CR]1. Otvoriť [B]%s[/B][CR]2. Zadať kód: [B]%s[/B][CR]3. Počkať na upozornenie od Elementum."
+
+msgctxt "#30789"
+msgid "Successfully authorized on %s"
+msgstr "Autorizácia na %s bola úspešná"
+
+msgctxt "#30790"
+msgid "Could not authorize on %s"
+msgstr "Nepodarilo sa autorizovať na %s"
+
+msgctxt "#30791"
+msgid "Successfully deauthorized on %s"
+msgstr "Autorizácia na %s bola úspešne zrušená"
+
+msgctxt "#30792"
+msgid "MDBList API key (optional, used instead of authorization)"
+msgstr "API kľúč MDBList (voliteľné, namiesto autorizácie)"
+
+msgctxt "#30793"
+msgid "Update from tracking service"
+msgstr "Aktualizovať zo služby sledovania"
+
+msgctxt "#30794"
+msgid "%s authorization needs to be renewed, please authorize again"
+msgstr "Autorizáciu na %s je potrebné obnoviť, autorizuj znova"
+
+msgctxt "#30795"
+msgid "Select and authorize a tracking service in settings first"
+msgstr "Najprv v nastaveniach vyber a autorizuj službu sledovania"
+
+msgctxt "#30796"
+msgid "Tracking"
+msgstr "Sledovanie"
+
+msgctxt "#30797"
+msgid "Simkl"
+msgstr "Simkl"
+
+msgctxt "#30798"
+msgid "MDBList"
+msgstr "MDBList"
+
+msgctxt "#30799"
+msgid "Authorize Elementum on Simkl"
+msgstr "Autorizovať Elementum na Simkl"
+
+msgctxt "#30800"
+msgid "Cancel authorization for Elementum on Simkl"
+msgstr "Zrušiť autorizáciu Elementum na Simkl"
+
+msgctxt "#30801"
+msgid "Authorize Elementum on MDBList"
+msgstr "Autorizovať Elementum na MDBList"
+
+msgctxt "#30802"
+msgid "Cancel authorization for Elementum on MDBList"
+msgstr "Zrušiť autorizáciu Elementum na MDBList"
+
+msgctxt "#30803"
+msgid "Simkl has no collection: library additions go to Plan to Watch. Custom lists need Simkl PRO or VIP."
+msgstr "Simkl nemá zbierku: položky pridané do knižnice idú do Plan to Watch. Vlastné zoznamy vyžadujú Simkl PRO alebo VIP."
+
+msgctxt "#30804"
+msgid "An API key from mdblist.com preferences can be used instead of authorization. Free accounts allow 1000 requests a day."
+msgstr "Namiesto autorizácie možno použiť API kľúč z nastavení na mdblist.com. Bezplatné účty umožňujú 1000 požiadaviek denne."
+
+msgctxt "#30805"
+msgid "Simkl and MDBList are synchronized at most every 15 minutes."
+msgstr "Simkl a MDBList sa synchronizujú najviac raz za 15 minút."

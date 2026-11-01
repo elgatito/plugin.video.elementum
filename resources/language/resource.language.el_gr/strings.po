@@ -949,8 +949,8 @@ msgid "Use Trakt information in Trakt lists"
 msgstr "Χρήση των πληροφοριών του Trakt για τις λiστες του Trakt"
 
 msgctxt "#30358"
-msgid "Trakt update started"
-msgstr "Η ενημέρωση του Trakt ξεκίνησε"
+msgid "Synchronization with tracking service started"
+msgstr "Ο συγχρονισμός με την υπηρεσία παρακολούθησης ξεκίνησε"
 
 msgctxt "#30359"
 msgid "Do not ask questions before playback"
@@ -981,12 +981,12 @@ msgid "Sync items from user lists into Kodi library"
 msgstr "Συγχρονισμος των αντικειμένων απο τις λιστες χρηστων με την συλλογή του Kodi"
 
 msgctxt "#30366"
-msgid "Sync watched states from Trakt into Kodi library"
-msgstr "Συγχρονισμός των προβεβλημένων απο το Trakt με την συλλογή του Kodi"
+msgid "Sync watched states from tracking service into Kodi library"
+msgstr "Συγχρονισμός των προβεβλημένων από την υπηρεσία παρακολούθησης με τη βιβλιοθήκη του Kodi"
 
 msgctxt "#30367"
-msgid "Sync back Kodi watched states into Trakt"
-msgstr "Συγχρονισμός των προβεβλημένων του Kodi με το Trakt"
+msgid "Sync back Kodi watched states into tracking service"
+msgstr "Συγχρονισμός των προβεβλημένων του Kodi με την υπηρεσία παρακολούθησης"
 
 msgctxt "#30369"
 msgid "Disable Upload"
@@ -1266,20 +1266,20 @@ msgid "Selected userlist for shows"
 msgstr "Επιλεγμένη λίστα χρήστη για σειρές"
 
 msgctxt "#30447"
-msgid "Add to Trakt, when movie is added to Kodi library"
-msgstr "Προσθήκη στο Trakt, οταν η ταινία προστίθεται στην συλλογή του Kodi"
+msgid "Add to tracking service, when movie is added to Kodi library"
+msgstr "Προσθήκη στην υπηρεσία παρακολούθησης, όταν η ταινία προστίθεται στη βιβλιοθήκη του Kodi"
 
 msgctxt "#30448"
-msgid "Add to Trakt, when show is added to Kodi library"
-msgstr "Προσθήκη στο Trakt, οταν η σειρά προστίθεται στην συλλογή του Kodi"
+msgid "Add to tracking service, when show is added to Kodi library"
+msgstr "Προσθήκη στην υπηρεσία παρακολούθησης, όταν η σειρά προστίθεται στη βιβλιοθήκη του Kodi"
 
 msgctxt "#30449"
-msgid "Remove from Trakt, when movie is deleted from Kodi library"
-msgstr "Αφαίρεση απο το Trakt, οταν η ταινία αφαιρείται στην συλλογή του Kodi"
+msgid "Remove from tracking service, when movie is deleted from Kodi library"
+msgstr "Αφαίρεση από την υπηρεσία παρακολούθησης, όταν η ταινία διαγράφεται από τη βιβλιοθήκη του Kodi"
 
 msgctxt "#30450"
-msgid "Remove from Trakt, when show is deleted from Kodi library"
-msgstr "Αφαίρεση απο το Trakt, οταν η σειρά αφαιρείται στην συλλογή του Kodi"
+msgid "Remove from tracking service, when show is deleted from Kodi library"
+msgstr "Αφαίρεση από την υπηρεσία παρακολούθησης, όταν η σειρά διαγράφεται από τη βιβλιοθήκη του Kodi"
 
 msgctxt "#30451"
 msgid "Torrent files path"
@@ -1694,8 +1694,8 @@ msgid "Open directory with Kodi file browser"
 msgstr "Άνοιγμα του καταλόγου με τον περιηγητή αρχείων του Kodi"
 
 msgctxt "#30563"
-msgid "Synchronize frequency of Trakt, minutes"
-msgstr "Συχνότητα συγχρονισμού με το Trakt, λεπτά"
+msgid "Synchronization frequency, minutes"
+msgstr "Συχνότητα συγχρονισμού, λεπτά"
 
 msgctxt "#30564"
 msgid "Sync hidden items"
@@ -1834,8 +1834,8 @@ msgid "Enable Kodi library synchronization"
 msgstr "Ενεργοποίηση του συγχρονισμού με τη βιβλιοθήκη του Kodi"
 
 msgctxt "#30600"
-msgid "Enable Trakt synchronization"
-msgstr "Ενεργοποίηση του συγχρονισμού με το Trakt"
+msgid "Enable synchronization"
+msgstr "Ενεργοποίηση του συγχρονισμού"
 
 msgctxt "#30601"
 msgid "Enable synchronization while playback"
@@ -2102,12 +2102,12 @@ msgid "Every time"
 msgstr "Κάθε φορά"
 
 msgctxt "#30667"
-msgid "Mark as watched in Trakt"
-msgstr "Σήμανση ως παρακολουθημένο στο Trakt"
+msgid "Mark as watched"
+msgstr "Σήμανση ως παρακολουθημένο"
 
 msgctxt "#30668"
-msgid "Mark as unwatched in Trakt"
-msgstr "Σήμανση ως μη παρακολουθημένο στο Trakt"
+msgid "Mark as unwatched"
+msgstr "Σήμανση ως μη παρακολουθημένο"
 
 msgctxt "#30669"
 msgid "Delay addon startup, seconds"
@@ -2146,12 +2146,12 @@ msgid "Force start as a library"
 msgstr "Επιβολή της έναρξης ως βιβλιοθήκη"
 
 msgctxt "#30678"
-msgid "Remove from Kodi library, when movie is deleted from Trakt"
-msgstr "Αφαίρεση από τη βιβλιοθήκη του Kodi όταν η ταινία διαγράφεται από το Trakt"
+msgid "Remove from Kodi library, when movie is deleted from tracking service"
+msgstr "Αφαίρεση από τη βιβλιοθήκη του Kodi όταν η ταινία διαγράφεται από την υπηρεσία παρακολούθησης"
 
 msgctxt "#30679"
-msgid "Remove from Kodi library, when show is deleted from Trakt"
-msgstr "Αφαίρεση από τη βιβλιοθήκη του Kodi όταν η σειρά διαγράφεται από το Trakt"
+msgid "Remove from Kodi library, when show is deleted from tracking service"
+msgstr "Αφαίρεση από τη βιβλιοθήκη του Kodi όταν η σειρά διαγράφεται από την υπηρεσία παρακολούθησης"
 
 msgctxt "#30680"
 msgid "Remove Elementum duplicates from library"
@@ -2561,3 +2561,88 @@ msgstr "Σε χρήση από το Elementum"
 msgctxt "#30783"
 msgid "Leftover files"
 msgstr "Υπολειπόμενα αρχεία"
+
+msgctxt "#30784"
+msgid "Tracking service"
+msgstr "Υπηρεσία παρακολούθησης"
+
+msgctxt "#30785"
+msgid "None"
+msgstr "Καμία"
+
+msgctxt "#30786"
+msgid "Authorize Elementum on the tracking service"
+msgstr "Εξουσιοδότηση του Elementum στην υπηρεσία παρακολούθησης"
+
+
+msgctxt "#30788"
+msgid "To authorize Elementum on %s you need to:[CR]1. Open [B]%s[/B][CR]2. Enter code: [B]%s[/B][CR]3. Wait for notification from Elementum."
+msgstr "Για να εξουσιοδοτήσετε το Elementum στο %s πρέπει να:[CR]1. Ανοίξετε το [B]%s[/B][CR]2. Εισαγάγετε τον κωδικό: [B]%s[/B][CR]3. Περιμένετε την ειδοποίηση από το Elementum."
+
+msgctxt "#30789"
+msgid "Successfully authorized on %s"
+msgstr "Η εξουσιοδότηση στο %s ολοκληρώθηκε με επιτυχία"
+
+msgctxt "#30790"
+msgid "Could not authorize on %s"
+msgstr "Δεν ήταν δυνατή η εξουσιοδότηση στο %s"
+
+msgctxt "#30791"
+msgid "Successfully deauthorized on %s"
+msgstr "Η εξουσιοδότηση στο %s ακυρώθηκε με επιτυχία"
+
+msgctxt "#30792"
+msgid "MDBList API key (optional, used instead of authorization)"
+msgstr "Κλειδί API του MDBList (προαιρετικό, αντί για εξουσιοδότηση)"
+
+msgctxt "#30793"
+msgid "Update from tracking service"
+msgstr "Ενημέρωση από την υπηρεσία παρακολούθησης"
+
+msgctxt "#30794"
+msgid "%s authorization needs to be renewed, please authorize again"
+msgstr "Η εξουσιοδότηση στο %s πρέπει να ανανεωθεί, εξουσιοδοτήστε ξανά"
+
+msgctxt "#30795"
+msgid "Select and authorize a tracking service in settings first"
+msgstr "Επιλέξτε και εξουσιοδοτήστε πρώτα μια υπηρεσία παρακολούθησης στις ρυθμίσεις"
+
+msgctxt "#30796"
+msgid "Tracking"
+msgstr "Παρακολούθηση"
+
+msgctxt "#30797"
+msgid "Simkl"
+msgstr "Simkl"
+
+msgctxt "#30798"
+msgid "MDBList"
+msgstr "MDBList"
+
+msgctxt "#30799"
+msgid "Authorize Elementum on Simkl"
+msgstr "Εξουσιοδότηση του Elementum στο Simkl"
+
+msgctxt "#30800"
+msgid "Cancel authorization for Elementum on Simkl"
+msgstr "Ακύρωση της εξουσιοδότησης του Elementum στο Simkl"
+
+msgctxt "#30801"
+msgid "Authorize Elementum on MDBList"
+msgstr "Εξουσιοδότηση του Elementum στο MDBList"
+
+msgctxt "#30802"
+msgid "Cancel authorization for Elementum on MDBList"
+msgstr "Ακύρωση της εξουσιοδότησης του Elementum στο MDBList"
+
+msgctxt "#30803"
+msgid "Simkl has no collection: library additions go to Plan to Watch. Custom lists need Simkl PRO or VIP."
+msgstr "Το Simkl δεν έχει συλλογή: ό,τι προστίθεται στη βιβλιοθήκη πηγαίνει στο Plan to Watch. Οι προσαρμοσμένες λίστες απαιτούν Simkl PRO ή VIP."
+
+msgctxt "#30804"
+msgid "An API key from mdblist.com preferences can be used instead of authorization. Free accounts allow 1000 requests a day."
+msgstr "Αντί για εξουσιοδότηση μπορεί να χρησιμοποιηθεί κλειδί API από τις ρυθμίσεις του mdblist.com. Οι δωρεάν λογαριασμοί επιτρέπουν 1000 αιτήματα την ημέρα."
+
+msgctxt "#30805"
+msgid "Simkl and MDBList are synchronized at most every 15 minutes."
+msgstr "Το Simkl και το MDBList συγχρονίζονται το πολύ κάθε 15 λεπτά."

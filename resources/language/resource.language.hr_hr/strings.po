@@ -964,8 +964,8 @@ msgid "Use Trakt information in Trakt lists"
 msgstr "Koristi Trakt informacije ako su dostupne"
 
 msgctxt "#30358"
-msgid "Trakt update started"
-msgstr "Trakt nadopuna pokrenuta"
+msgid "Synchronization with tracking service started"
+msgstr "Usklađivanje s uslugom praćenja pokrenuto"
 
 msgctxt "#30359"
 msgid "Do not ask questions before playback"
@@ -996,12 +996,12 @@ msgid "Sync items from user lists into Kodi library"
 msgstr "Uskladi stavke iz popisa korisnika Тrаkta u videoteku"
 
 msgctxt "#30366"
-msgid "Sync watched states from Trakt into Kodi library"
-msgstr "Uskladi odgledana stanja iz Trakta u videoteku"
+msgid "Sync watched states from tracking service into Kodi library"
+msgstr "Uskladi odgledana stanja iz usluge praćenja u videoteku"
 
 msgctxt "#30367"
-msgid "Sync back Kodi watched states into Trakt"
-msgstr "Uskladi odgledana stanja iz Kodija na Trakt"
+msgid "Sync back Kodi watched states into tracking service"
+msgstr "Uskladi odgledana stanja iz Kodija na uslugu praćenja"
 
 msgctxt "#30369"
 msgid "Disable Upload"
@@ -1280,20 +1280,20 @@ msgid "Selected userlist for shows"
 msgstr "Odabrani korisnikov popis za TV serije"
 
 msgctxt "#30447"
-msgid "Add to Trakt, when movie is added to Kodi library"
-msgstr "Dodaj u Trakt, kada je film dodan u Kodi videoteku"
+msgid "Add to tracking service, when movie is added to Kodi library"
+msgstr "Dodaj u uslugu praćenja, kada je film dodan u Kodi videoteku"
 
 msgctxt "#30448"
-msgid "Add to Trakt, when show is added to Kodi library"
-msgstr "Dodaj u Trakt, kada je TV serija dodana u Kodi videoteku"
+msgid "Add to tracking service, when show is added to Kodi library"
+msgstr "Dodaj u uslugu praćenja, kada je TV serija dodana u Kodi videoteku"
 
 msgctxt "#30449"
-msgid "Remove from Trakt, when movie is deleted from Kodi library"
-msgstr "Ukloni iz Trakta, kada je film obrisan iz Kodi videoteke"
+msgid "Remove from tracking service, when movie is deleted from Kodi library"
+msgstr "Ukloni iz usluge praćenja, kada je film obrisan iz Kodi videoteke"
 
 msgctxt "#30450"
-msgid "Remove from Trakt, when show is deleted from Kodi library"
-msgstr "Ukloni iz Trakta, kada je TV serija obrisana iz Kodi videoteke"
+msgid "Remove from tracking service, when show is deleted from Kodi library"
+msgstr "Ukloni iz usluge praćenja, kada je TV serija obrisana iz Kodi videoteke"
 
 msgctxt "#30451"
 msgid "Torrent files path"
@@ -1708,8 +1708,8 @@ msgid "Open directory with Kodi file browser"
 msgstr "Otvori direktorij s Kodi preglednikom datoteka"
 
 msgctxt "#30563"
-msgid "Synchronize frequency of Trakt, minutes"
-msgstr "Učestalost usklađivanja s Traktom (minuta)"
+msgid "Synchronization frequency, minutes"
+msgstr "Učestalost usklađivanja (minuta)"
 
 msgctxt "#30564"
 msgid "Sync hidden items"
@@ -1848,8 +1848,8 @@ msgid "Enable Kodi library synchronization"
 msgstr "Omogući usklađivanje s Kodi videotekom"
 
 msgctxt "#30600"
-msgid "Enable Trakt synchronization"
-msgstr "Omogući Trakt usklađivanje"
+msgid "Enable synchronization"
+msgstr "Omogući usklađivanje"
 
 msgctxt "#30601"
 msgid "Enable synchronization while playback"
@@ -2116,12 +2116,12 @@ msgid "Every time"
 msgstr "Svaki puta"
 
 msgctxt "#30667"
-msgid "Mark as watched in Trakt"
-msgstr "Označi kao odgledano u Traktu"
+msgid "Mark as watched"
+msgstr "Označi kao odgledano"
 
 msgctxt "#30668"
-msgid "Mark as unwatched in Trakt"
-msgstr "Označi kao neodgledano u Traktu"
+msgid "Mark as unwatched"
+msgstr "Označi kao neodgledano"
 
 msgctxt "#30669"
 msgid "Delay addon startup, seconds"
@@ -2160,12 +2160,12 @@ msgid "Force start as a library"
 msgstr "Prisili pokretanje kao zbirka"
 
 msgctxt "#30678"
-msgid "Remove from Kodi library, when movie is deleted from Trakt"
-msgstr "Ukloni iz Kodi zbirke kada se film obriše s Trakta"
+msgid "Remove from Kodi library, when movie is deleted from tracking service"
+msgstr "Ukloni iz Kodi zbirke kada se film obriše s usluge praćenja"
 
 msgctxt "#30679"
-msgid "Remove from Kodi library, when show is deleted from Trakt"
-msgstr "Ukloni iz Kodi zbirke kada se serija obriše s Trakta"
+msgid "Remove from Kodi library, when show is deleted from tracking service"
+msgstr "Ukloni iz Kodi zbirke kada se serija obriše s usluge praćenja"
 
 msgctxt "#30680"
 msgid "Remove Elementum duplicates from library"
@@ -2575,3 +2575,88 @@ msgstr "Zauzeto od strane Elementuma"
 msgctxt "#30783"
 msgid "Leftover files"
 msgstr "Zaostale datoteke"
+
+msgctxt "#30784"
+msgid "Tracking service"
+msgstr "Usluga praćenja"
+
+msgctxt "#30785"
+msgid "None"
+msgstr "Ništa"
+
+msgctxt "#30786"
+msgid "Authorize Elementum on the tracking service"
+msgstr "Ovjeri Elementum na usluzi praćenja"
+
+
+msgctxt "#30788"
+msgid "To authorize Elementum on %s you need to:[CR]1. Open [B]%s[/B][CR]2. Enter code: [B]%s[/B][CR]3. Wait for notification from Elementum."
+msgstr "Kako bi ovjerili Elementum na %s morate:[CR]1. Otvoriti [B]%s[/B][CR]2. Upisati kôd: [B]%s[/B][CR]3. Čekati obavijest od Elementuma."
+
+msgctxt "#30789"
+msgid "Successfully authorized on %s"
+msgstr "Uspješna ovjera za %s"
+
+msgctxt "#30790"
+msgid "Could not authorize on %s"
+msgstr "Neuspješna ovjera za %s"
+
+msgctxt "#30791"
+msgid "Successfully deauthorized on %s"
+msgstr "Uspješna odjava za %s"
+
+msgctxt "#30792"
+msgid "MDBList API key (optional, used instead of authorization)"
+msgstr "MDBList API ključ (neobavezno, umjesto ovjere)"
+
+msgctxt "#30793"
+msgid "Update from tracking service"
+msgstr "Nadopuni iz usluge praćenja"
+
+msgctxt "#30794"
+msgid "%s authorization needs to be renewed, please authorize again"
+msgstr "Ovjera za %s se treba obnoviti, ponovno ovjerite"
+
+msgctxt "#30795"
+msgid "Select and authorize a tracking service in settings first"
+msgstr "Najprije odaberite i ovjerite uslugu praćenja u postavkama"
+
+msgctxt "#30796"
+msgid "Tracking"
+msgstr "Praćenje"
+
+msgctxt "#30797"
+msgid "Simkl"
+msgstr "Simkl"
+
+msgctxt "#30798"
+msgid "MDBList"
+msgstr "MDBList"
+
+msgctxt "#30799"
+msgid "Authorize Elementum on Simkl"
+msgstr "Ovjeri Elementum na Simkl"
+
+msgctxt "#30800"
+msgid "Cancel authorization for Elementum on Simkl"
+msgstr "Prekini ovjeru za Elementum na Simkl"
+
+msgctxt "#30801"
+msgid "Authorize Elementum on MDBList"
+msgstr "Ovjeri Elementum na MDBList"
+
+msgctxt "#30802"
+msgid "Cancel authorization for Elementum on MDBList"
+msgstr "Prekini ovjeru za Elementum na MDBList"
+
+msgctxt "#30803"
+msgid "Simkl has no collection: library additions go to Plan to Watch. Custom lists need Simkl PRO or VIP."
+msgstr "Simkl nema kolekciju: stavke dodane u zbirku idu u Plan to Watch. Prilagođeni popisi zahtijevaju Simkl PRO ili VIP."
+
+msgctxt "#30804"
+msgid "An API key from mdblist.com preferences can be used instead of authorization. Free accounts allow 1000 requests a day."
+msgstr "Umjesto ovjere može se koristiti API ključ iz postavki na mdblist.com. Besplatni računi dopuštaju 1000 zahtjeva dnevno."
+
+msgctxt "#30805"
+msgid "Simkl and MDBList are synchronized at most every 15 minutes."
+msgstr "Simkl i MDBList usklađuju se najviše svakih 15 minuta."

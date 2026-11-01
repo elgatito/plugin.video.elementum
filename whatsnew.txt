@@ -7,6 +7,8 @@
     - Source is open, so you can fork everything and contribute back.
 
 [B][COLOR red]0.1.115[/COLOR][/B]
+    - Added Simkl and MDBList as tracking services besides Trakt. Choose one in the new "Tracking" settings and authorize it: watchlist, watched history, playback progress, scrobbling and lists sync with it like with Trakt (collection is available on Trakt and MDBList only).
+    - Menus got their own icons for every entry (status, history, calendars, lists, watchlist, library and others) instead of reusing the same icon for different things.
     - Added native support for macOS on Apple Silicon (darwin_arm64).
     - Web UI: added translations (follows Kodi language), selection of Kodi to play on when several Kodi instances are connected, improved search with provider icons and download/play actions.
     - Added automatic conversion of Windows paths to WSL paths when Elementum runs under WSL with Windows Kodi (download, library, torrents and other paths).

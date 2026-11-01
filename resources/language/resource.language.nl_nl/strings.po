@@ -947,8 +947,8 @@ msgid "Use Trakt information in Trakt lists"
 msgstr "Trakt-informatie gebruiken in Trakt-lijsten"
 
 msgctxt "#30358"
-msgid "Trakt update started"
-msgstr "Trakt-update gestart"
+msgid "Synchronization with tracking service started"
+msgstr "Synchronisatie met de trackingdienst gestart"
 
 msgctxt "#30359"
 msgid "Do not ask questions before playback"
@@ -979,12 +979,12 @@ msgid "Sync items from user lists into Kodi library"
 msgstr "Items uit gebruikerslijsten synchroniseren naar de Kodi-bibliotheek"
 
 msgctxt "#30366"
-msgid "Sync watched states from Trakt into Kodi library"
-msgstr "Bekeken-status van Trakt synchroniseren naar de Kodi-bibliotheek"
+msgid "Sync watched states from tracking service into Kodi library"
+msgstr "Bekeken-status van de trackingdienst synchroniseren naar de Kodi-bibliotheek"
 
 msgctxt "#30367"
-msgid "Sync back Kodi watched states into Trakt"
-msgstr "Bekeken-status van Kodi terugsynchroniseren naar Trakt"
+msgid "Sync back Kodi watched states into tracking service"
+msgstr "Bekeken-status van Kodi terugsynchroniseren naar de trackingdienst"
 
 msgctxt "#30369"
 msgid "Disable Upload"
@@ -1263,20 +1263,20 @@ msgid "Selected userlist for shows"
 msgstr "Geselecteerde gebruikerslijst voor series"
 
 msgctxt "#30447"
-msgid "Add to Trakt, when movie is added to Kodi library"
-msgstr "Toevoegen aan Trakt wanneer een film aan de Kodi-bibliotheek wordt toegevoegd"
+msgid "Add to tracking service, when movie is added to Kodi library"
+msgstr "Toevoegen aan de trackingdienst wanneer een film aan de Kodi-bibliotheek wordt toegevoegd"
 
 msgctxt "#30448"
-msgid "Add to Trakt, when show is added to Kodi library"
-msgstr "Toevoegen aan Trakt wanneer een serie aan de Kodi-bibliotheek wordt toegevoegd"
+msgid "Add to tracking service, when show is added to Kodi library"
+msgstr "Toevoegen aan de trackingdienst wanneer een serie aan de Kodi-bibliotheek wordt toegevoegd"
 
 msgctxt "#30449"
-msgid "Remove from Trakt, when movie is deleted from Kodi library"
-msgstr "Verwijderen uit Trakt wanneer een film uit de Kodi-bibliotheek wordt verwijderd"
+msgid "Remove from tracking service, when movie is deleted from Kodi library"
+msgstr "Verwijderen uit de trackingdienst wanneer een film uit de Kodi-bibliotheek wordt verwijderd"
 
 msgctxt "#30450"
-msgid "Remove from Trakt, when show is deleted from Kodi library"
-msgstr "Verwijderen uit Trakt wanneer een serie uit de Kodi-bibliotheek wordt verwijderd"
+msgid "Remove from tracking service, when show is deleted from Kodi library"
+msgstr "Verwijderen uit de trackingdienst wanneer een serie uit de Kodi-bibliotheek wordt verwijderd"
 
 msgctxt "#30451"
 msgid "Torrent files path"
@@ -1691,8 +1691,8 @@ msgid "Open directory with Kodi file browser"
 msgstr "Map openen met de Kodi-bestandsbrowser"
 
 msgctxt "#30563"
-msgid "Synchronize frequency of Trakt, minutes"
-msgstr "Frequentie van Trakt-synchronisatie, minuten"
+msgid "Synchronization frequency, minutes"
+msgstr "Frequentie van synchronisatie, minuten"
 
 msgctxt "#30564"
 msgid "Sync hidden items"
@@ -1831,8 +1831,8 @@ msgid "Enable Kodi library synchronization"
 msgstr "Kodi-bibliotheeksynchronisatie inschakelen"
 
 msgctxt "#30600"
-msgid "Enable Trakt synchronization"
-msgstr "Trakt-synchronisatie inschakelen"
+msgid "Enable synchronization"
+msgstr "Synchronisatie inschakelen"
 
 msgctxt "#30601"
 msgid "Enable synchronization while playback"
@@ -2099,12 +2099,12 @@ msgid "Every time"
 msgstr "Elke keer"
 
 msgctxt "#30667"
-msgid "Mark as watched in Trakt"
-msgstr "Als bekeken markeren in Trakt"
+msgid "Mark as watched"
+msgstr "Als bekeken markeren"
 
 msgctxt "#30668"
-msgid "Mark as unwatched in Trakt"
-msgstr "Als onbekeken markeren in Trakt"
+msgid "Mark as unwatched"
+msgstr "Als onbekeken markeren"
 
 msgctxt "#30669"
 msgid "Delay addon startup, seconds"
@@ -2143,12 +2143,12 @@ msgid "Force start as a library"
 msgstr "Starten als bibliotheek forceren"
 
 msgctxt "#30678"
-msgid "Remove from Kodi library, when movie is deleted from Trakt"
-msgstr "Verwijderen uit de Kodi-bibliotheek wanneer de film uit Trakt wordt verwijderd"
+msgid "Remove from Kodi library, when movie is deleted from tracking service"
+msgstr "Verwijderen uit de Kodi-bibliotheek wanneer de film uit de trackingdienst wordt verwijderd"
 
 msgctxt "#30679"
-msgid "Remove from Kodi library, when show is deleted from Trakt"
-msgstr "Verwijderen uit de Kodi-bibliotheek wanneer de serie uit Trakt wordt verwijderd"
+msgid "Remove from Kodi library, when show is deleted from tracking service"
+msgstr "Verwijderen uit de Kodi-bibliotheek wanneer de serie uit de trackingdienst wordt verwijderd"
 
 msgctxt "#30680"
 msgid "Remove Elementum duplicates from library"
@@ -2558,3 +2558,88 @@ msgstr "Gebruikt door Elementum"
 msgctxt "#30783"
 msgid "Leftover files"
 msgstr "Achtergebleven bestanden"
+
+msgctxt "#30784"
+msgid "Tracking service"
+msgstr "Trackingdienst"
+
+msgctxt "#30785"
+msgid "None"
+msgstr "Geen"
+
+msgctxt "#30786"
+msgid "Authorize Elementum on the tracking service"
+msgstr "Elementum autoriseren bij de trackingdienst"
+
+
+msgctxt "#30788"
+msgid "To authorize Elementum on %s you need to:[CR]1. Open [B]%s[/B][CR]2. Enter code: [B]%s[/B][CR]3. Wait for notification from Elementum."
+msgstr "Om Elementum te autoriseren bij %s moet je:[CR]1. [B]%s[/B] openen[CR]2. Deze code invoeren: [B]%s[/B][CR]3. Wachten op de melding van Elementum."
+
+msgctxt "#30789"
+msgid "Successfully authorized on %s"
+msgstr "Autorisatie bij %s geslaagd"
+
+msgctxt "#30790"
+msgid "Could not authorize on %s"
+msgstr "Kon niet autoriseren bij %s"
+
+msgctxt "#30791"
+msgid "Successfully deauthorized on %s"
+msgstr "Autorisatie bij %s succesvol ingetrokken"
+
+msgctxt "#30792"
+msgid "MDBList API key (optional, used instead of authorization)"
+msgstr "MDBList API-sleutel (optioneel, in plaats van autorisatie)"
+
+msgctxt "#30793"
+msgid "Update from tracking service"
+msgstr "Bijwerken vanuit de trackingdienst"
+
+msgctxt "#30794"
+msgid "%s authorization needs to be renewed, please authorize again"
+msgstr "De autorisatie bij %s moet vernieuwd worden, autoriseer opnieuw"
+
+msgctxt "#30795"
+msgid "Select and authorize a tracking service in settings first"
+msgstr "Kies en autoriseer eerst een trackingdienst in de instellingen"
+
+msgctxt "#30796"
+msgid "Tracking"
+msgstr "Tracking"
+
+msgctxt "#30797"
+msgid "Simkl"
+msgstr "Simkl"
+
+msgctxt "#30798"
+msgid "MDBList"
+msgstr "MDBList"
+
+msgctxt "#30799"
+msgid "Authorize Elementum on Simkl"
+msgstr "Elementum autoriseren op Simkl"
+
+msgctxt "#30800"
+msgid "Cancel authorization for Elementum on Simkl"
+msgstr "Autorisatie van Elementum op Simkl annuleren"
+
+msgctxt "#30801"
+msgid "Authorize Elementum on MDBList"
+msgstr "Elementum autoriseren op MDBList"
+
+msgctxt "#30802"
+msgid "Cancel authorization for Elementum on MDBList"
+msgstr "Autorisatie van Elementum op MDBList annuleren"
+
+msgctxt "#30803"
+msgid "Simkl has no collection: library additions go to Plan to Watch. Custom lists need Simkl PRO or VIP."
+msgstr "Simkl heeft geen collectie: wat je aan de bibliotheek toevoegt komt in Plan to Watch. Eigen lijsten vereisen Simkl PRO of VIP."
+
+msgctxt "#30804"
+msgid "An API key from mdblist.com preferences can be used instead of authorization. Free accounts allow 1000 requests a day."
+msgstr "In plaats van autorisatie kan een API-sleutel uit de voorkeuren op mdblist.com gebruikt worden. Gratis accounts staan 1000 verzoeken per dag toe."
+
+msgctxt "#30805"
+msgid "Simkl and MDBList are synchronized at most every 15 minutes."
+msgstr "Simkl en MDBList worden hoogstens elke 15 minuten gesynchroniseerd."
