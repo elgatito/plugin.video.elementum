@@ -6,9 +6,19 @@
     - It is driven by community.
     - Source is open, so you can fork everything and contribute back.
 
-[B][COLOR red]0.1.115[/COLOR][/B]
-    - Added Simkl and MDBList as tracking services besides Trakt. Choose one in the new "Tracking" settings and authorize it: watchlist, watched history, playback progress, scrobbling and lists sync with it like with Trakt (collection is available on Trakt and MDBList only).
+[B][COLOR red]0.1.116[/COLOR][/B]
+    - Added Simkl and MDBList as tracking services besides Trakt. Choose one in the new "Tracking" settings and authorize it (MDBList also accepts a personal API key): watchlist, watched history, playback progress, scrobbling and lists sync with it like with Trakt (collection is available on Trakt and MDBList only).
+    - "Tracking" settings show only the options the selected service supports, and settings that work with any service no longer mention Trakt.
+    - Added "Storage statistics" action in Advanced settings to see total, used and free space of the download drive, and how much of it is taken by Elementum downloads and by leftover files.
     - Menus got their own icons for every entry (status, history, calendars, lists, watchlist, library and others) instead of reusing the same icon for different things.
+    - Episodes in a season are labeled like in Kodi's own library ("01. Title"); the list of all seasons keeps the S01E01 labels.
+    - "Automatically start downloading next episode" now works for every playback, including torrents played from search, history or a link, not only for TV shows.
+    - When you decline replaying the previously chosen torrent, it is also removed from cached search results, so auto-play does not pick the same (often dead) torrent again.
+    - Faster loading of the torrents list, especially with many torrents.
+    - Fixed library being treated as read-only (no library files written) on Kodi without video sources, e.g. Android with content set directly on detected drives.
+    - Fixed playing the next episode through Up Next from torrents history sometimes failing, because the torrent file was deleted when the previous playback ended.
+
+[B][COLOR red]0.1.115[/COLOR][/B]
     - Added native support for macOS on Apple Silicon (darwin_arm64).
     - Web UI: added translations (follows Kodi language), selection of Kodi to play on when several Kodi instances are connected, improved search with provider icons and download/play actions.
     - Added automatic conversion of Windows paths to WSL paths when Elementum runs under WSL with Windows Kodi (download, library, torrents and other paths).
