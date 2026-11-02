@@ -2664,3 +2664,11 @@ msgstr "Kiválasztott felhasználói listák (mind, ha üres)"
 msgctxt "#30810"
 msgid "Rename moved files to Kodi naming (Title (Year), Show S01E01)"
 msgstr "Áthelyezett fájlok átnevezése Kodi szerint (Cím (Év), Sorozat S01E01)"
+
+msgctxt "#30811"
+msgid "Random"
+msgstr "Véletlenszerű"
+
+msgctxt "#30812"
+msgid "Popular people"
+msgstr "Népszerű személyek"

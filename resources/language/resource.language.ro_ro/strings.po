@@ -2666,3 +2666,11 @@ msgstr "Liste de utilizator selectate (toate, dacă este gol)"
 msgctxt "#30810"
 msgid "Rename moved files to Kodi naming (Title (Year), Show S01E01)"
 msgstr "Redenumește fișierele mutate după Kodi (Titlu (An), Serial S01E01)"
+
+msgctxt "#30811"
+msgid "Random"
+msgstr "Aleatoriu"
+
+msgctxt "#30812"
+msgid "Popular people"
+msgstr "Persoane populare"

@@ -2666,3 +2666,11 @@ msgstr "Επιλεγμένες λίστες χρήστη (όλες, αν είν�
 msgctxt "#30810"
 msgid "Rename moved files to Kodi naming (Title (Year), Show S01E01)"
 msgstr "Μετονομασία μετακινημένων αρχείων κατά Kodi (Τίτλος (Έτος), Σειρά S01E01)"
+
+msgctxt "#30811"
+msgid "Random"
+msgstr "Τυχαία"
+
+msgctxt "#30812"
+msgid "Popular people"
+msgstr "Δημοφιλή πρόσωπα"

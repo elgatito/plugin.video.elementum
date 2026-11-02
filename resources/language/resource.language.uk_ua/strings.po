@@ -2663,3 +2663,11 @@ msgstr "Вибрані списки користувача (усі, якщо п�
 msgctxt "#30810"
 msgid "Rename moved files to Kodi naming (Title (Year), Show S01E01)"
 msgstr "Перейменовувати переміщені файли для Kodi (Назва (Рік), Серіал S01E01)"
+
+msgctxt "#30811"
+msgid "Random"
+msgstr "Випадкові"
+
+msgctxt "#30812"
+msgid "Popular people"
+msgstr "Популярні люди"

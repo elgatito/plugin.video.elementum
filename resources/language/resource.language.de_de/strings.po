@@ -2666,3 +2666,11 @@ msgstr "Ausgewählte Benutzerlisten (alle, wenn leer)"
 msgctxt "#30810"
 msgid "Rename moved files to Kodi naming (Title (Year), Show S01E01)"
 msgstr "Verschobene Dateien nach Kodi-Schema umbenennen (Titel (Jahr), Serie S01E01)"
+
+msgctxt "#30811"
+msgid "Random"
+msgstr "Zufällig"
+
+msgctxt "#30812"
+msgid "Popular people"
+msgstr "Beliebte Personen"
