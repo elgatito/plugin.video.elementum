@@ -2650,3 +2650,7 @@ msgstr "Simkl und MDBList werden höchstens alle 15 Minuten synchronisiert."
 msgctxt "#30806"
 msgid "This feature needs a paid %s account"
 msgstr "Diese Funktion erfordert ein kostenpflichtiges %s-Konto"
+
+msgctxt "#30807"
+msgid "Remove from Elementum library, when item is deleted from Kodi library"
+msgstr "Aus der Elementum-Bibliothek entfernen, wenn ein Eintrag aus der Kodi-Bibliothek gelöscht wird"

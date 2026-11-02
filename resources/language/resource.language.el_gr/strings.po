@@ -2650,3 +2650,7 @@ msgstr "Το Simkl και το MDBList συγχρονίζονται το πολ�
 msgctxt "#30806"
 msgid "This feature needs a paid %s account"
 msgstr "Αυτή η λειτουργία απαιτεί συνδρομητικό λογαριασμό %s"
+
+msgctxt "#30807"
+msgid "Remove from Elementum library, when item is deleted from Kodi library"
+msgstr "Αφαίρεση από τη βιβλιοθήκη του Elementum, όταν ένα στοιχείο διαγράφεται από τη βιβλιοθήκη του Kodi"

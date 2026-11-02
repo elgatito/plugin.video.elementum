@@ -2647,3 +2647,7 @@ msgstr "Simkl и MDBList синхронизируются не чаще одно
 msgctxt "#30806"
 msgid "This feature needs a paid %s account"
 msgstr "Для этой функции нужен платный аккаунт %s"
+
+msgctxt "#30807"
+msgid "Remove from Elementum library, when item is deleted from Kodi library"
+msgstr "Удалить из библиотеки Elementum при удалении из библиотеки Kodi"

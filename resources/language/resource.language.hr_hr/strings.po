@@ -2664,3 +2664,7 @@ msgstr "Simkl i MDBList usklađuju se najviše svakih 15 minuta."
 msgctxt "#30806"
 msgid "This feature needs a paid %s account"
 msgstr "Ova značajka zahtijeva plaćeni %s račun"
+
+msgctxt "#30807"
+msgid "Remove from Elementum library, when item is deleted from Kodi library"
+msgstr "Ukloni iz Elementum zbirke, kada je stavka obrisana iz Kodi videoteke"

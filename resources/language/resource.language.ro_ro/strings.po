@@ -2650,3 +2650,7 @@ msgstr "Simkl și MDBList se sincronizează cel mult o dată la 15 minute."
 msgctxt "#30806"
 msgid "This feature needs a paid %s account"
 msgstr "Această funcție necesită un cont %s plătit"
+
+msgctxt "#30807"
+msgid "Remove from Elementum library, when item is deleted from Kodi library"
+msgstr "Elimină din biblioteca Elementum când un element este șters din biblioteca Kodi"

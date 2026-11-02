@@ -107,6 +107,7 @@
         <setting id="show_episodes_on_release_day" type="bool" label="30663" default="false" />
         <setting id="playback_percent" label="30416" type="slider" option="int" range="1,1,100" default="85" />
         <setting id="library_update" type="enum" label="30480" lvalues="30481|30482|30414" default="0" />
+        <setting id="library_sync_kodi_removals" type="bool" label="30807" default="false" />
         <setting id="strm_language" label="30475" type="action" default="" action="RunPlugin(plugin://plugin.video.elementum/cmd/select_strm_language)" />
         <setting id="library_nfo_movies" type="bool" label="30483" default="true" />
         <setting id="library_nfo_shows" type="bool" label="30484" default="true" />

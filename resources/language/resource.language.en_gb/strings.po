@@ -2646,3 +2646,7 @@ msgstr ""
 msgctxt "#30806"
 msgid "This feature needs a paid %s account"
 msgstr ""
+
+msgctxt "#30807"
+msgid "Remove from Elementum library, when item is deleted from Kodi library"
+msgstr ""
