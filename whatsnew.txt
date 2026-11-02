@@ -9,10 +9,31 @@
 [B][COLOR red]0.1.117[/COLOR][/B]
     - Added "Random" to Movies and TV Shows: a shuffled set of popular TMDB titles, different on every visit, to discover something you have not seen yet. (#802)
     - Added "Popular people" to Movies and TV Shows: TMDB popular actors, open one to see their movies or shows (shows they have most episodes in come first, talk shows and other guest appearances are skipped). (#802)
+    - "My Progress" in TV Shows (shows you are watching, with the next episode to watch) now works with Simkl and MDBList too, and its settings (sorting, colors, hiding unaired episodes) are shown for every tracking service. When a list needs a paid account of the tracking service, you get a notification saying so instead of an empty list.
+    - Playback progress from your tracking service is now shown in Elementum lists and offered for resume also for movies and episodes that are not in Kodi library.
+    - Added "Remove from Elementum library, when item is deleted from Kodi library" setting: movies and shows you remove in Kodi are removed from Elementum library too, so they are not added back on the next sync. Refreshing an item in Kodi does not count as removal.
+    - Added "Select userlists to sync" setting to choose which of your tracking service lists are synced into the library (all lists, if none selected).
+    - Added "Rename moved files to Kodi naming" setting: completed downloads moved to the library folder are renamed like "Title (Year)" for movies and "Show (Year) S01E02" for episodes, with subtitles and .nfo files renamed to match. Files that cannot be recognized, or whose new name is taken, keep their original name.
+    - Torrent status overlay is now shown also while the player info or OSD is open, not only on pause. (#326)
+    - Resolution preference settings now show where 4K is placed in the order. (#820)
+    - Subtitle addons now get proper details when playing from torrent search: a movie, or an episode with show name, season and episode read from the file name, so they can find subtitles.
+    - Kodi library is rescanned once at the end of tracking service sync, instead of after every synced list.
+    - Removed torrents keep their resume data while downloaded files stay on disk, so adding the same torrent again does not re-check all of its data. Changed file dates no longer cause a full re-check either.
+    - Fixed playback being stopped and the torrent removed while an external player is still playing it. (#1053)
+    - Fixed "Download" from the context menu showing a "Playback failed" dialog and not starting the download. (#960)
+    - Fixed library entries of movies, shows and episodes with the same TMDB ID overwriting each other, which could mark the wrong item as deleted. Existing library is fixed on start.
+    - Fixed .strm files not being removed when the same movie or episode is downloaded into the library folder.
+    - Fixed completed downloads being lost when moving them failed: moving is retried, and the download folder is no longer cleaned up while it still holds files that were not moved.
+    - Fixed Elementum restarting when exiting Kodi on Android, which delayed Kodi exit. (#1155)
+    - Fixed Elementum lists sometimes not opening right after closing settings. (#1085)
+    - Fixed dates of list items not being recognized by Kodi. (#1042)
+    - Fixed saving the view mode picking a wrong (hidden) view in some skins.
+    - Fixed "Yes" not being preselected in auto-confirm dialogs on Kodi older than 20.
+    - Fixed the Elementum binary being downloaded again on every Kodi start for add-on builds that download it from GitHub, because the wrong (oldest) version was recorded after download.
+    - Web UI: share ratio of torrents is shown up to 1000 at most.
 
 [B][COLOR red]0.1.116[/COLOR][/B] - 2026-11-01
     - Added Simkl and MDBList as tracking services besides Trakt. Choose one in the new "Tracking" settings and authorize it (MDBList also accepts a personal API key): watchlist, watched history, playback progress, scrobbling and lists sync with it like with Trakt (collection is available on Trakt and MDBList only, Simkl lists need a Simkl PRO or VIP account).
-    - "My Progress" in TV Shows (shows you are watching, with the next episode to watch) now works with Simkl and MDBList too.
     - "Tracking" settings show only the options the selected service supports, and settings that work with any service no longer mention Trakt.
     - Added "Storage statistics" action in Advanced settings to see total, used and free space of the download drive, and how much of it is taken by Elementum downloads and by leftover files.
     - Menus got their own icons for every entry (status, history, calendars, lists, watchlist, library and others) instead of reusing the same icon for different things.
