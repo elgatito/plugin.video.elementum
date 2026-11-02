@@ -35,3 +35,6 @@ Open PRs against `master` and complete the template: description, related issue,
 
 ## Security & Configuration Tips
 Do not commit secrets, tokens, or machine-specific paths. Keep release credentials in environment variables only.
+
+## Localizations Guidelines
+Always add translations for all languages for new localizations.
