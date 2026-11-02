@@ -2676,3 +2676,7 @@ msgstr "Odaberi korisničke popise za sinkronizaciju"
 msgctxt "#30809"
 msgid "Selected userlists (all, if empty)"
 msgstr "Odabrani korisnički popisi (svi, ako je prazno)"
+
+msgctxt "#30810"
+msgid "Rename moved files to Kodi naming (Title (Year), Show S01E01)"
+msgstr "Preimenuj premještene datoteke po Kodi nazivlju (Naslov (Godina), Serija S01E01)"

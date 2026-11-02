@@ -2658,3 +2658,7 @@ msgstr "Selecionar listas de usuário para sincronizar"
 msgctxt "#30809"
 msgid "Selected userlists (all, if empty)"
 msgstr "Listas de usuário selecionadas (todas, se vazio)"
+
+msgctxt "#30810"
+msgid "Rename moved files to Kodi naming (Title (Year), Show S01E01)"
+msgstr "Renomear arquivos movidos no padrão do Kodi (Título (Ano), Série S01E01)"

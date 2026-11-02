@@ -2662,3 +2662,7 @@ msgstr "Επιλογή λιστών χρήστη για συγχρονισμό"
 msgctxt "#30809"
 msgid "Selected userlists (all, if empty)"
 msgstr "Επιλεγμένες λίστες χρήστη (όλες, αν είναι κενό)"
+
+msgctxt "#30810"
+msgid "Rename moved files to Kodi naming (Title (Year), Show S01E01)"
+msgstr "Μετονομασία μετακινημένων αρχείων κατά Kodi (Τίτλος (Έτος), Σειρά S01E01)"

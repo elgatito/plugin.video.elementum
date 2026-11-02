@@ -2662,3 +2662,7 @@ msgstr "Välj användarlistor att synkronisera"
 msgctxt "#30809"
 msgid "Selected userlists (all, if empty)"
 msgstr "Valda användarlistor (alla, om tomt)"
+
+msgctxt "#30810"
+msgid "Rename moved files to Kodi naming (Title (Year), Show S01E01)"
+msgstr "Byt namn på flyttade filer enligt Kodi (Titel (År), Serie S01E01)"

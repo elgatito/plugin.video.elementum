@@ -2660,3 +2660,7 @@ msgstr "Szinkronizálandó felhasználói listák kiválasztása"
 msgctxt "#30809"
 msgid "Selected userlists (all, if empty)"
 msgstr "Kiválasztott felhasználói listák (mind, ha üres)"
+
+msgctxt "#30810"
+msgid "Rename moved files to Kodi naming (Title (Year), Show S01E01)"
+msgstr "Áthelyezett fájlok átnevezése Kodi szerint (Cím (Év), Sorozat S01E01)"

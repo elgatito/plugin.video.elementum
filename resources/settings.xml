@@ -64,6 +64,7 @@
         <setting id="completed_move" type="bool" label="30301" default="false" />
           <setting id="completed_movies_path" type="folder" label="30214" source="auto" option="writeable" subsetting="true" enable="eq(-1,true)" />
           <setting id="completed_shows_path" type="folder" label="30215" source="auto" option="writeable" subsetting="true" enable="eq(-2,true)" />
+          <setting id="completed_rename" type="bool" label="30810" default="false" subsetting="true" enable="eq(-3,true)" />
           <setting id="completed_help" label="30302" type="text" enable="false" subsetting="true" />
         <setting id="silent_stream_start" type="bool" label="30359" default="false" />
 

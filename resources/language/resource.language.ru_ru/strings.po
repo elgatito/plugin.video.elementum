@@ -2659,3 +2659,7 @@ msgstr "Выбрать списки пользователя для синхро
 msgctxt "#30809"
 msgid "Selected userlists (all, if empty)"
 msgstr "Выбранные списки пользователя (все, если пусто)"
+
+msgctxt "#30810"
+msgid "Rename moved files to Kodi naming (Title (Year), Show S01E01)"
+msgstr "Переименовывать перемещённые файлы для Kodi (Название (Год), Сериал S01E01)"

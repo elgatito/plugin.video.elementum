@@ -2658,3 +2658,7 @@ msgstr "Valitse synkronoitavat käyttäjälistat"
 msgctxt "#30809"
 msgid "Selected userlists (all, if empty)"
 msgstr "Valitut käyttäjälistat (kaikki, jos tyhjä)"
+
+msgctxt "#30810"
+msgid "Rename moved files to Kodi naming (Title (Year), Show S01E01)"
+msgstr "Nimeä siirretyt tiedostot Kodin tapaan (Nimi (Vuosi), Sarja S01E01)"
