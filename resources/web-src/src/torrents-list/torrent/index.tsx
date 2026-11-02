@@ -23,6 +23,8 @@ interface ITorrentListItemProps {
 
 // Decimals are noise for big speeds and make the value wrap.
 const formatRate = (rate: number): string => rate.toFixed(rate >= 100 ? 0 : 2);
+// Time ratio explodes when download time is tiny (e.g. torrent restored already complete).
+const formatRatio = (ratio: number): string => (ratio > 1000 ? '> 1000' : ratio.toFixed(2));
 
 const TorrentListItem = ({ torrent, isSelected, onSetActiveTorrents }: ITorrentListItemProps): JSX.Element => {
   const isActive = torrent.status_code !== StatusCode.StatusFinished && torrent.status_code !== StatusCode.StatusPaused;
@@ -76,8 +78,8 @@ const TorrentListItem = ({ torrent, isSelected, onSetActiveTorrents }: ITorrentL
         </Table.Cell>
         <Table.Cell>
           <StatisticGroup size="mini" widths="2">
-            <Statistic value={torrent.ratio.toFixed(2)} label={t('seedRatio')} />
-            <Statistic value={`${torrent.time_ratio.toFixed(2)}`} label={t('timeRatio')} />
+            <Statistic value={formatRatio(torrent.ratio)} label={t('seedRatio')} />
+            <Statistic value={formatRatio(torrent.time_ratio)} label={t('timeRatio')} />
           </StatisticGroup>
         </Table.Cell>
         <Table.Cell>
