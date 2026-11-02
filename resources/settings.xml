@@ -338,8 +338,8 @@
         <setting label="30041" type="lsep" />
         <setting id="sorting_mode_movies" label="30042" type="enum" lvalues="30044|30045|30046|30375" default="2" />
         <setting id="sorting_mode_shows" label="30043" type="enum" lvalues="30044|30045|30046|30375" default="2" />
-        <setting id="resolution_preference_movies" label="30047" type="enum" values="1080p / 720p / 480p|720p / 1080p / 480p|720p / 480p / 1080p|480p / 720p / 1080p" />
-        <setting id="resolution_preference_shows" label="30048" type="enum" values="1080p / 720p / 480p|720p / 1080p / 480p|720p / 480p / 1080p|480p / 720p / 1080p" />
+        <setting id="resolution_preference_movies" label="30047" type="enum" values="4K / 1080p / 720p / 480p|720p / 1080p / 480p / 4K|720p / 480p / 1080p / 4K|480p / 720p / 1080p / 4K" />
+        <setting id="resolution_preference_shows" label="30048" type="enum" values="4K / 1080p / 720p / 480p|720p / 1080p / 480p / 4K|720p / 480p / 1080p / 4K|480p / 720p / 1080p / 4K" />
         <setting id="percentage_additional_seeders" label="30049" type="number" default="25" />
 
         <!-- Caching -->
