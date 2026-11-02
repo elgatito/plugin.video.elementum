@@ -2646,3 +2646,7 @@ msgstr "În locul autorizării se poate folosi o cheie API din preferințele mdb
 msgctxt "#30805"
 msgid "Simkl and MDBList are synchronized at most every 15 minutes."
 msgstr "Simkl și MDBList se sincronizează cel mult o dată la 15 minute."
+
+msgctxt "#30806"
+msgid "This feature needs a paid %s account"
+msgstr "Această funcție necesită un cont %s plătit"

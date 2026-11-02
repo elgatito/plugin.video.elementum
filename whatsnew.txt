@@ -7,7 +7,8 @@
     - Source is open, so you can fork everything and contribute back.
 
 [B][COLOR red]0.1.116[/COLOR][/B]
-    - Added Simkl and MDBList as tracking services besides Trakt. Choose one in the new "Tracking" settings and authorize it (MDBList also accepts a personal API key): watchlist, watched history, playback progress, scrobbling and lists sync with it like with Trakt (collection is available on Trakt and MDBList only).
+    - Added Simkl and MDBList as tracking services besides Trakt. Choose one in the new "Tracking" settings and authorize it (MDBList also accepts a personal API key): watchlist, watched history, playback progress, scrobbling and lists sync with it like with Trakt (collection is available on Trakt and MDBList only, Simkl lists need a Simkl PRO or VIP account).
+    - "My Progress" in TV Shows (shows you are watching, with the next episode to watch) now works with Simkl and MDBList too.
     - "Tracking" settings show only the options the selected service supports, and settings that work with any service no longer mention Trakt.
     - Added "Storage statistics" action in Advanced settings to see total, used and free space of the download drive, and how much of it is taken by Elementum downloads and by leftover files.
     - Menus got their own icons for every entry (status, history, calendars, lists, watchlist, library and others) instead of reusing the same icon for different things.

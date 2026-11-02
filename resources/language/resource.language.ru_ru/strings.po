@@ -2643,3 +2643,7 @@ msgstr "Вместо авторизации можно использовать 
 msgctxt "#30805"
 msgid "Simkl and MDBList are synchronized at most every 15 minutes."
 msgstr "Simkl и MDBList синхронизируются не чаще одного раза в 15 минут."
+
+msgctxt "#30806"
+msgid "This feature needs a paid %s account"
+msgstr "Для этой функции нужен платный аккаунт %s"

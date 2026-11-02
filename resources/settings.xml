@@ -302,14 +302,14 @@
 
         <!-- Progress and calendars are Trakt views -->
         <setting label="30424" type="lsep" />
-        <setting id="trakt_progress_sort" type="enum" label="30429" lvalues="30430|30431|30432|30433" default="0" visible="eq(-62,1)" />
-        <setting id="trakt_progress_hide_unaired" type="bool" label="30428" default="true" visible="eq(-63,1)" />
-        <setting id="trakt_use_lowest_release_date" type="bool" label="30699" default="true" visible="eq(-64,1)" />
-        <setting id="trakt_progress_color_date" label="30425" type="text" default="yellow" visible="eq(-65,1)" />
-        <setting id="trakt_progress_color_show" label="30426" type="text" default="none" visible="eq(-66,1)" />
-        <setting id="trakt_progress_color_episode" label="30427" type="text" default="skyblue" visible="eq(-67,1)" />
-        <setting id="trakt_progress_color_unaired" label="30440" type="text" default="deeppink" visible="eq(-68,1)" />
-        <setting id="trakt_progress_date_format" label="30434" type="text" default="yyyy-mm-dd" visible="eq(-69,1)" />
+        <setting id="trakt_progress_sort" type="enum" label="30429" lvalues="30430|30431|30432|30433" default="0" visible="!eq(-62,0)" />
+        <setting id="trakt_progress_hide_unaired" type="bool" label="30428" default="true" visible="!eq(-63,0)" />
+        <setting id="trakt_use_lowest_release_date" type="bool" label="30699" default="true" visible="!eq(-64,0)" />
+        <setting id="trakt_progress_color_date" label="30425" type="text" default="yellow" visible="!eq(-65,0)" />
+        <setting id="trakt_progress_color_show" label="30426" type="text" default="none" visible="!eq(-66,0)" />
+        <setting id="trakt_progress_color_episode" label="30427" type="text" default="skyblue" visible="!eq(-67,0)" />
+        <setting id="trakt_progress_color_unaired" label="30440" type="text" default="deeppink" visible="!eq(-68,0)" />
+        <setting id="trakt_progress_date_format" label="30434" type="text" default="yyyy-mm-dd" visible="!eq(-69,0)" />
 
         <setting label="30290" type="lsep" />
         <setting id="trakt_calendars_hide_watched" type="bool" label="30691" default="false" visible="eq(-71,1)" />

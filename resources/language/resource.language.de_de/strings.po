@@ -2646,3 +2646,7 @@ msgstr "Statt der Autorisierung kann ein API-Schlüssel aus den Einstellungen au
 msgctxt "#30805"
 msgid "Simkl and MDBList are synchronized at most every 15 minutes."
 msgstr "Simkl und MDBList werden höchstens alle 15 Minuten synchronisiert."
+
+msgctxt "#30806"
+msgid "This feature needs a paid %s account"
+msgstr "Diese Funktion erfordert ein kostenpflichtiges %s-Konto"

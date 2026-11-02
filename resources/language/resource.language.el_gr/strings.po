@@ -2646,3 +2646,7 @@ msgstr "Αντί για εξουσιοδότηση μπορεί να χρησι�
 msgctxt "#30805"
 msgid "Simkl and MDBList are synchronized at most every 15 minutes."
 msgstr "Το Simkl και το MDBList συγχρονίζονται το πολύ κάθε 15 λεπτά."
+
+msgctxt "#30806"
+msgid "This feature needs a paid %s account"
+msgstr "Αυτή η λειτουργία απαιτεί συνδρομητικό λογαριασμό %s"

@@ -2642,3 +2642,7 @@ msgstr "Valtuutuksen sijaan voi käyttää API-avainta mdblist.comin asetuksista
 msgctxt "#30805"
 msgid "Simkl and MDBList are synchronized at most every 15 minutes."
 msgstr "Simkl ja MDBList synkronoidaan enintään 15 minuutin välein."
+
+msgctxt "#30806"
+msgid "This feature needs a paid %s account"
+msgstr "Tämä toiminto vaatii maksullisen %s-tilin"

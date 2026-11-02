@@ -2647,3 +2647,7 @@ msgstr "במקום אישור אפשר להשתמש במפתח API מההעדפ�
 msgctxt "#30805"
 msgid "Simkl and MDBList are synchronized at most every 15 minutes."
 msgstr "Simkl ו-MDBList מסונכרנים לכל היותר פעם ב-15 דקות."
+
+msgctxt "#30806"
+msgid "This feature needs a paid %s account"
+msgstr "תכונה זו דורשת חשבון %s בתשלום"

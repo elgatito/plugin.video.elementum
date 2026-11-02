@@ -2642,3 +2642,7 @@ msgstr "Uma chave de API das preferências do mdblist.com pode ser usada em vez 
 msgctxt "#30805"
 msgid "Simkl and MDBList are synchronized at most every 15 minutes."
 msgstr "Simkl e MDBList são sincronizados no máximo a cada 15 minutos."
+
+msgctxt "#30806"
+msgid "This feature needs a paid %s account"
+msgstr "Este recurso requer uma conta paga do %s"

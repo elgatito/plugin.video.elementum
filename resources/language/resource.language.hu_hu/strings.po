@@ -2644,3 +2644,7 @@ msgstr "Az engedélyezés helyett az mdblist.com beállításaiban található A
 msgctxt "#30805"
 msgid "Simkl and MDBList are synchronized at most every 15 minutes."
 msgstr "A Simkl és az MDBList legfeljebb 15 percenként szinkronizál."
+
+msgctxt "#30806"
+msgid "This feature needs a paid %s account"
+msgstr "Ehhez a funkcióhoz fizetős %s-fiók szükséges"

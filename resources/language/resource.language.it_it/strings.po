@@ -2643,3 +2643,7 @@ msgstr "Al posto dell'autorizzazione si può usare una chiave API dalle preferen
 msgctxt "#30805"
 msgid "Simkl and MDBList are synchronized at most every 15 minutes."
 msgstr "Simkl e MDBList vengono sincronizzati al massimo ogni 15 minuti."
+
+msgctxt "#30806"
+msgid "This feature needs a paid %s account"
+msgstr "Questa funzione richiede un account %s a pagamento"

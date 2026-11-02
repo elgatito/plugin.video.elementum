@@ -2660,3 +2660,7 @@ msgstr "Umjesto ovjere može se koristiti API ključ iz postavki na mdblist.com.
 msgctxt "#30805"
 msgid "Simkl and MDBList are synchronized at most every 15 minutes."
 msgstr "Simkl i MDBList usklađuju se najviše svakih 15 minuta."
+
+msgctxt "#30806"
+msgid "This feature needs a paid %s account"
+msgstr "Ova značajka zahtijeva plaćeni %s račun"
