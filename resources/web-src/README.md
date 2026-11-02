@@ -13,4 +13,4 @@ To add a text, add it to `messages.pot` and every `strings.po` with a new ID, th
 The build embeds only these IDs, and fails if one is missing in English `strings.po`.
 
 The build output in `resources/web/` is committed, because the add-on ships it as is.
-Always run `npm run build` and commit `resources/web/` together with source changes: CI rebuilds it and fails if it differs.
+Always run `make web` from the add-on root (or `npm run build` here) and commit `resources/web/` together with source changes: CI rebuilds it and fails if it differs.

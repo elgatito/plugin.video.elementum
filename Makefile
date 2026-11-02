@@ -29,7 +29,34 @@ JOBS ?= 4
 
 all: clean zip
 
-.PHONY: $(ARCHS)
+.PHONY: $(ARCHS) help web
+
+help:
+	@echo "Usage: make [target] [VAR=value ...]"
+	@echo
+	@echo "Packaging (version $(VERSION) from addon.xml):"
+	@echo "  all                  Clean, then build the all-platforms zip (default)"
+	@echo "  zip                  Build $(NAME)-<version>.zip with all binaries"
+	@echo "  <arch>               Build $(NAME)-<version>.<arch>.zip for one arch"
+	@echo "  zipfiles             Build per-arch zips in parallel (JOBS=$(JOBS))"
+	@echo
+	@echo "Release:"
+	@echo "  upload               Create GitHub release v<version> and upload all zips (needs github-release)"
+	@echo
+	@echo "Development:"
+	@echo "  deps                 Download platform_detect into resources/site-packages"
+	@echo "  locales              Regenerate and merge translation files"
+	@echo "  web                  Install deps, lint and build Web UI into resources/web (commit the result)"
+	@echo
+	@echo "Cleanup:"
+	@echo "  clean                Remove all zips and staging dirs"
+	@echo
+	@echo "Variables:"
+	@echo "  JOBS=N               Parallel per-arch zips for 'zipfiles' (default 4)"
+	@echo "  DEV=<dir>            Read resources/bin and site-packages from ./<dir>"
+	@echo
+	@echo "Archs:"
+	@printf '  %s\n' $(ARCHS)
 
 $(ARCHS):
 	$(MAKE) clean_arch ZIP_SUFFIX=$@.zip
@@ -109,6 +136,10 @@ deps:
 	cp -rf platform_detect-master/libraries `pwd`/$(DEV)/resources/site-packages/platform_detect/ && \
 	rm -rf platform_detect-master && \
 	rm master.zip
+
+# Same steps as CI's Web UI job
+web:
+	cd resources/web-src && npm ci && npm run lint && npm run build
 
 locales:
 	scripts/xgettext_merge.sh

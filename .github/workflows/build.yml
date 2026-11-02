@@ -69,7 +69,7 @@ jobs:
                   changes=$(git status --porcelain -- ../web)
                   if [ -n "$changes" ]; then
                       echo "$changes"
-                      echo "::error::resources/web is out of date with resources/web-src. Run 'npm run build' in resources/web-src and commit the result."
+                      echo "::error::resources/web is out of date with resources/web-src. Run 'make web' and commit the result."
                       exit 1
                   fi
 
