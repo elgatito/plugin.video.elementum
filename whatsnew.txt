@@ -6,7 +6,7 @@
     - It is driven by community.
     - Source is open, so you can fork everything and contribute back.
 
-[B][COLOR red]0.1.116[/COLOR][/B]
+[B][COLOR red]0.1.116[/COLOR][/B] - 2026-11-01
     - Added Simkl and MDBList as tracking services besides Trakt. Choose one in the new "Tracking" settings and authorize it (MDBList also accepts a personal API key): watchlist, watched history, playback progress, scrobbling and lists sync with it like with Trakt (collection is available on Trakt and MDBList only, Simkl lists need a Simkl PRO or VIP account).
     - "My Progress" in TV Shows (shows you are watching, with the next episode to watch) now works with Simkl and MDBList too.
     - "Tracking" settings show only the options the selected service supports, and settings that work with any service no longer mention Trakt.
@@ -19,7 +19,7 @@
     - Fixed library being treated as read-only (no library files written) on Kodi without video sources, e.g. Android with content set directly on detected drives.
     - Fixed playing the next episode through Up Next from torrents history sometimes failing, because the torrent file was deleted when the previous playback ended.
 
-[B][COLOR red]0.1.115[/COLOR][/B]
+[B][COLOR red]0.1.115[/COLOR][/B] - 2026-11-01
     - Added native support for macOS on Apple Silicon (darwin_arm64).
     - Web UI: added translations (follows Kodi language), selection of Kodi to play on when several Kodi instances are connected, improved search with provider icons and download/play actions.
     - Added automatic conversion of Windows paths to WSL paths when Elementum runs under WSL with Windows Kodi (download, library, torrents and other paths).
@@ -53,14 +53,14 @@
     - Added doresume=never play parameter to skip the resume dialog, for external addons.
     - Completed translations for 20 languages, fixed Spanish "earliest release date" strings. (Thanks to @andresiko)
 
-[B][COLOR red]0.1.114[/COLOR][/B]
+[B][COLOR red]0.1.114[/COLOR][/B] - 2026-07-19
     - Fixed issues with Trakt endpoints, caused by new API requirements (Thanks to @MichaelAndoid, @llima27)
     - Changed DNS-over-HTTP implementation to allow custom server configuration through settings (Thanks to @antonsoroko)
     - Added dynamic OpenNIC server fetch (Thanks to @antonsoroko)
     - Fixed Elementum binary permissions after sleep on Android 14 (Thanks to @OzanOzkan)
     - Fixed Restart endpoint functionality when authentication is enabled (Thanks to @antonsoroko)
 
-[B][COLOR red]0.1.113[/COLOR][/B]
+[B][COLOR red]0.1.113[/COLOR][/B] - 2026-03-07
     - Fixed issue with running Web GUI when running in server mode. (Thanks to @antonsoroko)
     - Updates for Trakt API to be compliant with latest Trakt changes. (Thanks to @antonsoroko)
     - Fixed the issue of handling episodes with empty AirDate. (Thanks to @antonsoroko)
@@ -68,7 +68,7 @@
     - Fixed context actions for Elementum that runs with authentication. (Thanks to @antonsoroko)
     - Changed selection of listen interface and handling of changed ports.
 
-[B][COLOR red]0.1.112[/COLOR][/B]
+[B][COLOR red]0.1.112[/COLOR][/B] - 2025-09-14
     - Fix logic about episode's "absolute number" (fixes search issue when 1st season is smaller than 2nd season).
     - Better support for determine NAT-PMP ports.
     - Add Antizapret proxy. (Thanks to @antonsoroko)
@@ -77,7 +77,7 @@
     - Fix issue when Kodi's global proxy was enabled. (Thanks to @lomax)
     - Update Swedish translation. (Thanks to @nonew-star)
 
-[B][COLOR red]0.1.110-0.1.111[/COLOR][/B]
+[B][COLOR red]0.1.110-0.1.111[/COLOR][/B] - 2025-04-04
     - Added year to torrent results header line.
     - Fix panic when user removes currently active torrent with memory storage.
     - Changed default number of results on the page.
@@ -90,7 +90,7 @@
     - Added CLI arguments to configure library path substitutions (helpful when having cross-OS library or running in container)
     - Fixed issue with stopping download after next file was not played and requestor becomes unavailable.
 
-[B][COLOR red]0.1.107-0.1.109[/COLOR][/B]
+[B][COLOR red]0.1.107-0.1.109[/COLOR][/B] - 2025-02-26
     - Added support for using interface names for listen/outgoing interfaces configuration.
     - Added support for NATPMP port mapping provided by Elementum outside of Libtorrent. It allows getting port forwarding from interface gateway. (Would natively work with ProtonVPN for example).
     - Changes to Trakt token refresh to comply with latest changes on the Trakt API. (Thanks to @antonsoroko)
@@ -100,7 +100,7 @@
     - Update Spanish (es_ES), Swedish, Greek translations. (Thanks to @roliverosc, @nonew-star, @pitsi)
     - Multiple fixes to reported issues. (Thanks to @antonsoroko)
 
-[B][COLOR red]0.1.104-0.1.106[/COLOR][/B]
+[B][COLOR red]0.1.104-0.1.106[/COLOR][/B] - 2024-10-08
     - Sync playback progress from Kodi Library's items to Elementum's menu items. (Thanks to @burekas7, @antonsoroko)
     - Fix startup issue in Flatpak version of Kodi in Linux. (Thanks to @simpledork47, @antonsoroko)
     - Add "Open Show" to context menu for progress and calendar views.
@@ -114,12 +114,12 @@
     - Added support for moving downloaded movies into named subfolders (like we do for TV Shows).
     - Attempt to fix startup of elementum on Android.
 
-[B][COLOR red]0.1.103[/COLOR][/B]
+[B][COLOR red]0.1.103[/COLOR][/B] - 2024-05-10
     - Python 3.12 compatibility
     - Internal DNS rewritten, can be used to unblock TMDB in some CIS countries
     - Added backup TMDB API endpoint to unblock TMDB in India
 
-[B][COLOR red]0.1.100-0.1.102[/COLOR][/B]
+[B][COLOR red]0.1.100-0.1.102[/COLOR][/B] - 2024-04-24
     - Many changes around caching and parsing speed to make browsing faster.
     - Changed default 'gold' color to 'bold' to show properly on light backgrounds. (Thanks to @vasilky3)
     - Removed auto-scrape functionality to avoid bombing websites with search queries.
@@ -131,7 +131,7 @@
     - Replaced Opensubtitles.org with Opensubtitles.com API.
     - Thanks to @antonsoroko, @vasilky3, @matke-84, @GladistonXD and other people (sorry for not mentioning you, ping me to fix this) who took part in reporting issues, testing, development!
 
-[B][COLOR red]0.1.99[/COLOR][/B]
+[B][COLOR red]0.1.99[/COLOR][/B] - 2023-12-29
     - Fixed libtorrent peer fingerprints.
     - Fixed issue with auto-selecting wrong episode file from season torrent.
     - Extended `season` payload going to search addons.
@@ -143,35 +143,35 @@
     - Fixed issue with syncing Trakt lists when syncs are disabled.
     - Thanks to @antonsoroko, @vasilky3, @burekas7
 
-[B][COLOR red]0.1.98[/COLOR][/B]
+[B][COLOR red]0.1.98[/COLOR][/B] - 2023-09-22
     - Newer Go version is used.
     - Fixed issue with adding multi-file torrent from Web.
     - Fixed issue with leaving torrents in libtorrent that are not resolved.
 
-[B][COLOR red]0.1.97[/COLOR][/B]
+[B][COLOR red]0.1.97[/COLOR][/B] - 2023-08-29
     - Reverted detection of memory on running device (new method was not correctly getting memory size on arm devices).
     - Added a check for network locations when deciding where to write strm files (to skip network locations).
     - Added linux-armv7-softfp platform (e.g. for LG WebOS), that is a Armv7 build, without hardfp enabled.
 
-[B][COLOR red]0.1.96[/COLOR][/B]
+[B][COLOR red]0.1.96[/COLOR][/B] - 2023-08-02
     - Fixed issue with running on Android platforms.
     - Added 'In Elementum library' lists, that show items, that are updated by Elementum.
     - Added option to clear movies/shows database from Elementum settings.
     - Updated list sortings to make sure 'Next page' link is always on the bottom and adding more sorting options.
 
-[B][COLOR red]0.1.95[/COLOR][/B]
+[B][COLOR red]0.1.95[/COLOR][/B] - 2023-07-28
     - Recommendation lists now return more entries.
     - Trakt Lists now show all entries without pagination.
     - Many changes to rendering to speed-up everything.
     - /debug/bundle endpoint now can get kodi.log from Python part of addon, to publish logs when Kodi is running on remote host.
 
-[B][COLOR red]0.1.93-0.1.94[/COLOR][/B]
+[B][COLOR red]0.1.93-0.1.94[/COLOR][/B] - 2023-07-21
     - Replaced internally managed "repository.elementum" with a standalone "repository.elementumorg" that can download addons even if Elementum is not working.
     - Added Trakt removal sync (with settings in Trakt section), that will remove items from Kodi library, when it is removed from Trakt list.
     - Added custom action to Kodi library settings section, that will search for library duplicates and remove all duplicate items.
     - Small fixes to existing functionality.
 
-[B][COLOR red]0.1.88-0.1.92[/COLOR][/B]
+[B][COLOR red]0.1.88-0.1.92[/COLOR][/B] - 2023-07-10
     - Initial support for connecting more than one plugin.video.elementum to a binary.
     - Added support for exporting current configuration to a json/yaml file.
     - Added support for reading configuration form json/yaml file (Kodi is not needed to startup).
@@ -183,31 +183,31 @@
     - Fixed missing /debug handlers.
     - Added option to force starting as a shared library.
 
-[B][COLOR red]0.1.87[/COLOR][/B]
+[B][COLOR red]0.1.87[/COLOR][/B] - 2023-01-13
     - Added basic support for running application as a shared library, that can be used on latest Android devices and Xbox devices (that do not allow to fork application).
     - Fixed repository.elementum xml declaration to run properly on Kodi 20.
     - Added `logPath`, `profilePath`, `libraryPath`, `torrentsPath` CLI arguments to override values from Kodi.
     - Added database compression functionality (should compact .db files once in a week).
     - Different fixes from @nonew-star, @burekas7, @matke-84, @vanadium23.
 
-[B][COLOR red]0.1.84-0.1.86[/COLOR][/B]
+[B][COLOR red]0.1.84-0.1.86[/COLOR][/B] - 2022-01-11
     - Added support for downloading missing binary file directly from github.
     - Added setting for configuring OpenNIC DNS servers list.
     - Different fixes from @1Joy1, @burekas7, @antonsoroko, @NicolasThierion.
 
-[B][COLOR red]0.1.83[/COLOR][/B]
+[B][COLOR red]0.1.83[/COLOR][/B] - 2021-07-16
     - Small adjustments to Trakt Watched sync to reset resume state for already watched items.
     - Changed Seek monitoring for player startup.
     - Added setting to delay addon launch on Kodi startup.
 
-[B][COLOR red]0.1.79-82[/COLOR][/B]
+[B][COLOR red]0.1.79-82[/COLOR][/B] - 2021-07-06
     - Added service.lt2http to repository.elementum.
     - Changed Trakt watched management from context menu. (thanks to @antonsoroko)
     - More changes to Web UI. (thanks to @Dim0N22)
     - Added more information for skins. (thanks to @antonsoroko)
     - Added manage artwork functionality. (thanks to @antonsoroko)
 
-[B][COLOR red]0.1.78[/COLOR][/B]
+[B][COLOR red]0.1.78[/COLOR][/B] - 2021-05-31
     - Fixed storing file/memory storage for torrents, downloaded from context plugin.
     - Fixed seed forever option handling. (thanks to @antonsoroko)
     - More changes to Web UI. (thanks to @Dim0N22)
@@ -215,7 +215,7 @@
     - Added support for Trakt Hidden items (thanks to @antonsoroko)
     - Fixed removal of Movies/Shows from Kodi library.
 
-[B][COLOR red]0.1.77[/COLOR][/B]
+[B][COLOR red]0.1.77[/COLOR][/B] - 2021-05-18
     - All the kudos for go to @antonsoroko and @Dim0N22 for their commitments.
     - New Web UI (hosted at :65220/web)!
     - Fixed hang issue when shutting down Kodi.
@@ -224,44 +224,44 @@
     - New functionality to assign custom torrent for specific items (triggered by context.elementum plugin).
     - Small fixes.
 
-[B][COLOR red]0.1.76[/COLOR][/B]
+[B][COLOR red]0.1.76[/COLOR][/B] - 2021-04-03
     - Fixed creation of repository.elementum.
     - Changes to information constructors for movie/show/episode.
 
-[B][COLOR red]0.1.75[/COLOR][/B]
+[B][COLOR red]0.1.75[/COLOR][/B] - 2021-04-02
     - Small bug fixes (thanks to @antonsoroko).
     - Reverting to previous version of Swig, trying to avoid antivirus treat as a trojan. 
 
-[B][COLOR red]0.1.72-74[/COLOR][/B]
+[B][COLOR red]0.1.72-74[/COLOR][/B] - 2021-03-24
     - Small fixes to existing code (thanks to @antonsoroko).
     - Added logging of Kodi address, that sends requests, to send responses to that Kodi. (Should pop dialogs on proper Kodi)
 
-[B][COLOR red]0.1.70-71[/COLOR][/B]
+[B][COLOR red]0.1.70-71[/COLOR][/B] - 2021-03-12
     - Fixed issue with crashing due to empty lists in Trakt. (thanks to @antonsoroko).
     - Added option to select which files should be queued for download (File storage only).
 
-[B][COLOR red]0.1.69[/COLOR][/B]
+[B][COLOR red]0.1.69[/COLOR][/B] - 2021-02-16
     - Adjusted matchers for filename.
     - Modified season images selector for FanArt.
     - Modified Resume playback logic to ask when we think Kodi has already asked and got no response.
     - Changed the way to add additional trackers to add them to each torrent after addition.
     - Changed Trakt authorization methods.
 
-[B][COLOR red]0.1.68[/COLOR][/B]
+[B][COLOR red]0.1.68[/COLOR][/B] - 2021-02-07
     - Added 'Trakt', 'TMDB' labels to Movies/Shows index lists to distinguish sources of data.
     - Returned asking for play resume, when we think Kodi was asking (because Kodi does not ask resume for strm files).
     - Changed seeds/peers fields source to show more general numbers.
     - Fixed issue with finding next episode items (when season was not mentioned in file name).
     - Added Anime:boolean value to search payload.
 
-[B][COLOR red]0.1.67[/COLOR][/B]
+[B][COLOR red]0.1.67[/COLOR][/B] - 2021-02-02
     - Added storing fetched metadata for magnets. 
     - Added concatenation of torrents into one entry.
     - Added getting popular public trackers from internet and adding them to each added torrent.
     - Modified libtorrent usage to lower requesting information from it.
     - Reorganized Resume playback to properly treat Kodi's response to resume from position.
 
-[B][COLOR red]0.1.65-66[/COLOR][/B]
+[B][COLOR red]0.1.65-66[/COLOR][/B] - 2021-01-15
     - Added handling of Kodi region for proper certification detection.
     - Changed permissions management for lockfile on Windows to use ACL.
     - Added languages for images requests on TMDB.
@@ -272,7 +272,7 @@
     - Fixes for fanart selection for seasons.
     - Fixed for Kodi 16 ListItem construction.
 
-[B][COLOR red]0.1.63-64[/COLOR][/B]
+[B][COLOR red]0.1.63-64[/COLOR][/B] - 2020-12-23
     - Added initial integration with UpNext addon to notify about next episode/file.
     - Reorganized Arts collection from Fanart.tv, to make it faster and properly selected.
     - Added photos for Cast members.
@@ -291,7 +291,7 @@
     - Fixed issue with showing total size of torrent on /web page, instead of selected files size.
     - Added fallback checkers for names/overviews for Movie/Show/Season/Episode (If selected language not available, fallback to english, then to original language to avoid empty values).
 
-[B][COLOR red]0.1.60-62[/COLOR][/B]
+[B][COLOR red]0.1.60-62[/COLOR][/B] - 2020-11-16
     - Please, visit https://github.com/elgatito/plugin.video.elementum/issues/636 for information about Trakt in Elementum.
     - Added a check for Locked Trakt account, will show once a day, see the link above.
     - Removed custom Trakt ClientID settings, see the link above.
@@ -299,17 +299,17 @@
     - New Trakt ClientID added (re-activation needed!), more changes to Watched Sync.
     - Kodi 19 fixes. Thanks to @vlmaksime.
 
-[B][COLOR red]0.1.59[/COLOR][/B]
+[B][COLOR red]0.1.59[/COLOR][/B] - 2020-10-27
     - Updated Python3 compatibility for Kodi19. Thanks to @vlmaksime.
     - Changed default Trakt client id.
     - Different critical fixes.
     - Updated dependencies versions.
 
-[B][COLOR red]0.1.57-0.1.58[/COLOR][/B]
+[B][COLOR red]0.1.57-0.1.58[/COLOR][/B] - 2020-06-03
     - Added functionality to allow using both memory and file storages. Running 'Download' from context menu will download with file storage.
     - Fixed cleaning torrent history from Elementum settings.
 
-[B][COLOR red]0.1.56[/COLOR][/B]
+[B][COLOR red]0.1.56[/COLOR][/B] - 2020-05-30
     - Some changes to allow running on Kodi 16 with old python and Kodi 19 with Python 3.
     - Changed logic to start playback even if there is a busy window (can cause Kodi restarts, please report if found!).
     - Added context item in torrents list to select which file to download.
@@ -319,7 +319,7 @@
     - Refactored work with files, priorities, showing proper progress.
     - Enabled tuned storage for non-memory storage by default.
 
-[B][COLOR red]0.1.53-0.1.55[/COLOR][/B]
+[B][COLOR red]0.1.53-0.1.55[/COLOR][/B] - 2020-05-23
     - Fixed issue with dropping connections when resuming torrent.
     - Fixed issue with cleaning search history.
     - Updated to new version of libtorrent-go, which uses Golang exception handling.
@@ -329,7 +329,7 @@
     - Added option to automatically start next file playback (without asking).
     - Added option to manually define which binary file to use (platform selection).
 
-[B][COLOR red]0.1.52[/COLOR][/B]
+[B][COLOR red]0.1.52[/COLOR][/B] - 2020-05-14
     - Added context menu item for cleaning up search queries.
     - Increased TMDB rate limits to allow more queries.
     - Added option for using earliest available year for searching. Added years per country for searching through providers.
@@ -339,7 +339,7 @@
     - Modified episode matching regex.
     - Added oindex parameter to /play to start with specific file index.
 
-[B][COLOR red]0.1.51[/COLOR][/B]
+[B][COLOR red]0.1.51[/COLOR][/B] - 2020-04-22
     - Reorganized Elementum settings to make easier to understand them.
     - Added option to totally disable Trakt/Kodi synchronization.
     - Added option to disable Trakt/Kodi sync when Kodi is playing anything.
@@ -347,34 +347,34 @@
     - Added option to seed forever (will not stop seeding until manually selected).
     - Fixed issue with selecting file for playback in active torrent.
 
-[B][COLOR red]0.1.50[/COLOR][/B]
+[B][COLOR red]0.1.50[/COLOR][/B] - 2020-03-15
     - Modified libtorrent settings.
     - Fixes for background downloads and buffer window.
 
-[B][COLOR red]0.1.49[/COLOR][/B]
+[B][COLOR red]0.1.49[/COLOR][/B] - 2020-03-12
     - Added handling of background downloads (needs context.elementum version at least 0.0.3).
     - Added setting to disable Kodi library integration.
     - Added setting to disable welcome greeting.
     - Fixes for file storage and starting playback from torrents list.
 
-[B][COLOR red]0.1.48[/COLOR][/B]
+[B][COLOR red]0.1.48[/COLOR][/B] - 2020-03-10
     - Fixed issues with removing items from torrent history.
     - Added github.io handling to repository.
     - Fixed saving history for search items.
 
-[B][COLOR red]0.1.45-0.1.47[/COLOR][/B]
+[B][COLOR red]0.1.45-0.1.47[/COLOR][/B] - 2020-01-12
     - Changed Trakt API keys per addon. Users need to re-authorize!
     - Added option to cleanup Trakt history (to leave only the latest info about watch date). It will hugely decrease Trakt load, so it highly recommended to enable!
     - Modified next episode launcher.
     - Small changes to avoid segmentation faults.
     - Python scripts modified to support Kodi 19.
 
-[B][COLOR red]0.1.44[/COLOR][/B]
+[B][COLOR red]0.1.44[/COLOR][/B] - 2019-12-29
     - Fixed CloudFlare bypass module to bypass latest CloudFlare defense.
     - Fixed issue with removing shows from the Kodi library.
     - Added Settings links for Elementum and searchers to the main menu.
 
-[B][COLOR red]0.1.42-0.1.43[/COLOR][/B]
+[B][COLOR red]0.1.42-0.1.43[/COLOR][/B] - 2019-12-25
     - Fixed segfault issue on Linux builds, caused by static linkage. 0.1.42 release is cancelled!
     - Changed Smart episode play to start download even when playlist is empty.
     - Moved back to using libC for binary compilation, instead of Musl.
@@ -385,7 +385,7 @@
     - Added settings for customizing Trakt Client ID and Secret key.
     - Added settings for customizing end of file buffer size (default is 4mb). 
 
-[B][COLOR red]0.1.41[/COLOR][/B]
+[B][COLOR red]0.1.41[/COLOR][/B] - 2019-10-06
     - Added Auto-close settings for closing Confirm Dialogs with timeout.
     - Added functionality to select which file to play, in list of active torrents.
     - Added more Open in Kodi to Elementum settings, for different directories.
@@ -393,21 +393,21 @@
     - Fixed issue with not settings episodes as Watched in Kodi library.
     - Changed Torrents list to reverse order.
 
-[B][COLOR red]0.1.40[/COLOR][/B]
+[B][COLOR red]0.1.40[/COLOR][/B] - 2019-09-28
     - Fixed double watched items in Trakt.
     - Added setting to log proxy response body.
     - Fixed getting Resume information from Kodi.
     - Added Seek force.
     - Fixed python code for icon setting (thanks to @Nemiroff)
 
-[B][COLOR red]0.1.39[/COLOR][/B]
+[B][COLOR red]0.1.39[/COLOR][/B] - 2019-09-26
     - Fixed CloudFlare bypass functionality.
     - Fixed issue with not working continue playback.
     - Fixed double addition to Trakt history.
     - Fixed wrong dates for watched items on Trakt.
     - Enabled caching for built-in DNS client.
 
-[B][COLOR red]0.1.38[/COLOR][/B]
+[B][COLOR red]0.1.38[/COLOR][/B] - 2019-09-24
     - Totally rewritten Trakt synchronization. 
     - Removed usage of SQLite database. All torrent links and some data will be deleted. You can rollback to version 0.1.37 and earlier, database is not deleted physically.
     - Added "Open directory" option to settings, to open Library directory in Kodi (and add directory as Movie/Show source).
@@ -416,22 +416,22 @@
     - Fixed caching to properly invalidate expired items.
     - Added "All seasons" setting and seasons ordering settings (ascending/descending).
 
-[B][COLOR red]0.1.37[/COLOR][/B]
+[B][COLOR red]0.1.37[/COLOR][/B] - 2019-08-06
     - Disabled by default 'Auto-Scrape', so that people won't be banned because of massive requests.
     - Added 'interval' setting for Auto-Scrape.
     - Fixed matching episodes in Anime torrents.
 
-[B][COLOR red]0.1.36[/COLOR][/B]
+[B][COLOR red]0.1.36[/COLOR][/B] - 2019-08-04
     - Added Auto-Scrape functionality. It allows to search popular movies in the background and see which one is found on selected trackers. You can choose how to detect movie is available (for example expert to find at least 2 4K torrents, or find at least 3 torrents on each provider). Also possible to add it to the library automatically, and additional "Latest available movies" directory in Movies.
     - Added back auto-cache cleanup periodically.
     - Modified automatic file selection for Anime shows.
     - Updated torrents library.
 
-[B][COLOR red]0.1.33-35[/COLOR][/B]
+[B][COLOR red]0.1.33-35[/COLOR][/B] - 2019-06-05
     - Fixed Linux ARM platforms.
     - Removed usage of Kodi 'resume playback' parameter as it is often wrong.
 
-[B][COLOR red]0.1.32[/COLOR][/B]
+[B][COLOR red]0.1.32[/COLOR][/B] - 2019-06-02
     - [B][COLOR red]This release is removed due to broken work on Linux ARM platforms![/COLOR][/B]
     - Updated libtorrent-go docker images to use Musl+GCC9 for Linux images. Should run on any Linux OS now.
     - Modified automatic next episode starter, to avoid re-writing current episode.
@@ -447,11 +447,11 @@
     - Added option to avoid adding subtitles files when video has included subtitles. Same option for automatic subtitles download.
     - Added support for adding not only .srt subtitles. Full list: https://aboutdevice.com/kodi-load-external-subtitle-file/    
 
-[B][COLOR red]0.1.31[/COLOR][/B]
+[B][COLOR red]0.1.31[/COLOR][/B] - 2019-04-28
     - Fixed File storage pieces management.
     - Fixed Antizapret proxy.
 
-[B][COLOR red]0.1.30[/COLOR][/B]
+[B][COLOR red]0.1.30[/COLOR][/B] - 2019-04-25
     - Fixed issue with file not fully downloaded (using file storage).
     - Added movie/show title to /play links.
     - Fixed removal of files, upon torrent deletion in torrents list' context menu.
@@ -460,27 +460,27 @@
     - Fixed Croatian translation. Many thanks to @adiadi2.
     - Another approach to make platform detection safer on closed platforms.
 
-[B][COLOR red]0.1.29[/COLOR][/B]
+[B][COLOR red]0.1.29[/COLOR][/B] - 2019-04-20
     - Fixed issue with priorities setter for file storage.
     - More subtitles reorganizations.
 
-[B][COLOR red]0.1.28[/COLOR][/B]
+[B][COLOR red]0.1.28[/COLOR][/B] - 2019-04-19
     - Added option to skip IPv6 addresses with built-in DNS resolver.
     - Small fixes for subtitles selector in existing torrents.
     - Fixed payload for opensubtitles.
     - Added Torrents history section. 
     - Refactored resume playback.
 
-[B][COLOR red]0.1.27[/COLOR][/B]
+[B][COLOR red]0.1.27[/COLOR][/B] - 2019-04-15
     - More changes to piece pick strategy. Removed deadlines functionality.
 
-[B][COLOR red]0.1.26[/COLOR][/B]
+[B][COLOR red]0.1.26[/COLOR][/B] - 2019-04-14
     - Added storing resume progress for downloaded files.
     - Added "Download all" option to context menu in torrents list.
     - Make "Yes" as predefined in confirm dialogs.
     - Trying to treat piece priorities in a new way.
 
-[B][COLOR red]0.1.25[/COLOR][/B]
+[B][COLOR red]0.1.25[/COLOR][/B] - 2019-04-13
     - Added separate option for defining minimum file size for episodes (to cover small episodes).
     - More changes to deadlines management. Deadlines are not enabled by default.
     - Buffer window now not shown if buffer is not needed.
@@ -495,7 +495,7 @@
     - Added Donate link to main menu.
     - Added deadline reset for hailed-hash pieces.
 
-[B][COLOR red]0.1.24[/COLOR][/B]
+[B][COLOR red]0.1.24[/COLOR][/B] - 2019-03-26
     - Added "Liked" Trakt lists to "My Collections".
     - Added context menu to Trakt lists, that allow adding them to main menu (Movies/Shows).
     - Any list can be added to main lists. Context menu on them - to remove from main menu.
@@ -503,21 +503,21 @@
     - Fixed many memory leaks.
     - Added options 
 
-[B][COLOR red]0.1.23[/COLOR][/B]
+[B][COLOR red]0.1.23[/COLOR][/B] - 2019-03-24
     - Added "In Kodi library" sections, that show movies/shows added by Elementum in Kodi library.
     - Added option to resume playback N seconds earlier.
     - Added option to resume torrents with Paused/Resumed state.
 
-[B][COLOR red]0.1.22[/COLOR][/B]
+[B][COLOR red]0.1.22[/COLOR][/B] - 2019-03-19
     - Small changes to pieces priorities settings.
     - Fixes for resume playback management.
 
-[B][COLOR red]0.1.21[/COLOR][/B]
+[B][COLOR red]0.1.21[/COLOR][/B] - 2019-03-16
     - Reorganized libtorrent settings.
     - Added libtorrent profile settings.
     - Added magnet retracker settings.
 
-[B][COLOR red]v0.1.1-0.1.20[/COLOR][/B]
+[B][COLOR red]v0.1.1-0.1.20[/COLOR][/B] - 2019-03-10
     - Testing migration to libtorrent as a torrent library!
     - If you want to use stable version - revert to 0.0.* version by updating from repository!
     - Please report any found problems on github or gitter chat.
@@ -529,45 +529,45 @@
     - Reorganized existing torrents loading to load them in creation order.
     - Reorganized fastresume+parts files cleanup.
 
-[B][COLOR red]v0.0.71[/COLOR][/B]
+[B][COLOR red]v0.0.71[/COLOR][/B] - 2019-01-01
     - New memory storage implemented.
     - Added save ability for magnets.
     - Added Antizapret usage.
 
-[B][COLOR red]v0.0.70[/COLOR][/B]
+[B][COLOR red]v0.0.70[/COLOR][/B] - 2018-12-22
     - Fixed error while browsing trakt movies.
     - New approach to readahead settings.
     - Added OpenNIC fallback.
 
-[B][COLOR red]v0.0.69[/COLOR][/B]
+[B][COLOR red]v0.0.69[/COLOR][/B] - 2018-12-22
     - Increased memory usage ratio.
     - Fixed small problems.
     - Added option to skip 'resume' if was chose so in Kodi (no forced resume video).
 
-[B][COLOR red]v0.0.68[/COLOR][/B]
+[B][COLOR red]v0.0.68[/COLOR][/B] - 2018-12-18
     - Fixed internal proxy hang on arm devices.
     - Added option to disable internal DNS (disable for Tor usage, for example).
     - Fixed player start from search.
 
-[B][COLOR red]v0.0.67[/COLOR][/B]
+[B][COLOR red]v0.0.67[/COLOR][/B] - 2018-12-16
     - Added built-in HTTP Proxy for usage by searchers (like Burst). It include CloudFlare bypass and DNS over TLS usage.
     - Added functionality for unwatching items in Kodi library, after it was unwatched in Trakt.
 
-[B][COLOR red]v0.0.66[/COLOR][/B]
+[B][COLOR red]v0.0.66[/COLOR][/B] - 2018-12-02
     - One more fix for navigating in the searches. 
     - Subtitles now use original titles for searching.
     - Fixed adding torrents window for Kodi 18.
     - Fix to library updater, that was wrongly assigning watched state, due to Kodi IDs reuse.
 
-[B][COLOR red]v0.0.65[/COLOR][/B]
+[B][COLOR red]v0.0.65[/COLOR][/B] - 2018-11-28
     - Added Concurrent connections settings.
     - Changes in torrent library.
 
-[B][COLOR red]v0.0.64[/COLOR][/B]
+[B][COLOR red]v0.0.64[/COLOR][/B] - 2018-11-26
     - Another attempt to fix search pages on Kodi 18. 
     - Changed TVDB url to allow proper parsing with latest TVDB scraper. 
 
-[B][COLOR red]v0.0.63[/COLOR][/B]
+[B][COLOR red]v0.0.63[/COLOR][/B] - 2018-11-23
     - Update torrent library version.
     - Added auto-select for BluRay menu files.
     - Added search capability for context plugin requests (search any content).
@@ -576,7 +576,7 @@
     - Added settings to disable NFO files for Movies/Shows (should fix TVDB scraper issue).
     - Another fix for starting playback from Search menu.
 
-[B][COLOR red]v0.0.62[/COLOR][/B]
+[B][COLOR red]v0.0.62[/COLOR][/B] - 2018-11-14
     - Updated compiler version. 
     - Updated torrent library to fix big amount of connections and low speeds caused by it.
     - Fixed Trakt sync of shows' watched status.
@@ -584,7 +584,7 @@
     - Added setting to change auto-library-update behavior (yes/ask/no).
     - Small fixes for Kodi 18 compatibility.
 
-[B][COLOR red]v0.0.61[/COLOR][/B]
+[B][COLOR red]v0.0.61[/COLOR][/B] - 2018-08-15
     - Increased default providers timeout.
     - Added options to cleanup database and cache.
     - Added selection of bittorrent network interface.
@@ -597,30 +597,30 @@
     - More relevant names saved for Torrents (not the one included in torrent file, but the one we get from providers).
     - Added NFO files generation for Movies/Shows to explicitly save IDs for Elementum/TMDB/TVDB/IMDB.
 
-[B][COLOR red]v0.0.60[/COLOR][/B]
+[B][COLOR red]v0.0.60[/COLOR][/B] - 2018-08-09
     - Added proper gzip handling in torrent resolve.
     - Added proxy setter to default HTTP client.
 
-[B][COLOR red]v0.0.59[/COLOR][/B]
+[B][COLOR red]v0.0.59[/COLOR][/B] - 2018-08-06
     - Split Download path into Download+Torrents.
     - Download path now is not needed for memory storage.
     - Small fixes to fanart detection.
 
-[B][COLOR red]v0.0.58[/COLOR][/B]
+[B][COLOR red]v0.0.58[/COLOR][/B] - 2018-07-25
     - Quick fix release. 
 
-[B][COLOR red]v0.0.57[/COLOR][/B]
+[B][COLOR red]v0.0.57[/COLOR][/B] - 2018-07-25
     - Changed thumbnails detection for episodes.
     - Changed resolution detection for found streams.
     - Fixed repository creation.
 
-[B][COLOR red]v0.0.56[/COLOR][/B]
+[B][COLOR red]v0.0.56[/COLOR][/B] - 2018-07-23
     - Added usage of fanart.tv service for setting fanart.
     - Added reading advancedsettings.xml file to adjust buffer size in Elementum.
     - Changed Calendars pages.
     - More changes to progress pages.
 
-[B][COLOR red]v0.0.55[/COLOR][/B]
+[B][COLOR red]v0.0.55[/COLOR][/B] - 2018-07-20
     - Fixed bug with showing Trakt authorization when accessing Trakt lists.
     - More changes to My Progress page look.
     - Big changes to fanart selection for all lists and items.
@@ -628,7 +628,7 @@
     - Split option to add/remove items to Trakt into movie/show separate settings.
     - Changed progress date format to be more usual, like yyyy-mm-dd.
 
-[B][COLOR red]v0.0.54[/COLOR][/B]
+[B][COLOR red]v0.0.54[/COLOR][/B] - 2018-07-16
     - Remastered Trakt progress page. Should be quicker loading.
     - Added settings to customize Progress page (colorize, sorting, filtering).
     - Added setting to allow automatic add/remove to custom Trakt Userlist.
@@ -637,27 +637,27 @@
     - Added Trakt Top lists. Lot of collections, composed by people.
     - Small fixes.
 
-[B][COLOR red]v0.0.53[/COLOR][/B]
+[B][COLOR red]v0.0.53[/COLOR][/B] - 2018-07-12
     - Added configuration for auto-loading torrents on startup (only for non-memory storage).
     - Added configuration for adding and removing movies/shows from Trakt lists when operated in Kodi library.
     - Fixed missing artwork for Trakt items.
     - Small bug fixes.
 
-[B][COLOR red]v0.0.52[/COLOR][/B]
+[B][COLOR red]v0.0.52[/COLOR][/B] - 2018-07-09
     - Small bugs fixes.
     - Search payload changed for general query (needs latest Burst).
     - Added /debug/all to list debug information without log.
     - Updated to latest torrent library.
 
-[B][COLOR red]v0.0.51[/COLOR][/B]
+[B][COLOR red]v0.0.51[/COLOR][/B] - 2018-06-20
     - Hot-fix after v0.0.50 
 
-[B][COLOR red]v0.0.50[/COLOR][/B]
+[B][COLOR red]v0.0.50[/COLOR][/B] - 2018-06-20
     - Fixed issue with adding not-aired episodes to the library.
     - Attempt to fix Xbox/iOS builds.
     - Added functionality to make able to split plugin into local and remote part.
 
-[B][COLOR red]v0.0.49[/COLOR][/B]
+[B][COLOR red]v0.0.49[/COLOR][/B] - 2018-06-17
     - Added Remove action in context menu of search queries.
     - Added File submition to WebUI.
     - Added Statistics menu item, which shows useful information about the plugin.
@@ -666,7 +666,7 @@
     - Several small fixes.
     - Now passing ProxyURL to searchers.
 
-[B][COLOR red]v0.0.48[/COLOR][/B]
+[B][COLOR red]v0.0.48[/COLOR][/B] - 2018-06-14
     - Added caching for stream selection.
     - Added caching for search results. 
     - Public/OpenNIC DNS configuration added to Kodi settings.
@@ -675,12 +675,12 @@
     - Fixed labels for /search playback. 
     - Other small fixes.
 
-[B][COLOR red]v0.0.47[/COLOR][/B]
+[B][COLOR red]v0.0.47[/COLOR][/B] - 2018-06-09
     - Added proxy support to torrent library (Supports Socks4/Socks5/HTTP/HTTPS proxy).
     - Stream selection become bigger.
     - Added /debug/ URL to show debugging information.
 
-[B][COLOR red]v0.0.46[/COLOR][/B]
+[B][COLOR red]v0.0.46[/COLOR][/B] - 2018-05-08
     - Added Automatic memory size detection option, which is enabled by default. Default is 5% of physical memory, but not bigger than 200mb.
     - Fixed TCPv6 issue with listening, while disabled.
     - Added language selector for OSDB.
@@ -691,69 +691,69 @@
     - Now showing directory name in file selection, if files have different directories.
     - Another attempt to fix hanging "Resolving torrent files" notification.
 
-[B][COLOR red]v0.0.45[/COLOR][/B]
+[B][COLOR red]v0.0.45[/COLOR][/B] - 2018-04-27
     - Fixed issues with IP+Port detection.
     - Resume playback reorganized, so disable it from settings if needed.
 
-[B][COLOR red]v0.0.44[/COLOR][/B]
+[B][COLOR red]v0.0.44[/COLOR][/B] - 2018-04-20
     - Mostly a maintenance release, fixing small issues.
     - Fixed Pride show being added always to the library.
     - Trailers playback moved to Youtube plugin.
 
-[B][COLOR red]v0.0.43[/COLOR][/B]
+[B][COLOR red]v0.0.43[/COLOR][/B] - 2018-02-14
     - Migrating to another database engine to allow flexibility in the future.
     - Library manipulations changed a lot due to database change, so it can bring bugs and errors. Please, report them on https://github.com/elgatito/plugin.video.elementum/issues website.
     - Small fixes.
     - Updated torrent engine.
 
-[B][COLOR red]v0.0.42[/COLOR][/B]
+[B][COLOR red]v0.0.42[/COLOR][/B] - 2018-02-05
     - Added Disable Upload setting to disable Uploading at all, if Seed Time is 0 - upload will stop when download is finished.
     - Updated torrent engine.
     - Small fixes.
 
-[B][COLOR red]v0.0.41[/COLOR][/B]
+[B][COLOR red]v0.0.41[/COLOR][/B] - 2018-02-02
     - Added Context menu add-on to Elementum repository. Allows playing any item from Kodi library, not only strm files.
     - Fixes for Kodi 16 library.
     - Updated torrent engine.
 
-[B][COLOR red]v0.0.40[/COLOR][/B]
+[B][COLOR red]v0.0.40[/COLOR][/B] - 2018-02-01
     - Custom DNS names reverted to become optional.
     - Small fixes.
 
-[B][COLOR red]v0.0.39[/COLOR][/B]
+[B][COLOR red]v0.0.39[/COLOR][/B] - 2018-01-31
     - Added custom DNS resolvers (Using Google/Quad9/OpenNIC servers).
 
-[B][COLOR red]v0.0.38[/COLOR][/B]
+[B][COLOR red]v0.0.38[/COLOR][/B] - 2018-01-30
     - Fixing reported issues with the library management.
     - Fixed searching non-english originated movies/shows.
     - Updated Croatian and Hebrew languages. Thanks to @muzena and @meijin007.
 
-[B][COLOR red]v0.0.35[/COLOR][/B]
+[B][COLOR red]v0.0.35[/COLOR][/B] - 2018-01-25
     - Added UPnP/NAT support (is testing mode).
     - Added Shows Progress page for Trakt.
     - Movies/Shows menu reorganization and unification.
     - Added Silent playback start setting to not ask for existing torrents and reusing old ones.
 
-[B][COLOR red]v0.0.33[/COLOR][/B]
+[B][COLOR red]v0.0.33[/COLOR][/B] - 2018-01-22
     - Re-Enabled seeding for memory storage.
     - Fixed few bugs from github.
 
-[B][COLOR red]v0.0.31[/COLOR][/B]
+[B][COLOR red]v0.0.31[/COLOR][/B] - 2018-01-18
     - Trakt lists now use TMDB data. Can be turned off in Settings > Appearance
     - Not removing UTF characters from search payload.
     - Smaller fixes to stability.
 
-[B][COLOR red]v0.0.30[/COLOR][/B]
+[B][COLOR red]v0.0.30[/COLOR][/B] - 2018-01-17
     - Added unified watched status. TheMovieDB/Trakt lists can show Watched items, same with Kodi Library.
 
-[B][COLOR red]v0.0.29[/COLOR][/B]
+[B][COLOR red]v0.0.29[/COLOR][/B] - 2018-01-16
     - Global changes to Library management
     - Trakt Watched items are synced to Kodi library
     - Kodi Watched items are synced to Trakt, as well
     - Torrent library updated to latest version
     - [B][COLOR red]This is a big change release, if you encounter a bug, please report it on github.com![/COLOR][/B]
 
-[B][COLOR red]v0.0.26[/COLOR][/B]
+[B][COLOR red]v0.0.26[/COLOR][/B] - 2018-01-09
     - Added Changelog
     - Caching moved to the database
     - Added proper OS signal handling
