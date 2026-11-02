@@ -2654,3 +2654,11 @@ msgstr "Den här funktionen kräver ett betalt %s-konto"
 msgctxt "#30807"
 msgid "Remove from Elementum library, when item is deleted from Kodi library"
 msgstr "Ta bort från Elementum-biblioteket när ett objekt tas bort från Kodi-biblioteket"
+
+msgctxt "#30808"
+msgid "Select userlists to sync"
+msgstr "Välj användarlistor att synkronisera"
+
+msgctxt "#30809"
+msgid "Selected userlists (all, if empty)"
+msgstr "Valda användarlistor (alla, om tomt)"

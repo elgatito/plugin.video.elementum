@@ -2651,3 +2651,11 @@ msgstr "Для цієї функції потрібен платний акау�
 msgctxt "#30807"
 msgid "Remove from Elementum library, when item is deleted from Kodi library"
 msgstr "Видалити з бібліотеки Elementum при видаленні з бібліотеки Kodi"
+
+msgctxt "#30808"
+msgid "Select userlists to sync"
+msgstr "Вибрати списки користувача для синхронізації"
+
+msgctxt "#30809"
+msgid "Selected userlists (all, if empty)"
+msgstr "Вибрані списки користувача (усі, якщо порожньо)"

@@ -2650,3 +2650,11 @@ msgstr "Tämä toiminto vaatii maksullisen %s-tilin"
 msgctxt "#30807"
 msgid "Remove from Elementum library, when item is deleted from Kodi library"
 msgstr "Poista Elementum-kirjastosta, kun kohde poistetaan Kodi-kirjastosta"
+
+msgctxt "#30808"
+msgid "Select userlists to sync"
+msgstr "Valitse synkronoitavat käyttäjälistat"
+
+msgctxt "#30809"
+msgid "Selected userlists (all, if empty)"
+msgstr "Valitut käyttäjälistat (kaikki, jos tyhjä)"

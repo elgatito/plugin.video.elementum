@@ -2654,3 +2654,11 @@ msgstr "Diese Funktion erfordert ein kostenpflichtiges %s-Konto"
 msgctxt "#30807"
 msgid "Remove from Elementum library, when item is deleted from Kodi library"
 msgstr "Aus der Elementum-Bibliothek entfernen, wenn ein Eintrag aus der Kodi-Bibliothek gelöscht wird"
+
+msgctxt "#30808"
+msgid "Select userlists to sync"
+msgstr "Zu synchronisierende Benutzerlisten auswählen"
+
+msgctxt "#30809"
+msgid "Selected userlists (all, if empty)"
+msgstr "Ausgewählte Benutzerlisten (alle, wenn leer)"

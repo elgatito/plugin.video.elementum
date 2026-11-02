@@ -2668,3 +2668,11 @@ msgstr "Ova značajka zahtijeva plaćeni %s račun"
 msgctxt "#30807"
 msgid "Remove from Elementum library, when item is deleted from Kodi library"
 msgstr "Ukloni iz Elementum zbirke, kada je stavka obrisana iz Kodi videoteke"
+
+msgctxt "#30808"
+msgid "Select userlists to sync"
+msgstr "Odaberi korisničke popise za sinkronizaciju"
+
+msgctxt "#30809"
+msgid "Selected userlists (all, if empty)"
+msgstr "Odabrani korisnički popisi (svi, ako je prazno)"

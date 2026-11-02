@@ -2652,3 +2652,11 @@ msgstr "Ehhez a funkcióhoz fizetős %s-fiók szükséges"
 msgctxt "#30807"
 msgid "Remove from Elementum library, when item is deleted from Kodi library"
 msgstr "Eltávolítás az Elementum médiatárából, amikor egy elemet törölnek a Kodi médiatárból"
+
+msgctxt "#30808"
+msgid "Select userlists to sync"
+msgstr "Szinkronizálandó felhasználói listák kiválasztása"
+
+msgctxt "#30809"
+msgid "Selected userlists (all, if empty)"
+msgstr "Kiválasztott felhasználói listák (mind, ha üres)"
