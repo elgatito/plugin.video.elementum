@@ -6,6 +6,10 @@
     - It is driven by community.
     - Source is open, so you can fork everything and contribute back.
 
+[B][COLOR red]0.1.117[/COLOR][/B]
+    - Added "Random" to Movies and TV Shows: a shuffled set of popular TMDB titles, different on every visit, to discover something you have not seen yet. (#802)
+    - Added "Popular people" to Movies and TV Shows: TMDB popular actors, open one to see their movies or shows (shows they have most episodes in come first, talk shows and other guest appearances are skipped). (#802)
+
 [B][COLOR red]0.1.116[/COLOR][/B] - 2026-11-01
     - Added Simkl and MDBList as tracking services besides Trakt. Choose one in the new "Tracking" settings and authorize it (MDBList also accepts a personal API key): watchlist, watched history, playback progress, scrobbling and lists sync with it like with Trakt (collection is available on Trakt and MDBList only, Simkl lists need a Simkl PRO or VIP account).
     - "My Progress" in TV Shows (shows you are watching, with the next episode to watch) now works with Simkl and MDBList too.
