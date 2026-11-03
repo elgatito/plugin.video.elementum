@@ -8,6 +8,7 @@
 
 [B][COLOR red]0.1.118[/COLOR][/B]
     - Added Scrob (self-hosted tracker) as a tracking service. Choose it in "Tracking" settings, enter your Scrob server address and authorize Elementum, or paste a Scrob API key instead: watched history, playback progress, scrobbling, "My Progress" and lists sync with it. Scrob has no watchlist, so a list named "Watchlist" is created on your Scrob and used for it. Scrob collection is read-only: it is synced into the library, but items you add to collection go to the "Watchlist" list instead.
+    - Simkl "My Lists" now shows your library by status, like "My Movies" and "My TV Shows" on simkl.com: Watching, Plan to Watch, On Hold, Completed and Dropped, followed by custom lists for PRO and VIP accounts. These lists can also be selected for library sync. (#1198)
 
 [B][COLOR red]0.1.117[/COLOR][/B] - 2026-11-02
     - Added "Random" to Movies and TV Shows: a shuffled set of popular TMDB titles, different on every visit, to discover something you have not seen yet. (#802)
