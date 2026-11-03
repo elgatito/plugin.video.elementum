@@ -2675,3 +2675,27 @@ msgstr "אקראי"
 msgctxt "#30812"
 msgid "Popular people"
 msgstr "אנשים פופולריים"
+
+msgctxt "#30813"
+msgid "Scrob"
+msgstr "Scrob"
+
+msgctxt "#30814"
+msgid "Authorize Elementum on Scrob"
+msgstr "אשר את Elementum ב-Scrob"
+
+msgctxt "#30815"
+msgid "Cancel authorization for Elementum on Scrob"
+msgstr "בטל את האישור של Elementum ב-Scrob"
+
+msgctxt "#30816"
+msgid "Scrob server address, as opened in a browser"
+msgstr "כתובת שרת Scrob, כפי שהיא נפתחת בדפדפן"
+
+msgctxt "#30817"
+msgid "Scrob API key (optional, used instead of authorization)"
+msgstr "מפתח API של Scrob (אופציונלי, במקום אישור)"
+
+msgctxt "#30818"
+msgid "Scrob has no watchlist: a list named Watchlist is used. Its collection is read-only, library additions go to that list or a chosen one."
+msgstr "ל-Scrob אין רשימת צפייה: נעשה שימוש ברשימה בשם Watchlist. האוסף שלו לקריאה בלבד, תוספות לספרייה נכנסות לרשימה זו או לרשימה שנבחרה."

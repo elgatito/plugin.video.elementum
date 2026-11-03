@@ -2674,3 +2674,27 @@ msgstr "Aleatoriu"
 msgctxt "#30812"
 msgid "Popular people"
 msgstr "Persoane populare"
+
+msgctxt "#30813"
+msgid "Scrob"
+msgstr "Scrob"
+
+msgctxt "#30814"
+msgid "Authorize Elementum on Scrob"
+msgstr "Autorizează Elementum pe Scrob"
+
+msgctxt "#30815"
+msgid "Cancel authorization for Elementum on Scrob"
+msgstr "Anulează autorizarea Elementum pe Scrob"
+
+msgctxt "#30816"
+msgid "Scrob server address, as opened in a browser"
+msgstr "Adresa serverului Scrob, așa cum se deschide în browser"
+
+msgctxt "#30817"
+msgid "Scrob API key (optional, used instead of authorization)"
+msgstr "Cheie API Scrob (opțional, înlocuiește autorizarea)"
+
+msgctxt "#30818"
+msgid "Scrob has no watchlist: a list named Watchlist is used. Its collection is read-only, library additions go to that list or a chosen one."
+msgstr "Scrob nu are listă de vizionat: se folosește o listă numită Watchlist. Colecția sa este doar pentru citire, adăugările în bibliotecă merg în acea listă sau într-una aleasă."

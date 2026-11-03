@@ -2672,3 +2672,27 @@ msgstr "Véletlenszerű"
 msgctxt "#30812"
 msgid "Popular people"
 msgstr "Népszerű személyek"
+
+msgctxt "#30813"
+msgid "Scrob"
+msgstr "Scrob"
+
+msgctxt "#30814"
+msgid "Authorize Elementum on Scrob"
+msgstr "Az Elementum engedélyezése a Scrob szerveren"
+
+msgctxt "#30815"
+msgid "Cancel authorization for Elementum on Scrob"
+msgstr "Az Elementum engedélyezésének visszavonása a Scrob szerveren"
+
+msgctxt "#30816"
+msgid "Scrob server address, as opened in a browser"
+msgstr "A Scrob szerver címe, ahogy a böngészőben megnyílik"
+
+msgctxt "#30817"
+msgid "Scrob API key (optional, used instead of authorization)"
+msgstr "Scrob API-kulcs (nem kötelező, az engedélyezés helyett)"
+
+msgctxt "#30818"
+msgid "Scrob has no watchlist: a list named Watchlist is used. Its collection is read-only, library additions go to that list or a chosen one."
+msgstr "A Scrobnak nincs figyelőlistája: egy Watchlist nevű lista kerül használatra. A gyűjteménye csak olvasható, a könyvtárba felvett elemek ebbe vagy egy kiválasztott listába kerülnek."

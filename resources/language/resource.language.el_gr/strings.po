@@ -2674,3 +2674,27 @@ msgstr "Τυχαία"
 msgctxt "#30812"
 msgid "Popular people"
 msgstr "Δημοφιλή πρόσωπα"
+
+msgctxt "#30813"
+msgid "Scrob"
+msgstr "Scrob"
+
+msgctxt "#30814"
+msgid "Authorize Elementum on Scrob"
+msgstr "Εξουσιοδότηση του Elementum στο Scrob"
+
+msgctxt "#30815"
+msgid "Cancel authorization for Elementum on Scrob"
+msgstr "Ακύρωση της εξουσιοδότησης του Elementum στο Scrob"
+
+msgctxt "#30816"
+msgid "Scrob server address, as opened in a browser"
+msgstr "Διεύθυνση διακομιστή Scrob, όπως ανοίγει στον περιηγητή"
+
+msgctxt "#30817"
+msgid "Scrob API key (optional, used instead of authorization)"
+msgstr "Κλειδί API του Scrob (προαιρετικό, αντί για εξουσιοδότηση)"
+
+msgctxt "#30818"
+msgid "Scrob has no watchlist: a list named Watchlist is used. Its collection is read-only, library additions go to that list or a chosen one."
+msgstr "Το Scrob δεν έχει λίστα παρακολούθησης: χρησιμοποιείται μια λίστα με όνομα Watchlist. Η συλλογή του είναι μόνο για ανάγνωση, οι προσθήκες στη βιβλιοθήκη πηγαίνουν σε αυτή τη λίστα ή σε μια επιλεγμένη."

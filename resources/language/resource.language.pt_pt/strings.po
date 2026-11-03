@@ -2670,3 +2670,27 @@ msgstr "Aleatório"
 msgctxt "#30812"
 msgid "Popular people"
 msgstr "Pessoas populares"
+
+msgctxt "#30813"
+msgid "Scrob"
+msgstr "Scrob"
+
+msgctxt "#30814"
+msgid "Authorize Elementum on Scrob"
+msgstr "Autorizar o Elementum no Scrob"
+
+msgctxt "#30815"
+msgid "Cancel authorization for Elementum on Scrob"
+msgstr "Cancelar a autorização do Elementum no Scrob"
+
+msgctxt "#30816"
+msgid "Scrob server address, as opened in a browser"
+msgstr "Endereço do servidor Scrob, tal como aberto no navegador"
+
+msgctxt "#30817"
+msgid "Scrob API key (optional, used instead of authorization)"
+msgstr "Chave de API do Scrob (opcional, substitui a autorização)"
+
+msgctxt "#30818"
+msgid "Scrob has no watchlist: a list named Watchlist is used. Its collection is read-only, library additions go to that list or a chosen one."
+msgstr "O Scrob não tem lista para ver: é usada uma lista chamada Watchlist. A coleção é só de leitura, as adições à biblioteca vão para essa lista ou para uma escolhida."

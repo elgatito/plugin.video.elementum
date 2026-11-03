@@ -2688,3 +2688,27 @@ msgstr "Nasumično"
 msgctxt "#30812"
 msgid "Popular people"
 msgstr "Popularne osobe"
+
+msgctxt "#30813"
+msgid "Scrob"
+msgstr "Scrob"
+
+msgctxt "#30814"
+msgid "Authorize Elementum on Scrob"
+msgstr "Ovjeri Elementum na Scrob"
+
+msgctxt "#30815"
+msgid "Cancel authorization for Elementum on Scrob"
+msgstr "Prekini ovjeru za Elementum na Scrob"
+
+msgctxt "#30816"
+msgid "Scrob server address, as opened in a browser"
+msgstr "Adresa Scrob poslužitelja, kako se otvara u pregledniku"
+
+msgctxt "#30817"
+msgid "Scrob API key (optional, used instead of authorization)"
+msgstr "Scrob API ključ (neobavezno, umjesto ovjere)"
+
+msgctxt "#30818"
+msgid "Scrob has no watchlist: a list named Watchlist is used. Its collection is read-only, library additions go to that list or a chosen one."
+msgstr "Scrob nema popis za gledanje: koristi se popis nazvan Watchlist. Njegova zbirka je samo za čitanje, dodavanja u biblioteku idu na taj ili odabrani popis."
