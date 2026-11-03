@@ -2574,7 +2574,6 @@ msgctxt "#30786"
 msgid "Authorize Elementum on the tracking service"
 msgstr "Autorizează Elementum pe serviciul de urmărire"
 
-
 msgctxt "#30788"
 msgid "To authorize Elementum on %s you need to:[CR]1. Open [B]%s[/B][CR]2. Enter code: [B]%s[/B][CR]3. Wait for notification from Elementum."
 msgstr "Pentru a autoriza Elementum pe %s trebuie să:[CR]1. Deschizi [B]%s[/B][CR]2. Introduci codul: [B]%s[/B][CR]3. Aștepți notificarea de la Elementum."
@@ -2637,7 +2636,7 @@ msgstr "Anulează autorizarea Elementum pe MDBList"
 
 msgctxt "#30803"
 msgid "Simkl has no collection: library additions go to Plan to Watch. Custom lists need Simkl PRO or VIP."
-msgstr "Simkl nu are colecție: ce adaugi în bibliotecă ajunge în Plan to Watch. Listele personalizate necesită Simkl PRO sau VIP."
+msgstr "Simkl nu are colecție: ce adaugi în bibliotecă ajunge în „De urmărit”. Listele personalizate necesită Simkl PRO sau VIP."
 
 msgctxt "#30804"
 msgid "An API key from mdblist.com preferences can be used instead of authorization. Free accounts allow 1000 requests a day."
@@ -2698,3 +2697,23 @@ msgstr "Cheie API Scrob (opțional, înlocuiește autorizarea)"
 msgctxt "#30818"
 msgid "Scrob has no watchlist: a list named Watchlist is used. Its collection is read-only, library additions go to that list or a chosen one."
 msgstr "Scrob nu are listă de vizionat: se folosește o listă numită Watchlist. Colecția sa este doar pentru citire, adăugările în bibliotecă merg în acea listă sau într-una aleasă."
+
+msgctxt "#30819"
+msgid "Watching"
+msgstr "Urmăresc"
+
+msgctxt "#30820"
+msgid "Plan to Watch"
+msgstr "De urmărit"
+
+msgctxt "#30821"
+msgid "On Hold"
+msgstr "În pauză"
+
+msgctxt "#30822"
+msgid "Completed"
+msgstr "Terminat"
+
+msgctxt "#30823"
+msgid "Dropped"
+msgstr "Abandonat"

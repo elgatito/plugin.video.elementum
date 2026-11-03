@@ -2570,7 +2570,6 @@ msgctxt "#30786"
 msgid "Authorize Elementum on the tracking service"
 msgstr ""
 
-
 msgctxt "#30788"
 msgid "To authorize Elementum on %s you need to:[CR]1. Open [B]%s[/B][CR]2. Enter code: [B]%s[/B][CR]3. Wait for notification from Elementum."
 msgstr ""
@@ -2693,4 +2692,24 @@ msgstr ""
 
 msgctxt "#30818"
 msgid "Scrob has no watchlist: a list named Watchlist is used. Its collection is read-only, library additions go to that list or a chosen one."
+msgstr ""
+
+msgctxt "#30819"
+msgid "Watching"
+msgstr ""
+
+msgctxt "#30820"
+msgid "Plan to Watch"
+msgstr ""
+
+msgctxt "#30821"
+msgid "On Hold"
+msgstr ""
+
+msgctxt "#30822"
+msgid "Completed"
+msgstr ""
+
+msgctxt "#30823"
+msgid "Dropped"
 msgstr ""

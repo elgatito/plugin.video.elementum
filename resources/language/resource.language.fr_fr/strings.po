@@ -2580,7 +2580,6 @@ msgctxt "#30786"
 msgid "Authorize Elementum on the tracking service"
 msgstr "Autoriser Elementum sur le service de suivi"
 
-
 msgctxt "#30788"
 msgid "To authorize Elementum on %s you need to:[CR]1. Open [B]%s[/B][CR]2. Enter code: [B]%s[/B][CR]3. Wait for notification from Elementum."
 msgstr "Pour autoriser Elementum sur %s vous devez :[CR]1. Ouvrir [B]%s[/B][CR]2. Entrer le code : [B]%s[/B][CR]3. Attendre la notification d'Elementum."
@@ -2643,7 +2642,7 @@ msgstr "Annuler l'autorisation d'Elementum sur MDBList"
 
 msgctxt "#30803"
 msgid "Simkl has no collection: library additions go to Plan to Watch. Custom lists need Simkl PRO or VIP."
-msgstr "Simkl n'a pas de collection : les ajouts à la bibliothèque vont dans Plan to Watch. Les listes personnalisées nécessitent Simkl PRO ou VIP."
+msgstr "Simkl n'a pas de collection : les ajouts à la bibliothèque vont dans « À voir ». Les listes personnalisées nécessitent Simkl PRO ou VIP."
 
 msgctxt "#30804"
 msgid "An API key from mdblist.com preferences can be used instead of authorization. Free accounts allow 1000 requests a day."
@@ -2704,3 +2703,23 @@ msgstr "Clé API Scrob (facultative, remplace l'autorisation)"
 msgctxt "#30818"
 msgid "Scrob has no watchlist: a list named Watchlist is used. Its collection is read-only, library additions go to that list or a chosen one."
 msgstr "Scrob n'a pas de liste de suivi : une liste nommée Watchlist est utilisée. Sa collection est en lecture seule, les ajouts à la bibliothèque vont dans cette liste ou dans une liste choisie."
+
+msgctxt "#30819"
+msgid "Watching"
+msgstr "En cours"
+
+msgctxt "#30820"
+msgid "Plan to Watch"
+msgstr "À voir"
+
+msgctxt "#30821"
+msgid "On Hold"
+msgstr "En pause"
+
+msgctxt "#30822"
+msgid "Completed"
+msgstr "Terminé"
+
+msgctxt "#30823"
+msgid "Dropped"
+msgstr "Abandonné"
