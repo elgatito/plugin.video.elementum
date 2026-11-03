@@ -6,7 +6,10 @@
     - It is driven by community.
     - Source is open, so you can fork everything and contribute back.
 
-[B][COLOR red]0.1.117[/COLOR][/B]
+[B][COLOR red]0.1.118[/COLOR][/B]
+    - Added Scrob (self-hosted tracker) as a tracking service. Choose it in "Tracking" settings, enter your Scrob server address and authorize Elementum, or paste a Scrob API key instead: watched history, playback progress, scrobbling, "My Progress" and lists sync with it. Scrob has no watchlist, so a list named "Watchlist" is created on your Scrob and used for it. Scrob collection is read-only: it is synced into the library, but items you add to collection go to the "Watchlist" list instead.
+
+[B][COLOR red]0.1.117[/COLOR][/B] - 2026-11-02
     - Added "Random" to Movies and TV Shows: a shuffled set of popular TMDB titles, different on every visit, to discover something you have not seen yet. (#802)
     - Added "Popular people" to Movies and TV Shows: TMDB popular actors, open one to see their movies or shows (shows they have most episodes in come first, talk shows and other guest appearances are skipped). (#802)
     - "My Progress" in TV Shows (shows you are watching, with the next episode to watch) now works with Simkl and MDBList too, and its settings (sorting, colors, hiding unaired episodes) are shown for every tracking service. When a list needs a paid account of the tracking service, you get a notification saying so instead of an empty list.
