@@ -736,7 +736,7 @@ msgstr "%s fusionados en la Colección ¿Quiere volver a escanearla?[CR]Luego pu
 
 msgctxt "#30287"
 msgid "%s already in library"
-msgstr "ya está en la Colección"
+msgstr "%s ya está en la Colección"
 
 msgctxt "#30288"
 msgid "Library updated, do you want to rescan it?[CR]You can later use Kodi's 'Update library' feature instead."
@@ -1904,7 +1904,7 @@ msgstr "Su cuenta está bloqueada en API de Trakt.tv[CR]Por favor, contacte Trak
 
 msgctxt "#30618"
 msgid "%s is downloaded"
-msgstr "% ha sido descargado"
+msgstr "%s ha sido descargado"
 
 msgctxt "#30619"
 msgid "Return to [B]%s[/B]"
