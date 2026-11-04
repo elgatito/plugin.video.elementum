@@ -2645,7 +2645,7 @@ msgid "Cancel authorization for Elementum on MDBList"
 msgstr ""
 
 msgctxt "#30803"
-msgid "Simkl has no collection: library additions go to Plan to Watch. Custom lists need Simkl PRO or VIP."
+msgid "Simkl collection is your whole library in every status. Library additions go to Plan to Watch. Custom lists need Simkl PRO or VIP."
 msgstr ""
 
 msgctxt "#30804"

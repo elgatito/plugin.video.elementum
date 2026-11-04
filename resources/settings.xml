@@ -277,7 +277,7 @@
         <setting id="trakt_client_secret" type="text" label="30581" default="" visible="false" /> -->
 
         <setting label="30362" type="lsep" />
-        <setting id="trakt_sync_collections" type="bool" label="30363" default="true" visible="eq(-41,1)|eq(-41,3)|eq(-41,4)" />
+        <setting id="trakt_sync_collections" type="bool" label="30363" default="true" visible="!eq(-41,0)" />
         <setting id="trakt_sync_watchlist" type="bool" label="30364" default="true" visible="!eq(-42,0)" />
         <setting id="trakt_sync_userlists" type="bool" label="30365" default="true" visible="!eq(-43,0)" />
         <setting id="action_trakt_select_sync_userlists" type="action" label="30808" action="RunPlugin(plugin://plugin.video.elementum/tracker/select_sync_lists)" enable="eq(-1,true)" visible="!eq(-44,0)" />

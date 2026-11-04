@@ -2632,8 +2632,8 @@ msgid "Cancel authorization for Elementum on MDBList"
 msgstr "Zrušiť autorizáciu Elementum na MDBList"
 
 msgctxt "#30803"
-msgid "Simkl has no collection: library additions go to Plan to Watch. Custom lists need Simkl PRO or VIP."
-msgstr "Simkl nemá zbierku: položky pridané do knižnice idú do „Plánujem pozrieť“. Vlastné zoznamy vyžadujú Simkl PRO alebo VIP."
+msgid "Simkl collection is your whole library in every status. Library additions go to Plan to Watch. Custom lists need Simkl PRO or VIP."
+msgstr "Zbierka Simkl je celá vaša knižnica v akomkoľvek stave. Položky pridané do knižnice idú do „Plánujem pozrieť“. Vlastné zoznamy vyžadujú Simkl PRO alebo VIP."
 
 msgctxt "#30804"
 msgid "An API key from mdblist.com preferences can be used instead of authorization. Free accounts allow 1000 requests a day."
