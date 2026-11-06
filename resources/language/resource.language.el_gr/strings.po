@@ -2717,3 +2717,35 @@ msgstr "Ολοκληρωμένα"
 msgctxt "#30823"
 msgid "Dropped"
 msgstr "Εγκαταλελειμμένα"
+
+msgctxt "#30824"
+msgid "Test search providers"
+msgstr "Δοκιμή παρόχων αναζήτησης"
+
+msgctxt "#30825"
+msgid "Movie"
+msgstr "Ταινία"
+
+msgctxt "#30826"
+msgid "TV show episode"
+msgstr "Επεισόδιο σειράς"
+
+msgctxt "#30827"
+msgid "TV show season"
+msgstr "Σεζόν σειράς"
+
+msgctxt "#30828"
+msgid "Anime episode"
+msgstr "Επεισόδιο anime"
+
+msgctxt "#30829"
+msgid "Text query"
+msgstr "Αναζήτηση κειμένου"
+
+msgctxt "#30830"
+msgid "Season and episode (S01E01)"
+msgstr "Σεζόν και επεισόδιο (S01E01)"
+
+msgctxt "#30831"
+msgid "Nothing found on TMDB"
+msgstr "Δεν βρέθηκε τίποτα στο TMDB"

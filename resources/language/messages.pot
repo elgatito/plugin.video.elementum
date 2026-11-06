@@ -2727,3 +2727,35 @@ msgstr ""
 msgctxt "#30823"
 msgid "Dropped"
 msgstr ""
+
+msgctxt "#30824"
+msgid "Test search providers"
+msgstr ""
+
+msgctxt "#30825"
+msgid "Movie"
+msgstr ""
+
+msgctxt "#30826"
+msgid "TV show episode"
+msgstr ""
+
+msgctxt "#30827"
+msgid "TV show season"
+msgstr ""
+
+msgctxt "#30828"
+msgid "Anime episode"
+msgstr ""
+
+msgctxt "#30829"
+msgid "Text query"
+msgstr ""
+
+msgctxt "#30830"
+msgid "Season and episode (S01E01)"
+msgstr ""
+
+msgctxt "#30831"
+msgid "Nothing found on TMDB"
+msgstr ""

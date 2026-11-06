@@ -2715,3 +2715,35 @@ msgstr "Befejezett"
 msgctxt "#30823"
 msgid "Dropped"
 msgstr "Abbahagyott"
+
+msgctxt "#30824"
+msgid "Test search providers"
+msgstr "Keresési szolgáltatók tesztelése"
+
+msgctxt "#30825"
+msgid "Movie"
+msgstr "Film"
+
+msgctxt "#30826"
+msgid "TV show episode"
+msgstr "Sorozat epizód"
+
+msgctxt "#30827"
+msgid "TV show season"
+msgstr "Sorozat évad"
+
+msgctxt "#30828"
+msgid "Anime episode"
+msgstr "Anime epizód"
+
+msgctxt "#30829"
+msgid "Text query"
+msgstr "Szöveges keresés"
+
+msgctxt "#30830"
+msgid "Season and episode (S01E01)"
+msgstr "Évad és epizód (S01E01)"
+
+msgctxt "#30831"
+msgid "Nothing found on TMDB"
+msgstr "Nincs találat a TMDB-n"

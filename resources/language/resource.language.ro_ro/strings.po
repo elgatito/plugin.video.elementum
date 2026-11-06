@@ -2717,3 +2717,35 @@ msgstr "Terminat"
 msgctxt "#30823"
 msgid "Dropped"
 msgstr "Abandonat"
+
+msgctxt "#30824"
+msgid "Test search providers"
+msgstr "Testează furnizorii de căutare"
+
+msgctxt "#30825"
+msgid "Movie"
+msgstr "Film"
+
+msgctxt "#30826"
+msgid "TV show episode"
+msgstr "Episod de serial"
+
+msgctxt "#30827"
+msgid "TV show season"
+msgstr "Sezon de serial"
+
+msgctxt "#30828"
+msgid "Anime episode"
+msgstr "Episod anime"
+
+msgctxt "#30829"
+msgid "Text query"
+msgstr "Căutare text"
+
+msgctxt "#30830"
+msgid "Season and episode (S01E01)"
+msgstr "Sezon și episod (S01E01)"
+
+msgctxt "#30831"
+msgid "Nothing found on TMDB"
+msgstr "Nimic găsit pe TMDB"

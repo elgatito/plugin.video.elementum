@@ -361,6 +361,7 @@
 
         <!-- Providers -->
         <setting label="30239" type="lsep" />
+        <setting id="action_providers_diagnose" type="action" label="30824" option="close" action="RunPlugin(plugin://plugin.video.elementum/providers/diagnose)" />
         <setting id="provider_disable_failing" label="30031" type="bool" default="false" />
         <setting id="provider_allowed_failures" label="30032" type="slider" option="int" range="0,1,10" default="3" />
 

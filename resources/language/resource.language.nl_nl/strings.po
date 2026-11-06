@@ -2714,3 +2714,35 @@ msgstr "Voltooid"
 msgctxt "#30823"
 msgid "Dropped"
 msgstr "Gestopt"
+
+msgctxt "#30824"
+msgid "Test search providers"
+msgstr "Zoekproviders testen"
+
+msgctxt "#30825"
+msgid "Movie"
+msgstr "Film"
+
+msgctxt "#30826"
+msgid "TV show episode"
+msgstr "Serie-aflevering"
+
+msgctxt "#30827"
+msgid "TV show season"
+msgstr "Seizoen van serie"
+
+msgctxt "#30828"
+msgid "Anime episode"
+msgstr "Anime-aflevering"
+
+msgctxt "#30829"
+msgid "Text query"
+msgstr "Tekstzoekopdracht"
+
+msgctxt "#30830"
+msgid "Season and episode (S01E01)"
+msgstr "Seizoen en aflevering (S01E01)"
+
+msgctxt "#30831"
+msgid "Nothing found on TMDB"
+msgstr "Niets gevonden op TMDB"

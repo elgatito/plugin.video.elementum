@@ -2717,3 +2717,35 @@ msgstr "Klar"
 msgctxt "#30823"
 msgid "Dropped"
 msgstr "Avbruten"
+
+msgctxt "#30824"
+msgid "Test search providers"
+msgstr "Testa sökleverantörer"
+
+msgctxt "#30825"
+msgid "Movie"
+msgstr "Film"
+
+msgctxt "#30826"
+msgid "TV show episode"
+msgstr "Serieavsnitt"
+
+msgctxt "#30827"
+msgid "TV show season"
+msgstr "Säsong av serie"
+
+msgctxt "#30828"
+msgid "Anime episode"
+msgstr "Animeavsnitt"
+
+msgctxt "#30829"
+msgid "Text query"
+msgstr "Textsökning"
+
+msgctxt "#30830"
+msgid "Season and episode (S01E01)"
+msgstr "Säsong och avsnitt (S01E01)"
+
+msgctxt "#30831"
+msgid "Nothing found on TMDB"
+msgstr "Inget hittades på TMDB"

@@ -2714,3 +2714,35 @@ msgstr "Просмотрено"
 msgctxt "#30823"
 msgid "Dropped"
 msgstr "Брошено"
+
+msgctxt "#30824"
+msgid "Test search providers"
+msgstr "Проверить поисковые провайдеры"
+
+msgctxt "#30825"
+msgid "Movie"
+msgstr "Фильм"
+
+msgctxt "#30826"
+msgid "TV show episode"
+msgstr "Эпизод сериала"
+
+msgctxt "#30827"
+msgid "TV show season"
+msgstr "Сезон сериала"
+
+msgctxt "#30828"
+msgid "Anime episode"
+msgstr "Эпизод аниме"
+
+msgctxt "#30829"
+msgid "Text query"
+msgstr "Текстовый запрос"
+
+msgctxt "#30830"
+msgid "Season and episode (S01E01)"
+msgstr "Сезон и эпизод (S01E01)"
+
+msgctxt "#30831"
+msgid "Nothing found on TMDB"
+msgstr "Ничего не найдено в TMDB"

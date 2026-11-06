@@ -2713,3 +2713,35 @@ msgstr "Concluído"
 msgctxt "#30823"
 msgid "Dropped"
 msgstr "Abandonado"
+
+msgctxt "#30824"
+msgid "Test search providers"
+msgstr "Testar provedores de busca"
+
+msgctxt "#30825"
+msgid "Movie"
+msgstr "Filme"
+
+msgctxt "#30826"
+msgid "TV show episode"
+msgstr "Episódio de série"
+
+msgctxt "#30827"
+msgid "TV show season"
+msgstr "Temporada de série"
+
+msgctxt "#30828"
+msgid "Anime episode"
+msgstr "Episódio de anime"
+
+msgctxt "#30829"
+msgid "Text query"
+msgstr "Busca por texto"
+
+msgctxt "#30830"
+msgid "Season and episode (S01E01)"
+msgstr "Temporada e episódio (S01E01)"
+
+msgctxt "#30831"
+msgid "Nothing found on TMDB"
+msgstr "Nada encontrado no TMDB"
