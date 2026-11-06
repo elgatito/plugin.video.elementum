@@ -7,9 +7,11 @@
     - Source is open, so you can fork everything and contribute back.
 
 [B][COLOR red]0.1.119[/COLOR][/B] - 2026-11-06
+    - Added "Test search providers" to "Providers" settings: choose a movie, TV show episode or season, anime episode or a text query, and every enabled search provider is tested at once. For each provider you see whether it responded in time, how many results it returned from each site, which results cannot be used and why (ie. torrent file cannot be downloaded or magnet link has no info hash), and the requests it made through the internal proxy with their status.
     - Internal proxy always sends requests as a real browser: when the browser from the User-Agent is not supported (ie. Chrome 124-130 or Firefox ESR), requests are sent as the latest Chrome instead of with a non-browser signature, that Cloudflare blocks.
     - Torrent files from search results are downloaded through the internal proxy whenever it is enabled, like Burst searches, so tracker cookies keep working.
     - Proxy settings changed while Elementum is running now apply to the internal proxy without a restart.
+    - Fixed progress dialogs showing raw texts like "LOCALIZE[30xxx]" instead of translated title and lines when they open.
 
 [B][COLOR red]0.1.118[/COLOR][/B] - 2026-11-04
     - Added Scrob (self-hosted tracker) as a tracking service. Choose it in "Tracking" settings, enter your Scrob server address and authorize Elementum, or paste a Scrob API key instead: watched history, playback progress, scrobbling, "My Progress" and lists sync with it. Scrob has no watchlist, so a list named "Watchlist" is created on your Scrob and used for it. Scrob collection is read-only: it is synced into the library, but items you add to collection go to the "Watchlist" list instead.
