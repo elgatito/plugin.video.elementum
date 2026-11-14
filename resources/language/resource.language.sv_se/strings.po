@@ -2749,3 +2749,23 @@ msgstr "Säsong och avsnitt (S01E01)"
 msgctxt "#30831"
 msgid "Nothing found on TMDB"
 msgstr "Inget hittades på TMDB"
+
+msgctxt "#30832"
+msgid "Search torrents with"
+msgstr "Sök torrenter med"
+
+msgctxt "#30833"
+msgid "Automatic"
+msgstr "Automatiskt"
+
+msgctxt "#30834"
+msgid "Built-in search"
+msgstr "Inbyggd sökning"
+
+msgctxt "#30835"
+msgid "Provider add-ons"
+msgstr "Leverantörstillägg"
+
+msgctxt "#30836"
+msgid "Both"
+msgstr "Båda"

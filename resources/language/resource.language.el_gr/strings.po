@@ -2749,3 +2749,23 @@ msgstr "Σεζόν και επεισόδιο (S01E01)"
 msgctxt "#30831"
 msgid "Nothing found on TMDB"
 msgstr "Δεν βρέθηκε τίποτα στο TMDB"
+
+msgctxt "#30832"
+msgid "Search torrents with"
+msgstr "Αναζήτηση torrent με"
+
+msgctxt "#30833"
+msgid "Automatic"
+msgstr "Αυτόματα"
+
+msgctxt "#30834"
+msgid "Built-in search"
+msgstr "Ενσωματωμένη αναζήτηση"
+
+msgctxt "#30835"
+msgid "Provider add-ons"
+msgstr "Πρόσθετα παρόχων"
+
+msgctxt "#30836"
+msgid "Both"
+msgstr "Και τα δύο"

@@ -2749,3 +2749,23 @@ msgstr "Sezon și episod (S01E01)"
 msgctxt "#30831"
 msgid "Nothing found on TMDB"
 msgstr "Nimic găsit pe TMDB"
+
+msgctxt "#30832"
+msgid "Search torrents with"
+msgstr "Caută torrente cu"
+
+msgctxt "#30833"
+msgid "Automatic"
+msgstr "Automat"
+
+msgctxt "#30834"
+msgid "Built-in search"
+msgstr "Căutare integrată"
+
+msgctxt "#30835"
+msgid "Provider add-ons"
+msgstr "Suplimente de furnizori"
+
+msgctxt "#30836"
+msgid "Both"
+msgstr "Ambele"

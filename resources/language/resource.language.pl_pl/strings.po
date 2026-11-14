@@ -2745,3 +2745,23 @@ msgstr "Sezon i odcinek (S01E01)"
 msgctxt "#30831"
 msgid "Nothing found on TMDB"
 msgstr "Nic nie znaleziono w TMDB"
+
+msgctxt "#30832"
+msgid "Search torrents with"
+msgstr "Szukaj torrentów za pomocą"
+
+msgctxt "#30833"
+msgid "Automatic"
+msgstr "Automatycznie"
+
+msgctxt "#30834"
+msgid "Built-in search"
+msgstr "Wbudowane wyszukiwanie"
+
+msgctxt "#30835"
+msgid "Provider add-ons"
+msgstr "Dodatki dostawców"
+
+msgctxt "#30836"
+msgid "Both"
+msgstr "Oba"

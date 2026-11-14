@@ -2763,3 +2763,23 @@ msgstr "Sezona in epizoda (S01E01)"
 msgctxt "#30831"
 msgid "Nothing found on TMDB"
 msgstr "Na TMDB ni bilo najdeno nič"
+
+msgctxt "#30832"
+msgid "Search torrents with"
+msgstr "Išči torrente z"
+
+msgctxt "#30833"
+msgid "Automatic"
+msgstr "Samodejno"
+
+msgctxt "#30834"
+msgid "Built-in search"
+msgstr "Vgrajeno iskanje"
+
+msgctxt "#30835"
+msgid "Provider add-ons"
+msgstr "Dodatki ponudnikov"
+
+msgctxt "#30836"
+msgid "Both"
+msgstr "Oboje"

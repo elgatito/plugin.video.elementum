@@ -2750,3 +2750,23 @@ msgstr "עונה ופרק (S01E01)"
 msgctxt "#30831"
 msgid "Nothing found on TMDB"
 msgstr "לא נמצא דבר ב-TMDB"
+
+msgctxt "#30832"
+msgid "Search torrents with"
+msgstr "חיפוש טורנטים באמצעות"
+
+msgctxt "#30833"
+msgid "Automatic"
+msgstr "אוטומטי"
+
+msgctxt "#30834"
+msgid "Built-in search"
+msgstr "חיפוש מובנה"
+
+msgctxt "#30835"
+msgid "Provider add-ons"
+msgstr "הרחבות ספקים"
+
+msgctxt "#30836"
+msgid "Both"
+msgstr "שניהם"

@@ -2759,3 +2759,23 @@ msgstr ""
 msgctxt "#30831"
 msgid "Nothing found on TMDB"
 msgstr ""
+
+msgctxt "#30832"
+msgid "Search torrents with"
+msgstr ""
+
+msgctxt "#30833"
+msgid "Automatic"
+msgstr ""
+
+msgctxt "#30834"
+msgid "Built-in search"
+msgstr ""
+
+msgctxt "#30835"
+msgid "Provider add-ons"
+msgstr ""
+
+msgctxt "#30836"
+msgid "Both"
+msgstr ""

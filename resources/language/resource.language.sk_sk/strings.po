@@ -2746,3 +2746,23 @@ msgstr "Séria a epizóda (S01E01)"
 msgctxt "#30831"
 msgid "Nothing found on TMDB"
 msgstr "Na TMDB sa nič nenašlo"
+
+msgctxt "#30832"
+msgid "Search torrents with"
+msgstr "Hľadať torrenty pomocou"
+
+msgctxt "#30833"
+msgid "Automatic"
+msgstr "Automaticky"
+
+msgctxt "#30834"
+msgid "Built-in search"
+msgstr "Vstavané vyhľadávanie"
+
+msgctxt "#30835"
+msgid "Provider add-ons"
+msgstr "Doplnky poskytovateľov"
+
+msgctxt "#30836"
+msgid "Both"
+msgstr "Oboje"
