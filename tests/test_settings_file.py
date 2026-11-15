@@ -62,7 +62,7 @@ class T(unittest.TestCase):
 
     def test_bundle_shape(self):
         b = self.bundle()
-        self.assertEqual(sorted(b), ["Info", "KodiBufferSize", "Language", "Platform", "Region", "SecondLanguage", "Settings", "Version"])
+        self.assertEqual(sorted(b), ["Info", "InterfaceLanguage", "KodiBufferSize", "Language", "Platform", "Region", "SecondLanguage", "Settings", "Version"])
         self.assertEqual((b["Version"], b["Language"], b["SecondLanguage"], b["Region"]), (1, "de", "en", "US"))
         self.assertEqual(b["Info"]["ID"], "plugin.video.elementum")
         self.assertEqual(b["Info"]["Path"], self.d)
@@ -98,6 +98,9 @@ class T(unittest.TestCase):
         g = lambda kind, region: {("english", False): "German", ("iso", False): "de", ("iso", True): "de"}.get((kind, region), "")
         self.assertEqual((sf.kodi_language(g), sf.kodi_region(g)), ("de", "DE"))
         self.assertEqual((sf.kodi_language(lambda k, r: ""), sf.kodi_region(lambda k, r: "")), ("en", "US"))
+        self.assertEqual(sf.kodi_interface_language(lambda kind, region: {("iso", True): "pt-BR"}.get((kind, region), "")), "pt-br")
+        self.assertEqual(sf.kodi_interface_language(lambda kind, region: {("english", False): "German", ("iso", False): "de"}.get((kind, region), "")), "de")
+        self.assertEqual(sf.kodi_interface_language(lambda k, r: ""), "en")
 
     def test_monitor_skips_write_for_writeback_only(self):
         import types
