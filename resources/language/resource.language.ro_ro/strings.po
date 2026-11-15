@@ -2769,3 +2769,255 @@ msgstr "Suplimente de furnizori"
 msgctxt "#30836"
 msgid "Both"
 msgstr "Ambele"
+
+msgctxt "#30837"
+msgid "General"
+msgstr "General"
+
+msgctxt "#30838"
+msgid "Filtering"
+msgstr "Filtrare"
+
+msgctxt "#30839"
+msgid "Resolution"
+msgstr "Rezoluție"
+
+msgctxt "#30840"
+msgid "Release type"
+msgstr "Tip de lansare"
+
+msgctxt "#30841"
+msgid "Languages"
+msgstr "Limbi"
+
+msgctxt "#30842"
+msgid "Keywords"
+msgstr "Cuvinte cheie"
+
+msgctxt "#30843"
+msgid "Cookie sync"
+msgstr "Sincronizare cookie-uri"
+
+msgctxt "#30844"
+msgid "Movies"
+msgstr "Filme"
+
+msgctxt "#30845"
+msgid "Seasons"
+msgstr "Sezoane"
+
+msgctxt "#30846"
+msgid "Episodes"
+msgstr "Episoade"
+
+msgctxt "#30847"
+msgid "Shows"
+msgstr "Seriale"
+
+msgctxt "#30848"
+msgid "All"
+msgstr "Toate"
+
+msgctxt "#30849"
+msgid "Maximum results per provider"
+msgstr "Rezultate maxime per furnizor"
+
+msgctxt "#30850"
+msgid "Sort returned results by"
+msgstr "Sortează rezultatele după"
+
+msgctxt "#30851"
+msgid "Minimum size (GB)"
+msgstr "Dimensiune minimă (GB)"
+
+msgctxt "#30852"
+msgid "Maximum size (GB)"
+msgstr "Dimensiune maximă (GB)"
+
+msgctxt "#30853"
+msgid "Use separate size range for movies, seasons and episodes"
+msgstr "Interval de dimensiune separat pentru filme, sezoane și episoade"
+
+msgctxt "#30854"
+msgid "Size"
+msgstr "Dimensiune"
+
+msgctxt "#30855"
+msgid "Required keywords"
+msgstr "Cuvinte cheie obligatorii"
+
+msgctxt "#30856"
+msgid "Season and episode"
+msgstr "Sezon și episod"
+
+msgctxt "#30857"
+msgid "Allow results without seeds"
+msgstr "Permite rezultate fără seeds"
+
+msgctxt "#30858"
+msgid "Remove quotes from search query"
+msgstr "Elimină ghilimelele din căutare"
+
+msgctxt "#30859"
+msgid "Language priority"
+msgstr "Prioritatea limbilor"
+
+msgctxt "#30860"
+msgid "Use language preference from Kodi when a translation is available"
+msgstr "Folosește limba din Kodi când există o traducere"
+
+msgctxt "#30861"
+msgid "Exceptions"
+msgstr "Excepții"
+
+msgctxt "#30862"
+msgid "Set 'original' title of Anime to:"
+msgstr "Setează titlul 'original' al anime la:"
+
+msgctxt "#30863"
+msgid "Additional keyword filters (comma-separated)"
+msgstr "Filtre suplimentare de cuvinte cheie (separate prin virgulă)"
+
+msgctxt "#30864"
+msgid "Accept"
+msgstr "Acceptă"
+
+msgctxt "#30865"
+msgid "Block"
+msgstr "Blochează"
+
+msgctxt "#30866"
+msgid "Require"
+msgstr "Necesită"
+
+msgctxt "#30867"
+msgid "Enable Cookie sync"
+msgstr "Activează sincronizarea cookie-urilor"
+
+msgctxt "#30868"
+msgid "GitHub token"
+msgstr "Token GitHub"
+
+msgctxt "#30869"
+msgid "GitHub user"
+msgstr "Utilizator GitHub"
+
+msgctxt "#30870"
+msgid "Encryption password (optional)"
+msgstr "Parolă de criptare (opțional)"
+
+msgctxt "#30871"
+msgid "Active Gist"
+msgstr "Gist activ"
+
+msgctxt "#30872"
+msgid "File name (optional)"
+msgstr "Nume fișier (opțional)"
+
+msgctxt "#30873"
+msgid "Seeds"
+msgstr "Seeds"
+
+msgctxt "#30874"
+msgid "Balanced"
+msgstr "Echilibrat"
+
+msgctxt "#30875"
+msgid "Original"
+msgstr "Original"
+
+msgctxt "#30876"
+msgid "Romanization of Japanese"
+msgstr "Romanizarea japonezei"
+
+msgctxt "#30877"
+msgid "English"
+msgstr "Engleză"
+
+msgctxt "#30878"
+msgid "Built-in search"
+msgstr "Căutare integrată"
+
+msgctxt "#30879"
+msgid "Built-in search settings"
+msgstr "Setările căutării integrate"
+
+msgctxt "#30880"
+msgid "Public providers"
+msgstr "Furnizori publici"
+
+msgctxt "#30881"
+msgid "Private providers (need an account)"
+msgstr "Furnizori privați (necesită cont)"
+
+msgctxt "#30882"
+msgid "Logins, mirrors and cookies"
+msgstr "Autentificări, oglinzi și cookie-uri"
+
+msgctxt "#30883"
+msgid "no login yet"
+msgstr "fără autentificare"
+
+msgctxt "#30884"
+msgid "Username"
+msgstr "Nume utilizator"
+
+msgctxt "#30885"
+msgid "Password"
+msgstr "Parolă"
+
+msgctxt "#30886"
+msgid "Passkey"
+msgstr "Passkey"
+
+msgctxt "#30887"
+msgid "Domain Alias [Optional]"
+msgstr "Alias de domeniu [opțional]"
+
+msgctxt "#30888"
+msgid "Contains only"
+msgstr "Conține doar"
+
+msgctxt "#30889"
+msgid "Browser cookies"
+msgstr "Cookie-uri de browser"
+
+msgctxt "#30890"
+msgid "User Agent"
+msgstr "User Agent"
+
+msgctxt "#30891"
+msgid "(set)"
+msgstr "(setat)"
+
+msgctxt "#30892"
+msgid "Connect GitHub and select Gist"
+msgstr "Conectează GitHub și alege Gist"
+
+msgctxt "#30893"
+msgid "Open [B]%s[/B] on any device and enter the code:[CR][B]%s[/B]"
+msgstr "Deschideți [B]%s[/B] pe orice dispozitiv și introduceți codul:[CR][B]%s[/B]"
+
+msgctxt "#30894"
+msgid "[B]Sync error:[/B] %s"
+msgstr "[B]Eroare de sincronizare:[/B] %s"
+
+msgctxt "#30895"
+msgid "Import settings of the Burst add-on into the built-in search?"
+msgstr "Importați setările suplimentului Burst în căutarea integrată?"
+
+msgctxt "#30896"
+msgid "Burst settings imported, %d providers enabled"
+msgstr "Setările Burst au fost importate, %d furnizori activați"
+
+msgctxt "#30897"
+msgid "Searching: %s"
+msgstr "Se caută: %s"
+
+msgctxt "#30898"
+msgid "%d providers left"
+msgstr "%d furnizori rămași"
+
+msgctxt "#30899"
+msgid "GitHub is connected"
+msgstr "GitHub este conectat"

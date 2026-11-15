@@ -2767,3 +2767,255 @@ msgstr "Szolgáltató kiegészítők"
 msgctxt "#30836"
 msgid "Both"
 msgstr "Mindkettő"
+
+msgctxt "#30837"
+msgid "General"
+msgstr "Általános"
+
+msgctxt "#30838"
+msgid "Filtering"
+msgstr "Szűrés"
+
+msgctxt "#30839"
+msgid "Resolution"
+msgstr "Felbontás"
+
+msgctxt "#30840"
+msgid "Release type"
+msgstr "Kiadás típusa"
+
+msgctxt "#30841"
+msgid "Languages"
+msgstr "Nyelvek"
+
+msgctxt "#30842"
+msgid "Keywords"
+msgstr "Kulcsszavak"
+
+msgctxt "#30843"
+msgid "Cookie sync"
+msgstr "Sütiszinkronizálás"
+
+msgctxt "#30844"
+msgid "Movies"
+msgstr "Filmek"
+
+msgctxt "#30845"
+msgid "Seasons"
+msgstr "Évadok"
+
+msgctxt "#30846"
+msgid "Episodes"
+msgstr "Epizódok"
+
+msgctxt "#30847"
+msgid "Shows"
+msgstr "Sorozatok"
+
+msgctxt "#30848"
+msgid "All"
+msgstr "Mind"
+
+msgctxt "#30849"
+msgid "Maximum results per provider"
+msgstr "Maximum találatok kiszolgálónként"
+
+msgctxt "#30850"
+msgid "Sort returned results by"
+msgstr "Találatok rendezése"
+
+msgctxt "#30851"
+msgid "Minimum size (GB)"
+msgstr "Minimum méret (GB)"
+
+msgctxt "#30852"
+msgid "Maximum size (GB)"
+msgstr "Maximum méret (GB)"
+
+msgctxt "#30853"
+msgid "Use separate size range for movies, seasons and episodes"
+msgstr "Használjon különböző méretbeli skálát a filmek, évadok és epizódok számára"
+
+msgctxt "#30854"
+msgid "Size"
+msgstr "Méret"
+
+msgctxt "#30855"
+msgid "Required keywords"
+msgstr "Kötelező kulcsszavak"
+
+msgctxt "#30856"
+msgid "Season and episode"
+msgstr "Évad és epizód"
+
+msgctxt "#30857"
+msgid "Allow results without seeds"
+msgstr "Seed nélküli találatok engedélyezése"
+
+msgctxt "#30858"
+msgid "Remove quotes from search query"
+msgstr "Idézőjelek eltávolítása a keresésből"
+
+msgctxt "#30859"
+msgid "Language priority"
+msgstr "Nyelvi prioritás"
+
+msgctxt "#30860"
+msgid "Use language preference from Kodi when a translation is available"
+msgstr "Használjon Kodi nyelvi elemeket, amennyiben fordítás elérhető"
+
+msgctxt "#30861"
+msgid "Exceptions"
+msgstr "Kivételek"
+
+msgctxt "#30862"
+msgid "Set 'original' title of Anime to:"
+msgstr "Anime 'eredeti' címének beállítása:"
+
+msgctxt "#30863"
+msgid "Additional keyword filters (comma-separated)"
+msgstr "További kulcsszó szűrők (vesszővel elválasztva)"
+
+msgctxt "#30864"
+msgid "Accept"
+msgstr "Elfogad"
+
+msgctxt "#30865"
+msgid "Block"
+msgstr "Tilt"
+
+msgctxt "#30866"
+msgid "Require"
+msgstr "Kötelező"
+
+msgctxt "#30867"
+msgid "Enable Cookie sync"
+msgstr "Sütiszinkronizálás engedélyezése"
+
+msgctxt "#30868"
+msgid "GitHub token"
+msgstr "GitHub token"
+
+msgctxt "#30869"
+msgid "GitHub user"
+msgstr "GitHub-felhasználó"
+
+msgctxt "#30870"
+msgid "Encryption password (optional)"
+msgstr "Titkosítási jelszó (nem kötelező)"
+
+msgctxt "#30871"
+msgid "Active Gist"
+msgstr "Aktív Gist"
+
+msgctxt "#30872"
+msgid "File name (optional)"
+msgstr "Fájlnév (nem kötelező)"
+
+msgctxt "#30873"
+msgid "Seeds"
+msgstr "Seedek"
+
+msgctxt "#30874"
+msgid "Balanced"
+msgstr "Kiegyensúlyozott"
+
+msgctxt "#30875"
+msgid "Original"
+msgstr "Eredeti"
+
+msgctxt "#30876"
+msgid "Romanization of Japanese"
+msgstr "Japán latin betűs átírása"
+
+msgctxt "#30877"
+msgid "English"
+msgstr "Angol"
+
+msgctxt "#30878"
+msgid "Built-in search"
+msgstr "Beépített keresés"
+
+msgctxt "#30879"
+msgid "Built-in search settings"
+msgstr "A beépített keresés beállításai"
+
+msgctxt "#30880"
+msgid "Public providers"
+msgstr "Nyilvános szolgáltatók"
+
+msgctxt "#30881"
+msgid "Private providers (need an account)"
+msgstr "Privát szolgáltatók (fiók szükséges)"
+
+msgctxt "#30882"
+msgid "Logins, mirrors and cookies"
+msgstr "Bejelentkezések, tükrök és sütik"
+
+msgctxt "#30883"
+msgid "no login yet"
+msgstr "még nincs bejelentkezés"
+
+msgctxt "#30884"
+msgid "Username"
+msgstr "Felhasználónév"
+
+msgctxt "#30885"
+msgid "Password"
+msgstr "Jelszó"
+
+msgctxt "#30886"
+msgid "Passkey"
+msgstr "Passkey"
+
+msgctxt "#30887"
+msgid "Domain Alias [Optional]"
+msgstr "Domain alias [nem kötelező]"
+
+msgctxt "#30888"
+msgid "Contains only"
+msgstr "Csak ezt tartalmazza"
+
+msgctxt "#30889"
+msgid "Browser cookies"
+msgstr "Böngészősütik"
+
+msgctxt "#30890"
+msgid "User Agent"
+msgstr "User Agent"
+
+msgctxt "#30891"
+msgid "(set)"
+msgstr "(beállítva)"
+
+msgctxt "#30892"
+msgid "Connect GitHub and select Gist"
+msgstr "GitHub csatlakoztatása és Gist kiválasztása"
+
+msgctxt "#30893"
+msgid "Open [B]%s[/B] on any device and enter the code:[CR][B]%s[/B]"
+msgstr "Nyisd meg a(z) [B]%s[/B] címet bármely eszközön, és add meg a kódot:[CR][B]%s[/B]"
+
+msgctxt "#30894"
+msgid "[B]Sync error:[/B] %s"
+msgstr "[B]Szinkronizálási hiba:[/B] %s"
+
+msgctxt "#30895"
+msgid "Import settings of the Burst add-on into the built-in search?"
+msgstr "Importálja a Burst kiegészítő beállításait a beépített keresésbe?"
+
+msgctxt "#30896"
+msgid "Burst settings imported, %d providers enabled"
+msgstr "A Burst beállításai importálva, %d szolgáltató engedélyezve"
+
+msgctxt "#30897"
+msgid "Searching: %s"
+msgstr "Keresés: %s"
+
+msgctxt "#30898"
+msgid "%d providers left"
+msgstr "%d kiszolgáló van hátra"
+
+msgctxt "#30899"
+msgid "GitHub is connected"
+msgstr "A GitHub csatlakoztatva"

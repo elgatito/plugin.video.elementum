@@ -2770,3 +2770,255 @@ msgstr "הרחבות ספקים"
 msgctxt "#30836"
 msgid "Both"
 msgstr "שניהם"
+
+msgctxt "#30837"
+msgid "General"
+msgstr "כללי"
+
+msgctxt "#30838"
+msgid "Filtering"
+msgstr "סינון"
+
+msgctxt "#30839"
+msgid "Resolution"
+msgstr "רזולוציה"
+
+msgctxt "#30840"
+msgid "Release type"
+msgstr "סוג שחרור"
+
+msgctxt "#30841"
+msgid "Languages"
+msgstr "שפות"
+
+msgctxt "#30842"
+msgid "Keywords"
+msgstr "מילות מפתח"
+
+msgctxt "#30843"
+msgid "Cookie sync"
+msgstr "סנכרון עוגיות"
+
+msgctxt "#30844"
+msgid "Movies"
+msgstr "סרטים"
+
+msgctxt "#30845"
+msgid "Seasons"
+msgstr "עונות"
+
+msgctxt "#30846"
+msgid "Episodes"
+msgstr "פרקים"
+
+msgctxt "#30847"
+msgid "Shows"
+msgstr "סדרות"
+
+msgctxt "#30848"
+msgid "All"
+msgstr "הכול"
+
+msgctxt "#30849"
+msgid "Maximum results per provider"
+msgstr "מקסימום תוצאות לספק"
+
+msgctxt "#30850"
+msgid "Sort returned results by"
+msgstr "מיון התוצאות לפי"
+
+msgctxt "#30851"
+msgid "Minimum size (GB)"
+msgstr "גודל מינימלי"
+
+msgctxt "#30852"
+msgid "Maximum size (GB)"
+msgstr "גודל מקסימלי"
+
+msgctxt "#30853"
+msgid "Use separate size range for movies, seasons and episodes"
+msgstr "להשתמש בהגדרות גודל שונות עבור סרטים, עונות ופרקים"
+
+msgctxt "#30854"
+msgid "Size"
+msgstr "גודל"
+
+msgctxt "#30855"
+msgid "Required keywords"
+msgstr "מילות מפתח נדרשות"
+
+msgctxt "#30856"
+msgid "Season and episode"
+msgstr "עונה ופרק"
+
+msgctxt "#30857"
+msgid "Allow results without seeds"
+msgstr "אפשר תוצאות ללא seeds"
+
+msgctxt "#30858"
+msgid "Remove quotes from search query"
+msgstr "הסר מירכאות משאילתת החיפוש"
+
+msgctxt "#30859"
+msgid "Language priority"
+msgstr "עדיפות שפות"
+
+msgctxt "#30860"
+msgid "Use language preference from Kodi when a translation is available"
+msgstr "שימוש בהעדפות שפה של Kodi כאשר התרגום זמין"
+
+msgctxt "#30861"
+msgid "Exceptions"
+msgstr "חריגות"
+
+msgctxt "#30862"
+msgid "Set 'original' title of Anime to:"
+msgstr "הגדר כותר 'מקורי' של אנימה ל:"
+
+msgctxt "#30863"
+msgid "Additional keyword filters (comma-separated)"
+msgstr "מילות מפתח נוספות לסינון (מופרדות בפסיק)"
+
+msgctxt "#30864"
+msgid "Accept"
+msgstr "לקבל"
+
+msgctxt "#30865"
+msgid "Block"
+msgstr "לחסום"
+
+msgctxt "#30866"
+msgid "Require"
+msgstr "נצרך"
+
+msgctxt "#30867"
+msgid "Enable Cookie sync"
+msgstr "הפעל סנכרון עוגיות"
+
+msgctxt "#30868"
+msgid "GitHub token"
+msgstr "אסימון GitHub"
+
+msgctxt "#30869"
+msgid "GitHub user"
+msgstr "משתמש GitHub"
+
+msgctxt "#30870"
+msgid "Encryption password (optional)"
+msgstr "סיסמת הצפנה (אופציונלי)"
+
+msgctxt "#30871"
+msgid "Active Gist"
+msgstr "Gist פעיל"
+
+msgctxt "#30872"
+msgid "File name (optional)"
+msgstr "שם קובץ (אופציונלי)"
+
+msgctxt "#30873"
+msgid "Seeds"
+msgstr "Seeds"
+
+msgctxt "#30874"
+msgid "Balanced"
+msgstr "מאוזן"
+
+msgctxt "#30875"
+msgid "Original"
+msgstr "מקורי"
+
+msgctxt "#30876"
+msgid "Romanization of Japanese"
+msgstr "תעתיק לטיני של יפנית"
+
+msgctxt "#30877"
+msgid "English"
+msgstr "אנגלית"
+
+msgctxt "#30878"
+msgid "Built-in search"
+msgstr "חיפוש מובנה"
+
+msgctxt "#30879"
+msgid "Built-in search settings"
+msgstr "הגדרות החיפוש המובנה"
+
+msgctxt "#30880"
+msgid "Public providers"
+msgstr "ספקים ציבוריים"
+
+msgctxt "#30881"
+msgid "Private providers (need an account)"
+msgstr "ספקים פרטיים (נדרש חשבון)"
+
+msgctxt "#30882"
+msgid "Logins, mirrors and cookies"
+msgstr "התחברויות, אתרי מראה ועוגיות"
+
+msgctxt "#30883"
+msgid "no login yet"
+msgstr "אין עדיין התחברות"
+
+msgctxt "#30884"
+msgid "Username"
+msgstr "שם משתמש"
+
+msgctxt "#30885"
+msgid "Password"
+msgstr "סיסמה"
+
+msgctxt "#30886"
+msgid "Passkey"
+msgstr "מפתח"
+
+msgctxt "#30887"
+msgid "Domain Alias [Optional]"
+msgstr "כינוי דומיין [אופציונלי]"
+
+msgctxt "#30888"
+msgid "Contains only"
+msgstr "מכיל רק"
+
+msgctxt "#30889"
+msgid "Browser cookies"
+msgstr "עוגיות דפדפן"
+
+msgctxt "#30890"
+msgid "User Agent"
+msgstr "User Agent"
+
+msgctxt "#30891"
+msgid "(set)"
+msgstr "(הוגדר)"
+
+msgctxt "#30892"
+msgid "Connect GitHub and select Gist"
+msgstr "חיבור ל-GitHub ובחירת Gist"
+
+msgctxt "#30893"
+msgid "Open [B]%s[/B] on any device and enter the code:[CR][B]%s[/B]"
+msgstr "פתח את [B]%s[/B] בכל מכשיר והזן את הקוד:[CR][B]%s[/B]"
+
+msgctxt "#30894"
+msgid "[B]Sync error:[/B] %s"
+msgstr "[B]שגיאת סנכרון:[/B] %s"
+
+msgctxt "#30895"
+msgid "Import settings of the Burst add-on into the built-in search?"
+msgstr "לייבא את הגדרות ההרחבה Burst לחיפוש המובנה?"
+
+msgctxt "#30896"
+msgid "Burst settings imported, %d providers enabled"
+msgstr "הגדרות Burst יובאו, %d ספקים הופעלו"
+
+msgctxt "#30897"
+msgid "Searching: %s"
+msgstr "מחפש: %s"
+
+msgctxt "#30898"
+msgid "%d providers left"
+msgstr "%d ספקים נותרו"
+
+msgctxt "#30899"
+msgid "GitHub is connected"
+msgstr "GitHub מחובר"

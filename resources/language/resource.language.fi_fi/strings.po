@@ -2765,3 +2765,255 @@ msgstr "Tarjoajalisäosat"
 msgctxt "#30836"
 msgid "Both"
 msgstr "Molemmat"
+
+msgctxt "#30837"
+msgid "General"
+msgstr "Yleiset"
+
+msgctxt "#30838"
+msgid "Filtering"
+msgstr "Suodatus"
+
+msgctxt "#30839"
+msgid "Resolution"
+msgstr "Tarkkuus"
+
+msgctxt "#30840"
+msgid "Release type"
+msgstr "Julkaisutyyppi"
+
+msgctxt "#30841"
+msgid "Languages"
+msgstr "Kielet"
+
+msgctxt "#30842"
+msgid "Keywords"
+msgstr "Avainsanat"
+
+msgctxt "#30843"
+msgid "Cookie sync"
+msgstr "Evästeiden synkronointi"
+
+msgctxt "#30844"
+msgid "Movies"
+msgstr "Elokuvat"
+
+msgctxt "#30845"
+msgid "Seasons"
+msgstr "Kaudet"
+
+msgctxt "#30846"
+msgid "Episodes"
+msgstr "Jaksot"
+
+msgctxt "#30847"
+msgid "Shows"
+msgstr "Sarjat"
+
+msgctxt "#30848"
+msgid "All"
+msgstr "Kaikki"
+
+msgctxt "#30849"
+msgid "Maximum results per provider"
+msgstr "Tuloksia enintään tarjoajaa kohden"
+
+msgctxt "#30850"
+msgid "Sort returned results by"
+msgstr "Järjestä tulokset"
+
+msgctxt "#30851"
+msgid "Minimum size (GB)"
+msgstr "Vähimmäiskoko (Gt)"
+
+msgctxt "#30852"
+msgid "Maximum size (GB)"
+msgstr "Enimmäiskoko (Gt)"
+
+msgctxt "#30853"
+msgid "Use separate size range for movies, seasons and episodes"
+msgstr "Käytä erillistä kokoaluetta elokuville, kausille ja jaksoille"
+
+msgctxt "#30854"
+msgid "Size"
+msgstr "Koko"
+
+msgctxt "#30855"
+msgid "Required keywords"
+msgstr "Vaaditut avainsanat"
+
+msgctxt "#30856"
+msgid "Season and episode"
+msgstr "Kausi ja jakso"
+
+msgctxt "#30857"
+msgid "Allow results without seeds"
+msgstr "Salli tulokset ilman jakajia"
+
+msgctxt "#30858"
+msgid "Remove quotes from search query"
+msgstr "Poista lainausmerkit hakulausekkeesta"
+
+msgctxt "#30859"
+msgid "Language priority"
+msgstr "Kielten tärkeysjärjestys"
+
+msgctxt "#30860"
+msgid "Use language preference from Kodi when a translation is available"
+msgstr "Käytä Kodin kieltä, kun käännös on saatavilla"
+
+msgctxt "#30861"
+msgid "Exceptions"
+msgstr "Poikkeukset"
+
+msgctxt "#30862"
+msgid "Set 'original' title of Anime to:"
+msgstr "Aseta animen 'alkuperäinen' nimi:"
+
+msgctxt "#30863"
+msgid "Additional keyword filters (comma-separated)"
+msgstr "Lisäavainsanasuodattimet (pilkuilla erotettuna)"
+
+msgctxt "#30864"
+msgid "Accept"
+msgstr "Hyväksy"
+
+msgctxt "#30865"
+msgid "Block"
+msgstr "Estä"
+
+msgctxt "#30866"
+msgid "Require"
+msgstr "Vaadi"
+
+msgctxt "#30867"
+msgid "Enable Cookie sync"
+msgstr "Ota evästeiden synkronointi käyttöön"
+
+msgctxt "#30868"
+msgid "GitHub token"
+msgstr "GitHub-tunniste"
+
+msgctxt "#30869"
+msgid "GitHub user"
+msgstr "GitHub-käyttäjä"
+
+msgctxt "#30870"
+msgid "Encryption password (optional)"
+msgstr "Salauksen salasana (valinnainen)"
+
+msgctxt "#30871"
+msgid "Active Gist"
+msgstr "Aktiivinen Gist"
+
+msgctxt "#30872"
+msgid "File name (optional)"
+msgstr "Tiedostonimi (valinnainen)"
+
+msgctxt "#30873"
+msgid "Seeds"
+msgstr "Jakajat"
+
+msgctxt "#30874"
+msgid "Balanced"
+msgstr "Tasapainotettu"
+
+msgctxt "#30875"
+msgid "Original"
+msgstr "Alkuperäinen"
+
+msgctxt "#30876"
+msgid "Romanization of Japanese"
+msgstr "Japanin latinisointi"
+
+msgctxt "#30877"
+msgid "English"
+msgstr "Englanti"
+
+msgctxt "#30878"
+msgid "Built-in search"
+msgstr "Sisäänrakennettu haku"
+
+msgctxt "#30879"
+msgid "Built-in search settings"
+msgstr "Sisäänrakennetun haun asetukset"
+
+msgctxt "#30880"
+msgid "Public providers"
+msgstr "Julkiset tarjoajat"
+
+msgctxt "#30881"
+msgid "Private providers (need an account)"
+msgstr "Yksityiset tarjoajat (vaativat tilin)"
+
+msgctxt "#30882"
+msgid "Logins, mirrors and cookies"
+msgstr "Kirjautumiset, peilit ja evästeet"
+
+msgctxt "#30883"
+msgid "no login yet"
+msgstr "ei kirjautumistietoja"
+
+msgctxt "#30884"
+msgid "Username"
+msgstr "Käyttäjätunnus"
+
+msgctxt "#30885"
+msgid "Password"
+msgstr "Salasana"
+
+msgctxt "#30886"
+msgid "Passkey"
+msgstr "Passkey"
+
+msgctxt "#30887"
+msgid "Domain Alias [Optional]"
+msgstr "Verkkotunnuksen alias [valinnainen]"
+
+msgctxt "#30888"
+msgid "Contains only"
+msgstr "Sisältää vain"
+
+msgctxt "#30889"
+msgid "Browser cookies"
+msgstr "Selaimen evästeet"
+
+msgctxt "#30890"
+msgid "User Agent"
+msgstr "User Agent"
+
+msgctxt "#30891"
+msgid "(set)"
+msgstr "(asetettu)"
+
+msgctxt "#30892"
+msgid "Connect GitHub and select Gist"
+msgstr "Yhdistä GitHub ja valitse Gist"
+
+msgctxt "#30893"
+msgid "Open [B]%s[/B] on any device and enter the code:[CR][B]%s[/B]"
+msgstr "Avaa [B]%s[/B] millä tahansa laitteella ja anna koodi:[CR][B]%s[/B]"
+
+msgctxt "#30894"
+msgid "[B]Sync error:[/B] %s"
+msgstr "[B]Synkronointivirhe:[/B] %s"
+
+msgctxt "#30895"
+msgid "Import settings of the Burst add-on into the built-in search?"
+msgstr "Tuodaanko Burst-lisäosan asetukset sisäänrakennettuun hakuun?"
+
+msgctxt "#30896"
+msgid "Burst settings imported, %d providers enabled"
+msgstr "Burstin asetukset tuotu, %d tarjoajaa käytössä"
+
+msgctxt "#30897"
+msgid "Searching: %s"
+msgstr "Haetaan: %s"
+
+msgctxt "#30898"
+msgid "%d providers left"
+msgstr "%d tarjoajaa jäljellä"
+
+msgctxt "#30899"
+msgid "GitHub is connected"
+msgstr "GitHub on yhdistetty"

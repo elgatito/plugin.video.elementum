@@ -2783,3 +2783,255 @@ msgstr "Dodatki ponudnikov"
 msgctxt "#30836"
 msgid "Both"
 msgstr "Oboje"
+
+msgctxt "#30837"
+msgid "General"
+msgstr "Splošno"
+
+msgctxt "#30838"
+msgid "Filtering"
+msgstr "Filtriranje"
+
+msgctxt "#30839"
+msgid "Resolution"
+msgstr "Ločljivost"
+
+msgctxt "#30840"
+msgid "Release type"
+msgstr "Vrsta izdaje"
+
+msgctxt "#30841"
+msgid "Languages"
+msgstr "Jeziki"
+
+msgctxt "#30842"
+msgid "Keywords"
+msgstr "Ključne besede"
+
+msgctxt "#30843"
+msgid "Cookie sync"
+msgstr "Sinhronizacija piškotkov"
+
+msgctxt "#30844"
+msgid "Movies"
+msgstr "Filmi"
+
+msgctxt "#30845"
+msgid "Seasons"
+msgstr "Sezone"
+
+msgctxt "#30846"
+msgid "Episodes"
+msgstr "Epizode"
+
+msgctxt "#30847"
+msgid "Shows"
+msgstr "Serije"
+
+msgctxt "#30848"
+msgid "All"
+msgstr "Vse"
+
+msgctxt "#30849"
+msgid "Maximum results per provider"
+msgstr "Največ rezultatov na ponudnika"
+
+msgctxt "#30850"
+msgid "Sort returned results by"
+msgstr "Razvrsti rezultate po"
+
+msgctxt "#30851"
+msgid "Minimum size (GB)"
+msgstr "Najmanjša velikost (GB)"
+
+msgctxt "#30852"
+msgid "Maximum size (GB)"
+msgstr "Največja velikost (GB)"
+
+msgctxt "#30853"
+msgid "Use separate size range for movies, seasons and episodes"
+msgstr "Ločen razpon velikosti za filme, sezone in epizode"
+
+msgctxt "#30854"
+msgid "Size"
+msgstr "Velikost"
+
+msgctxt "#30855"
+msgid "Required keywords"
+msgstr "Zahtevane ključne besede"
+
+msgctxt "#30856"
+msgid "Season and episode"
+msgstr "Sezona in epizoda"
+
+msgctxt "#30857"
+msgid "Allow results without seeds"
+msgstr "Dovoli rezultate brez sejalcev"
+
+msgctxt "#30858"
+msgid "Remove quotes from search query"
+msgstr "Odstrani narekovaje iz poizvedbe"
+
+msgctxt "#30859"
+msgid "Language priority"
+msgstr "Prednost jezikov"
+
+msgctxt "#30860"
+msgid "Use language preference from Kodi when a translation is available"
+msgstr "Uporabi jezik Kodija, kadar je prevod na voljo"
+
+msgctxt "#30861"
+msgid "Exceptions"
+msgstr "Izjeme"
+
+msgctxt "#30862"
+msgid "Set 'original' title of Anime to:"
+msgstr "Nastavi 'izvirni' naslov animeja na:"
+
+msgctxt "#30863"
+msgid "Additional keyword filters (comma-separated)"
+msgstr "Dodatni filtri ključnih besed (ločeni z vejico)"
+
+msgctxt "#30864"
+msgid "Accept"
+msgstr "Sprejmi"
+
+msgctxt "#30865"
+msgid "Block"
+msgstr "Blokiraj"
+
+msgctxt "#30866"
+msgid "Require"
+msgstr "Zahtevaj"
+
+msgctxt "#30867"
+msgid "Enable Cookie sync"
+msgstr "Omogoči sinhronizacijo piškotkov"
+
+msgctxt "#30868"
+msgid "GitHub token"
+msgstr "Žeton GitHub"
+
+msgctxt "#30869"
+msgid "GitHub user"
+msgstr "Uporabnik GitHub"
+
+msgctxt "#30870"
+msgid "Encryption password (optional)"
+msgstr "Geslo za šifriranje (neobvezno)"
+
+msgctxt "#30871"
+msgid "Active Gist"
+msgstr "Aktivni Gist"
+
+msgctxt "#30872"
+msgid "File name (optional)"
+msgstr "Ime datoteke (neobvezno)"
+
+msgctxt "#30873"
+msgid "Seeds"
+msgstr "Sejalci"
+
+msgctxt "#30874"
+msgid "Balanced"
+msgstr "Uravnoteženo"
+
+msgctxt "#30875"
+msgid "Original"
+msgstr "Izvirni"
+
+msgctxt "#30876"
+msgid "Romanization of Japanese"
+msgstr "Latinizacija japonščine"
+
+msgctxt "#30877"
+msgid "English"
+msgstr "Angleščina"
+
+msgctxt "#30878"
+msgid "Built-in search"
+msgstr "Vgrajeno iskanje"
+
+msgctxt "#30879"
+msgid "Built-in search settings"
+msgstr "Nastavitve vgrajenega iskanja"
+
+msgctxt "#30880"
+msgid "Public providers"
+msgstr "Javni ponudniki"
+
+msgctxt "#30881"
+msgid "Private providers (need an account)"
+msgstr "Zasebni ponudniki (potreben račun)"
+
+msgctxt "#30882"
+msgid "Logins, mirrors and cookies"
+msgstr "Prijave, zrcala in piškotki"
+
+msgctxt "#30883"
+msgid "no login yet"
+msgstr "prijave še ni"
+
+msgctxt "#30884"
+msgid "Username"
+msgstr "Uporabniško ime"
+
+msgctxt "#30885"
+msgid "Password"
+msgstr "Geslo"
+
+msgctxt "#30886"
+msgid "Passkey"
+msgstr "Passkey"
+
+msgctxt "#30887"
+msgid "Domain Alias [Optional]"
+msgstr "Vzdevek domene [neobvezno]"
+
+msgctxt "#30888"
+msgid "Contains only"
+msgstr "Vsebuje samo"
+
+msgctxt "#30889"
+msgid "Browser cookies"
+msgstr "Piškotki brskalnika"
+
+msgctxt "#30890"
+msgid "User Agent"
+msgstr "User Agent"
+
+msgctxt "#30891"
+msgid "(set)"
+msgstr "(nastavljeno)"
+
+msgctxt "#30892"
+msgid "Connect GitHub and select Gist"
+msgstr "Poveži GitHub in izberi Gist"
+
+msgctxt "#30893"
+msgid "Open [B]%s[/B] on any device and enter the code:[CR][B]%s[/B]"
+msgstr "Odprite [B]%s[/B] na kateri koli napravi in vnesite kodo:[CR][B]%s[/B]"
+
+msgctxt "#30894"
+msgid "[B]Sync error:[/B] %s"
+msgstr "[B]Napaka sinhronizacije:[/B] %s"
+
+msgctxt "#30895"
+msgid "Import settings of the Burst add-on into the built-in search?"
+msgstr "Uvozim nastavitve dodatka Burst v vgrajeno iskanje?"
+
+msgctxt "#30896"
+msgid "Burst settings imported, %d providers enabled"
+msgstr "Nastavitve Burst uvožene, omogočenih ponudnikov: %d"
+
+msgctxt "#30897"
+msgid "Searching: %s"
+msgstr "Iskanje: %s"
+
+msgctxt "#30898"
+msgid "%d providers left"
+msgstr "Preostalih ponudnikov: %d"
+
+msgctxt "#30899"
+msgid "GitHub is connected"
+msgstr "GitHub je povezan"

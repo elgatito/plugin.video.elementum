@@ -2766,3 +2766,255 @@ msgstr "Додатки-провайдери"
 msgctxt "#30836"
 msgid "Both"
 msgstr "Обидва варіанти"
+
+msgctxt "#30837"
+msgid "General"
+msgstr "Загальні"
+
+msgctxt "#30838"
+msgid "Filtering"
+msgstr "Фільтри"
+
+msgctxt "#30839"
+msgid "Resolution"
+msgstr "Роздільність"
+
+msgctxt "#30840"
+msgid "Release type"
+msgstr "Тип релізу"
+
+msgctxt "#30841"
+msgid "Languages"
+msgstr "Мови"
+
+msgctxt "#30842"
+msgid "Keywords"
+msgstr "Ключові слова"
+
+msgctxt "#30843"
+msgid "Cookie sync"
+msgstr "Синхронізація cookies"
+
+msgctxt "#30844"
+msgid "Movies"
+msgstr "Фільми"
+
+msgctxt "#30845"
+msgid "Seasons"
+msgstr "Сезони"
+
+msgctxt "#30846"
+msgid "Episodes"
+msgstr "Серії"
+
+msgctxt "#30847"
+msgid "Shows"
+msgstr "Серіали"
+
+msgctxt "#30848"
+msgid "All"
+msgstr "Все"
+
+msgctxt "#30849"
+msgid "Maximum results per provider"
+msgstr "Максимальна кіл-ть результатів для провайдера"
+
+msgctxt "#30850"
+msgid "Sort returned results by"
+msgstr "Сортувати результати за"
+
+msgctxt "#30851"
+msgid "Minimum size (GB)"
+msgstr "Мінімальний розмір (ГБ)"
+
+msgctxt "#30852"
+msgid "Maximum size (GB)"
+msgstr "Максимальний розмір (ГБ)"
+
+msgctxt "#30853"
+msgid "Use separate size range for movies, seasons and episodes"
+msgstr "Індивідуальні ліміти розміру для фільмів, сезонів та серій"
+
+msgctxt "#30854"
+msgid "Size"
+msgstr "Розмір"
+
+msgctxt "#30855"
+msgid "Required keywords"
+msgstr "Ключові слова"
+
+msgctxt "#30856"
+msgid "Season and episode"
+msgstr "Сезон і серія"
+
+msgctxt "#30857"
+msgid "Allow results without seeds"
+msgstr "Дозволяти результати пошуку без сідів"
+
+msgctxt "#30858"
+msgid "Remove quotes from search query"
+msgstr "Прибрати лапки з пошукового запиту"
+
+msgctxt "#30859"
+msgid "Language priority"
+msgstr "Пріоритет мов"
+
+msgctxt "#30860"
+msgid "Use language preference from Kodi when a translation is available"
+msgstr "Використовувати мову інтерфейсу Kodi"
+
+msgctxt "#30861"
+msgid "Exceptions"
+msgstr "Винятки"
+
+msgctxt "#30862"
+msgid "Set 'original' title of Anime to:"
+msgstr "Встановити 'оригінальну' назву аніме:"
+
+msgctxt "#30863"
+msgid "Additional keyword filters (comma-separated)"
+msgstr "Додаткові слова-фільтри (через кому)"
+
+msgctxt "#30864"
+msgid "Accept"
+msgstr "Приймати"
+
+msgctxt "#30865"
+msgid "Block"
+msgstr "Блокувати"
+
+msgctxt "#30866"
+msgid "Require"
+msgstr "Обов'язково"
+
+msgctxt "#30867"
+msgid "Enable Cookie sync"
+msgstr "Увімкнути синхронізацію cookies"
+
+msgctxt "#30868"
+msgid "GitHub token"
+msgstr "Токен GitHub"
+
+msgctxt "#30869"
+msgid "GitHub user"
+msgstr "Користувач GitHub"
+
+msgctxt "#30870"
+msgid "Encryption password (optional)"
+msgstr "Пароль шифрування (необов'язково)"
+
+msgctxt "#30871"
+msgid "Active Gist"
+msgstr "Активний Gist"
+
+msgctxt "#30872"
+msgid "File name (optional)"
+msgstr "Назва файлу (необов'язково)"
+
+msgctxt "#30873"
+msgid "Seeds"
+msgstr "Сідами"
+
+msgctxt "#30874"
+msgid "Balanced"
+msgstr "Баланс"
+
+msgctxt "#30875"
+msgid "Original"
+msgstr "Оригінал"
+
+msgctxt "#30876"
+msgid "Romanization of Japanese"
+msgstr "Романізація японської"
+
+msgctxt "#30877"
+msgid "English"
+msgstr "Англійська"
+
+msgctxt "#30878"
+msgid "Built-in search"
+msgstr "Вбудований пошук"
+
+msgctxt "#30879"
+msgid "Built-in search settings"
+msgstr "Налаштування вбудованого пошуку"
+
+msgctxt "#30880"
+msgid "Public providers"
+msgstr "Публічні провайдери"
+
+msgctxt "#30881"
+msgid "Private providers (need an account)"
+msgstr "Приватні провайдери (потрібен обліковий запис)"
+
+msgctxt "#30882"
+msgid "Logins, mirrors and cookies"
+msgstr "Логіни, дзеркала та cookies"
+
+msgctxt "#30883"
+msgid "no login yet"
+msgstr "логін не задано"
+
+msgctxt "#30884"
+msgid "Username"
+msgstr "Користувач"
+
+msgctxt "#30885"
+msgid "Password"
+msgstr "Пароль"
+
+msgctxt "#30886"
+msgid "Passkey"
+msgstr "Passkey"
+
+msgctxt "#30887"
+msgid "Domain Alias [Optional]"
+msgstr "Альтернативний домен [Опціонально]"
+
+msgctxt "#30888"
+msgid "Contains only"
+msgstr "Містить тільки"
+
+msgctxt "#30889"
+msgid "Browser cookies"
+msgstr "Cookies браузера"
+
+msgctxt "#30890"
+msgid "User Agent"
+msgstr "User Agent"
+
+msgctxt "#30891"
+msgid "(set)"
+msgstr "(задано)"
+
+msgctxt "#30892"
+msgid "Connect GitHub and select Gist"
+msgstr "Підключити GitHub і вибрати Gist"
+
+msgctxt "#30893"
+msgid "Open [B]%s[/B] on any device and enter the code:[CR][B]%s[/B]"
+msgstr "Відкрийте [B]%s[/B] на будь-якому пристрої та введіть код:[CR][B]%s[/B]"
+
+msgctxt "#30894"
+msgid "[B]Sync error:[/B] %s"
+msgstr "[B]Помилка синхронізації:[/B] %s"
+
+msgctxt "#30895"
+msgid "Import settings of the Burst add-on into the built-in search?"
+msgstr "Імпортувати налаштування додатка Burst у вбудований пошук?"
+
+msgctxt "#30896"
+msgid "Burst settings imported, %d providers enabled"
+msgstr "Налаштування Burst імпортовано, увімкнено провайдерів: %d"
+
+msgctxt "#30897"
+msgid "Searching: %s"
+msgstr "Пошук: %s"
+
+msgctxt "#30898"
+msgid "%d providers left"
+msgstr "Провайдерів залишилось: %d"
+
+msgctxt "#30899"
+msgid "GitHub is connected"
+msgstr "GitHub підключено"

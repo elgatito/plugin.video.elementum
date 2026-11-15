@@ -2766,3 +2766,255 @@ msgstr "Дополнения-провайдеры"
 msgctxt "#30836"
 msgid "Both"
 msgstr "Оба варианта"
+
+msgctxt "#30837"
+msgid "General"
+msgstr "Общие"
+
+msgctxt "#30838"
+msgid "Filtering"
+msgstr "Фильтрация"
+
+msgctxt "#30839"
+msgid "Resolution"
+msgstr "Разрешение"
+
+msgctxt "#30840"
+msgid "Release type"
+msgstr "Тип релиза"
+
+msgctxt "#30841"
+msgid "Languages"
+msgstr "Языки"
+
+msgctxt "#30842"
+msgid "Keywords"
+msgstr "Ключевые слова"
+
+msgctxt "#30843"
+msgid "Cookie sync"
+msgstr "Синхронизация cookie"
+
+msgctxt "#30844"
+msgid "Movies"
+msgstr "Фильмы"
+
+msgctxt "#30845"
+msgid "Seasons"
+msgstr "Сезоны"
+
+msgctxt "#30846"
+msgid "Episodes"
+msgstr "Эпизоды"
+
+msgctxt "#30847"
+msgid "Shows"
+msgstr "Сериалы"
+
+msgctxt "#30848"
+msgid "All"
+msgstr "Всё"
+
+msgctxt "#30849"
+msgid "Maximum results per provider"
+msgstr "Максимальное кол-во результатов для провайдера"
+
+msgctxt "#30850"
+msgid "Sort returned results by"
+msgstr "Сортировать результаты поиска по"
+
+msgctxt "#30851"
+msgid "Minimum size (GB)"
+msgstr "Минимальный размер (ГБ)"
+
+msgctxt "#30852"
+msgid "Maximum size (GB)"
+msgstr "Максимальный размер (ГБ)"
+
+msgctxt "#30853"
+msgid "Use separate size range for movies, seasons and episodes"
+msgstr "Использовать разные размеры для фильмов, сезонов, эпизодов"
+
+msgctxt "#30854"
+msgid "Size"
+msgstr "Размер"
+
+msgctxt "#30855"
+msgid "Required keywords"
+msgstr "Требуемые слова"
+
+msgctxt "#30856"
+msgid "Season and episode"
+msgstr "Сезон и серия"
+
+msgctxt "#30857"
+msgid "Allow results without seeds"
+msgstr "Разрешать результаты без сидов"
+
+msgctxt "#30858"
+msgid "Remove quotes from search query"
+msgstr "Удалить кавычки из поискового запроса"
+
+msgctxt "#30859"
+msgid "Language priority"
+msgstr "Приоритет языков"
+
+msgctxt "#30860"
+msgid "Use language preference from Kodi when a translation is available"
+msgstr "Использовать язык Kodi когда доступен перевод"
+
+msgctxt "#30861"
+msgid "Exceptions"
+msgstr "Исключения"
+
+msgctxt "#30862"
+msgid "Set 'original' title of Anime to:"
+msgstr "Установить 'оригинальное' название Аниме как:"
+
+msgctxt "#30863"
+msgid "Additional keyword filters (comma-separated)"
+msgstr "Дополнительные слова-фильтры (через запятую)"
+
+msgctxt "#30864"
+msgid "Accept"
+msgstr "Принять"
+
+msgctxt "#30865"
+msgid "Block"
+msgstr "Заблокировать"
+
+msgctxt "#30866"
+msgid "Require"
+msgstr "Обязательно"
+
+msgctxt "#30867"
+msgid "Enable Cookie sync"
+msgstr "Включить синхронизацию cookie"
+
+msgctxt "#30868"
+msgid "GitHub token"
+msgstr "Токен GitHub"
+
+msgctxt "#30869"
+msgid "GitHub user"
+msgstr "Пользователь GitHub"
+
+msgctxt "#30870"
+msgid "Encryption password (optional)"
+msgstr "Пароль шифрования (опционально)"
+
+msgctxt "#30871"
+msgid "Active Gist"
+msgstr "Активный Gist"
+
+msgctxt "#30872"
+msgid "File name (optional)"
+msgstr "Название файла (опционально)"
+
+msgctxt "#30873"
+msgid "Seeds"
+msgstr "Кол-во сидов"
+
+msgctxt "#30874"
+msgid "Balanced"
+msgstr "Баланс"
+
+msgctxt "#30875"
+msgid "Original"
+msgstr "Исходное"
+
+msgctxt "#30876"
+msgid "Romanization of Japanese"
+msgstr "Японский латиницей (Ромадзи)"
+
+msgctxt "#30877"
+msgid "English"
+msgstr "Английский"
+
+msgctxt "#30878"
+msgid "Built-in search"
+msgstr "Встроенный поиск"
+
+msgctxt "#30879"
+msgid "Built-in search settings"
+msgstr "Настройки встроенного поиска"
+
+msgctxt "#30880"
+msgid "Public providers"
+msgstr "Публичные провайдеры"
+
+msgctxt "#30881"
+msgid "Private providers (need an account)"
+msgstr "Приватные провайдеры (нужна учётная запись)"
+
+msgctxt "#30882"
+msgid "Logins, mirrors and cookies"
+msgstr "Логины, зеркала и cookies"
+
+msgctxt "#30883"
+msgid "no login yet"
+msgstr "логин не задан"
+
+msgctxt "#30884"
+msgid "Username"
+msgstr "Пользователь"
+
+msgctxt "#30885"
+msgid "Password"
+msgstr "Пароль"
+
+msgctxt "#30886"
+msgid "Passkey"
+msgstr "Passkey"
+
+msgctxt "#30887"
+msgid "Domain Alias [Optional]"
+msgstr "Альтернативный домен [Опционально]"
+
+msgctxt "#30888"
+msgid "Contains only"
+msgstr "Содержит"
+
+msgctxt "#30889"
+msgid "Browser cookies"
+msgstr "Cookies браузера"
+
+msgctxt "#30890"
+msgid "User Agent"
+msgstr "User Agent"
+
+msgctxt "#30891"
+msgid "(set)"
+msgstr "(задано)"
+
+msgctxt "#30892"
+msgid "Connect GitHub and select Gist"
+msgstr "Подключить GitHub и выбрать Gist"
+
+msgctxt "#30893"
+msgid "Open [B]%s[/B] on any device and enter the code:[CR][B]%s[/B]"
+msgstr "Откройте [B]%s[/B] на любом устройстве и введите код:[CR][B]%s[/B]"
+
+msgctxt "#30894"
+msgid "[B]Sync error:[/B] %s"
+msgstr "[B]Ошибка синхронизации:[/B] %s"
+
+msgctxt "#30895"
+msgid "Import settings of the Burst add-on into the built-in search?"
+msgstr "Импортировать настройки дополнения Burst во встроенный поиск?"
+
+msgctxt "#30896"
+msgid "Burst settings imported, %d providers enabled"
+msgstr "Настройки Burst импортированы, включено провайдеров: %d"
+
+msgctxt "#30897"
+msgid "Searching: %s"
+msgstr "Поиск: %s"
+
+msgctxt "#30898"
+msgid "%d providers left"
+msgstr "Провайдеров осталось: %d"
+
+msgctxt "#30899"
+msgid "GitHub is connected"
+msgstr "GitHub подключён"

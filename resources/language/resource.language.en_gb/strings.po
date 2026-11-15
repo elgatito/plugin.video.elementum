@@ -2765,3 +2765,255 @@ msgstr ""
 msgctxt "#30836"
 msgid "Both"
 msgstr ""
+
+msgctxt "#30837"
+msgid "General"
+msgstr ""
+
+msgctxt "#30838"
+msgid "Filtering"
+msgstr ""
+
+msgctxt "#30839"
+msgid "Resolution"
+msgstr ""
+
+msgctxt "#30840"
+msgid "Release type"
+msgstr ""
+
+msgctxt "#30841"
+msgid "Languages"
+msgstr ""
+
+msgctxt "#30842"
+msgid "Keywords"
+msgstr ""
+
+msgctxt "#30843"
+msgid "Cookie sync"
+msgstr ""
+
+msgctxt "#30844"
+msgid "Movies"
+msgstr ""
+
+msgctxt "#30845"
+msgid "Seasons"
+msgstr ""
+
+msgctxt "#30846"
+msgid "Episodes"
+msgstr ""
+
+msgctxt "#30847"
+msgid "Shows"
+msgstr ""
+
+msgctxt "#30848"
+msgid "All"
+msgstr ""
+
+msgctxt "#30849"
+msgid "Maximum results per provider"
+msgstr ""
+
+msgctxt "#30850"
+msgid "Sort returned results by"
+msgstr ""
+
+msgctxt "#30851"
+msgid "Minimum size (GB)"
+msgstr ""
+
+msgctxt "#30852"
+msgid "Maximum size (GB)"
+msgstr ""
+
+msgctxt "#30853"
+msgid "Use separate size range for movies, seasons and episodes"
+msgstr ""
+
+msgctxt "#30854"
+msgid "Size"
+msgstr ""
+
+msgctxt "#30855"
+msgid "Required keywords"
+msgstr ""
+
+msgctxt "#30856"
+msgid "Season and episode"
+msgstr ""
+
+msgctxt "#30857"
+msgid "Allow results without seeds"
+msgstr ""
+
+msgctxt "#30858"
+msgid "Remove quotes from search query"
+msgstr ""
+
+msgctxt "#30859"
+msgid "Language priority"
+msgstr ""
+
+msgctxt "#30860"
+msgid "Use language preference from Kodi when a translation is available"
+msgstr ""
+
+msgctxt "#30861"
+msgid "Exceptions"
+msgstr ""
+
+msgctxt "#30862"
+msgid "Set 'original' title of Anime to:"
+msgstr ""
+
+msgctxt "#30863"
+msgid "Additional keyword filters (comma-separated)"
+msgstr ""
+
+msgctxt "#30864"
+msgid "Accept"
+msgstr ""
+
+msgctxt "#30865"
+msgid "Block"
+msgstr ""
+
+msgctxt "#30866"
+msgid "Require"
+msgstr ""
+
+msgctxt "#30867"
+msgid "Enable Cookie sync"
+msgstr ""
+
+msgctxt "#30868"
+msgid "GitHub token"
+msgstr ""
+
+msgctxt "#30869"
+msgid "GitHub user"
+msgstr ""
+
+msgctxt "#30870"
+msgid "Encryption password (optional)"
+msgstr ""
+
+msgctxt "#30871"
+msgid "Active Gist"
+msgstr ""
+
+msgctxt "#30872"
+msgid "File name (optional)"
+msgstr ""
+
+msgctxt "#30873"
+msgid "Seeds"
+msgstr ""
+
+msgctxt "#30874"
+msgid "Balanced"
+msgstr ""
+
+msgctxt "#30875"
+msgid "Original"
+msgstr ""
+
+msgctxt "#30876"
+msgid "Romanization of Japanese"
+msgstr ""
+
+msgctxt "#30877"
+msgid "English"
+msgstr ""
+
+msgctxt "#30878"
+msgid "Built-in search"
+msgstr ""
+
+msgctxt "#30879"
+msgid "Built-in search settings"
+msgstr ""
+
+msgctxt "#30880"
+msgid "Public providers"
+msgstr ""
+
+msgctxt "#30881"
+msgid "Private providers (need an account)"
+msgstr ""
+
+msgctxt "#30882"
+msgid "Logins, mirrors and cookies"
+msgstr ""
+
+msgctxt "#30883"
+msgid "no login yet"
+msgstr ""
+
+msgctxt "#30884"
+msgid "Username"
+msgstr ""
+
+msgctxt "#30885"
+msgid "Password"
+msgstr ""
+
+msgctxt "#30886"
+msgid "Passkey"
+msgstr ""
+
+msgctxt "#30887"
+msgid "Domain Alias [Optional]"
+msgstr ""
+
+msgctxt "#30888"
+msgid "Contains only"
+msgstr ""
+
+msgctxt "#30889"
+msgid "Browser cookies"
+msgstr ""
+
+msgctxt "#30890"
+msgid "User Agent"
+msgstr ""
+
+msgctxt "#30891"
+msgid "(set)"
+msgstr ""
+
+msgctxt "#30892"
+msgid "Connect GitHub and select Gist"
+msgstr ""
+
+msgctxt "#30893"
+msgid "Open [B]%s[/B] on any device and enter the code:[CR][B]%s[/B]"
+msgstr ""
+
+msgctxt "#30894"
+msgid "[B]Sync error:[/B] %s"
+msgstr ""
+
+msgctxt "#30895"
+msgid "Import settings of the Burst add-on into the built-in search?"
+msgstr ""
+
+msgctxt "#30896"
+msgid "Burst settings imported, %d providers enabled"
+msgstr ""
+
+msgctxt "#30897"
+msgid "Searching: %s"
+msgstr ""
+
+msgctxt "#30898"
+msgid "%d providers left"
+msgstr ""
+
+msgctxt "#30899"
+msgid "GitHub is connected"
+msgstr ""

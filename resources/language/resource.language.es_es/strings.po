@@ -2766,3 +2766,255 @@ msgstr "Complementos de proveedores"
 msgctxt "#30836"
 msgid "Both"
 msgstr "Ambos"
+
+msgctxt "#30837"
+msgid "General"
+msgstr "General"
+
+msgctxt "#30838"
+msgid "Filtering"
+msgstr "Filtrado"
+
+msgctxt "#30839"
+msgid "Resolution"
+msgstr "Resolución"
+
+msgctxt "#30840"
+msgid "Release type"
+msgstr "Tipo de versión"
+
+msgctxt "#30841"
+msgid "Languages"
+msgstr "Idiomas"
+
+msgctxt "#30842"
+msgid "Keywords"
+msgstr "Palabras clave"
+
+msgctxt "#30843"
+msgid "Cookie sync"
+msgstr "Sincronización de cookies"
+
+msgctxt "#30844"
+msgid "Movies"
+msgstr "Películas"
+
+msgctxt "#30845"
+msgid "Seasons"
+msgstr "Temporadas"
+
+msgctxt "#30846"
+msgid "Episodes"
+msgstr "Episodios"
+
+msgctxt "#30847"
+msgid "Shows"
+msgstr "Programas de TV"
+
+msgctxt "#30848"
+msgid "All"
+msgstr "De todo"
+
+msgctxt "#30849"
+msgid "Maximum results per provider"
+msgstr "Número máximo de resultados por proveedor"
+
+msgctxt "#30850"
+msgid "Sort returned results by"
+msgstr "Ordenar resultados por"
+
+msgctxt "#30851"
+msgid "Minimum size (GB)"
+msgstr "Tamaño mínimo (GB)"
+
+msgctxt "#30852"
+msgid "Maximum size (GB)"
+msgstr "Tamaño máximo (GB)"
+
+msgctxt "#30853"
+msgid "Use separate size range for movies, seasons and episodes"
+msgstr "Filtrar por tamaño Películas, Temporadas y Episodios"
+
+msgctxt "#30854"
+msgid "Size"
+msgstr "Tamaño"
+
+msgctxt "#30855"
+msgid "Required keywords"
+msgstr "Palabras claves"
+
+msgctxt "#30856"
+msgid "Season and episode"
+msgstr "Temporada y episodio"
+
+msgctxt "#30857"
+msgid "Allow results without seeds"
+msgstr "Permitir resultados sin semillas"
+
+msgctxt "#30858"
+msgid "Remove quotes from search query"
+msgstr "Eliminar comillas de la consulta de búsqueda"
+
+msgctxt "#30859"
+msgid "Language priority"
+msgstr "Prioridad de idiomas"
+
+msgctxt "#30860"
+msgid "Use language preference from Kodi when a translation is available"
+msgstr "Usar preferencia de idioma de Kodi cuando haya una traducción disponible"
+
+msgctxt "#30861"
+msgid "Exceptions"
+msgstr "Exceptiones"
+
+msgctxt "#30862"
+msgid "Set 'original' title of Anime to:"
+msgstr "Establecer el título 'original' del anime en:"
+
+msgctxt "#30863"
+msgid "Additional keyword filters (comma-separated)"
+msgstr "Palabras claves, filtrado adicional (separado por comas)"
+
+msgctxt "#30864"
+msgid "Accept"
+msgstr "Aceptar"
+
+msgctxt "#30865"
+msgid "Block"
+msgstr "Bloquear"
+
+msgctxt "#30866"
+msgid "Require"
+msgstr "Requerir"
+
+msgctxt "#30867"
+msgid "Enable Cookie sync"
+msgstr "Activar la sincronización de cookies"
+
+msgctxt "#30868"
+msgid "GitHub token"
+msgstr "Token de GitHub"
+
+msgctxt "#30869"
+msgid "GitHub user"
+msgstr "Usuario de GitHub"
+
+msgctxt "#30870"
+msgid "Encryption password (optional)"
+msgstr "Contraseña de cifrado (opcional)"
+
+msgctxt "#30871"
+msgid "Active Gist"
+msgstr "Gist activo"
+
+msgctxt "#30872"
+msgid "File name (optional)"
+msgstr "Nombre del archivo (opcional)"
+
+msgctxt "#30873"
+msgid "Seeds"
+msgstr "Semillas"
+
+msgctxt "#30874"
+msgid "Balanced"
+msgstr "Balanceado"
+
+msgctxt "#30875"
+msgid "Original"
+msgstr "Original"
+
+msgctxt "#30876"
+msgid "Romanization of Japanese"
+msgstr "Romanización del japonés"
+
+msgctxt "#30877"
+msgid "English"
+msgstr "Inglés"
+
+msgctxt "#30878"
+msgid "Built-in search"
+msgstr "Búsqueda integrada"
+
+msgctxt "#30879"
+msgid "Built-in search settings"
+msgstr "Ajustes de la búsqueda integrada"
+
+msgctxt "#30880"
+msgid "Public providers"
+msgstr "Proveedores públicos"
+
+msgctxt "#30881"
+msgid "Private providers (need an account)"
+msgstr "Proveedores privados (requieren cuenta)"
+
+msgctxt "#30882"
+msgid "Logins, mirrors and cookies"
+msgstr "Inicios de sesión, espejos y cookies"
+
+msgctxt "#30883"
+msgid "no login yet"
+msgstr "sin inicio de sesión"
+
+msgctxt "#30884"
+msgid "Username"
+msgstr "Usuario"
+
+msgctxt "#30885"
+msgid "Password"
+msgstr "Contraseña"
+
+msgctxt "#30886"
+msgid "Passkey"
+msgstr "Clave de acceso"
+
+msgctxt "#30887"
+msgid "Domain Alias [Optional]"
+msgstr "Alias de dominio [opcional]"
+
+msgctxt "#30888"
+msgid "Contains only"
+msgstr "Contenido"
+
+msgctxt "#30889"
+msgid "Browser cookies"
+msgstr "Cookies del navegador"
+
+msgctxt "#30890"
+msgid "User Agent"
+msgstr "User Agent"
+
+msgctxt "#30891"
+msgid "(set)"
+msgstr "(definido)"
+
+msgctxt "#30892"
+msgid "Connect GitHub and select Gist"
+msgstr "Conectar GitHub y seleccionar Gist"
+
+msgctxt "#30893"
+msgid "Open [B]%s[/B] on any device and enter the code:[CR][B]%s[/B]"
+msgstr "Abre [B]%s[/B] en cualquier dispositivo e introduce el código:[CR][B]%s[/B]"
+
+msgctxt "#30894"
+msgid "[B]Sync error:[/B] %s"
+msgstr "[B]Error de sincronización:[/B] %s"
+
+msgctxt "#30895"
+msgid "Import settings of the Burst add-on into the built-in search?"
+msgstr "¿Importar los ajustes del complemento Burst a la búsqueda integrada?"
+
+msgctxt "#30896"
+msgid "Burst settings imported, %d providers enabled"
+msgstr "Ajustes de Burst importados, %d proveedores activados"
+
+msgctxt "#30897"
+msgid "Searching: %s"
+msgstr "Buscando: %s"
+
+msgctxt "#30898"
+msgid "%d providers left"
+msgstr "Faltan %d proveedores"
+
+msgctxt "#30899"
+msgid "GitHub is connected"
+msgstr "GitHub está conectado"
