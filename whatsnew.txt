@@ -7,10 +7,10 @@
     - Source is open, so you can fork everything and contribute back.
 
 [B][COLOR red]0.1.120[/COLOR][/B] - 2026-11-09
-    - Added a JSON API (/api/v1) to Elementum for clients that are not Kodi, like the Samsung TV app, with Swagger UI at /api/docs. It uses the login and password from "Addon Startup → Authorization → Remote host login/password". Set a login on any network you do not fully trust.
+    - Added a JSON API (/api) to Elementum for clients that are not Kodi, like the Samsung TV app, with Swagger UI at /api/docs. It uses the login and password from "Addon Startup → Authorization → Remote host login/password". Set a login on any network you do not fully trust.
     - Elementum dialogs, questions and notifications can now be shown by such a client too (UI host). Kodi is asked only when no client is connected.
     - Settings are now also written to settings.json in the addon profile for the Elementum binary and shared library, and are rewritten whenever you change them. Elementum can start from this file without Kodi.
-    - Elementum can now search trackers itself, with the providers of Burst and without the Burst add-on. Choose it in "Search torrents with" in the Providers settings; "Automatic" keeps provider add-ons while Kodi is connected. Its providers, logins, mirrors and filters are in "Settings for built-in provider" in the main menu of Elementum.
+    - Elementum can now search trackers itself, with the providers of Burst and without the Burst add-on. Choose it in "Search torrents with" in the Providers settings; "Automatic" keeps provider add-ons while Kodi is connected. Its providers, logins, mirrors and filters are in "Built-in search settings" in the main menu of Elementum. Burst settings can be imported on the first search, and cookie sync works there too, with GitHub sign-in by code.
     - Tokens refreshed by Elementum (ie. Trakt, OpenSubtitles) are saved back to settings.json, without restarting services.
     - Passwords, tokens and other secrets are masked in Elementum logs.
 
