@@ -3021,3 +3021,23 @@ msgstr "%d furnizori rămași"
 msgctxt "#30899"
 msgid "GitHub is connected"
 msgstr "GitHub este conectat"
+
+msgctxt "#30900"
+msgid "Import settings from the Burst add-on"
+msgstr "Importă setările din suplimentul Burst"
+
+msgctxt "#30901"
+msgid "Select Gist with cookies"
+msgstr "Alege Gist-ul cu cookie-uri"
+
+msgctxt "#30902"
+msgid "Select another Gist"
+msgstr "Alege alt Gist"
+
+msgctxt "#30903"
+msgid "No Gists with %s file found"
+msgstr "Nu s-au găsit Gist-uri cu fișierul %s"
+
+msgctxt "#30904"
+msgid "%d cookies for %d sites"
+msgstr "%d cookie-uri pentru %d site-uri"

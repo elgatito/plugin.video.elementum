@@ -3019,3 +3019,23 @@ msgstr "%d kiszolgáló van hátra"
 msgctxt "#30899"
 msgid "GitHub is connected"
 msgstr "A GitHub csatlakoztatva"
+
+msgctxt "#30900"
+msgid "Import settings from the Burst add-on"
+msgstr "Beállítások importálása a Burst kiegészítőből"
+
+msgctxt "#30901"
+msgid "Select Gist with cookies"
+msgstr "Sütiket tartalmazó Gist kiválasztása"
+
+msgctxt "#30902"
+msgid "Select another Gist"
+msgstr "Másik Gist kiválasztása"
+
+msgctxt "#30903"
+msgid "No Gists with %s file found"
+msgstr "Nem található Gist a(z) %s fájllal"
+
+msgctxt "#30904"
+msgid "%d cookies for %d sites"
+msgstr "%d süti %d oldalhoz"

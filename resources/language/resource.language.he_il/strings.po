@@ -3022,3 +3022,23 @@ msgstr "%d ספקים נותרו"
 msgctxt "#30899"
 msgid "GitHub is connected"
 msgstr "GitHub מחובר"
+
+msgctxt "#30900"
+msgid "Import settings from the Burst add-on"
+msgstr "ייבוא הגדרות מההרחבה Burst"
+
+msgctxt "#30901"
+msgid "Select Gist with cookies"
+msgstr "בחירת Gist עם עוגיות"
+
+msgctxt "#30902"
+msgid "Select another Gist"
+msgstr "בחירת Gist אחר"
+
+msgctxt "#30903"
+msgid "No Gists with %s file found"
+msgstr "לא נמצאו Gists עם הקובץ %s"
+
+msgctxt "#30904"
+msgid "%d cookies for %d sites"
+msgstr "%d עוגיות עבור %d אתרים"

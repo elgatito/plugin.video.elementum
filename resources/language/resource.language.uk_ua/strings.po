@@ -3018,3 +3018,23 @@ msgstr "Провайдерів залишилось: %d"
 msgctxt "#30899"
 msgid "GitHub is connected"
 msgstr "GitHub підключено"
+
+msgctxt "#30900"
+msgid "Import settings from the Burst add-on"
+msgstr "Імпортувати налаштування з додатка Burst"
+
+msgctxt "#30901"
+msgid "Select Gist with cookies"
+msgstr "Виберіть Gist з cookie"
+
+msgctxt "#30902"
+msgid "Select another Gist"
+msgstr "Вибрати інший Gist"
+
+msgctxt "#30903"
+msgid "No Gists with %s file found"
+msgstr "Не знайдено Gist з файлом %s"
+
+msgctxt "#30904"
+msgid "%d cookies for %d sites"
+msgstr "Cookie: %d, сайтів: %d"

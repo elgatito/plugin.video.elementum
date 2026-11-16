@@ -3017,3 +3017,23 @@ msgstr "%d Provedores Restantes"
 msgctxt "#30899"
 msgid "GitHub is connected"
 msgstr "O GitHub está ligado"
+
+msgctxt "#30900"
+msgid "Import settings from the Burst add-on"
+msgstr "Importar definições do add-on Burst"
+
+msgctxt "#30901"
+msgid "Select Gist with cookies"
+msgstr "Selecionar Gist com cookies"
+
+msgctxt "#30902"
+msgid "Select another Gist"
+msgstr "Selecionar outro Gist"
+
+msgctxt "#30903"
+msgid "No Gists with %s file found"
+msgstr "Nenhum Gist com o ficheiro %s encontrado"
+
+msgctxt "#30904"
+msgid "%d cookies for %d sites"
+msgstr "%d cookies para %d sites"

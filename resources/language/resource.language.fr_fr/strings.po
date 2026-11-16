@@ -3027,3 +3027,23 @@ msgstr "%d fournisseurs en attente"
 msgctxt "#30899"
 msgid "GitHub is connected"
 msgstr "GitHub est connecté"
+
+msgctxt "#30900"
+msgid "Import settings from the Burst add-on"
+msgstr "Importer les paramètres de l'extension Burst"
+
+msgctxt "#30901"
+msgid "Select Gist with cookies"
+msgstr "Choisir un Gist avec des cookies"
+
+msgctxt "#30902"
+msgid "Select another Gist"
+msgstr "Choisir un autre Gist"
+
+msgctxt "#30903"
+msgid "No Gists with %s file found"
+msgstr "Aucun Gist avec le fichier %s trouvé"
+
+msgctxt "#30904"
+msgid "%d cookies for %d sites"
+msgstr "%d cookies pour %d sites"
