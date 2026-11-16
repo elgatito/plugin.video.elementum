@@ -17,6 +17,7 @@
     - Elementum translates its texts itself, in the language Kodi currently shows, and carries its own translations, so they also work without the add-on.
     - Tokens refreshed by Elementum (ie. Trakt, OpenSubtitles) are saved back to settings.json, without restarting services.
     - Passwords, tokens and other secrets are masked in Elementum logs.
+    - Web pages you visit can no longer make your browser control Elementum (ie. call /shutdown or start playback): such requests are refused. The Web UI, Kodi, players and the JSON API work as before.
 
 [B][COLOR red]0.1.119[/COLOR][/B] - 2026-11-06
     - Added "Test search providers" to "Providers" settings: choose a movie, TV show episode or season, anime episode or a text query, and every enabled search provider is tested at once. For each provider you see whether it responded in time, how many results it returned from each site, which results cannot be used and why (ie. torrent file cannot be downloaded or magnet link has no info hash), and the requests it made through the internal proxy with their status.
