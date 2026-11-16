@@ -3037,3 +3037,15 @@ msgstr "Nenhum Gist com o arquivo %s encontrado"
 msgctxt "#30904"
 msgid "%d cookies for %d sites"
 msgstr "%d cookies para %d sites"
+
+msgctxt "#30905"
+msgid "Gist ID"
+msgstr "ID do Gist"
+
+msgctxt "#30906"
+msgid "For Developers"
+msgstr "Para desenvolvedores"
+
+msgctxt "#30907"
+msgid "Log debug messages for parsing"
+msgstr "Registrar mensagens de depuração da análise"

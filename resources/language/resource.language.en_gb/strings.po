@@ -3037,3 +3037,15 @@ msgstr ""
 msgctxt "#30904"
 msgid "%d cookies for %d sites"
 msgstr ""
+
+msgctxt "#30905"
+msgid "Gist ID"
+msgstr ""
+
+msgctxt "#30906"
+msgid "For Developers"
+msgstr ""
+
+msgctxt "#30907"
+msgid "Log debug messages for parsing"
+msgstr ""

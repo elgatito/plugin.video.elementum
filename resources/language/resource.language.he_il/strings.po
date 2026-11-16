@@ -3042,3 +3042,15 @@ msgstr "לא נמצאו Gists עם הקובץ %s"
 msgctxt "#30904"
 msgid "%d cookies for %d sites"
 msgstr "%d עוגיות עבור %d אתרים"
+
+msgctxt "#30905"
+msgid "Gist ID"
+msgstr "מזהה Gist"
+
+msgctxt "#30906"
+msgid "For Developers"
+msgstr "למפתחים"
+
+msgctxt "#30907"
+msgid "Log debug messages for parsing"
+msgstr "רישום הודעות ניפוי שגיאות של הניתוח"

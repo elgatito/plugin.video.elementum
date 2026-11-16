@@ -3041,3 +3041,15 @@ msgstr "Nu s-au găsit Gist-uri cu fișierul %s"
 msgctxt "#30904"
 msgid "%d cookies for %d sites"
 msgstr "%d cookie-uri pentru %d site-uri"
+
+msgctxt "#30905"
+msgid "Gist ID"
+msgstr "ID Gist"
+
+msgctxt "#30906"
+msgid "For Developers"
+msgstr "Pentru dezvoltatori"
+
+msgctxt "#30907"
+msgid "Log debug messages for parsing"
+msgstr "Înregistrează mesajele de depanare ale analizei"

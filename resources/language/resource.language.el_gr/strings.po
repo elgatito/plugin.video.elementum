@@ -3041,3 +3041,15 @@ msgstr "Δεν βρέθηκαν Gists με το αρχείο %s"
 msgctxt "#30904"
 msgid "%d cookies for %d sites"
 msgstr "%d cookies για %d ιστότοπους"
+
+msgctxt "#30905"
+msgid "Gist ID"
+msgstr "Αναγνωριστικό Gist"
+
+msgctxt "#30906"
+msgid "For Developers"
+msgstr "Για προγραμματιστές"
+
+msgctxt "#30907"
+msgid "Log debug messages for parsing"
+msgstr "Καταγραφή μηνυμάτων αποσφαλμάτωσης ανάλυσης"

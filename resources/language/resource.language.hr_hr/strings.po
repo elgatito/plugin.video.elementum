@@ -3055,3 +3055,15 @@ msgstr "Nije pronađen nijedan Gist s datotekom %s"
 msgctxt "#30904"
 msgid "%d cookies for %d sites"
 msgstr "Kolačića: %d, stranica: %d"
+
+msgctxt "#30905"
+msgid "Gist ID"
+msgstr "ID Gista"
+
+msgctxt "#30906"
+msgid "For Developers"
+msgstr "Za razvijatelje"
+
+msgctxt "#30907"
+msgid "Log debug messages for parsing"
+msgstr "Zapisuj poruke otklanjanja grešaka za obradu"

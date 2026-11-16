@@ -3038,3 +3038,15 @@ msgstr "Geen Gists met het bestand %s gevonden"
 msgctxt "#30904"
 msgid "%d cookies for %d sites"
 msgstr "%d cookies voor %d sites"
+
+msgctxt "#30905"
+msgid "Gist ID"
+msgstr "Gist-ID"
+
+msgctxt "#30906"
+msgid "For Developers"
+msgstr "Voor ontwikkelaars"
+
+msgctxt "#30907"
+msgid "Log debug messages for parsing"
+msgstr "Debugberichten van de parser loggen"
