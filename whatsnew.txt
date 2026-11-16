@@ -11,6 +11,10 @@
     - Elementum dialogs, questions and notifications can now be shown by such a client too (UI host). Kodi is asked only when no client is connected.
     - Settings are now also written to settings.json in the addon profile for the Elementum binary and shared library, and are rewritten whenever you change them. Elementum can start from this file without Kodi.
     - Elementum can now search trackers itself, with the providers of Burst and without the Burst add-on. Choose it in "Search torrents with" in the Providers settings; "Automatic" keeps provider add-ons while Kodi is connected. Its providers, logins, mirrors and filters are in "Built-in search settings" in the main menu of Elementum. Burst settings can be imported on the first search, and cookie sync works there too, with GitHub sign-in by code.
+    - Built-in search settings show the state of every entry on a second line, providers with their icons, and the GitHub user and active Gist of the cookie sync. Burst settings can also be imported later from there, without losing what was set.
+    - Provider icons are shown for results of the built-in search, also when Elementum runs in WSL next to Kodi on Windows.
+    - The login window of Trakt, Simkl, MDBList and Scrob closes by itself once the code is accepted, and shows the time left on the code.
+    - Elementum translates its texts itself, in the language Kodi currently shows, and carries its own translations, so they also work without the add-on.
     - Tokens refreshed by Elementum (ie. Trakt, OpenSubtitles) are saved back to settings.json, without restarting services.
     - Passwords, tokens and other secrets are masked in Elementum logs.
 
