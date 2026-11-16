@@ -1,5 +1,12 @@
 # Run: python3 -I tests/test_settings_file.py   (no Kodi needed: settings_file.py imports Kodi modules lazily)
-import importlib.util, json, os, stat, sys, tempfile, textwrap, unittest
+import importlib.util
+import json
+import os
+import stat
+import sys
+import tempfile
+import textwrap
+import unittest
 from unittest import mock
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -105,17 +112,23 @@ class T(unittest.TestCase):
     def test_monitor_skips_write_for_writeback_only(self):
         import types
         stubs = {}
-        for n in ("xbmc", "six", "six.moves", "elementum", "elementum.addon", "elementum.daemon", "elementum.logger", "elementum.config", "elementum.settings_file"):
+        for n in ("xbmc", "six", "six.moves", "elementum", "elementum.addon", "elementum.daemon", "elementum.logger", "elementum.config", "elementum.settings_file", "elementum.util"):
             stubs[n] = types.ModuleType(n)
         store = {}
         stubs["xbmc"].Monitor = type("Monitor", (), {"__init__": lambda self: None})
         stubs["six"].ensure_str = stubs["six"].ensure_binary = str
         opener = mock.Mock()
         stubs["six.moves"].urllib_request = mock.Mock(build_opener=lambda: opener)
-        a = stubs["elementum.addon"]; a.ADDON = mock.Mock(getSetting=lambda k: store.get(k, "")); a.ADDON_ID = "id"
+        a = stubs["elementum.addon"]
+        a.ADDON = mock.Mock(getSetting=lambda k: store.get(k, ""))
+        a.ADDON_ID = "id"
         stubs["elementum.daemon"].shutdown = lambda: None
         stubs["elementum.logger"].log = mock.Mock()
-        c = stubs["elementum.config"]; c.init = lambda: None; c.ELEMENTUMD_HOST = "h"; c.ONLY_CLIENT = False
+        c = stubs["elementum.config"]
+        c.init = lambda: None
+        c.ELEMENTUMD_HOST = "h"
+        c.ONLY_CLIENT = False
+        stubs["elementum.util"].interface_language = lambda: "de"
         writes = []
         stubs["elementum.settings_file"].write_settings_file = lambda: writes.append(1)
         mspec = importlib.util.spec_from_file_location("mon", os.path.join(HERE, "..", "resources", "site-packages", "elementum", "monitor.py"))
