@@ -21,6 +21,7 @@
     - Fixed a search that could stay on "Resolving torrent files" forever when some torrents took long to resolve.
     - Fixed the download folder when Elementum runs in WSL next to Kodi on Windows.
     - The shows of an actor no longer include reality shows, talk shows and other appearances as themselves.
+    - Fixed Kodi using more and more CPU and memory the longer it runs: two Elementum threads made Kodi keep every notification queued forever. (Thanks to @enderyildirim)
 
 [B][COLOR red]0.1.119[/COLOR][/B] - 2026-11-06
     - Added "Test search providers" to "Providers" settings: choose a movie, TV show episode or season, anime episode or a text query, and every enabled search provider is tested at once. For each provider you see whether it responded in time, how many results it returned from each site, which results cannot be used and why (ie. torrent file cannot be downloaded or magnet link has no info hash), and the requests it made through the internal proxy with their status.
